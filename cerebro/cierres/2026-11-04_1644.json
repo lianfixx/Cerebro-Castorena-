@@ -1,0 +1,98 @@
+{
+  "schema_version": "castorena-cierre-v1",
+  "fecha_hora_local": "2026-11-04T16:44:42-06:00",
+  "timezone": "America/Mexico_City",
+  "base_matrix_commit": "3a8f9a97ab67529b8de2b9aaaaf2a9c9b058587f",
+  "agente": "Claude Code (sesión en la nube), a petición de Emi",
+  "coverage": {
+    "github_matrix": {
+      "status": "leido",
+      "head_before": "3a8f9a97ab67529b8de2b9aaaaf2a9c9b058587f"
+    },
+    "github_indep_main": {
+      "status": "con_cambios",
+      "head": "f739ecf63cf9f5c6658c0d0a80225b55eaf8b62f",
+      "latest_documented_delivery": 42,
+      "logical_master": 21,
+      "deliveries_new": [
+        40,
+        41,
+        42
+      ],
+      "manifests": "verificados con manifiesto.py (4, 12 y 15 archivos)",
+      "master_contract": "comparar_excel.py --base v21: sin errores",
+      "last_bulletin": {
+        "numero": 191,
+        "fecha": "2026-11-04",
+        "estado": "COTEJADO_INTEGRAMENTE_CON_CAMBIOS"
+      }
+    },
+    "drive_personal": {
+      "status": "punteros_sin_cambio",
+      "master_drive_id": "1zTTUxIayGZwq8HsjiYAzNX6X4qKeYe7n",
+      "modified_at": "2026-10-14T23:52:59.432Z",
+      "size_bytes": 15837,
+      "search_new_versions_since_last_closure": "sin resultados para las cuatro familias"
+    },
+    "drive_work": {
+      "status": "no_accesible",
+      "concentrado_file_id": "1YtT78mIRVDr_oZvkEVDyqBl0howya5R8",
+      "message": "Requested entity was not found (conector de Drive de esta sesión; el archivo pertenece a otra cuenta)"
+    },
+    "library": {
+      "status": "no_accesible",
+      "message": "La Library de ChatGPT no está disponible desde Claude."
+    },
+    "conversations": {
+      "status": "no_disponible"
+    }
+  },
+  "validation": {
+    "command": "python3 cerebro/skill/scripts/validar_matriz.py cerebro",
+    "families": 4,
+    "versions": 29,
+    "snapshots_checked": 28,
+    "snapshots_unavailable": 1,
+    "unique_sha256": 29,
+    "gaps": 11,
+    "pending_categories": 1,
+    "errors": 0,
+    "warnings": 1,
+    "warnings_detail": [
+      "snapshot_unavailable: maestro INDEP v21 indexado sin copia pública (esperado)"
+    ]
+  },
+  "result": {
+    "source_table_changes": [],
+    "catalog_version_changes": [
+      {
+        "family_id": "indep",
+        "from": "indep-276657ed210f (v20)",
+        "to": "indep-6504026c7fa9 (v21)",
+        "basis": "entrega 41 validada en lianfixx/INDEP; 3 celdas de Junta Especial 2; Salas TFCA y Poder Judicial sin cambios",
+        "public_snapshot": "no publicado; requiere autorización"
+      }
+    ],
+    "tfca": "Guía v2 sigue alineada: la hoja Salas TFCA del maestro no cambió entre v20 y v21.",
+    "archivo_muerto": "Sin fuente nueva accesible.",
+    "concentrado": "Sin acceso al archivo de trabajo en Drive desde esta sesión; la conciliación de ID 12 sigue pendiente.",
+    "new_authorized_families": [],
+    "existing_candidate_categories": [
+      "no_laborales_tfja"
+    ],
+    "pending_reconciliation": [
+      "Concentrado ID 12, Hoja1!Q17 (sin evidencia nueva).",
+      "Autorización para copia pública del maestro INDEP v21."
+    ],
+    "emails_sent": false,
+    "drafts_created": false,
+    "other_automations_modified": false,
+    "excel_rewritten": false
+  },
+  "limits": [
+    "Ejecución manual desde Claude Code; la ejecución programada de ChatGPT (18:30) sigue siendo la responsable del cierre diario.",
+    "No se recuperaron conversaciones ni la Library de ChatGPT.",
+    "La ausencia de versiones nuevas en las fuentes accesibles no acredita ausencia de movimientos procesales."
+  ],
+  "next_step": "Que la ejecución de ChatGPT de las 18:30 lea este cierre, revise el Concentrado y la Library con su acceso, y que Emi decida sobre la copia pública de v21."
+}

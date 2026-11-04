@@ -86,11 +86,11 @@
       "id": "indep",
       "title": "INDEP (Juntas/Salas)",
       "role": "Maestro operativo único; consultas por folio, sin duplicar seguimiento",
-      "current_version_id": "indep-276657ed210f",
-      "current_library_url": "https://chatgpt.com/library?file_id=libfile_31fd8f0c757c8191936309beddc5dd1c&account_id=personal",
-      "sha256": "276657ed210f2d582ec214fef43b1601f3a70aeda672db0937456528a0564a17",
-      "current_sha256": "276657ed210f2d582ec214fef43b1601f3a70aeda672db0937456528a0564a17",
-      "current_snapshot_path": "fuentes/indep/276657ed210f_Control_de_expedientes_Junta_Especial_2-4_2_.xlsx",
+      "current_version_id": "indep-6504026c7fa9",
+      "current_library_url": null,
+      "sha256": "6504026c7fa968c2877e8c689aad7d9daafe84e2d96eca90a00fb7d274eef865",
+      "current_sha256": "6504026c7fa968c2877e8c689aad7d9daafe84e2d96eca90a00fb7d274eef865",
+      "current_snapshot_path": null,
       "universo": {
         "unit": "folio maestro",
         "count": 45,
@@ -104,10 +104,12 @@
         "source": "evidencia/indep_tfca.json#contrato_maestro"
       },
       "current_selection_basis": {
-        "logical_master": 20,
-        "delivery_with_master": 38,
-        "last_documented_delivery": 39,
-        "source_commit": "29b7fdd6237f1553f61291b438c551eb61451479"
+        "logical_master": 21,
+        "delivery_with_master": 41,
+        "last_documented_delivery": 42,
+        "source_commit": "f739ecf63cf9f5c6658c0d0a80225b55eaf8b62f",
+        "previous_public_snapshot": "fuentes/indep/276657ed210f_Control_de_expedientes_Junta_Especial_2-4_2_.xlsx (v20)",
+        "note": "La copia pública sigue siendo v20; v21 se indexa por hash desde el repositorio privado."
       },
       "audit_path": "evidencia/indep_tfca.json"
     },
@@ -162,6 +164,13 @@
       "state": "pending_reconciliation",
       "source_version_id": "concentrado-d527520672b8",
       "base_unchanged": true
+    },
+    {
+      "id": "indep_v21_copia_publica",
+      "family_id": "indep",
+      "state": "requiere_autorizacion_de_emi",
+      "detail": "¿Copiar el maestro v21 (entrega 41) a cerebro/fuentes/ del repositorio público? La autorización vigente cubre solo el contenido ya migrado.",
+      "sha256": "6504026c7fa968c2877e8c689aad7d9daafe84e2d96eca90a00fb7d274eef865"
     }
   ],
   "identity_rules": {

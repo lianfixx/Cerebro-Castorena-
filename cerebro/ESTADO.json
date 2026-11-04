@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_audit_date": "2026-11-03",
+  "last_audit_date": "2026-11-04",
   "timezone": "America/Mexico_City",
   "write_scope": "cerebro/ en lianfixx/Cerebro-Castorena-, rama main",
   "indep_operational_branch": "main",
@@ -30,14 +30,14 @@
   },
   "coverage": {
     "conversations": "no_disponible",
-    "sources": "GitHub, Library y Drive autorizados revisados",
+    "sources": "GitHub (matriz e INDEP) y Drive personal revisados; Drive de trabajo y Library no accesibles desde Claude",
     "complete_history": false
   },
   "write_coordination": {
     "method": "commit_atomico_y_update_ref_expected_sha",
     "on_conflict": "releer_conciliar_sin_force"
   },
-  "last_source_changes": "Ninguno en las cuatro familias; no se reescribió ningún Excel.",
+  "last_source_changes": "Ningún Excel reescrito. Índice INDEP actualizado a maestro v21 (entrega 41; última entrega 42) por hash, sin copia pública.",
   "publication": {
     "initial_commit": "aaa04b75e9645f2691f0e33fdaec1e1e33053020",
     "files_verified_after_read": 52,
@@ -45,25 +45,31 @@
     "source_tables_modified": false,
     "personal_procedure_saved": true
   },
-  "last_audit_at": "2026-11-03T18:57:09-06:00",
-  "last_closure_path": "cierres/2026-11-03_1857.json",
+  "last_audit_at": "2026-11-04T16:44:42-06:00",
+  "last_closure_path": "cierres/2026-11-04_1644.json",
   "latest_run": {
-    "base_commit": "f4099faa87ee1322b847617769e4c79248c54b50",
+    "base_commit": "3a8f9a97ab67529b8de2b9aaaaf2a9c9b058587f",
+    "agent": "Claude Code",
+    "closure": "cierres/2026-11-04_1644.json",
+    "main_indep_head": "f739ecf63cf9f5c6658c0d0a80225b55eaf8b62f",
+    "source_table_changes": 0,
+    "new_versions": 1,
+    "pending_categories": 1,
     "validation": {
       "command": "python3 cerebro/skill/scripts/validar_matriz.py cerebro",
       "families": 4,
-      "versions": 28,
+      "versions": 29,
       "snapshots_checked": 28,
-      "unique_sha256": 28,
+      "snapshots_unavailable": 1,
+      "unique_sha256": 29,
       "gaps": 11,
       "pending_categories": 1,
       "errors": 0,
-      "warnings": 0
-    },
-    "source_table_changes": 0,
-    "new_versions": 0,
-    "pending_categories": 1,
-    "main_indep_head": "29b7fdd6237f1553f61291b438c551eb61451479"
+      "warnings": 1,
+      "warnings_detail": [
+        "snapshot_unavailable: maestro INDEP v21 indexado sin copia pública (esperado)"
+      ]
+    }
   },
   "migration": {
     "status": "publicada_y_verificada",
