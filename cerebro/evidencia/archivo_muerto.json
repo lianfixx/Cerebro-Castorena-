@@ -1,0 +1,2365 @@
+{
+  "category": "Archivo muerto",
+  "audit_date": "2026-11-03",
+  "scope": "Sólo Archivo muerto de Castorena Abogados; lectura y análisis, sin editar originales ni remotos.",
+  "sources": [
+    {
+      "name": "Catalogo_Archivo_Muerto.xlsx",
+      "library_file_id": "libfile_cd92ec8392c48191a35ec4c885982ead",
+      "file_id": "file_000000002b0081f583a6c6c0590ea0f6",
+      "version_id": null,
+      "library_url": "https://chatgpt.com/library?file_id=libfile_cd92ec8392c48191a35ec4c885982ead&account_id=personal",
+      "library_path": "/Catalogo_Archivo_Muerto.xlsx",
+      "local_path": "fuentes/archivo_muerto/8305a4b41f43_Catalogo_Archivo_Muerto.xlsx",
+      "size_bytes": 19348,
+      "sha256": "8305a4b41f437522594615ff52b98436507b188ae81700b5ec2e71f0e6bb8272",
+      "library_created_at": "2026-10-03T17:21:21.956270Z",
+      "library_modified_at": "2026-10-03T17:21:21.956270Z",
+      "workbook_core_created_at": "2026-09-28T23:20:50Z",
+      "workbook_core_modified_at": "2026-09-28T23:20:50Z",
+      "documentary_date": "2026-09-28",
+      "documentary_date_evidence": "Catálogo!A2",
+      "read_coverage": "Se extrajeron y leyeron todas las celdas con valor o fórmula de las tres hojas del XLSX, más la definición de su tabla nativa."
+    }
+  ],
+  "current_version_assessment": {
+    "status": "única versión candidata localizada; vigencia operativa no confirmada",
+    "candidate_library_file_id": "libfile_cd92ec8392c48191a35ec4c885982ead",
+    "basis": "Único libro de Archivo muerto localizado mediante búsquedas por título en Library y búsquedas de nombre en las dos cuentas de Drive. El propio documento fecha el inventario el 28 de septiembre de 2026.",
+    "not_proven": [
+      "No consta aprobación posterior de Emi del estado actual del inventario.",
+      "No se pudo contrastar con conversaciones anteriores: Personal Context informó que no está disponible.",
+      "La fecha de carga del 3 de octubre no prueba actualización de los datos posterior al 28 de septiembre.",
+      "No se obtuvo historial interno de versiones; los resultados mostraron version_id nulo."
+    ]
+  },
+  "workbook_structure": {
+    "sheets": [
+      {
+        "name": "Catálogo",
+        "dimension": "A1:J82",
+        "populated_rows": 81
+      },
+      {
+        "name": "Resumen por caja",
+        "dimension": "A1:D13",
+        "populated_rows": 11
+      },
+      {
+        "name": "Pendientes",
+        "dimension": "A1:A7",
+        "populated_rows": 6
+      }
+    ],
+    "native_tables": [
+      {
+        "sheet": "Catálogo",
+        "name": "Catalogo",
+        "range": "A4:J82",
+        "header_row": 4,
+        "data_rows": "5:82",
+        "columns": [
+          "Caja",
+          "No.",
+          "Cliente / Parte",
+          "Tipo de asunto",
+          "Autoridad / Órgano",
+          "Expediente",
+          "Año",
+          "Descripción",
+          "Estado",
+          "Por confirmar"
+        ],
+        "record_count": 78
+      }
+    ],
+    "formula_count": 24,
+    "formula_cells": [
+      {
+        "sheet": "Resumen por caja",
+        "coordinate": "B4",
+        "value": "12",
+        "type": null,
+        "style": "9",
+        "formula": "COUNTIF(Catálogo!$A$5:$A$82,A4)"
+      },
+      {
+        "sheet": "Resumen por caja",
+        "coordinate": "C4",
+        "value": "4",
+        "type": null,
+        "style": "9",
+        "formula": "COUNTIFS(Catálogo!$A$5:$A$82,A4,Catálogo!$J$5:$J$82,\"<>\")"
+      },
+      {
+        "sheet": "Resumen por caja",
+        "coordinate": "D4",
+        "value": "0",
+        "type": null,
+        "style": "9",
+        "formula": "COUNTIFS(Catálogo!$A$5:$A$82,A4,Catálogo!$I$5:$I$82,\"POSIBLE ACTIVO\")"
+      },
+      {
+        "sheet": "Resumen por caja",
+        "coordinate": "B5",
+        "value": "13",
+        "type": null,
+        "style": "9",
+        "formula": "COUNTIF(Catálogo!$A$5:$A$82,A5)"
+      },
+      {
+        "sheet": "Resumen por caja",
+        "coordinate": "C5",
+        "value": "6",
+        "type": null,
+        "style": "9",
+        "formula": "COUNTIFS(Catálogo!$A$5:$A$82,A5,Catálogo!$J$5:$J$82,\"<>\")"
+      },
+      {
+        "sheet": "Resumen por caja",
+        "coordinate": "D5",
+        "value": "0",
+        "type": null,
+        "style": "9",
+        "formula": "COUNTIFS(Catálogo!$A$5:$A$82,A5,Catálogo!$I$5:$I$82,\"POSIBLE ACTIVO\")"
+      },
+      {
+        "sheet": "Resumen por caja",
+        "coordinate": "B6",
+        "value": "10",
+        "type": null,
+        "style": "9",
+        "formula": "COUNTIF(Catálogo!$A$5:$A$82,A6)"
+      },
+      {
+        "sheet": "Resumen por caja",
+        "coordinate": "C6",
+        "value": "2",
+        "type": null,
+        "style": "9",
+        "formula": "COUNTIFS(Catálogo!$A$5:$A$82,A6,Catálogo!$J$5:$J$82,\"<>\")"
+      },
+      {
+        "sheet": "Resumen por caja",
+        "coordinate": "D6",
+        "value": "0",
+        "type": null,
+        "style": "9",
+        "formula": "COUNTIFS(Catálogo!$A$5:$A$82,A6,Catálogo!$I$5:$I$82,\"POSIBLE ACTIVO\")"
+      },
+      {
+        "sheet": "Resumen por caja",
+        "coordinate": "B7",
+        "value": "0",
+        "type": null,
+        "style": "9",
+        "formula": "COUNTIF(Catálogo!$A$5:$A$82,A7)"
+      },
+      {
+        "sheet": "Resumen por caja",
+        "coordinate": "C7",
+        "value": "0",
+        "type": null,
+        "style": "9",
+        "formula": "COUNTIFS(Catálogo!$A$5:$A$82,A7,Catálogo!$J$5:$J$82,\"<>\")"
+      },
+      {
+        "sheet": "Resumen por caja",
+        "coordinate": "D7",
+        "value": "0",
+        "type": null,
+        "style": "9",
+        "formula": "COUNTIFS(Catálogo!$A$5:$A$82,A7,Catálogo!$I$5:$I$82,\"POSIBLE ACTIVO\")"
+      },
+      {
+        "sheet": "Resumen por caja",
+        "coordinate": "B8",
+        "value": "23",
+        "type": null,
+        "style": "9",
+        "formula": "COUNTIF(Catálogo!$A$5:$A$82,A8)"
+      },
+      {
+        "sheet": "Resumen por caja",
+        "coordinate": "C8",
+        "value": "9",
+        "type": null,
+        "style": "9",
+        "formula": "COUNTIFS(Catálogo!$A$5:$A$82,A8,Catálogo!$J$5:$J$82,\"<>\")"
+      },
+      {
+        "sheet": "Resumen por caja",
+        "coordinate": "D8",
+        "value": "4",
+        "type": null,
+        "style": "9",
+        "formula": "COUNTIFS(Catálogo!$A$5:$A$82,A8,Catálogo!$I$5:$I$82,\"POSIBLE ACTIVO\")"
+      },
+      {
+        "sheet": "Resumen por caja",
+        "coordinate": "B9",
+        "value": "14",
+        "type": null,
+        "style": "9",
+        "formula": "COUNTIF(Catálogo!$A$5:$A$82,A9)"
+      },
+      {
+        "sheet": "Resumen por caja",
+        "coordinate": "C9",
+        "value": "3",
+        "type": null,
+        "style": "9",
+        "formula": "COUNTIFS(Catálogo!$A$5:$A$82,A9,Catálogo!$J$5:$J$82,\"<>\")"
+      },
+      {
+        "sheet": "Resumen por caja",
+        "coordinate": "D9",
+        "value": "0",
+        "type": null,
+        "style": "9",
+        "formula": "COUNTIFS(Catálogo!$A$5:$A$82,A9,Catálogo!$I$5:$I$82,\"POSIBLE ACTIVO\")"
+      },
+      {
+        "sheet": "Resumen por caja",
+        "coordinate": "B10",
+        "value": "6",
+        "type": null,
+        "style": "9",
+        "formula": "COUNTIF(Catálogo!$A$5:$A$82,A10)"
+      },
+      {
+        "sheet": "Resumen por caja",
+        "coordinate": "C10",
+        "value": "3",
+        "type": null,
+        "style": "9",
+        "formula": "COUNTIFS(Catálogo!$A$5:$A$82,A10,Catálogo!$J$5:$J$82,\"<>\")"
+      },
+      {
+        "sheet": "Resumen por caja",
+        "coordinate": "D10",
+        "value": "0",
+        "type": null,
+        "style": "9",
+        "formula": "COUNTIFS(Catálogo!$A$5:$A$82,A10,Catálogo!$I$5:$I$82,\"POSIBLE ACTIVO\")"
+      },
+      {
+        "sheet": "Resumen por caja",
+        "coordinate": "B11",
+        "value": "78",
+        "type": null,
+        "style": "10",
+        "formula": "SUM(B4:B10)"
+      },
+      {
+        "sheet": "Resumen por caja",
+        "coordinate": "C11",
+        "value": "27",
+        "type": null,
+        "style": "10",
+        "formula": "SUM(C4:C10)"
+      },
+      {
+        "sheet": "Resumen por caja",
+        "coordinate": "D11",
+        "value": "4",
+        "type": null,
+        "style": "10",
+        "formula": "SUM(D4:D10)"
+      }
+    ]
+  },
+  "summary": {
+    "record_unit": "registro de folder del inventario, no expediente judicial único ni número físico de tomos confirmado",
+    "total_records": 78,
+    "boxes_with_records": [
+      1,
+      2,
+      3,
+      5,
+      6,
+      7
+    ],
+    "box_4": "No se dictó; confirmar si existe o si la numeración salta. No equivale a caja inexistente o vacía.",
+    "per_box": [
+      {
+        "caja": 1,
+        "registros": 12,
+        "por_confirmar_no_vacio": 4,
+        "posible_activo": 0
+      },
+      {
+        "caja": 2,
+        "registros": 13,
+        "por_confirmar_no_vacio": 6,
+        "posible_activo": 0
+      },
+      {
+        "caja": 3,
+        "registros": 10,
+        "por_confirmar_no_vacio": 2,
+        "posible_activo": 0
+      },
+      {
+        "caja": 4,
+        "registros": 0,
+        "por_confirmar_no_vacio": 0,
+        "posible_activo": 0
+      },
+      {
+        "caja": 5,
+        "registros": 23,
+        "por_confirmar_no_vacio": 9,
+        "posible_activo": 4
+      },
+      {
+        "caja": 6,
+        "registros": 14,
+        "por_confirmar_no_vacio": 3,
+        "posible_activo": 0
+      },
+      {
+        "caja": 7,
+        "registros": 6,
+        "por_confirmar_no_vacio": 3,
+        "posible_activo": 0
+      }
+    ],
+    "status_counts": {
+      "Archivo muerto": 73,
+      "Concluido": 1,
+      "POSIBLE ACTIVO": 4
+    },
+    "rows_with_nonempty_por_confirmar": 27,
+    "rows_with_any_uncertainty_marker": 28,
+    "year_note": "Año es texto de la fuente; incluye blancos y una celda 2014 / 2016. No imponer fechas completas ni corregir años a partir de suposiciones."
+  },
+  "exact_document_instructions": [
+    {
+      "cell": "Catálogo!A2",
+      "text": "Inventario dictado caja por caja · 28 de septiembre de 2026 · [VERIFICAR] = dato pendiente de confirmar"
+    },
+    {
+      "cell": "Pendientes!A3",
+      "text": "1. Caja 4: no se dictó. Confirmar si existe o si la numeración salta."
+    },
+    {
+      "cell": "Pendientes!A4",
+      "text": "2. Expedientes 2025–2026 (Suburbia, ADCON, Liverpool TJ/I-22017/2026, Mariana Calderón Vidal): confirmar si deben pasar a archivo activo."
+    },
+    {
+      "cell": "Pendientes!A5",
+      "text": "3. Unificación \"Agador\" / \"Agadol\" / \"Gadol\" como Comercializadora Gadol: confirmar."
+    },
+    {
+      "cell": "Pendientes!A6",
+      "text": "4. \"GA Power Cooling\": confirmar si es GEA Power Cooling."
+    },
+    {
+      "cell": "Pendientes!A7",
+      "text": "5. Los pendientes específicos de cada folder están en la columna \"Por confirmar\" (resaltada en amarillo) de la hoja Catálogo."
+    }
+  ],
+  "exact_scope_exclusion_evidence": [
+    {
+      "cell": "Catálogo!H61",
+      "text": "Copias de promociones presentadas (expedientes no son del despacho)",
+      "interpretation": "Mantener el registro físico de caja 5, No. 22 en Archivo muerto, pero no convertirlo en asuntos propios del despacho ni incorporarlo a cartera activa por inferencia."
+    }
+  ],
+  "operational_cautions": [
+    {
+      "source": "Catálogo!I43:J45 e I53:J53",
+      "issue": "Cuatro registros POSIBLE ACTIVO: Suburbia, ADCON [VERIFICAR], Distribuidora Liverpool TJ/I-22017/2026 y Mariana Calderón Vidal. No traspasarlos ni declararlos activos sin confirmación."
+    },
+    {
+      "source": "Catálogo!J76",
+      "issue": "Visión Comercial Deportiva tiene estado Archivo muerto pero dice Confirmar si sigue activo. El conteo de 4 POSIBLE ACTIVO no cubre este quinto cuestionamiento de vigencia."
+    },
+    {
+      "source": "Catálogo!C74",
+      "issue": "GA Power Cooling [VERIFICAR] tiene Por confirmar en blanco: los 27 pendientes de la columna J no capturan todas las incertidumbres; hay 28 filas con pendiente o marcador."
+    },
+    {
+      "source": "Catálogo!F17,F20,F22,F23,F63,F64,F70,F71,F77",
+      "issue": "Existen expedientes repetidos en distintos folders/tomos/pruebas. No deduplicar por número de expediente ni nombre de parte."
+    },
+    {
+      "source": "Catálogo!J30,H77",
+      "issue": "Caja 3 No. 1 pregunta si es una carpeta o dos; Caja 7 No. 1 dice Dos tomos. Los 78 registros no establecen 78 unidades físicas exactas."
+    },
+    {
+      "source": "Pendientes!A5:A6",
+      "issue": "Las unificaciones Agador/Agadol/Gadol y GA/GEA Power Cooling siguen pendientes; conservar literal y marcar la normalización sólo como candidata."
+    }
+  ],
+  "proposed_ingestion_rules": [
+    "Conservar los 78 registros, orden, caja, No., texto literal y vacíos.",
+    "Usar caja + No. como clave derivada del inventario, con nombre de fuente, hoja y fila para trazabilidad; no sustituye el identificador jurídico del expediente.",
+    "Preservar Estado y Por confirmar como campos separados.",
+    "No completar autoridades, nombres, números, años ni vínculos entre folders a partir de inferencias.",
+    "No resolver la caja 4 ni mover los posibles activos.",
+    "No unir esta categoría a Concentrado, INDEP o TFCA salvo referencias verificadas y expresamente trazables."
+  ],
+  "search_coverage": {
+    "library_title_queries": [
+      "\"Archivo muerto\"",
+      "\"Archivo_muerto\"",
+      "muerto",
+      "\"Catalogo\"",
+      "\"Catálogo\"",
+      "\"Archivo\""
+    ],
+    "library_relevant_results": 1,
+    "drive_accounts_checked": [
+      "CASTORENA ABOGADOS - TRABAJO (emilla@castorena.com.mx)",
+      "Primary (emilianogarciamilla@gmail.com)"
+    ],
+    "drive_queries": [
+      "Archivo muerto (contenido/título)",
+      "name contains 'muerto'",
+      "name contains 'Archivo'"
+    ],
+    "drive_relevant_results": 0,
+    "personal_context": "unavailable for this conversation",
+    "broad_content_query": "Archivo muerto devolvió muchas coincidencias ajenas y fue sustituida por búsquedas de título; no se afirma revisión exhaustiva de conversaciones ni de todos los archivos.",
+    "excluded_candidate": {
+      "name": "02_Prueba_temporal_catalogo_fila1000_Sheets.jpg",
+      "library_file_id": "libfile_a302b75f1fe4819193ffb885edff8f6b",
+      "reason": "Su texto identifica CONCENTRADO_DE_EXPEDIENTES REVISION SHEETS; pertenece a otra categoría."
+    }
+  },
+  "records": [
+    {
+      "source_sheet": "Catálogo",
+      "source_row": 5,
+      "source_range": "A5:J5",
+      "derived_record_key": "AM-C01-N001",
+      "values": {
+        "Caja": "1",
+        "No.": "1",
+        "Cliente / Parte": "Guillermo Alberto Castorena Arellano",
+        "Tipo de asunto": "Contabilidad",
+        "Autoridad / Órgano": null,
+        "Expediente": null,
+        "Año": "2016",
+        "Descripción": "Facturas, ingresos y egresos, enero–marzo 2016",
+        "Estado": "Archivo muerto",
+        "Por confirmar": null
+      }
+    },
+    {
+      "source_sheet": "Catálogo",
+      "source_row": 6,
+      "source_range": "A6:J6",
+      "derived_record_key": "AM-C01-N002",
+      "values": {
+        "Caja": "1",
+        "No.": "2",
+        "Cliente / Parte": "Guillermo Alberto Castorena Arellano",
+        "Tipo de asunto": "Contabilidad",
+        "Autoridad / Órgano": null,
+        "Expediente": null,
+        "Año": "2015",
+        "Descripción": "Concepto aseguradoras, enero–diciembre 2015",
+        "Estado": "Archivo muerto",
+        "Por confirmar": null
+      }
+    },
+    {
+      "source_sheet": "Catálogo",
+      "source_row": 7,
+      "source_range": "A7:J7",
+      "derived_record_key": "AM-C01-N003",
+      "values": {
+        "Caja": "1",
+        "No.": "3",
+        "Cliente / Parte": "Guillermo Alberto Castorena Arellano",
+        "Tipo de asunto": "Contabilidad",
+        "Autoridad / Órgano": null,
+        "Expediente": null,
+        "Año": "2015",
+        "Descripción": "Comprobantes fiscales, julio–diciembre 2015",
+        "Estado": "Archivo muerto",
+        "Por confirmar": null
+      }
+    },
+    {
+      "source_sheet": "Catálogo",
+      "source_row": 8,
+      "source_range": "A8:J8",
+      "derived_record_key": "AM-C01-N004",
+      "values": {
+        "Caja": "1",
+        "No.": "4",
+        "Cliente / Parte": "Guillermo Alberto Castorena Arellano",
+        "Tipo de asunto": "Contabilidad",
+        "Autoridad / Órgano": null,
+        "Expediente": null,
+        "Año": "2014",
+        "Descripción": "Comprobantes de ingresos 2014",
+        "Estado": "Archivo muerto",
+        "Por confirmar": null
+      }
+    },
+    {
+      "source_sheet": "Catálogo",
+      "source_row": 9,
+      "source_range": "A9:J9",
+      "derived_record_key": "AM-C01-N005",
+      "values": {
+        "Caja": "1",
+        "No.": "5",
+        "Cliente / Parte": "Guillermo Alberto Castorena Arellano",
+        "Tipo de asunto": "Contabilidad",
+        "Autoridad / Órgano": null,
+        "Expediente": null,
+        "Año": "2016",
+        "Descripción": "Comprobantes, abril–junio 2016",
+        "Estado": "Archivo muerto",
+        "Por confirmar": null
+      }
+    },
+    {
+      "source_sheet": "Catálogo",
+      "source_row": 10,
+      "source_range": "A10:J10",
+      "derived_record_key": "AM-C01-N006",
+      "values": {
+        "Caja": "1",
+        "No.": "6",
+        "Cliente / Parte": "Guillermo Alberto Castorena Arellano",
+        "Tipo de asunto": "Visita domiciliaria",
+        "Autoridad / Órgano": "Administración Desconcentrada de Auditoría Fiscal del Distrito Federal \"4\"",
+        "Expediente": null,
+        "Año": null,
+        "Descripción": "Actas de visita domiciliaria",
+        "Estado": "Archivo muerto",
+        "Por confirmar": "Confirmar número de la ADAF"
+      }
+    },
+    {
+      "source_sheet": "Catálogo",
+      "source_row": 11,
+      "source_range": "A11:J11",
+      "derived_record_key": "AM-C01-N007",
+      "values": {
+        "Caja": "1",
+        "No.": "7",
+        "Cliente / Parte": "Guillermo Alberto Castorena Arellano",
+        "Tipo de asunto": "Recurso de revocación",
+        "Autoridad / Órgano": "SAT",
+        "Expediente": "1354 y 1373 / 1375",
+        "Año": null,
+        "Descripción": "Expedientes relacionados para acumulación",
+        "Estado": "Archivo muerto",
+        "Por confirmar": "Confirmar si el segundo es 1373 o 1375"
+      }
+    },
+    {
+      "source_sheet": "Catálogo",
+      "source_row": 12,
+      "source_range": "A12:J12",
+      "derived_record_key": "AM-C01-N008",
+      "values": {
+        "Caja": "1",
+        "No.": "8",
+        "Cliente / Parte": "Guillermo Alberto Castorena Arellano",
+        "Tipo de asunto": "Visita domiciliaria",
+        "Autoridad / Órgano": null,
+        "Expediente": null,
+        "Año": null,
+        "Descripción": "Actas de visita de esas revisiones",
+        "Estado": "Archivo muerto",
+        "Por confirmar": null
+      }
+    },
+    {
+      "source_sheet": "Catálogo",
+      "source_row": 13,
+      "source_range": "A13:J13",
+      "derived_record_key": "AM-C01-N009",
+      "values": {
+        "Caja": "1",
+        "No.": "9",
+        "Cliente / Parte": "Guillermo Alberto Castorena Arellano",
+        "Tipo de asunto": "Visita domiciliaria",
+        "Autoridad / Órgano": null,
+        "Expediente": null,
+        "Año": null,
+        "Descripción": "Comprobantes y comprobación de la visita domiciliaria",
+        "Estado": "Archivo muerto",
+        "Por confirmar": null
+      }
+    },
+    {
+      "source_sheet": "Catálogo",
+      "source_row": 14,
+      "source_range": "A14:J14",
+      "derived_record_key": "AM-C01-N010",
+      "values": {
+        "Caja": "1",
+        "No.": "10",
+        "Cliente / Parte": "Guillermo Alberto Castorena Arellano",
+        "Tipo de asunto": "Amparo indirecto",
+        "Autoridad / Órgano": "Juzgado Quinto de Distrito",
+        "Expediente": "900/2017",
+        "Año": "2017",
+        "Descripción": "Negativa de ampliación de término",
+        "Estado": "Archivo muerto",
+        "Por confirmar": "Confirmar que deriva de la misma revisión"
+      }
+    },
+    {
+      "source_sheet": "Catálogo",
+      "source_row": 15,
+      "source_range": "A15:J15",
+      "derived_record_key": "AM-C01-N011",
+      "values": {
+        "Caja": "1",
+        "No.": "11",
+        "Cliente / Parte": "Westfalia",
+        "Tipo de asunto": "Civil",
+        "Autoridad / Órgano": "Juzgado Cuarto de lo Civil de Cuantía Menor",
+        "Expediente": null,
+        "Año": null,
+        "Descripción": "Asunto Westfalia",
+        "Estado": "Archivo muerto",
+        "Por confirmar": null
+      }
+    },
+    {
+      "source_sheet": "Catálogo",
+      "source_row": 16,
+      "source_range": "A16:J16",
+      "derived_record_key": "AM-C01-N012",
+      "values": {
+        "Caja": "1",
+        "No.": "12",
+        "Cliente / Parte": "Sucesión de Susana Cora",
+        "Tipo de asunto": "Sucesión",
+        "Autoridad / Órgano": null,
+        "Expediente": null,
+        "Año": null,
+        "Descripción": "Sucesión",
+        "Estado": "Archivo muerto",
+        "Por confirmar": "Confirmar nombre"
+      }
+    },
+    {
+      "source_sheet": "Catálogo",
+      "source_row": 17,
+      "source_range": "A17:J17",
+      "derived_record_key": "AM-C02-N001",
+      "values": {
+        "Caja": "2",
+        "No.": "1",
+        "Cliente / Parte": "Rodrigo Porrúa del Villar",
+        "Tipo de asunto": "Juicio (dictado como mercantil)",
+        "Autoridad / Órgano": "TFJA – Sala Especializada en Propiedad Intelectual",
+        "Expediente": "122/2019-EPI-01-5",
+        "Año": "2019",
+        "Descripción": null,
+        "Estado": "Archivo muerto",
+        "Por confirmar": "Confirmar vía (nulidad vs. mercantil)"
+      }
+    },
+    {
+      "source_sheet": "Catálogo",
+      "source_row": 18,
+      "source_range": "A18:J18",
+      "derived_record_key": "AM-C02-N002",
+      "values": {
+        "Caja": "2",
+        "No.": "2",
+        "Cliente / Parte": "Rodrigo Porrúa del Villar",
+        "Tipo de asunto": "Sentencia",
+        "Autoridad / Órgano": "TFJA – Sala Especializada en Propiedad Intelectual",
+        "Expediente": "1218/17-EPI-01-4",
+        "Año": "2017",
+        "Descripción": "Sentencia del 14 de febrero de 2019",
+        "Estado": "Archivo muerto",
+        "Por confirmar": null
+      }
+    },
+    {
+      "source_sheet": "Catálogo",
+      "source_row": 19,
+      "source_range": "A19:J19",
+      "derived_record_key": "AM-C02-N003",
+      "values": {
+        "Caja": "2",
+        "No.": "3",
+        "Cliente / Parte": "Rodrigo Porrúa del Villar",
+        "Tipo de asunto": null,
+        "Autoridad / Órgano": null,
+        "Expediente": "1959/2017",
+        "Año": "2017",
+        "Descripción": null,
+        "Estado": "Archivo muerto",
+        "Por confirmar": "Faltan tipo y órgano"
+      }
+    },
+    {
+      "source_sheet": "Catálogo",
+      "source_row": 20,
+      "source_range": "A20:J20",
+      "derived_record_key": "AM-C02-N004",
+      "values": {
+        "Caja": "2",
+        "No.": "4",
+        "Cliente / Parte": "Rodrigo Porrúa del Villar",
+        "Tipo de asunto": "Juicio",
+        "Autoridad / Órgano": "TFJA – Sala Especializada en Propiedad Intelectual",
+        "Expediente": "122/2019-EPI-01-5",
+        "Año": "2019",
+        "Descripción": "Segunda carpeta del mismo expediente",
+        "Estado": "Archivo muerto",
+        "Por confirmar": "¿Duplicado o tomo II?"
+      }
+    },
+    {
+      "source_sheet": "Catálogo",
+      "source_row": 21,
+      "source_range": "A21:J21",
+      "derived_record_key": "AM-C02-N005",
+      "values": {
+        "Caja": "2",
+        "No.": "5",
+        "Cliente / Parte": "Rodrigo Porrúa del Villar",
+        "Tipo de asunto": "RR",
+        "Autoridad / Órgano": null,
+        "Expediente": "197/2018",
+        "Año": "2018",
+        "Descripción": null,
+        "Estado": "Archivo muerto",
+        "Por confirmar": "¿Revisión o revocación? ¿Ante qué autoridad?"
+      }
+    },
+    {
+      "source_sheet": "Catálogo",
+      "source_row": 22,
+      "source_range": "A22:J22",
+      "derived_record_key": "AM-C02-N006",
+      "values": {
+        "Caja": "2",
+        "No.": "6",
+        "Cliente / Parte": "Valle de Guadalupe",
+        "Tipo de asunto": "Juicio de nulidad",
+        "Autoridad / Órgano": "TFJA – Sala Especializada en Propiedad Intelectual",
+        "Expediente": "1353/16-EPI-01-8",
+        "Año": "2016",
+        "Descripción": "Tomo I",
+        "Estado": "Archivo muerto",
+        "Por confirmar": null
+      }
+    },
+    {
+      "source_sheet": "Catálogo",
+      "source_row": 23,
+      "source_range": "A23:J23",
+      "derived_record_key": "AM-C02-N007",
+      "values": {
+        "Caja": "2",
+        "No.": "7",
+        "Cliente / Parte": "Valle de Guadalupe",
+        "Tipo de asunto": "Juicio de nulidad",
+        "Autoridad / Órgano": "TFJA – Sala Especializada en Propiedad Intelectual",
+        "Expediente": "1353/16-EPI-01-8",
+        "Año": "2016",
+        "Descripción": "Tomo II",
+        "Estado": "Archivo muerto",
+        "Por confirmar": null
+      }
+    },
+    {
+      "source_sheet": "Catálogo",
+      "source_row": 24,
+      "source_range": "A24:J24",
+      "derived_record_key": "AM-C02-N008",
+      "values": {
+        "Caja": "2",
+        "No.": "8",
+        "Cliente / Parte": "Guillermo Castorena Álvarez",
+        "Tipo de asunto": null,
+        "Autoridad / Órgano": null,
+        "Expediente": "281/2017",
+        "Año": "2017",
+        "Descripción": "Desechamiento de pruebas, relacionado con Valle de Guadalupe",
+        "Estado": "Archivo muerto",
+        "Por confirmar": null
+      }
+    },
+    {
+      "source_sheet": "Catálogo",
+      "source_row": 25,
+      "source_range": "A25:J25",
+      "derived_record_key": "AM-C02-N009",
+      "values": {
+        "Caja": "2",
+        "No.": "9",
+        "Cliente / Parte": "Guillermo Castorena Álvarez",
+        "Tipo de asunto": "Amparo indirecto",
+        "Autoridad / Órgano": null,
+        "Expediente": "1144/2018 (recurso 152/2019)",
+        "Año": "2018",
+        "Descripción": "Con recurso 152/2019",
+        "Estado": "Archivo muerto",
+        "Por confirmar": "¿Recurso de revisión o apelación?"
+      }
+    },
+    {
+      "source_sheet": "Catálogo",
+      "source_row": 26,
+      "source_range": "A26:J26",
+      "derived_record_key": "AM-C02-N010",
+      "values": {
+        "Caja": "2",
+        "No.": "10",
+        "Cliente / Parte": "Martín Flores Rodríguez",
+        "Tipo de asunto": "Acto de inspección",
+        "Autoridad / Órgano": null,
+        "Expediente": null,
+        "Año": "2019",
+        "Descripción": "Papaxteles [VERIFICAR]",
+        "Estado": "Archivo muerto",
+        "Por confirmar": "Confirmar escritura y si es cliente o lugar"
+      }
+    },
+    {
+      "source_sheet": "Catálogo",
+      "source_row": 27,
+      "source_range": "A27:J27",
+      "derived_record_key": "AM-C02-N011",
+      "values": {
+        "Caja": "2",
+        "No.": "11",
+        "Cliente / Parte": "LMF Frisa Comercial",
+        "Tipo de asunto": "Amparo",
+        "Autoridad / Órgano": null,
+        "Expediente": null,
+        "Año": null,
+        "Descripción": null,
+        "Estado": "Archivo muerto",
+        "Por confirmar": null
+      }
+    },
+    {
+      "source_sheet": "Catálogo",
+      "source_row": 28,
+      "source_range": "A28:J28",
+      "derived_record_key": "AM-C02-N012",
+      "values": {
+        "Caja": "2",
+        "No.": "12",
+        "Cliente / Parte": "Flor de Lis",
+        "Tipo de asunto": null,
+        "Autoridad / Órgano": null,
+        "Expediente": null,
+        "Año": null,
+        "Descripción": null,
+        "Estado": "Concluido",
+        "Por confirmar": null
+      }
+    },
+    {
+      "source_sheet": "Catálogo",
+      "source_row": 29,
+      "source_range": "A29:J29",
+      "derived_record_key": "AM-C02-N013",
+      "values": {
+        "Caja": "2",
+        "No.": "13",
+        "Cliente / Parte": "Exciting Games",
+        "Tipo de asunto": null,
+        "Autoridad / Órgano": null,
+        "Expediente": null,
+        "Año": null,
+        "Descripción": "Varios expedientes",
+        "Estado": "Archivo muerto",
+        "Por confirmar": null
+      }
+    },
+    {
+      "source_sheet": "Catálogo",
+      "source_row": 30,
+      "source_range": "A30:J30",
+      "derived_record_key": "AM-C03-N001",
+      "values": {
+        "Caja": "3",
+        "No.": "1",
+        "Cliente / Parte": "Guillermo Alberto Castorena Arellano",
+        "Tipo de asunto": "Contabilidad",
+        "Autoridad / Órgano": null,
+        "Expediente": null,
+        "Año": "2014 / 2016",
+        "Descripción": "Enero–junio 2014 y octubre–noviembre 2016",
+        "Estado": "Archivo muerto",
+        "Por confirmar": "¿Una carpeta o dos?"
+      }
+    },
+    {
+      "source_sheet": "Catálogo",
+      "source_row": 31,
+      "source_range": "A31:J31",
+      "derived_record_key": "AM-C03-N002",
+      "values": {
+        "Caja": "3",
+        "No.": "2",
+        "Cliente / Parte": "Guillermo Alberto Castorena Arellano",
+        "Tipo de asunto": "Contabilidad",
+        "Autoridad / Órgano": null,
+        "Expediente": null,
+        "Año": null,
+        "Descripción": "Pagos de aseguradoras",
+        "Estado": "Archivo muerto",
+        "Por confirmar": null
+      }
+    },
+    {
+      "source_sheet": "Catálogo",
+      "source_row": 32,
+      "source_range": "A32:J32",
+      "derived_record_key": "AM-C03-N003",
+      "values": {
+        "Caja": "3",
+        "No.": "3",
+        "Cliente / Parte": "Guillermo Alberto Castorena Arellano",
+        "Tipo de asunto": "Contabilidad",
+        "Autoridad / Órgano": null,
+        "Expediente": null,
+        "Año": "2015",
+        "Descripción": "Reportes de ventas, enero–diciembre 2015",
+        "Estado": "Archivo muerto",
+        "Por confirmar": null
+      }
+    },
+    {
+      "source_sheet": "Catálogo",
+      "source_row": 33,
+      "source_range": "A33:J33",
+      "derived_record_key": "AM-C03-N004",
+      "values": {
+        "Caja": "3",
+        "No.": "4",
+        "Cliente / Parte": "Guillermo Alberto Castorena Arellano",
+        "Tipo de asunto": "Contabilidad",
+        "Autoridad / Órgano": null,
+        "Expediente": null,
+        "Año": "2015",
+        "Descripción": "Estados de cuenta, enero–diciembre 2015",
+        "Estado": "Archivo muerto",
+        "Por confirmar": null
+      }
+    },
+    {
+      "source_sheet": "Catálogo",
+      "source_row": 34,
+      "source_range": "A34:J34",
+      "derived_record_key": "AM-C03-N005",
+      "values": {
+        "Caja": "3",
+        "No.": "5",
+        "Cliente / Parte": "Guillermo Alberto Castorena Arellano",
+        "Tipo de asunto": "Contabilidad",
+        "Autoridad / Órgano": null,
+        "Expediente": null,
+        "Año": "2016",
+        "Descripción": "Facturas de ingresos, julio–septiembre 2016",
+        "Estado": "Archivo muerto",
+        "Por confirmar": null
+      }
+    },
+    {
+      "source_sheet": "Catálogo",
+      "source_row": 35,
+      "source_range": "A35:J35",
+      "derived_record_key": "AM-C03-N006",
+      "values": {
+        "Caja": "3",
+        "No.": "6",
+        "Cliente / Parte": "Guillermo Alberto Castorena Arellano",
+        "Tipo de asunto": "Contabilidad",
+        "Autoridad / Órgano": null,
+        "Expediente": null,
+        "Año": "2015",
+        "Descripción": "Comprobantes fiscales, enero–junio 2015",
+        "Estado": "Archivo muerto",
+        "Por confirmar": null
+      }
+    },
+    {
+      "source_sheet": "Catálogo",
+      "source_row": 36,
+      "source_range": "A36:J36",
+      "derived_record_key": "AM-C03-N007",
+      "values": {
+        "Caja": "3",
+        "No.": "7",
+        "Cliente / Parte": "Guillermo Alberto Castorena Arellano",
+        "Tipo de asunto": "Contabilidad",
+        "Autoridad / Órgano": null,
+        "Expediente": null,
+        "Año": "2014",
+        "Descripción": "Comprobantes fiscales, enero–diciembre 2014",
+        "Estado": "Archivo muerto",
+        "Por confirmar": null
+      }
+    },
+    {
+      "source_sheet": "Catálogo",
+      "source_row": 37,
+      "source_range": "A37:J37",
+      "derived_record_key": "AM-C03-N008",
+      "values": {
+        "Caja": "3",
+        "No.": "8",
+        "Cliente / Parte": "Guillermo Alberto Castorena Arellano",
+        "Tipo de asunto": "Contabilidad",
+        "Autoridad / Órgano": null,
+        "Expediente": null,
+        "Año": "2014",
+        "Descripción": "Facturas, julio–diciembre 2014",
+        "Estado": "Archivo muerto",
+        "Por confirmar": null
+      }
+    },
+    {
+      "source_sheet": "Catálogo",
+      "source_row": 38,
+      "source_range": "A38:J38",
+      "derived_record_key": "AM-C03-N009",
+      "values": {
+        "Caja": "3",
+        "No.": "9",
+        "Cliente / Parte": "Guillermo Alberto Castorena Arellano",
+        "Tipo de asunto": "Juicio",
+        "Autoridad / Órgano": null,
+        "Expediente": null,
+        "Año": null,
+        "Descripción": "Anexos del juicio",
+        "Estado": "Archivo muerto",
+        "Por confirmar": "¿De qué juicio?"
+      }
+    },
+    {
+      "source_sheet": "Catálogo",
+      "source_row": 39,
+      "source_range": "A39:J39",
+      "derived_record_key": "AM-C03-N010",
+      "values": {
+        "Caja": "3",
+        "No.": "10",
+        "Cliente / Parte": "Guillermo Alberto Castorena Arellano",
+        "Tipo de asunto": "Visita domiciliaria",
+        "Autoridad / Órgano": null,
+        "Expediente": null,
+        "Año": "2016",
+        "Descripción": "Actas de la visita domiciliaria 2016",
+        "Estado": "Archivo muerto",
+        "Por confirmar": null
+      }
+    },
+    {
+      "source_sheet": "Catálogo",
+      "source_row": 40,
+      "source_range": "A40:J40",
+      "derived_record_key": "AM-C05-N001",
+      "values": {
+        "Caja": "5",
+        "No.": "1",
+        "Cliente / Parte": "GA Power Cooling [VERIFICAR]",
+        "Tipo de asunto": "Comercio exterior",
+        "Autoridad / Órgano": "TFJA – Primera Sala Especializada en Materia de Comercio Exterior",
+        "Expediente": "A88/2018 [VERIFICAR]",
+        "Año": "2018",
+        "Descripción": null,
+        "Estado": "Archivo muerto",
+        "Por confirmar": "¿GEA Power Cooling? ¿488/2018?"
+      }
+    },
+    {
+      "source_sheet": "Catálogo",
+      "source_row": 41,
+      "source_range": "A41:J41",
+      "derived_record_key": "AM-C05-N002",
+      "values": {
+        "Caja": "5",
+        "No.": "2",
+        "Cliente / Parte": "Preferencia en Deportes",
+        "Tipo de asunto": null,
+        "Autoridad / Órgano": "INFONAVIT",
+        "Expediente": "927/16-11-02-7",
+        "Año": "2016",
+        "Descripción": null,
+        "Estado": "Archivo muerto",
+        "Por confirmar": null
+      }
+    },
+    {
+      "source_sheet": "Catálogo",
+      "source_row": 42,
+      "source_range": "A42:J42",
+      "derived_record_key": "AM-C05-N003",
+      "values": {
+        "Caja": "5",
+        "No.": "3",
+        "Cliente / Parte": "IM Resorts",
+        "Tipo de asunto": "Visita domiciliaria",
+        "Autoridad / Órgano": null,
+        "Expediente": null,
+        "Año": null,
+        "Descripción": "Visita domiciliaria por cotejos",
+        "Estado": "Archivo muerto",
+        "Por confirmar": null
+      }
+    },
+    {
+      "source_sheet": "Catálogo",
+      "source_row": 43,
+      "source_range": "A43:J43",
+      "derived_record_key": "AM-C05-N004",
+      "values": {
+        "Caja": "5",
+        "No.": "4",
+        "Cliente / Parte": "Suburbia",
+        "Tipo de asunto": "Juicio contencioso administrativo",
+        "Autoridad / Órgano": "Tercera Sala Ordinaria",
+        "Expediente": "11-7209/2025 [VERIFICAR]",
+        "Año": "2025",
+        "Descripción": null,
+        "Estado": "POSIBLE ACTIVO",
+        "Por confirmar": "¿TJ/III-7209/2025? ¿Archivo activo?"
+      }
+    },
+    {
+      "source_sheet": "Catálogo",
+      "source_row": 44,
+      "source_range": "A44:J44",
+      "derived_record_key": "AM-C05-N005",
+      "values": {
+        "Caja": "5",
+        "No.": "5",
+        "Cliente / Parte": "ADCON [VERIFICAR]",
+        "Tipo de asunto": "Juicio contencioso administrativo",
+        "Autoridad / Órgano": "TJACDMX – Primera Sala Ordinaria",
+        "Expediente": "TJ/I-5602/2026",
+        "Año": "2026",
+        "Descripción": "Autoridad: Secretario de Finanzas del Distrito Federal",
+        "Estado": "POSIBLE ACTIVO",
+        "Por confirmar": "Confirmar nombre; ¿archivo activo?"
+      }
+    },
+    {
+      "source_sheet": "Catálogo",
+      "source_row": 45,
+      "source_range": "A45:J45",
+      "derived_record_key": "AM-C05-N006",
+      "values": {
+        "Caja": "5",
+        "No.": "6",
+        "Cliente / Parte": "Distribuidora Liverpool",
+        "Tipo de asunto": "Juicio contencioso administrativo",
+        "Autoridad / Órgano": "TJACDMX – Primera Sala Especializada",
+        "Expediente": "TJ/I-22017/2026",
+        "Año": "2026",
+        "Descripción": null,
+        "Estado": "POSIBLE ACTIVO",
+        "Por confirmar": "¿Archivo activo?"
+      }
+    },
+    {
+      "source_sheet": "Catálogo",
+      "source_row": 46,
+      "source_range": "A46:J46",
+      "derived_record_key": "AM-C05-N007",
+      "values": {
+        "Caja": "5",
+        "No.": "7",
+        "Cliente / Parte": "Guillermo Castorena Álvarez",
+        "Tipo de asunto": "Juicio contencioso administrativo",
+        "Autoridad / Órgano": "TJACDMX – Segunda Sala Ordinaria",
+        "Expediente": "TJ/II-4645/2019",
+        "Año": "2019",
+        "Descripción": null,
+        "Estado": "Archivo muerto",
+        "Por confirmar": null
+      }
+    },
+    {
+      "source_sheet": "Catálogo",
+      "source_row": 47,
+      "source_range": "A47:J47",
+      "derived_record_key": "AM-C05-N008",
+      "values": {
+        "Caja": "5",
+        "No.": "8",
+        "Cliente / Parte": "Westfalia",
+        "Tipo de asunto": "Inspección ambiental",
+        "Autoridad / Órgano": null,
+        "Expediente": null,
+        "Año": null,
+        "Descripción": "Inspección de protección ambiental, estado de Morelos",
+        "Estado": "Archivo muerto",
+        "Por confirmar": null
+      }
+    },
+    {
+      "source_sheet": "Catálogo",
+      "source_row": 48,
+      "source_range": "A48:J48",
+      "derived_record_key": "AM-C05-N009",
+      "values": {
+        "Caja": "5",
+        "No.": "9",
+        "Cliente / Parte": "Westfalia Separator",
+        "Tipo de asunto": "Escrito",
+        "Autoridad / Órgano": null,
+        "Expediente": null,
+        "Año": null,
+        "Descripción": "Escrito autorizando",
+        "Estado": "Archivo muerto",
+        "Por confirmar": null
+      }
+    },
+    {
+      "source_sheet": "Catálogo",
+      "source_row": 49,
+      "source_range": "A49:J49",
+      "derived_record_key": "AM-C05-N010",
+      "values": {
+        "Caja": "5",
+        "No.": "10",
+        "Cliente / Parte": "Prodinal 1 [VERIFICAR]",
+        "Tipo de asunto": "Concurso mercantil",
+        "Autoridad / Órgano": "Juzgado Sexto de Distrito",
+        "Expediente": "253",
+        "Año": null,
+        "Descripción": null,
+        "Estado": "Archivo muerto",
+        "Por confirmar": "Confirmar nombre"
+      }
+    },
+    {
+      "source_sheet": "Catálogo",
+      "source_row": 50,
+      "source_range": "A50:J50",
+      "derived_record_key": "AM-C05-N011",
+      "values": {
+        "Caja": "5",
+        "No.": "11",
+        "Cliente / Parte": "Guillermo Ruiz Vences",
+        "Tipo de asunto": "Sucesión testamentaria",
+        "Autoridad / Órgano": "Juzgado Tercero Civil de Primera Instancia",
+        "Expediente": "339/2018-1",
+        "Año": "2018",
+        "Descripción": null,
+        "Estado": "Archivo muerto",
+        "Por confirmar": null
+      }
+    },
+    {
+      "source_sheet": "Catálogo",
+      "source_row": 51,
+      "source_range": "A51:J51",
+      "derived_record_key": "AM-C05-N012",
+      "values": {
+        "Caja": "5",
+        "No.": "12",
+        "Cliente / Parte": "Comercializadora Gadol",
+        "Tipo de asunto": null,
+        "Autoridad / Órgano": null,
+        "Expediente": null,
+        "Año": null,
+        "Descripción": "Expediente de 43 millones de pesos, tomo I",
+        "Estado": "Archivo muerto",
+        "Por confirmar": null
+      }
+    },
+    {
+      "source_sheet": "Catálogo",
+      "source_row": 52,
+      "source_range": "A52:J52",
+      "derived_record_key": "AM-C05-N013",
+      "values": {
+        "Caja": "5",
+        "No.": "13",
+        "Cliente / Parte": "Comercializadora Gadol [VERIFICAR]",
+        "Tipo de asunto": "Pruebas",
+        "Autoridad / Órgano": null,
+        "Expediente": null,
+        "Año": "2011",
+        "Descripción": "Dictado como \"Comercializador Agador\"",
+        "Estado": "Archivo muerto",
+        "Por confirmar": "Confirmar que es Gadol"
+      }
+    },
+    {
+      "source_sheet": "Catálogo",
+      "source_row": 53,
+      "source_range": "A53:J53",
+      "derived_record_key": "AM-C05-N014",
+      "values": {
+        "Caja": "5",
+        "No.": "14",
+        "Cliente / Parte": "Mariana Calderón Vidal",
+        "Tipo de asunto": null,
+        "Autoridad / Órgano": "Juzgado Decimoséptimo de Distrito",
+        "Expediente": "206/2025",
+        "Año": "2025",
+        "Descripción": null,
+        "Estado": "POSIBLE ACTIVO",
+        "Por confirmar": "¿Archivo activo?"
+      }
+    },
+    {
+      "source_sheet": "Catálogo",
+      "source_row": 54,
+      "source_range": "A54:J54",
+      "derived_record_key": "AM-C05-N015",
+      "values": {
+        "Caja": "5",
+        "No.": "15",
+        "Cliente / Parte": "Piña García Jacqueline Lorena",
+        "Tipo de asunto": null,
+        "Autoridad / Órgano": "Texcoco",
+        "Expediente": null,
+        "Año": null,
+        "Descripción": null,
+        "Estado": "Archivo muerto",
+        "Por confirmar": null
+      }
+    },
+    {
+      "source_sheet": "Catálogo",
+      "source_row": 55,
+      "source_range": "A55:J55",
+      "derived_record_key": "AM-C05-N016",
+      "values": {
+        "Caja": "5",
+        "No.": "16",
+        "Cliente / Parte": "Porrúa",
+        "Tipo de asunto": null,
+        "Autoridad / Órgano": null,
+        "Expediente": null,
+        "Año": null,
+        "Descripción": null,
+        "Estado": "Archivo muerto",
+        "Por confirmar": null
+      }
+    },
+    {
+      "source_sheet": "Catálogo",
+      "source_row": 56,
+      "source_range": "A56:J56",
+      "derived_record_key": "AM-C05-N017",
+      "values": {
+        "Caja": "5",
+        "No.": "17",
+        "Cliente / Parte": "Marco Antonio Padilla",
+        "Tipo de asunto": null,
+        "Autoridad / Órgano": null,
+        "Expediente": null,
+        "Año": null,
+        "Descripción": null,
+        "Estado": "Archivo muerto",
+        "Por confirmar": null
+      }
+    },
+    {
+      "source_sheet": "Catálogo",
+      "source_row": 57,
+      "source_range": "A57:J57",
+      "derived_record_key": "AM-C05-N018",
+      "values": {
+        "Caja": "5",
+        "No.": "18",
+        "Cliente / Parte": "Germán Valle Hernández",
+        "Tipo de asunto": null,
+        "Autoridad / Órgano": null,
+        "Expediente": null,
+        "Año": null,
+        "Descripción": null,
+        "Estado": "Archivo muerto",
+        "Por confirmar": null
+      }
+    },
+    {
+      "source_sheet": "Catálogo",
+      "source_row": 58,
+      "source_range": "A58:J58",
+      "derived_record_key": "AM-C05-N019",
+      "values": {
+        "Caja": "5",
+        "No.": "19",
+        "Cliente / Parte": "Exciting Games",
+        "Tipo de asunto": "Demanda",
+        "Autoridad / Órgano": null,
+        "Expediente": null,
+        "Año": null,
+        "Descripción": null,
+        "Estado": "Archivo muerto",
+        "Por confirmar": null
+      }
+    },
+    {
+      "source_sheet": "Catálogo",
+      "source_row": 59,
+      "source_range": "A59:J59",
+      "derived_record_key": "AM-C05-N020",
+      "values": {
+        "Caja": "5",
+        "No.": "20",
+        "Cliente / Parte": "Grupo La Belleza",
+        "Tipo de asunto": null,
+        "Autoridad / Órgano": null,
+        "Expediente": null,
+        "Año": null,
+        "Descripción": null,
+        "Estado": "Archivo muerto",
+        "Por confirmar": null
+      }
+    },
+    {
+      "source_sheet": "Catálogo",
+      "source_row": 60,
+      "source_range": "A60:J60",
+      "derived_record_key": "AM-C05-N021",
+      "values": {
+        "Caja": "5",
+        "No.": "21",
+        "Cliente / Parte": "[DATO FALTANTE]",
+        "Tipo de asunto": null,
+        "Autoridad / Órgano": null,
+        "Expediente": "1316/2015",
+        "Año": "2015",
+        "Descripción": null,
+        "Estado": "Archivo muerto",
+        "Por confirmar": "Falta parte"
+      }
+    },
+    {
+      "source_sheet": "Catálogo",
+      "source_row": 61,
+      "source_range": "A61:J61",
+      "derived_record_key": "AM-C05-N022",
+      "values": {
+        "Caja": "5",
+        "No.": "22",
+        "Cliente / Parte": "Distribuidora Liverpool",
+        "Tipo de asunto": "Promociones",
+        "Autoridad / Órgano": null,
+        "Expediente": null,
+        "Año": null,
+        "Descripción": "Copias de promociones presentadas (expedientes no son del despacho)",
+        "Estado": "Archivo muerto",
+        "Por confirmar": null
+      }
+    },
+    {
+      "source_sheet": "Catálogo",
+      "source_row": 62,
+      "source_range": "A62:J62",
+      "derived_record_key": "AM-C05-N023",
+      "values": {
+        "Caja": "5",
+        "No.": "23",
+        "Cliente / Parte": "[DATO FALTANTE]",
+        "Tipo de asunto": null,
+        "Autoridad / Órgano": null,
+        "Expediente": null,
+        "Año": null,
+        "Descripción": "Dictado como \"esto que se da\"",
+        "Estado": "Archivo muerto",
+        "Por confirmar": "¿Qué es?"
+      }
+    },
+    {
+      "source_sheet": "Catálogo",
+      "source_row": 63,
+      "source_range": "A63:J63",
+      "derived_record_key": "AM-C06-N001",
+      "values": {
+        "Caja": "6",
+        "No.": "1",
+        "Cliente / Parte": "Comercializadora Gadol",
+        "Tipo de asunto": "Juicio de nulidad",
+        "Autoridad / Órgano": null,
+        "Expediente": "559/16",
+        "Año": "2016",
+        "Descripción": "Primer tomo de pruebas",
+        "Estado": "Archivo muerto",
+        "Por confirmar": null
+      }
+    },
+    {
+      "source_sheet": "Catálogo",
+      "source_row": 64,
+      "source_range": "A64:J64",
+      "derived_record_key": "AM-C06-N002",
+      "values": {
+        "Caja": "6",
+        "No.": "2",
+        "Cliente / Parte": "Comercializadora Gadol",
+        "Tipo de asunto": "Juicio de nulidad",
+        "Autoridad / Órgano": null,
+        "Expediente": "559/16",
+        "Año": "2016",
+        "Descripción": "Tomo de pruebas",
+        "Estado": "Archivo muerto",
+        "Por confirmar": null
+      }
+    },
+    {
+      "source_sheet": "Catálogo",
+      "source_row": 65,
+      "source_range": "A65:J65",
+      "derived_record_key": "AM-C06-N003",
+      "values": {
+        "Caja": "6",
+        "No.": "3",
+        "Cliente / Parte": "Comercializadora Gadol",
+        "Tipo de asunto": "Visita domiciliaria",
+        "Autoridad / Órgano": null,
+        "Expediente": null,
+        "Año": null,
+        "Descripción": "Contratos, visita domiciliaria e invitaciones",
+        "Estado": "Archivo muerto",
+        "Por confirmar": null
+      }
+    },
+    {
+      "source_sheet": "Catálogo",
+      "source_row": 66,
+      "source_range": "A66:J66",
+      "derived_record_key": "AM-C06-N004",
+      "values": {
+        "Caja": "6",
+        "No.": "4",
+        "Cliente / Parte": "Comercializadora Gadol",
+        "Tipo de asunto": "Visita domiciliaria",
+        "Autoridad / Órgano": null,
+        "Expediente": "150050/12",
+        "Año": "2012",
+        "Descripción": "IVA 2012",
+        "Estado": "Archivo muerto",
+        "Por confirmar": null
+      }
+    },
+    {
+      "source_sheet": "Catálogo",
+      "source_row": 67,
+      "source_range": "A67:J67",
+      "derived_record_key": "AM-C06-N005",
+      "values": {
+        "Caja": "6",
+        "No.": "5",
+        "Cliente / Parte": "Comercializadora Gadol",
+        "Tipo de asunto": "Juicio contencioso administrativo",
+        "Autoridad / Órgano": "TFJA – Sala Superior, Primera Sección",
+        "Expediente": "2018/15-16-01-2 / 938/18-S1-01-04",
+        "Año": "2015",
+        "Descripción": null,
+        "Estado": "Archivo muerto",
+        "Por confirmar": null
+      }
+    },
+    {
+      "source_sheet": "Catálogo",
+      "source_row": 68,
+      "source_range": "A68:J68",
+      "derived_record_key": "AM-C06-N006",
+      "values": {
+        "Caja": "6",
+        "No.": "6",
+        "Cliente / Parte": "Comercializadora Gadol",
+        "Tipo de asunto": "Juicio contencioso administrativo",
+        "Autoridad / Órgano": "TFJA – Sala Regional Peninsular",
+        "Expediente": "1251/15-16-01-8",
+        "Año": "2015",
+        "Descripción": null,
+        "Estado": "Archivo muerto",
+        "Por confirmar": null
+      }
+    },
+    {
+      "source_sheet": "Catálogo",
+      "source_row": 69,
+      "source_range": "A69:J69",
+      "derived_record_key": "AM-C06-N007",
+      "values": {
+        "Caja": "6",
+        "No.": "7",
+        "Cliente / Parte": "Comercializadora Gadol",
+        "Tipo de asunto": "Amparo directo",
+        "Autoridad / Órgano": null,
+        "Expediente": "1149/2015",
+        "Año": "2015",
+        "Descripción": "Sentencia definitiva: no ampara ni protege",
+        "Estado": "Archivo muerto",
+        "Por confirmar": null
+      }
+    },
+    {
+      "source_sheet": "Catálogo",
+      "source_row": 70,
+      "source_range": "A70:J70",
+      "derived_record_key": "AM-C06-N008",
+      "values": {
+        "Caja": "6",
+        "No.": "8",
+        "Cliente / Parte": "Comercializadora Gadol",
+        "Tipo de asunto": "Juicio contencioso administrativo",
+        "Autoridad / Órgano": "TFJA – Sala Regional Peninsular",
+        "Expediente": "14/26404-16-01-03-06-OT",
+        "Año": "2014",
+        "Descripción": "Determinación de crédito fiscal por 24 millones de pesos",
+        "Estado": "Archivo muerto",
+        "Por confirmar": null
+      }
+    },
+    {
+      "source_sheet": "Catálogo",
+      "source_row": 71,
+      "source_range": "A71:J71",
+      "derived_record_key": "AM-C06-N009",
+      "values": {
+        "Caja": "6",
+        "No.": "9",
+        "Cliente / Parte": "Comercializadora Gadol",
+        "Tipo de asunto": "Pruebas",
+        "Autoridad / Órgano": "TFJA – Sala Regional Peninsular",
+        "Expediente": "14/26404-16-01-03-06-OT",
+        "Año": "2014",
+        "Descripción": "Pruebas del juicio anterior",
+        "Estado": "Archivo muerto",
+        "Por confirmar": null
+      }
+    },
+    {
+      "source_sheet": "Catálogo",
+      "source_row": 72,
+      "source_range": "A72:J72",
+      "derived_record_key": "AM-C06-N010",
+      "values": {
+        "Caja": "6",
+        "No.": "10",
+        "Cliente / Parte": "Comercializadora Gadol [VERIFICAR]",
+        "Tipo de asunto": "Juicio contencioso administrativo (vía sumaria)",
+        "Autoridad / Órgano": "TFJA",
+        "Expediente": "14/26405-16-01-01-01-OT",
+        "Año": "2014",
+        "Descripción": "Improcedencia de la garantía del interés fiscal",
+        "Estado": "Archivo muerto",
+        "Por confirmar": "Parte no dictada; confirmar"
+      }
+    },
+    {
+      "source_sheet": "Catálogo",
+      "source_row": 73,
+      "source_range": "A73:J73",
+      "derived_record_key": "AM-C06-N011",
+      "values": {
+        "Caja": "6",
+        "No.": "11",
+        "Cliente / Parte": "Preferencia en Deportes",
+        "Tipo de asunto": "Visita domiciliaria",
+        "Autoridad / Órgano": null,
+        "Expediente": "1296/20-S1-01-9",
+        "Año": "2020",
+        "Descripción": "Visita domiciliaria en Tijuana, \"detención de ropa\"",
+        "Estado": "Archivo muerto",
+        "Por confirmar": "¿Retención o embargo de mercancía?"
+      }
+    },
+    {
+      "source_sheet": "Catálogo",
+      "source_row": 74,
+      "source_range": "A74:J74",
+      "derived_record_key": "AM-C06-N012",
+      "values": {
+        "Caja": "6",
+        "No.": "12",
+        "Cliente / Parte": "GA Power Cooling [VERIFICAR]",
+        "Tipo de asunto": null,
+        "Autoridad / Órgano": null,
+        "Expediente": "2496/16 acumulado 6789",
+        "Año": "2016",
+        "Descripción": null,
+        "Estado": "Archivo muerto",
+        "Por confirmar": null
+      }
+    },
+    {
+      "source_sheet": "Catálogo",
+      "source_row": 75,
+      "source_range": "A75:J75",
+      "derived_record_key": "AM-C06-N013",
+      "values": {
+        "Caja": "6",
+        "No.": "13",
+        "Cliente / Parte": "High Deportes",
+        "Tipo de asunto": null,
+        "Autoridad / Órgano": "PROFECO",
+        "Expediente": "1923/2004",
+        "Año": "2004",
+        "Descripción": null,
+        "Estado": "Archivo muerto",
+        "Por confirmar": null
+      }
+    },
+    {
+      "source_sheet": "Catálogo",
+      "source_row": 76,
+      "source_range": "A76:J76",
+      "derived_record_key": "AM-C06-N014",
+      "values": {
+        "Caja": "6",
+        "No.": "14",
+        "Cliente / Parte": "Visión Comercial Deportiva",
+        "Tipo de asunto": null,
+        "Autoridad / Órgano": "Procuraduría del Medio Ambiente",
+        "Expediente": "2024-3040",
+        "Año": "2024",
+        "Descripción": null,
+        "Estado": "Archivo muerto",
+        "Por confirmar": "Confirmar si sigue activo"
+      }
+    },
+    {
+      "source_sheet": "Catálogo",
+      "source_row": 77,
+      "source_range": "A77:J77",
+      "derived_record_key": "AM-C07-N001",
+      "values": {
+        "Caja": "7",
+        "No.": "1",
+        "Cliente / Parte": "Comercializadora Gadol",
+        "Tipo de asunto": "Juicio de nulidad",
+        "Autoridad / Órgano": null,
+        "Expediente": "559/16",
+        "Año": "2016",
+        "Descripción": "Dos tomos",
+        "Estado": "Archivo muerto",
+        "Por confirmar": null
+      }
+    },
+    {
+      "source_sheet": "Catálogo",
+      "source_row": 78,
+      "source_range": "A78:J78",
+      "derived_record_key": "AM-C07-N002",
+      "values": {
+        "Caja": "7",
+        "No.": "2",
+        "Cliente / Parte": "Exciting Games",
+        "Tipo de asunto": "Pruebas",
+        "Autoridad / Órgano": null,
+        "Expediente": null,
+        "Año": null,
+        "Descripción": null,
+        "Estado": "Archivo muerto",
+        "Por confirmar": null
+      }
+    },
+    {
+      "source_sheet": "Catálogo",
+      "source_row": 79,
+      "source_range": "A79:J79",
+      "derived_record_key": "AM-C07-N003",
+      "values": {
+        "Caja": "7",
+        "No.": "3",
+        "Cliente / Parte": "Exciting Games [VERIFICAR]",
+        "Tipo de asunto": "Amparo directo [VERIFICAR]",
+        "Autoridad / Órgano": null,
+        "Expediente": "D.A. 343/2016",
+        "Año": "2016",
+        "Descripción": null,
+        "Estado": "Archivo muerto",
+        "Por confirmar": "¿Amparo directo? ¿Exciting Games o Camarillo?"
+      }
+    },
+    {
+      "source_sheet": "Catálogo",
+      "source_row": 80,
+      "source_range": "A80:J80",
+      "derived_record_key": "AM-C07-N004",
+      "values": {
+        "Caja": "7",
+        "No.": "4",
+        "Cliente / Parte": "Sergio Heriberto Camarillo Arroyo",
+        "Tipo de asunto": null,
+        "Autoridad / Órgano": null,
+        "Expediente": null,
+        "Año": null,
+        "Descripción": null,
+        "Estado": "Archivo muerto",
+        "Por confirmar": null
+      }
+    },
+    {
+      "source_sheet": "Catálogo",
+      "source_row": 81,
+      "source_range": "A81:J81",
+      "derived_record_key": "AM-C07-N005",
+      "values": {
+        "Caja": "7",
+        "No.": "5",
+        "Cliente / Parte": "Irma Serrano",
+        "Tipo de asunto": null,
+        "Autoridad / Órgano": null,
+        "Expediente": "1765/2016 [VERIFICAR]",
+        "Año": "2016",
+        "Descripción": null,
+        "Estado": "Archivo muerto",
+        "Por confirmar": "¿El número es de este folder?"
+      }
+    },
+    {
+      "source_sheet": "Catálogo",
+      "source_row": 82,
+      "source_range": "A82:J82",
+      "derived_record_key": "AM-C07-N006",
+      "values": {
+        "Caja": "7",
+        "No.": "6",
+        "Cliente / Parte": "Guillermo Alberto Castorena Arellano",
+        "Tipo de asunto": "Cuestionario",
+        "Autoridad / Órgano": null,
+        "Expediente": null,
+        "Año": null,
+        "Descripción": "Comparece como experto médico",
+        "Estado": "Archivo muerto",
+        "Por confirmar": "¿Cuestionario pericial? ¿De qué juicio?"
+      }
+    }
+  ],
+  "uncertainty_rows": [
+    {
+      "source_sheet": "Catálogo",
+      "source_row": 10,
+      "source_range": "A10:J10",
+      "derived_record_key": "AM-C01-N006",
+      "values": {
+        "Caja": "1",
+        "No.": "6",
+        "Cliente / Parte": "Guillermo Alberto Castorena Arellano",
+        "Tipo de asunto": "Visita domiciliaria",
+        "Autoridad / Órgano": "Administración Desconcentrada de Auditoría Fiscal del Distrito Federal \"4\"",
+        "Expediente": null,
+        "Año": null,
+        "Descripción": "Actas de visita domiciliaria",
+        "Estado": "Archivo muerto",
+        "Por confirmar": "Confirmar número de la ADAF"
+      }
+    },
+    {
+      "source_sheet": "Catálogo",
+      "source_row": 11,
+      "source_range": "A11:J11",
+      "derived_record_key": "AM-C01-N007",
+      "values": {
+        "Caja": "1",
+        "No.": "7",
+        "Cliente / Parte": "Guillermo Alberto Castorena Arellano",
+        "Tipo de asunto": "Recurso de revocación",
+        "Autoridad / Órgano": "SAT",
+        "Expediente": "1354 y 1373 / 1375",
+        "Año": null,
+        "Descripción": "Expedientes relacionados para acumulación",
+        "Estado": "Archivo muerto",
+        "Por confirmar": "Confirmar si el segundo es 1373 o 1375"
+      }
+    },
+    {
+      "source_sheet": "Catálogo",
+      "source_row": 14,
+      "source_range": "A14:J14",
+      "derived_record_key": "AM-C01-N010",
+      "values": {
+        "Caja": "1",
+        "No.": "10",
+        "Cliente / Parte": "Guillermo Alberto Castorena Arellano",
+        "Tipo de asunto": "Amparo indirecto",
+        "Autoridad / Órgano": "Juzgado Quinto de Distrito",
+        "Expediente": "900/2017",
+        "Año": "2017",
+        "Descripción": "Negativa de ampliación de término",
+        "Estado": "Archivo muerto",
+        "Por confirmar": "Confirmar que deriva de la misma revisión"
+      }
+    },
+    {
+      "source_sheet": "Catálogo",
+      "source_row": 16,
+      "source_range": "A16:J16",
+      "derived_record_key": "AM-C01-N012",
+      "values": {
+        "Caja": "1",
+        "No.": "12",
+        "Cliente / Parte": "Sucesión de Susana Cora",
+        "Tipo de asunto": "Sucesión",
+        "Autoridad / Órgano": null,
+        "Expediente": null,
+        "Año": null,
+        "Descripción": "Sucesión",
+        "Estado": "Archivo muerto",
+        "Por confirmar": "Confirmar nombre"
+      }
+    },
+    {
+      "source_sheet": "Catálogo",
+      "source_row": 17,
+      "source_range": "A17:J17",
+      "derived_record_key": "AM-C02-N001",
+      "values": {
+        "Caja": "2",
+        "No.": "1",
+        "Cliente / Parte": "Rodrigo Porrúa del Villar",
+        "Tipo de asunto": "Juicio (dictado como mercantil)",
+        "Autoridad / Órgano": "TFJA – Sala Especializada en Propiedad Intelectual",
+        "Expediente": "122/2019-EPI-01-5",
+        "Año": "2019",
+        "Descripción": null,
+        "Estado": "Archivo muerto",
+        "Por confirmar": "Confirmar vía (nulidad vs. mercantil)"
+      }
+    },
+    {
+      "source_sheet": "Catálogo",
+      "source_row": 19,
+      "source_range": "A19:J19",
+      "derived_record_key": "AM-C02-N003",
+      "values": {
+        "Caja": "2",
+        "No.": "3",
+        "Cliente / Parte": "Rodrigo Porrúa del Villar",
+        "Tipo de asunto": null,
+        "Autoridad / Órgano": null,
+        "Expediente": "1959/2017",
+        "Año": "2017",
+        "Descripción": null,
+        "Estado": "Archivo muerto",
+        "Por confirmar": "Faltan tipo y órgano"
+      }
+    },
+    {
+      "source_sheet": "Catálogo",
+      "source_row": 20,
+      "source_range": "A20:J20",
+      "derived_record_key": "AM-C02-N004",
+      "values": {
+        "Caja": "2",
+        "No.": "4",
+        "Cliente / Parte": "Rodrigo Porrúa del Villar",
+        "Tipo de asunto": "Juicio",
+        "Autoridad / Órgano": "TFJA – Sala Especializada en Propiedad Intelectual",
+        "Expediente": "122/2019-EPI-01-5",
+        "Año": "2019",
+        "Descripción": "Segunda carpeta del mismo expediente",
+        "Estado": "Archivo muerto",
+        "Por confirmar": "¿Duplicado o tomo II?"
+      }
+    },
+    {
+      "source_sheet": "Catálogo",
+      "source_row": 21,
+      "source_range": "A21:J21",
+      "derived_record_key": "AM-C02-N005",
+      "values": {
+        "Caja": "2",
+        "No.": "5",
+        "Cliente / Parte": "Rodrigo Porrúa del Villar",
+        "Tipo de asunto": "RR",
+        "Autoridad / Órgano": null,
+        "Expediente": "197/2018",
+        "Año": "2018",
+        "Descripción": null,
+        "Estado": "Archivo muerto",
+        "Por confirmar": "¿Revisión o revocación? ¿Ante qué autoridad?"
+      }
+    },
+    {
+      "source_sheet": "Catálogo",
+      "source_row": 25,
+      "source_range": "A25:J25",
+      "derived_record_key": "AM-C02-N009",
+      "values": {
+        "Caja": "2",
+        "No.": "9",
+        "Cliente / Parte": "Guillermo Castorena Álvarez",
+        "Tipo de asunto": "Amparo indirecto",
+        "Autoridad / Órgano": null,
+        "Expediente": "1144/2018 (recurso 152/2019)",
+        "Año": "2018",
+        "Descripción": "Con recurso 152/2019",
+        "Estado": "Archivo muerto",
+        "Por confirmar": "¿Recurso de revisión o apelación?"
+      }
+    },
+    {
+      "source_sheet": "Catálogo",
+      "source_row": 26,
+      "source_range": "A26:J26",
+      "derived_record_key": "AM-C02-N010",
+      "values": {
+        "Caja": "2",
+        "No.": "10",
+        "Cliente / Parte": "Martín Flores Rodríguez",
+        "Tipo de asunto": "Acto de inspección",
+        "Autoridad / Órgano": null,
+        "Expediente": null,
+        "Año": "2019",
+        "Descripción": "Papaxteles [VERIFICAR]",
+        "Estado": "Archivo muerto",
+        "Por confirmar": "Confirmar escritura y si es cliente o lugar"
+      }
+    },
+    {
+      "source_sheet": "Catálogo",
+      "source_row": 30,
+      "source_range": "A30:J30",
+      "derived_record_key": "AM-C03-N001",
+      "values": {
+        "Caja": "3",
+        "No.": "1",
+        "Cliente / Parte": "Guillermo Alberto Castorena Arellano",
+        "Tipo de asunto": "Contabilidad",
+        "Autoridad / Órgano": null,
+        "Expediente": null,
+        "Año": "2014 / 2016",
+        "Descripción": "Enero–junio 2014 y octubre–noviembre 2016",
+        "Estado": "Archivo muerto",
+        "Por confirmar": "¿Una carpeta o dos?"
+      }
+    },
+    {
+      "source_sheet": "Catálogo",
+      "source_row": 38,
+      "source_range": "A38:J38",
+      "derived_record_key": "AM-C03-N009",
+      "values": {
+        "Caja": "3",
+        "No.": "9",
+        "Cliente / Parte": "Guillermo Alberto Castorena Arellano",
+        "Tipo de asunto": "Juicio",
+        "Autoridad / Órgano": null,
+        "Expediente": null,
+        "Año": null,
+        "Descripción": "Anexos del juicio",
+        "Estado": "Archivo muerto",
+        "Por confirmar": "¿De qué juicio?"
+      }
+    },
+    {
+      "source_sheet": "Catálogo",
+      "source_row": 40,
+      "source_range": "A40:J40",
+      "derived_record_key": "AM-C05-N001",
+      "values": {
+        "Caja": "5",
+        "No.": "1",
+        "Cliente / Parte": "GA Power Cooling [VERIFICAR]",
+        "Tipo de asunto": "Comercio exterior",
+        "Autoridad / Órgano": "TFJA – Primera Sala Especializada en Materia de Comercio Exterior",
+        "Expediente": "A88/2018 [VERIFICAR]",
+        "Año": "2018",
+        "Descripción": null,
+        "Estado": "Archivo muerto",
+        "Por confirmar": "¿GEA Power Cooling? ¿488/2018?"
+      }
+    },
+    {
+      "source_sheet": "Catálogo",
+      "source_row": 43,
+      "source_range": "A43:J43",
+      "derived_record_key": "AM-C05-N004",
+      "values": {
+        "Caja": "5",
+        "No.": "4",
+        "Cliente / Parte": "Suburbia",
+        "Tipo de asunto": "Juicio contencioso administrativo",
+        "Autoridad / Órgano": "Tercera Sala Ordinaria",
+        "Expediente": "11-7209/2025 [VERIFICAR]",
+        "Año": "2025",
+        "Descripción": null,
+        "Estado": "POSIBLE ACTIVO",
+        "Por confirmar": "¿TJ/III-7209/2025? ¿Archivo activo?"
+      }
+    },
+    {
+      "source_sheet": "Catálogo",
+      "source_row": 44,
+      "source_range": "A44:J44",
+      "derived_record_key": "AM-C05-N005",
+      "values": {
+        "Caja": "5",
+        "No.": "5",
+        "Cliente / Parte": "ADCON [VERIFICAR]",
+        "Tipo de asunto": "Juicio contencioso administrativo",
+        "Autoridad / Órgano": "TJACDMX – Primera Sala Ordinaria",
+        "Expediente": "TJ/I-5602/2026",
+        "Año": "2026",
+        "Descripción": "Autoridad: Secretario de Finanzas del Distrito Federal",
+        "Estado": "POSIBLE ACTIVO",
+        "Por confirmar": "Confirmar nombre; ¿archivo activo?"
+      }
+    },
+    {
+      "source_sheet": "Catálogo",
+      "source_row": 45,
+      "source_range": "A45:J45",
+      "derived_record_key": "AM-C05-N006",
+      "values": {
+        "Caja": "5",
+        "No.": "6",
+        "Cliente / Parte": "Distribuidora Liverpool",
+        "Tipo de asunto": "Juicio contencioso administrativo",
+        "Autoridad / Órgano": "TJACDMX – Primera Sala Especializada",
+        "Expediente": "TJ/I-22017/2026",
+        "Año": "2026",
+        "Descripción": null,
+        "Estado": "POSIBLE ACTIVO",
+        "Por confirmar": "¿Archivo activo?"
+      }
+    },
+    {
+      "source_sheet": "Catálogo",
+      "source_row": 49,
+      "source_range": "A49:J49",
+      "derived_record_key": "AM-C05-N010",
+      "values": {
+        "Caja": "5",
+        "No.": "10",
+        "Cliente / Parte": "Prodinal 1 [VERIFICAR]",
+        "Tipo de asunto": "Concurso mercantil",
+        "Autoridad / Órgano": "Juzgado Sexto de Distrito",
+        "Expediente": "253",
+        "Año": null,
+        "Descripción": null,
+        "Estado": "Archivo muerto",
+        "Por confirmar": "Confirmar nombre"
+      }
+    },
+    {
+      "source_sheet": "Catálogo",
+      "source_row": 52,
+      "source_range": "A52:J52",
+      "derived_record_key": "AM-C05-N013",
+      "values": {
+        "Caja": "5",
+        "No.": "13",
+        "Cliente / Parte": "Comercializadora Gadol [VERIFICAR]",
+        "Tipo de asunto": "Pruebas",
+        "Autoridad / Órgano": null,
+        "Expediente": null,
+        "Año": "2011",
+        "Descripción": "Dictado como \"Comercializador Agador\"",
+        "Estado": "Archivo muerto",
+        "Por confirmar": "Confirmar que es Gadol"
+      }
+    },
+    {
+      "source_sheet": "Catálogo",
+      "source_row": 53,
+      "source_range": "A53:J53",
+      "derived_record_key": "AM-C05-N014",
+      "values": {
+        "Caja": "5",
+        "No.": "14",
+        "Cliente / Parte": "Mariana Calderón Vidal",
+        "Tipo de asunto": null,
+        "Autoridad / Órgano": "Juzgado Decimoséptimo de Distrito",
+        "Expediente": "206/2025",
+        "Año": "2025",
+        "Descripción": null,
+        "Estado": "POSIBLE ACTIVO",
+        "Por confirmar": "¿Archivo activo?"
+      }
+    },
+    {
+      "source_sheet": "Catálogo",
+      "source_row": 60,
+      "source_range": "A60:J60",
+      "derived_record_key": "AM-C05-N021",
+      "values": {
+        "Caja": "5",
+        "No.": "21",
+        "Cliente / Parte": "[DATO FALTANTE]",
+        "Tipo de asunto": null,
+        "Autoridad / Órgano": null,
+        "Expediente": "1316/2015",
+        "Año": "2015",
+        "Descripción": null,
+        "Estado": "Archivo muerto",
+        "Por confirmar": "Falta parte"
+      }
+    },
+    {
+      "source_sheet": "Catálogo",
+      "source_row": 62,
+      "source_range": "A62:J62",
+      "derived_record_key": "AM-C05-N023",
+      "values": {
+        "Caja": "5",
+        "No.": "23",
+        "Cliente / Parte": "[DATO FALTANTE]",
+        "Tipo de asunto": null,
+        "Autoridad / Órgano": null,
+        "Expediente": null,
+        "Año": null,
+        "Descripción": "Dictado como \"esto que se da\"",
+        "Estado": "Archivo muerto",
+        "Por confirmar": "¿Qué es?"
+      }
+    },
+    {
+      "source_sheet": "Catálogo",
+      "source_row": 72,
+      "source_range": "A72:J72",
+      "derived_record_key": "AM-C06-N010",
+      "values": {
+        "Caja": "6",
+        "No.": "10",
+        "Cliente / Parte": "Comercializadora Gadol [VERIFICAR]",
+        "Tipo de asunto": "Juicio contencioso administrativo (vía sumaria)",
+        "Autoridad / Órgano": "TFJA",
+        "Expediente": "14/26405-16-01-01-01-OT",
+        "Año": "2014",
+        "Descripción": "Improcedencia de la garantía del interés fiscal",
+        "Estado": "Archivo muerto",
+        "Por confirmar": "Parte no dictada; confirmar"
+      }
+    },
+    {
+      "source_sheet": "Catálogo",
+      "source_row": 73,
+      "source_range": "A73:J73",
+      "derived_record_key": "AM-C06-N011",
+      "values": {
+        "Caja": "6",
+        "No.": "11",
+        "Cliente / Parte": "Preferencia en Deportes",
+        "Tipo de asunto": "Visita domiciliaria",
+        "Autoridad / Órgano": null,
+        "Expediente": "1296/20-S1-01-9",
+        "Año": "2020",
+        "Descripción": "Visita domiciliaria en Tijuana, \"detención de ropa\"",
+        "Estado": "Archivo muerto",
+        "Por confirmar": "¿Retención o embargo de mercancía?"
+      }
+    },
+    {
+      "source_sheet": "Catálogo",
+      "source_row": 74,
+      "source_range": "A74:J74",
+      "derived_record_key": "AM-C06-N012",
+      "values": {
+        "Caja": "6",
+        "No.": "12",
+        "Cliente / Parte": "GA Power Cooling [VERIFICAR]",
+        "Tipo de asunto": null,
+        "Autoridad / Órgano": null,
+        "Expediente": "2496/16 acumulado 6789",
+        "Año": "2016",
+        "Descripción": null,
+        "Estado": "Archivo muerto",
+        "Por confirmar": null
+      }
+    },
+    {
+      "source_sheet": "Catálogo",
+      "source_row": 76,
+      "source_range": "A76:J76",
+      "derived_record_key": "AM-C06-N014",
+      "values": {
+        "Caja": "6",
+        "No.": "14",
+        "Cliente / Parte": "Visión Comercial Deportiva",
+        "Tipo de asunto": null,
+        "Autoridad / Órgano": "Procuraduría del Medio Ambiente",
+        "Expediente": "2024-3040",
+        "Año": "2024",
+        "Descripción": null,
+        "Estado": "Archivo muerto",
+        "Por confirmar": "Confirmar si sigue activo"
+      }
+    },
+    {
+      "source_sheet": "Catálogo",
+      "source_row": 79,
+      "source_range": "A79:J79",
+      "derived_record_key": "AM-C07-N003",
+      "values": {
+        "Caja": "7",
+        "No.": "3",
+        "Cliente / Parte": "Exciting Games [VERIFICAR]",
+        "Tipo de asunto": "Amparo directo [VERIFICAR]",
+        "Autoridad / Órgano": null,
+        "Expediente": "D.A. 343/2016",
+        "Año": "2016",
+        "Descripción": null,
+        "Estado": "Archivo muerto",
+        "Por confirmar": "¿Amparo directo? ¿Exciting Games o Camarillo?"
+      }
+    },
+    {
+      "source_sheet": "Catálogo",
+      "source_row": 81,
+      "source_range": "A81:J81",
+      "derived_record_key": "AM-C07-N005",
+      "values": {
+        "Caja": "7",
+        "No.": "5",
+        "Cliente / Parte": "Irma Serrano",
+        "Tipo de asunto": null,
+        "Autoridad / Órgano": null,
+        "Expediente": "1765/2016 [VERIFICAR]",
+        "Año": "2016",
+        "Descripción": null,
+        "Estado": "Archivo muerto",
+        "Por confirmar": "¿El número es de este folder?"
+      }
+    },
+    {
+      "source_sheet": "Catálogo",
+      "source_row": 82,
+      "source_range": "A82:J82",
+      "derived_record_key": "AM-C07-N006",
+      "values": {
+        "Caja": "7",
+        "No.": "6",
+        "Cliente / Parte": "Guillermo Alberto Castorena Arellano",
+        "Tipo de asunto": "Cuestionario",
+        "Autoridad / Órgano": null,
+        "Expediente": null,
+        "Año": null,
+        "Descripción": "Comparece como experto médico",
+        "Estado": "Archivo muerto",
+        "Por confirmar": "¿Cuestionario pericial? ¿De qué juicio?"
+      }
+    }
+  ],
+  "limits": [
+    "Los hechos y estados sólo reflejan el inventario documental recuperado; no hubo comprobación física de cajas ni consulta judicial.",
+    "Sin conversaciones históricas accesibles no se atribuyen a Emi las notas del libro como instrucciones verbatim suyas.",
+    "No se encontraron otras versiones por los títulos buscados; esto no acredita inexistencia de copias con nombres distintos."
+  ],
+  "remote_mutations": [],
+  "validation": {
+    "record_keys_unique": true,
+    "all_78_rows_extracted": true,
+    "summary_cached_values_match_independent_counts": true,
+    "formulas_recalculated": false,
+    "note": "La comprobación de 24 fórmulas del resumen compara sus valores guardados con conteos independientes de las filas fuente; no se modificó ni recalculó el libro."
+  },
+  "_preservation": {
+    "format": "audit-preserved-with-path-normalization-v1",
+    "binary_snapshots": "fuentes/<familia>/<sha12>_<nombre>",
+    "runtime_paths": "RUTA_EJECUCION_NO_PERSISTENTE identifica un localizador de la sesión original, no un archivo disponible en este directorio.",
+    "source_content": "Auditoría completa; se normalizaron rutas y se retiraron sólo URLs de transferencia efímeras. No se modifica el contenido de los XLSX/PDF.",
+    "original_audit_sha256": "9360595f6cbd5b8acbc9b5d7415fda6c21d68faa991664ed11caa2a4bcce51fe",
+    "source_filename": "archivo_muerto.json"
+  }
+}

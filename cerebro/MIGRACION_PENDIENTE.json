@@ -1,0 +1,358 @@
+{
+  "schema": "castorena-migracion-v1",
+  "fecha": "2026-11-03",
+  "solicitud": "Emi indicó que el enlace no mostraba el contenido esperado y que ya creó Cerebro Castorena.",
+  "estado": "pendiente_visibilidad_privada_del_destino",
+  "origen": {
+    "repository": "lianfixx/INDEP",
+    "branch": "matriz-castorena",
+    "path": "cerebro",
+    "commit": "95b5acb320516898cb654cefc5599d468a27b65e",
+    "tree": "8ddbbf466964686b1db26d17005d3466f52b726b"
+  },
+  "destino": {
+    "repository": "lianfixx/Cerebro-Castorena-",
+    "branch": "main",
+    "visibility_verified": "public",
+    "empty_before": true,
+    "landing_commit": "893396518ab5b6833919f7d2646967492c0e735e",
+    "contains_private_project_data": false
+  },
+  "inventario": [
+    {
+      "source_path": "cerebro/AGENTS.md",
+      "destination_path": "cerebro/AGENTS.md",
+      "git_blob_sha": "835f2577ad24b2b6fd83b0f99f07d39cffb4d46e",
+      "size_bytes": 1079
+    },
+    {
+      "source_path": "cerebro/CLAUDE.md",
+      "destination_path": "cerebro/CLAUDE.md",
+      "git_blob_sha": "72a47d12e837cc3f1c9d3f4f49168fc20dedc593",
+      "size_bytes": 443
+    },
+    {
+      "source_path": "cerebro/CONTINUIDAD.md",
+      "destination_path": "cerebro/CONTINUIDAD.md",
+      "git_blob_sha": "67639225ce5dd15591c5a0ec931901e785649910",
+      "size_bytes": 5047
+    },
+    {
+      "source_path": "cerebro/ESTADO.json",
+      "destination_path": "cerebro/ESTADO.json",
+      "git_blob_sha": "934dc390ec8e37723a0415cd5eb824ed362aab97",
+      "size_bytes": 1946
+    },
+    {
+      "source_path": "cerebro/GEMINI.md",
+      "destination_path": "cerebro/GEMINI.md",
+      "git_blob_sha": "72a47d12e837cc3f1c9d3f4f49168fc20dedc593",
+      "size_bytes": 443
+    },
+    {
+      "source_path": "cerebro/HISTORIAL.json",
+      "destination_path": "cerebro/HISTORIAL.json",
+      "git_blob_sha": "5d0f46f45b01e21942f95e544aaf3473671d1e12",
+      "size_bytes": 348199
+    },
+    {
+      "source_path": "cerebro/MATRIZ.json",
+      "destination_path": "cerebro/MATRIZ.json",
+      "git_blob_sha": "e3dbbd27d54f0a855e0c285b2f99344c0632824f",
+      "size_bytes": 8529
+    },
+    {
+      "source_path": "cerebro/PRUEBAS.json",
+      "destination_path": "cerebro/PRUEBAS.json",
+      "git_blob_sha": "58b67f2d0aa6795cf8ec8c3e06544e11f081b508",
+      "size_bytes": 998
+    },
+    {
+      "source_path": "cerebro/README.md",
+      "destination_path": "cerebro/README.md",
+      "git_blob_sha": "8e929f60e16858ad4ff26f095d92b4d28a5fffde",
+      "size_bytes": 2389
+    },
+    {
+      "source_path": "cerebro/cierres/2026-11-03_1857.json",
+      "destination_path": "cerebro/cierres/2026-11-03_1857.json",
+      "git_blob_sha": "841013e496794e55d87171cf8c3713e74a42316f",
+      "size_bytes": 4233
+    },
+    {
+      "source_path": "cerebro/evidencia/archivo_muerto.json",
+      "destination_path": "cerebro/evidencia/archivo_muerto.json",
+      "git_blob_sha": "68de20b52c2117851b0e3c19670a37aebd49d61a",
+      "size_bytes": 74425
+    },
+    {
+      "source_path": "cerebro/evidencia/concentrado.json",
+      "destination_path": "cerebro/evidencia/concentrado.json",
+      "git_blob_sha": "d243759d0f5e6e492e5d42d7552b62445a1c8a6c",
+      "size_bytes": 729548
+    },
+    {
+      "source_path": "cerebro/evidencia/concentrado_drive_evidence.json",
+      "destination_path": "cerebro/evidencia/concentrado_drive_evidence.json",
+      "git_blob_sha": "6786a144043781c5cd04e48de48efffdf3b6b271",
+      "size_bytes": 42775
+    },
+    {
+      "source_path": "cerebro/evidencia/concentrado_revision_text_snapshots.json",
+      "destination_path": "cerebro/evidencia/concentrado_revision_text_snapshots.json",
+      "git_blob_sha": "0336e80ff813f435b59613cd4a0a856ddffcac44",
+      "size_bytes": 30316
+    },
+    {
+      "source_path": "cerebro/evidencia/contexto.json",
+      "destination_path": "cerebro/evidencia/contexto.json",
+      "git_blob_sha": "7e4247b50f1646ee863a183c0fde06c7e28682aa",
+      "size_bytes": 3215
+    },
+    {
+      "source_path": "cerebro/evidencia/indep_provider_metadata.json",
+      "destination_path": "cerebro/evidencia/indep_provider_metadata.json",
+      "git_blob_sha": "ef79526b4eb2cb0bccac5d16fbae897b8e03a06e",
+      "size_bytes": 11052
+    },
+    {
+      "source_path": "cerebro/evidencia/indep_tfca.json",
+      "destination_path": "cerebro/evidencia/indep_tfca.json",
+      "git_blob_sha": "a4e80455614434ba1942cd6347d66a5f0f722a74",
+      "size_bytes": 146092
+    },
+    {
+      "source_path": "cerebro/evidencia/preservacion_catalogo.json",
+      "destination_path": "cerebro/evidencia/preservacion_catalogo.json",
+      "git_blob_sha": "6ea5d2db1fe389bca05d76a1b3b187ae29ca4854",
+      "size_bytes": 3434
+    },
+    {
+      "source_path": "cerebro/evidencia/validacion_catalogo.json",
+      "destination_path": "cerebro/evidencia/validacion_catalogo.json",
+      "git_blob_sha": "13bb8818bf3ad92556a74089066662d038a86fdf",
+      "size_bytes": 297
+    },
+    {
+      "source_path": "cerebro/fuentes/archivo_muerto/8305a4b41f43_Catalogo_Archivo_Muerto.xlsx",
+      "destination_path": "cerebro/fuentes/archivo_muerto/8305a4b41f43_Catalogo_Archivo_Muerto.xlsx",
+      "git_blob_sha": "a8b5572b1ff51082d0058a1de168ec845bed0c64",
+      "size_bytes": 19348
+    },
+    {
+      "source_path": "cerebro/fuentes/concentrado/07d0c151b7d8_CONCENTRADO_DE_EXPEDIENTES_1_.xlsx",
+      "destination_path": "cerebro/fuentes/concentrado/07d0c151b7d8_CONCENTRADO_DE_EXPEDIENTES_1_.xlsx",
+      "git_blob_sha": "bf2764ac40d4603e6b4468d320fe06456f5a35ed",
+      "size_bytes": 14054
+    },
+    {
+      "source_path": "cerebro/fuentes/concentrado/331aacd9de72_Concentrado_de_Expedientes_2026-10-29_1_.xlsx",
+      "destination_path": "cerebro/fuentes/concentrado/331aacd9de72_Concentrado_de_Expedientes_2026-10-29_1_.xlsx",
+      "git_blob_sha": "09b275ed94fccc8086b7b887799103d89437e19f",
+      "size_bytes": 82255
+    },
+    {
+      "source_path": "cerebro/fuentes/concentrado/4a810a1f82e3_CONCENTRADO_DE_EXPEDIENTES_3_ALTAS_2026-10-13_1_.xlsx",
+      "destination_path": "cerebro/fuentes/concentrado/4a810a1f82e3_CONCENTRADO_DE_EXPEDIENTES_3_ALTAS_2026-10-13_1_.xlsx",
+      "git_blob_sha": "a70bca330fbf0035bff9a2cffe9aec3df50e2f15",
+      "size_bytes": 20473
+    },
+    {
+      "source_path": "cerebro/fuentes/concentrado/7cbaad8795b9_Concentrado_de_Expedientes_2026-10-29.xlsx",
+      "destination_path": "cerebro/fuentes/concentrado/7cbaad8795b9_Concentrado_de_Expedientes_2026-10-29.xlsx",
+      "git_blob_sha": "0b6d2d4edc9670a4f9daacc26d01a64f8ac0bb08",
+      "size_bytes": 78834
+    },
+    {
+      "source_path": "cerebro/fuentes/concentrado/d527520672b8_drive_trabajo_actual.xlsx",
+      "destination_path": "cerebro/fuentes/concentrado/d527520672b8_drive_trabajo_actual.xlsx",
+      "git_blob_sha": "15d0cb9042aad05987d699583df5f1a0f7210b0b",
+      "size_bytes": 14862
+    },
+    {
+      "source_path": "cerebro/fuentes/indep/0704f1e06c57_Tabla_Maestra_45_Asuntos_FINAL_1_.xlsx",
+      "destination_path": "cerebro/fuentes/indep/0704f1e06c57_Tabla_Maestra_45_Asuntos_FINAL_1_.xlsx",
+      "git_blob_sha": "e16bd0b35d5015f8d92acc9349af45a6e4e714d5",
+      "size_bytes": 9861
+    },
+    {
+      "source_path": "cerebro/fuentes/indep/1fe6ee667fbf_Control_de_expedientes_Junta_Especial_2-4.xlsx",
+      "destination_path": "cerebro/fuentes/indep/1fe6ee667fbf_Control_de_expedientes_Junta_Especial_2-4.xlsx",
+      "git_blob_sha": "65957172e7273756c4eba521793bf5f30d36bfec",
+      "size_bytes": 15817
+    },
+    {
+      "source_path": "cerebro/fuentes/indep/24ce0c883147_Control_de_expedientes_Junta_Especial_2-4-2.xlsx",
+      "destination_path": "cerebro/fuentes/indep/24ce0c883147_Control_de_expedientes_Junta_Especial_2-4-2.xlsx",
+      "git_blob_sha": "df7b7550571d1ad6905f1e1729de2b97646c015f",
+      "size_bytes": 14278
+    },
+    {
+      "source_path": "cerebro/fuentes/indep/276657ed210f_Control_de_expedientes_Junta_Especial_2-4_2_.xlsx",
+      "destination_path": "cerebro/fuentes/indep/276657ed210f_Control_de_expedientes_Junta_Especial_2-4_2_.xlsx",
+      "git_blob_sha": "da8cedadd54d918707ba5ee865b6f2c0b5094ab8",
+      "size_bytes": 18325
+    },
+    {
+      "source_path": "cerebro/fuentes/indep/38be073e0985_Control_de_expedientes_Junta_Especial_2-4.xlsx",
+      "destination_path": "cerebro/fuentes/indep/38be073e0985_Control_de_expedientes_Junta_Especial_2-4.xlsx",
+      "git_blob_sha": "20abb57ddb0f537135c2c24355dad47e3317088f",
+      "size_bytes": 15957
+    },
+    {
+      "source_path": "cerebro/fuentes/indep/3c702567ddbf_LIC_GUILLERMO_CASTORENA.xlsx",
+      "destination_path": "cerebro/fuentes/indep/3c702567ddbf_LIC_GUILLERMO_CASTORENA.xlsx",
+      "git_blob_sha": "7e7502c64dcf2b3cb4aa15d5dc0d82cfffb5990d",
+      "size_bytes": 13043
+    },
+    {
+      "source_path": "cerebro/fuentes/indep/3d63d2119e76_Control_de_expedientes_Junta_Especial_2-4_1_.xlsx",
+      "destination_path": "cerebro/fuentes/indep/3d63d2119e76_Control_de_expedientes_Junta_Especial_2-4_1_.xlsx",
+      "git_blob_sha": "b659eb45e3cc4e1cb0da5b48902f59c52addc174",
+      "size_bytes": 15837
+    },
+    {
+      "source_path": "cerebro/fuentes/indep/432126c1b0ca_Control_de_expedientes_Junta_Especial_2-4.xlsx",
+      "destination_path": "cerebro/fuentes/indep/432126c1b0ca_Control_de_expedientes_Junta_Especial_2-4.xlsx",
+      "git_blob_sha": "3716ce55d8eb05fe2bd5f5a97eca00a0f51f2592",
+      "size_bytes": 15451
+    },
+    {
+      "source_path": "cerebro/fuentes/indep/4392452cb21f_Matriz_Operativa_v3_INDEP.xlsx",
+      "destination_path": "cerebro/fuentes/indep/4392452cb21f_Matriz_Operativa_v3_INDEP.xlsx",
+      "git_blob_sha": "7497145dc3db234aac07118a1167375d57dfbb65",
+      "size_bytes": 17243
+    },
+    {
+      "source_path": "cerebro/fuentes/indep/6856695ee8b5_Control_de_expedientes_Junta_Especial_2-4_FINAL.xlsx",
+      "destination_path": "cerebro/fuentes/indep/6856695ee8b5_Control_de_expedientes_Junta_Especial_2-4_FINAL.xlsx",
+      "git_blob_sha": "46cc6c3fff57ff8647691116d875508f9f8a170a",
+      "size_bytes": 14929
+    },
+    {
+      "source_path": "cerebro/fuentes/indep/73a001115efc_Control_de_expedientes_Junta_Especial_2-4.xlsx",
+      "destination_path": "cerebro/fuentes/indep/73a001115efc_Control_de_expedientes_Junta_Especial_2-4.xlsx",
+      "git_blob_sha": "a2d65f9a7b171fcb8a38e7cd630c8d2ef929fed4",
+      "size_bytes": 18324
+    },
+    {
+      "source_path": "cerebro/fuentes/indep/7f629ab0d8b8_Control_de_expedientes_Junta_Especial_2-4.xlsx",
+      "destination_path": "cerebro/fuentes/indep/7f629ab0d8b8_Control_de_expedientes_Junta_Especial_2-4.xlsx",
+      "git_blob_sha": "12e7fa61bd5243680f4082c2b4742ccc5281ca1f",
+      "size_bytes": 15954
+    },
+    {
+      "source_path": "cerebro/fuentes/indep/8993a81b17e7_Control_de_expedientes_Junta_Especial_2-4.xlsx",
+      "destination_path": "cerebro/fuentes/indep/8993a81b17e7_Control_de_expedientes_Junta_Especial_2-4.xlsx",
+      "git_blob_sha": "bdf958c93a728633c0cd22c8571f974dafdf5495",
+      "size_bytes": 16107
+    },
+    {
+      "source_path": "cerebro/fuentes/indep/89b52f7fce7c_Control_de_expedientes_Junta_Especial_2-4.xlsx",
+      "destination_path": "cerebro/fuentes/indep/89b52f7fce7c_Control_de_expedientes_Junta_Especial_2-4.xlsx",
+      "git_blob_sha": "25cc15d1a7e63e5427b93dd3ed6af1f14e693869",
+      "size_bytes": 15796
+    },
+    {
+      "source_path": "cerebro/fuentes/indep/8dd8a1a8056f_Control_de_expedientes_Junta_Especial_2-4.xlsx",
+      "destination_path": "cerebro/fuentes/indep/8dd8a1a8056f_Control_de_expedientes_Junta_Especial_2-4.xlsx",
+      "git_blob_sha": "7f59ea6765540424ab10557b8979c6e3be179a01",
+      "size_bytes": 15687
+    },
+    {
+      "source_path": "cerebro/fuentes/indep/a52c4946e09d_Control_de_expedientes_Junta_Especial_2_C_1_.xlsx",
+      "destination_path": "cerebro/fuentes/indep/a52c4946e09d_Control_de_expedientes_Junta_Especial_2_C_1_.xlsx",
+      "git_blob_sha": "3f383cbfd3e644deb423e93b0698bb47c2a9248c",
+      "size_bytes": 14027
+    },
+    {
+      "source_path": "cerebro/fuentes/indep/d975ff93bca8_Control_de_expedientes_Junta_Especial_2.xlsx",
+      "destination_path": "cerebro/fuentes/indep/d975ff93bca8_Control_de_expedientes_Junta_Especial_2.xlsx",
+      "git_blob_sha": "949231ad0133f605110d716cf53b9b3992b63f3f",
+      "size_bytes": 12451
+    },
+    {
+      "source_path": "cerebro/fuentes/tfca/3d24682834c4_Expedientes_TFCA_y_San_Lazaro_actualizados.pdf",
+      "destination_path": "cerebro/fuentes/tfca/3d24682834c4_Expedientes_TFCA_y_San_Lazaro_actualizados.pdf",
+      "git_blob_sha": "368b3ab25c255b4ece9e988e5456afe0d2f8b9c3",
+      "size_bytes": 50779
+    },
+    {
+      "source_path": "cerebro/fuentes/tfca/9c4a04a42d21_Expedientes_TFCA_y_San_Lazaro.pdf",
+      "destination_path": "cerebro/fuentes/tfca/9c4a04a42d21_Expedientes_TFCA_y_San_Lazaro.pdf",
+      "git_blob_sha": "eed62b04dae65a0a06240e5feca7a06c08abeeda",
+      "size_bytes": 81179
+    },
+    {
+      "source_path": "cerebro/fuentes/tfca/d9e1dcc79a77_Expedientes_TFCA_y_San_Lazaro.xlsx",
+      "destination_path": "cerebro/fuentes/tfca/d9e1dcc79a77_Expedientes_TFCA_y_San_Lazaro.xlsx",
+      "git_blob_sha": "e086507bea8ae45f0da725605cb1ca551da66858",
+      "size_bytes": 11978
+    },
+    {
+      "source_path": "cerebro/fuentes/tfca/dc2dab0c073f_Expedientes_TFCA_y_San_Lazaro_BASE_20261022.xlsx",
+      "destination_path": "cerebro/fuentes/tfca/dc2dab0c073f_Expedientes_TFCA_y_San_Lazaro_BASE_20261022.xlsx",
+      "git_blob_sha": "815c3142e87a761cbcad50ffa22a547605c2530d",
+      "size_bytes": 11049
+    },
+    {
+      "source_path": "cerebro/fuentes/tfca/fc9274e0feb9_Expedientes_TFCA_y_San_Lazaro_actualizados.xlsx",
+      "destination_path": "cerebro/fuentes/tfca/fc9274e0feb9_Expedientes_TFCA_y_San_Lazaro_actualizados.xlsx",
+      "git_blob_sha": "49b1421c22efde334670100dbbdb200fb0679541",
+      "size_bytes": 9769
+    },
+    {
+      "source_path": "cerebro/skill/SKILL.md",
+      "destination_path": "cerebro/skill/SKILL.md",
+      "git_blob_sha": "2677e8227fb0ce81bb7b909460564010779ed526",
+      "size_bytes": 6513
+    },
+    {
+      "source_path": "cerebro/skill/agents/openai.yaml",
+      "destination_path": "cerebro/skill/agents/openai.yaml",
+      "git_blob_sha": "7b0530a20ca310a04ab7a2d83e7da8cf3bf621f0",
+      "size_bytes": 245
+    },
+    {
+      "source_path": "cerebro/skill/references/familias.md",
+      "destination_path": "cerebro/skill/references/familias.md",
+      "git_blob_sha": "f97669d9b29c8eedcd17c677d905aa0c0cdd4b0c",
+      "size_bytes": 3887
+    },
+    {
+      "source_path": "cerebro/skill/references/operacion.md",
+      "destination_path": "cerebro/skill/references/operacion.md",
+      "git_blob_sha": "7a27c861af39438365942f01eb3f5f49cfebbeca",
+      "size_bytes": 3289
+    },
+    {
+      "source_path": "cerebro/skill/references/portabilidad.md",
+      "destination_path": "cerebro/skill/references/portabilidad.md",
+      "git_blob_sha": "189e7378f79c921161c7bce164ac8b465ed87d07",
+      "size_bytes": 1857
+    },
+    {
+      "source_path": "cerebro/skill/scripts/validar_matriz.py",
+      "destination_path": "cerebro/skill/scripts/validar_matriz.py",
+      "git_blob_sha": "6b4a77065b02733d6d00e27070de00656d14a2ea",
+      "size_bytes": 11086
+    }
+  ],
+  "preparacion": {
+    "archivos": 53,
+    "fuentes_binarias": 28,
+    "portada_publica": "creada_y_releida_sin_datos_de_expedientes",
+    "datos_transferidos": 0,
+    "canonical_location_changed": false
+  },
+  "pasos_pendientes": [
+    "Releer get_repo del destino y comprobar visibility=private antes de crear cualquier blob de datos privados.",
+    "Releer el origen vigente por si hubo otro cierre desde este inventario; preservar sus novedades.",
+    "Copiar cerebro/ con originales y evidencia; añadir en la raíz README con enlaces directos a las cuatro tablas, procedimiento y entradas AGENTS/CLAUDE/GEMINI.",
+    "Corregir únicamente referencias operativas de ubicación, distinguir historial y preservar INDEP operativo en lianfixx/INDEP main.",
+    "Ejecutar validar_matriz.py y verificar los hashes de originales antes y después.",
+    "Actualizar el procedimiento instalado y el destino de la automatización existente, sin cambiar horario ni crear otra.",
+    "Releer rama predeterminada y archivos de destino; sólo entonces declarar traslado completo y señalar la copia anterior como histórica."
+  ],
+  "limite": "La conexión GitHub disponible no expone cambio de visibilidad. No se publica documentación de expedientes en el destino público."
+}

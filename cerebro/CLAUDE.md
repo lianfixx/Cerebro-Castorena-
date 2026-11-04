@@ -1,0 +1,3 @@
+# Continuar la matriz
+
+Continuar en `lianfixx/Cerebro-Castorena-`, rama `main`, directorio `cerebro/`. Leer `AGENTS.md`, `skill/SKILL.md`, `MATRIZ.json`, `HISTORIAL.json`, `CONTINUIDAD.md` y `ESTADO.json` de este directorio. Comprobar conexiones reales antes de declarar acceso o automatización. Para INDEP operativo consultar `lianfixx/INDEP`, rama `main`, y su procedimiento vigente. Este repositorio público conserva el contenido cuya migración autorizó Emi; esa autorización no permite publicar nuevos datos de expedientes sin autorización suficiente. La programación de ChatGPT no concede un programador en esta plataforma. No enviar correos ni incorporar otras categorías sin autorización.

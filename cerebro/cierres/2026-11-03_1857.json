@@ -1,0 +1,121 @@
+{
+  "schema_version": "castorena-cierre-v1",
+  "fecha_hora_local": "2026-11-03T18:57:09-06:00",
+  "timezone": "America/Mexico_City",
+  "base_matrix_commit": "f4099faa87ee1322b847617769e4c79248c54b50",
+  "coverage": {
+    "github_matrix": {
+      "status": "leido",
+      "head_before": "f4099faa87ee1322b847617769e4c79248c54b50",
+      "files": [
+        "AGENTS.md",
+        "skill/SKILL.md",
+        "skill/references/operacion.md",
+        "skill/references/familias.md",
+        "skill/references/portabilidad.md",
+        "MATRIZ.json",
+        "HISTORIAL.json",
+        "CONTINUIDAD.md",
+        "ESTADO.json"
+      ]
+    },
+    "github_indep_main": {
+      "status": "sin_cambio",
+      "head": "29b7fdd6237f1553f61291b438c551eb61451479",
+      "latest_documented_delivery": 39,
+      "logical_master": 20
+    },
+    "library": {
+      "status": "sin_nueva_version_detectada",
+      "searched_after": "2026-11-03T22:04:04Z",
+      "current_refs": [
+        {
+          "family_id": "archivo_muerto",
+          "library_file_id": "libfile_cd92ec8392c48191a35ec4c885982ead",
+          "version_id": null,
+          "size_bytes": 19348,
+          "modified_at": "2026-10-03T17:21:21.956270Z"
+        },
+        {
+          "family_id": "concentrado",
+          "library_file_id": "libfile_b7bb3aa0d8048191afda86b15f4be1b7",
+          "version_id": "5",
+          "size_bytes": 78834,
+          "modified_at": "2026-11-03T17:16:13.264676Z"
+        },
+        {
+          "family_id": "indep",
+          "library_file_id": "libfile_31fd8f0c757c8191936309beddc5dd1c",
+          "version_id": "4",
+          "size_bytes": 18325,
+          "modified_at": "2026-11-03T17:18:00.253920Z"
+        },
+        {
+          "family_id": "tfca",
+          "library_file_id": "libfile_0e446a45543c81918c6b62c6a7214257",
+          "version_id": "2",
+          "size_bytes": 11978,
+          "modified_at": "2026-11-03T16:16:25.574327Z"
+        }
+      ]
+    },
+    "drive_work": {
+      "status": "sin_nueva_version_detectada",
+      "concentrado_file_id": "1YtT78mIRVDr_oZvkEVDyqBl0howya5R8",
+      "current_revision_id": "0B5gQlemtJ3g6cko3M0lBR3UvY0MrTkpoRzA1bU1qZVhJQjkwPQ",
+      "modified_at": "2026-11-03T20:10:28.721Z",
+      "size_bytes": 14862,
+      "comparison": "bytes idénticos al snapshot concentrado-d527520672b8 ya preservado"
+    },
+    "drive_personal": {
+      "status": "punteros_sin_cambio",
+      "actual_drive_github_same_bytes": true,
+      "actual_delivery": 18,
+      "master_drive_same_as_preserved_v15": true,
+      "master_drive_size_bytes": 15837
+    },
+    "conversations": {
+      "status": "no_disponible",
+      "message": "Personal context is unavailable for this conversation."
+    },
+    "indep_automation": {
+      "status": "ejecucion_registrada_sin_resultado_expuesto",
+      "last_run_started_at": "2026-11-03T23:25:29.525101Z",
+      "last_run_completed_at": "2026-11-03T23:26:34.061345Z",
+      "recorded_status": "completed",
+      "latest_result": null,
+      "main_head_after_run": "29b7fdd6237f1553f61291b438c551eb61451479",
+      "interpretation": "No inferir resultado procesal; sólo se indexa el estado registrado y se confirma que main no cambió."
+    }
+  },
+  "validation": {
+    "command": "python3 cerebro/skill/scripts/validar_matriz.py cerebro",
+    "families": 4,
+    "versions": 28,
+    "snapshots_checked": 28,
+    "unique_sha256": 28,
+    "gaps": 11,
+    "pending_categories": 1,
+    "errors": 0,
+    "warnings": 0
+  },
+  "result": {
+    "source_table_changes": [],
+    "catalog_version_changes": [],
+    "new_authorized_families": [],
+    "existing_candidate_categories": [
+      "no_laborales_tfja"
+    ],
+    "pending_reconciliation": [
+      "Concentrado ID 12, Hoja1!Q17, ya documentado en MATRIZ.json; no hubo evidencia posterior para resolverlo."
+    ],
+    "emails_sent": false,
+    "drafts_created": false,
+    "other_automations_modified": false
+  },
+  "limits": [
+    "No se recuperaron conversaciones completas.",
+    "La ausencia de una versión nueva en las fuentes consultadas no acredita ausencia de movimientos procesales.",
+    "No se revalidaron jurídicamente todos los manifiestos históricos; se verificó la integridad de los 28 snapshots del cerebro."
+  ]
+}

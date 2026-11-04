@@ -1,0 +1,62 @@
+{
+  "task": "Auditoría de contexto conversacional para cerebro/matriz CASTORENA ABOGADOS",
+  "status": "blocked_personal_context_unavailable",
+  "retrieval_tool": "mcp__codex_apps__personal_context_search",
+  "retrieval_capability": "Búsqueda de contexto personal y conversaciones mediante consulta autocontenida; no ofrece garantía de inventario exhaustivo ni lectura de todas las conversaciones/versiones.",
+  "observed_error": "Personal context is unavailable for this conversation.",
+  "attempted_queries": [
+    {
+      "family": "Archivo muerto",
+      "result": "isError: true; Personal context is unavailable for this conversation."
+    },
+    {
+      "family": "Concentrado de Expedientes",
+      "result": "isError: true; Personal context is unavailable for this conversation."
+    },
+    {
+      "family": "Asuntos INDEP (Juntas/Salas)",
+      "result": "isError: true; Personal context is unavailable for this conversation."
+    }
+  ],
+  "not_attempted_after_confirmed_unavailability": [
+    "Expedientes TFCA",
+    "búsquedas adicionales y contrastes"
+  ],
+  "source_based_findings": [],
+  "verified_conversation_titles": [],
+  "verified_conversation_dates": [],
+  "verified_conversation_links": [],
+  "required_checks_pending": [
+    "Todas las conversaciones y versiones autorizadas de Archivo muerto, Concentrado de Expedientes, Asuntos INDEP (Juntas/Salas), Expedientes TFCA.",
+    "Determinar instrucciones de fusión universal frente a grupos separados.",
+    "Corroborar instrucción sobre exclusión de Liverpool del Concentrado.",
+    "Separar tareas o encargos de hechos cumplidos; no actualizar estatus por mero encargo.",
+    "Distinguir secretarios históricos de los vigentes con fuente y fecha.",
+    "Corroborar alcance respecto a emails y otras tablas."
+  ],
+  "scope_from_parent_task_not_retrieved_history": {
+    "authorized_families": [
+      "Archivo muerto",
+      "Concentrado de Expedientes",
+      "Asuntos INDEP (Juntas/Salas)",
+      "Expedientes TFCA"
+    ],
+    "other_tables": "Preguntar al usuario antes de incorporarlas",
+    "prohibitions": [
+      "No inventar contenidos, decisiones, fechas o enlaces",
+      "No efectuar cambios remotos ni enviar emails",
+      "No modificar skills"
+    ],
+    "note": "Estas son instrucciones operativas transmitidas por el agente principal, no hallazgos recuperados de conversaciones."
+  },
+  "next_step": "El agente principal debe comunicar el límite y solicitar acceso/exportación o las conversaciones específicas cuando corresponda; no afirmar auditoría exhaustiva del historial.",
+  "generated_at_utc": "2026-11-03",
+  "_preservation": {
+    "format": "audit-preserved-with-path-normalization-v1",
+    "binary_snapshots": "fuentes/<familia>/<sha12>_<nombre>",
+    "runtime_paths": "RUTA_EJECUCION_NO_PERSISTENTE identifica un localizador de la sesión original, no un archivo disponible en este directorio.",
+    "source_content": "Auditoría completa; se normalizaron rutas y se retiraron sólo URLs de transferencia efímeras. No se modifica el contenido de los XLSX/PDF.",
+    "original_audit_sha256": "852501a95ab543bf87f2f1268a28f63d3504030d8560adccd7ff135c4569c4e2",
+    "source_filename": "contexto.json"
+  }
+}

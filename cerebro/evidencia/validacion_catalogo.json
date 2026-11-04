@@ -1,0 +1,16 @@
+{
+  "errors": [],
+  "warnings": [],
+  "counters": {
+    "families": 4,
+    "versions": 28,
+    "snapshots_checked": 28,
+    "snapshots_unavailable": 0,
+    "unique_sha256": 28,
+    "repeated_sha256_records": 0,
+    "gaps": 11,
+    "pending_categories": 1,
+    "errors": 0,
+    "warnings": 0
+  }
+}

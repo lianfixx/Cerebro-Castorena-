@@ -1,0 +1,188 @@
+{
+  "schema_version": "castorena-matriz-v1",
+  "created_at": "2026-11-03",
+  "families": [
+    {
+      "id": "archivo_muerto",
+      "title": "Archivo muerto",
+      "role": "Inventario físico; no cartera activa por inferencia",
+      "current_version_id": "archivo_muerto-8305a4b41f43",
+      "current_library_url": "https://chatgpt.com/library?file_id=libfile_cd92ec8392c48191a35ec4c885982ead&account_id=personal",
+      "sha256": "8305a4b41f437522594615ff52b98436507b188ae81700b5ec2e71f0e6bb8272",
+      "current_sha256": "8305a4b41f437522594615ff52b98436507b188ae81700b5ec2e71f0e6bb8272",
+      "current_snapshot_path": "fuentes/archivo_muerto/8305a4b41f43_Catalogo_Archivo_Muerto.xlsx",
+      "universo": {
+        "unit": "registro de folder",
+        "count": 78,
+        "not_unique_judicial_cases": true,
+        "source": "evidencia/archivo_muerto.json#summary"
+      },
+      "current_selection_basis": {
+        "status": "única versión candidata localizada; vigencia operativa no confirmada",
+        "candidate_library_file_id": "libfile_cd92ec8392c48191a35ec4c885982ead",
+        "basis": "Único libro de Archivo muerto localizado mediante búsquedas por título en Library y búsquedas de nombre en las dos cuentas de Drive. El propio documento fecha el inventario el 28 de septiembre de 2026.",
+        "not_proven": [
+          "No consta aprobación posterior de Emi del estado actual del inventario.",
+          "No se pudo contrastar con conversaciones anteriores: Personal Context informó que no está disponible.",
+          "La fecha de carga del 3 de octubre no prueba actualización de los datos posterior al 28 de septiembre.",
+          "No se obtuvo historial interno de versiones; los resultados mostraron version_id nulo."
+        ]
+      },
+      "audit_path": "evidencia/archivo_muerto.json"
+    },
+    {
+      "id": "concentrado",
+      "title": "Concentrado de expedientes",
+      "role": "Tabla de control de 26 registros y vistas por sede; conservar ID y saltos.",
+      "current_version_id": "concentrado-7cbaad8795b9",
+      "current_library_url": "https://chatgpt.com/library?file_id=libfile_b7bb3aa0d8048191afda86b15f4be1b7&account_id=personal",
+      "sha256": "7cbaad8795b98452e5bd604fbec64c6eda1dfd8416cd76d2a50a7c29e030e748",
+      "current_sha256": "7cbaad8795b98452e5bd604fbec64c6eda1dfd8416cd76d2a50a7c29e030e748",
+      "current_snapshot_path": "fuentes/concentrado/7cbaad8795b9_Concentrado_de_Expedientes_2026-10-29.xlsx",
+      "universo": {
+        "unit": "registro de control",
+        "count": 26,
+        "ids": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          24,
+          25,
+          26,
+          29,
+          30,
+          33,
+          34
+        ],
+        "source": "evidencia/concentrado.json#structure"
+      },
+      "current_selection_basis": {
+        "base": "Adjunto como base estructural de 26 registros, idéntico en bytes a Library 2026-10-29.xlsx v5.",
+        "latest_library": "libfile_b7bb3aa0d8048191afda86b15f4be1b7",
+        "latest_library_version": "5",
+        "latest_library_modified": "2026-11-03T17:16:13.264676Z",
+        "newer_source": "Drive laboral 1YtT78mIRVDr_oZvkEVDyqBl0howya5R8, modificado 2026-11-03T20:10:28.721Z; revisión actual modificada 20:10:36.774Z por gcastorena.",
+        "caution": "Mayor fecha del archivo Drive no vuelve superiores todos sus campos: conserva 19 registros y asociaciones históricas que el adjunto corrigió. Hay al menos una nota nueva relevante en ID12; requiere reconciliación posterior autorizada."
+      },
+      "audit_path": "evidencia/concentrado.json"
+    },
+    {
+      "id": "indep",
+      "title": "INDEP (Juntas/Salas)",
+      "role": "Maestro operativo único; consultas por folio, sin duplicar seguimiento",
+      "current_version_id": "indep-276657ed210f",
+      "current_library_url": "https://chatgpt.com/library?file_id=libfile_31fd8f0c757c8191936309beddc5dd1c&account_id=personal",
+      "sha256": "276657ed210f2d582ec214fef43b1601f3a70aeda672db0937456528a0564a17",
+      "current_sha256": "276657ed210f2d582ec214fef43b1601f3a70aeda672db0937456528a0564a17",
+      "current_snapshot_path": "fuentes/indep/276657ed210f_Control_de_expedientes_Junta_Especial_2-4_2_.xlsx",
+      "universo": {
+        "unit": "folio maestro",
+        "count": 45,
+        "by_sheet": {
+          "Junta Especial 2": 29,
+          "Salas TFCA": 13,
+          "Poder Judicial": 3
+        },
+        "turnos": 44,
+        "without_turno": 77051,
+        "source": "evidencia/indep_tfca.json#contrato_maestro"
+      },
+      "current_selection_basis": {
+        "logical_master": 20,
+        "delivery_with_master": 38,
+        "last_documented_delivery": 39,
+        "source_commit": "29b7fdd6237f1553f61291b438c551eb61451479"
+      },
+      "audit_path": "evidencia/indep_tfca.json"
+    },
+    {
+      "id": "tfca",
+      "title": "Expedientes TFCA",
+      "role": "Guía auxiliar vinculada al maestro INDEP; no suma casos nuevos",
+      "current_version_id": "tfca-d9e1dcc79a77",
+      "current_library_url": "https://chatgpt.com/library?file_id=libfile_0e446a45543c81918c6b62c6a7214257&account_id=personal",
+      "sha256": "d9e1dcc79a77c450baed07e9c99b49a0010751bed9af7456230e47684227b7af",
+      "current_sha256": "d9e1dcc79a77c450baed07e9c99b49a0010751bed9af7456230e47684227b7af",
+      "current_snapshot_path": "fuentes/tfca/d9e1dcc79a77_Expedientes_TFCA_y_San_Lazaro.xlsx",
+      "universo": {
+        "unit": "folio ya incluido en INDEP",
+        "count": 13,
+        "additional_cases": 0,
+        "san_lazaro_visit_references": 3,
+        "source": "evidencia/indep_tfca.json#vinculos_guia_tfca",
+        "san_lazaro_additional_cases": 0,
+        "san_lazaro_refs_are_existing_indep_folios": [
+          74734,
+          76995,
+          76996
+        ]
+      },
+      "current_selection_basis": {
+        "auxiliary_guide": "Library v2 y snapshot de entrega 36, con hash cotejado contra el estado actual.",
+        "no_new_cases": true
+      },
+      "audit_path": "evidencia/indep_tfca.json"
+    }
+  ],
+  "pending_categories": [
+    {
+      "id": "no_laborales_tfja",
+      "title": "No laborales (TFJA)",
+      "estado": "consulta_pendiente"
+    }
+  ],
+  "scope": "Cuatro familias autorizadas. Matriz de fuentes y trazabilidad; no sustituye las tablas ni altera estados procesales.",
+  "updates_pending": [
+    {
+      "file_id": "1YtT78mIRVDr_oZvkEVDyqBl0howya5R8",
+      "url": "https://docs.google.com/spreadsheets/d/1YtT78mIRVDr_oZvkEVDyqBl0howya5R8/edit",
+      "sheet": "Hoja1",
+      "cell": "Q17",
+      "id": 12,
+      "literal": "Se levanta acuerdo General, lo tiene Carlos baena Meza. Ir el viernes 6 para ver cuando se lista. Penmdiente memorando.",
+      "attachment_cell": "Principal!K17",
+      "difference": "Adjunto conserva regreso sugerido29o30/10 y no incluye viernes6 ni memorando.",
+      "caution": "Fecha completa no está escrita. 06/11/2026 sería inferencia temporal, no dato literal. No afirmar listado, presentación, término ni equivalencia memorando/promoción de impulso.",
+      "state": "pending_reconciliation",
+      "source_version_id": "concentrado-d527520672b8",
+      "base_unchanged": true
+    }
+  ],
+  "identity_rules": {
+    "INDEP": "INDEP:<folio>. La fila es sólo un localizador de la versión; resolver por folio.",
+    "TFCA": "Enlace a los mismos 13 folios del maestro; San Lázaro es subhoja de antecedentes de visita.",
+    "Concentrado": "ID original; conservar saltos y separar juicios y recursos hasta acreditar vínculo.",
+    "Archivo_muerto": "Caja + No. + versión; 78 registros de folder no equivalen a 78 juicios únicos."
+  },
+  "scope_guards": [
+    "Sin cambios a tablas originales.",
+    "El catálogo no envía correos ni modifica la automatización INDEP; programación propia sólo según ESTADO.json e instrucción de Emi.",
+    "No integrar No laborales(TFJA) hasta consulta.",
+    "No convertir hipótesis, proyectos, visitas, fuentes antiguas o referencias de terceros en actuaciones acreditadas."
+  ],
+  "target": {
+    "repository": "lianfixx/Cerebro-Castorena-",
+    "branch": "main",
+    "directory": "cerebro",
+    "remote_changed_by_catalog_builder": true
+  },
+  "history_path": "HISTORIAL.json",
+  "evidence_context_path": "evidencia/contexto.json",
+  "coverage_complete": false
+}

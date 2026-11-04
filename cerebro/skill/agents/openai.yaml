@@ -1,0 +1,4 @@
+interface:
+  display_name: "Matriz Castorena"
+  short_description: "Tablas, versiones y continuidad del despacho"
+  default_prompt: "Usa $matriz-castorena para revisar las tablas vigentes, su trazabilidad y los cambios pendientes del despacho."

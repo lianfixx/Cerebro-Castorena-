@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "last_audit_date": "2026-11-03",
+  "timezone": "America/Mexico_City",
+  "write_scope": "cerebro/ en lianfixx/Cerebro-Castorena-, rama main",
+  "indep_operational_branch": "main",
+  "automation": {
+    "status": "creada_y_activa",
+    "id": "6aea5a544e288191994d562d5d075090",
+    "title": "Cerrar matriz Castorena",
+    "schedule": "BEGIN:VEVENT\nDTSTART;TZID=America/Mexico_City:20261103T183000\nRRULE:FREQ=DAILY;BYHOUR=18;BYMINUTE=30;BYSECOND=0\nEND:VEVENT",
+    "timing_mode": "flexible_schedule",
+    "timezone": "America/Mexico_City",
+    "created_at": "2026-11-03T22:04:04.785849+00:00",
+    "no_email": true,
+    "first_run": "ejecucion_completada_observada_en_peek_2026-11-04_UTC",
+    "next_run_time": null,
+    "last_observed_run": {
+      "id": "85f0ca44-c168-832e-8179-365340fce222",
+      "recorded_status": "completed",
+      "completed_at": "2026-11-04T01:02:39.815123Z",
+      "delivery_status": "unknown"
+    },
+    "destination_update": "pendiente_hasta_verificacion_publicacion"
+  },
+  "coverage": {
+    "conversations": "no_disponible",
+    "sources": "GitHub, Library y Drive autorizados revisados",
+    "complete_history": false
+  },
+  "write_coordination": {
+    "method": "commit_atomico_y_update_ref_expected_sha",
+    "on_conflict": "releer_conciliar_sin_force"
+  },
+  "last_source_changes": "Ninguno en las cuatro familias; no se reescribió ningún Excel.",
+  "publication": {
+    "initial_commit": "aaa04b75e9645f2691f0e33fdaec1e1e33053020",
+    "files_verified_after_read": 52,
+    "source_snapshots_verified": 28,
+    "source_tables_modified": false,
+    "personal_procedure_saved": true
+  },
+  "last_audit_at": "2026-11-03T18:57:09-06:00",
+  "last_closure_path": "cierres/2026-11-03_1857.json",
+  "latest_run": {
+    "base_commit": "f4099faa87ee1322b847617769e4c79248c54b50",
+    "validation": {
+      "command": "python3 cerebro/skill/scripts/validar_matriz.py cerebro",
+      "families": 4,
+      "versions": 28,
+      "snapshots_checked": 28,
+      "unique_sha256": 28,
+      "gaps": 11,
+      "pending_categories": 1,
+      "errors": 0,
+      "warnings": 0
+    },
+    "source_table_changes": 0,
+    "new_versions": 0,
+    "pending_categories": 1,
+    "main_indep_head": "29b7fdd6237f1553f61291b438c551eb61451479"
+  },
+  "migration": {
+    "status": "validada_localmente_pendiente_publicacion",
+    "target_repository": "lianfixx/Cerebro-Castorena-",
+    "target_branch": "main",
+    "visibility": "public",
+    "record": "MIGRACION.json",
+    "previous_plan": "MIGRACION_PENDIENTE.json",
+    "current_canonical_unchanged": false
+  },
+  "indep_operational_repository": "lianfixx/INDEP",
+  "migration_audit_at": "2026-11-03T20:42:01-06:00"
+}

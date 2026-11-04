@@ -1,0 +1,526 @@
+{
+  "search0": {
+    "status": "fulfilled",
+    "value": {
+      "content": [
+        {
+          "type": "text",
+          "text": "Action completed."
+        }
+      ],
+      "structuredContent": {
+        "results": [
+          {
+            "url": "https://docs.google.com/spreadsheets/d/1YtT78mIRVDr_oZvkEVDyqBl0howya5R8/edit?usp=drivesdk&ouid=118211243090617143463&rtpof=true&sd=true",
+            "title": "CONCENTRADO DE EXPEDIENTES.xlsx",
+            "id": "1YtT78mIRVDr_oZvkEVDyqBl0howya5R8",
+            "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "size": "14862",
+            "file_or_folder": "file",
+            "created_at": "2026-09-29T20:51:39.984Z",
+            "updated_at": "2026-11-03T20:10:28.721Z",
+            "viewedByMeTime": "2026-11-03T19:50:14.897Z",
+            "display_title": "CONCENTRADO DE EXPEDIENTES.xlsx",
+            "display_url": "https://docs.google.com/spreadsheets/d/1YtT78mIRVDr_oZvkEVDyqBl0howya5R8/edit?usp=drivesdk&ouid=118211243090617143463&rtpof=true&sd=true",
+            "shared": true,
+            "shared_with_me_time": "2026-09-29T20:52:18.602Z"
+          },
+          {
+            "url": "https://docs.google.com/document/d/1Rchgc95rWugctF5ysHGt_mJTHOIyl61STjniytjKgBg/edit?usp=drivesdk",
+            "title": "00 FICHA DE ESTADO — 81652 — Exp. 4801-04",
+            "id": "1Rchgc95rWugctF5ysHGt_mJTHOIyl61STjniytjKgBg",
+            "mime_type": "application/vnd.google-apps.document",
+            "size": "2956",
+            "file_or_folder": "file",
+            "created_at": "2026-09-15T13:08:35.357Z",
+            "updated_at": "2026-09-24T21:34:50.813Z",
+            "viewedByMeTime": null,
+            "display_title": "00 FICHA DE ESTADO — 81652 — Exp. 4801-04",
+            "display_url": "https://docs.google.com/document/d/1Rchgc95rWugctF5ysHGt_mJTHOIyl61STjniytjKgBg/edit?usp=drivesdk",
+            "parent_ids": [
+              "1k7pNbDsXLcMgnxsQp7TwzsutmVg6efmI"
+            ],
+            "shared": true
+          },
+          {
+            "url": "https://docs.google.com/document/d/1Rt8OE9U08cNfnPwqw8fkfPcmALM3y_eBQBFm0xqMGQU/edit?usp=drivesdk",
+            "title": "Bitácora de Hallazgos y Plan de Acción — Juicios Laborales INDEP",
+            "id": "1Rt8OE9U08cNfnPwqw8fkfPcmALM3y_eBQBFm0xqMGQU",
+            "mime_type": "application/vnd.google-apps.document",
+            "size": "3969",
+            "file_or_folder": "file",
+            "created_at": "2026-09-23T11:48:27.814Z",
+            "updated_at": "2026-09-28T23:30:07.558Z",
+            "viewedByMeTime": "2026-09-23T15:41:38.836Z",
+            "display_title": "Bitácora de Hallazgos y Plan de Acción — Juicios Laborales INDEP",
+            "display_url": "https://docs.google.com/document/d/1Rt8OE9U08cNfnPwqw8fkfPcmALM3y_eBQBFm0xqMGQU/edit?usp=drivesdk",
+            "parent_ids": [
+              "1q0TZBTTb_S0GFxEZXWyaR0-vUwOITWdR"
+            ],
+            "shared": true
+          },
+          {
+            "url": "https://docs.google.com/spreadsheets/d/107UBKzcdIDKpRiK7H0_ks56i4ImY4QhUowAvWuqO_Oc/edit?usp=drivesdk",
+            "title": "Tabla_Maestra_45_Asuntos_FINAL_actualizada",
+            "id": "107UBKzcdIDKpRiK7H0_ks56i4ImY4QhUowAvWuqO_Oc",
+            "mime_type": "application/vnd.google-apps.spreadsheet",
+            "size": "11670",
+            "file_or_folder": "file",
+            "created_at": "2026-10-05T12:08:54.509Z",
+            "updated_at": "2026-10-11T14:52:13.454Z",
+            "viewedByMeTime": "2026-10-05T15:55:47.227Z",
+            "display_title": "Tabla_Maestra_45_Asuntos_FINAL_actualizada",
+            "display_url": "https://docs.google.com/spreadsheets/d/107UBKzcdIDKpRiK7H0_ks56i4ImY4QhUowAvWuqO_Oc/edit?usp=drivesdk",
+            "parent_ids": [
+              "1q0TZBTTb_S0GFxEZXWyaR0-vUwOITWdR"
+            ],
+            "shared": true
+          }
+        ]
+      },
+      "isError": false
+    }
+  },
+  "search1": {
+    "status": "fulfilled",
+    "value": {
+      "content": [
+        {
+          "type": "text",
+          "text": "Action completed."
+        }
+      ],
+      "structuredContent": {
+        "results": [
+          {
+            "url": "https://docs.google.com/spreadsheets/d/1jduV0EJbI1IqCcx29t9B0YWq8cyyr4wqNaUbkoKslh0/edit?usp=drivesdk",
+            "title": "CONCENTRADO_DE_EXPEDIENTES_REVISION_SHEETS",
+            "id": "1jduV0EJbI1IqCcx29t9B0YWq8cyyr4wqNaUbkoKslh0",
+            "mime_type": "application/vnd.google-apps.spreadsheet",
+            "size": "5882",
+            "file_or_folder": "file",
+            "created_at": "2026-09-30T22:00:23.450Z",
+            "updated_at": "2026-09-30T23:14:12.042Z",
+            "viewedByMeTime": "2026-10-02T01:18:36.287Z",
+            "display_title": "CONCENTRADO_DE_EXPEDIENTES_REVISION_SHEETS",
+            "display_url": "https://docs.google.com/spreadsheets/d/1jduV0EJbI1IqCcx29t9B0YWq8cyyr4wqNaUbkoKslh0/edit?usp=drivesdk",
+            "parent_ids": [
+              "0AKBX4xeRk6D7Uk9PVA"
+            ],
+            "shared": false
+          },
+          {
+            "url": "https://docs.google.com/spreadsheets/d/1oSbtzE3-J4sr6HsygPzqD8M-JE9lw-jO/edit?usp=drivesdk&ouid=106404563713024365019&rtpof=true&sd=true",
+            "title": "CONCENTRADO_DE_EXPEDIENTES.xlsx",
+            "id": "1oSbtzE3-J4sr6HsygPzqD8M-JE9lw-jO",
+            "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "size": "14054",
+            "file_or_folder": "file",
+            "created_at": "2026-09-30T19:01:57.341Z",
+            "updated_at": "2026-09-30T19:01:57.341Z",
+            "viewedByMeTime": "2026-09-30T19:01:57.341Z",
+            "display_title": "CONCENTRADO_DE_EXPEDIENTES.xlsx",
+            "display_url": "https://docs.google.com/spreadsheets/d/1oSbtzE3-J4sr6HsygPzqD8M-JE9lw-jO/edit?usp=drivesdk&ouid=106404563713024365019&rtpof=true&sd=true",
+            "parent_ids": [
+              "0AKBX4xeRk6D7Uk9PVA"
+            ],
+            "shared": false
+          },
+          {
+            "url": "https://docs.google.com/document/d/1ago3-FCqB-TftUq9DfO9UAMlPpgu0RZdSTqdRN4grOc/edit?usp=drivesdk",
+            "title": "Transcripciones 10/06/2026",
+            "id": "1ago3-FCqB-TftUq9DfO9UAMlPpgu0RZdSTqdRN4grOc",
+            "mime_type": "application/vnd.google-apps.document",
+            "size": "19694",
+            "file_or_folder": "file",
+            "created_at": "2026-06-10T17:05:25.618Z",
+            "updated_at": "2026-06-12T20:30:14.714Z",
+            "viewedByMeTime": "2026-06-16T18:43:25.671Z",
+            "display_title": "Transcripciones 10/06/2026",
+            "display_url": "https://docs.google.com/document/d/1ago3-FCqB-TftUq9DfO9UAMlPpgu0RZdSTqdRN4grOc/edit?usp=drivesdk",
+            "parent_ids": [
+              "0AKBX4xeRk6D7Uk9PVA"
+            ],
+            "shared": true
+          },
+          {
+            "url": "https://docs.google.com/spreadsheets/d/1sRHJ-f4GLuFtz9DwEpc3eWq4tMcphCoK/edit?usp=drivesdk&ouid=106404563713024365019&rtpof=true&sd=true",
+            "title": "Tabla_Maestra_45_Asuntos_FINAL.xlsx",
+            "id": "1sRHJ-f4GLuFtz9DwEpc3eWq4tMcphCoK",
+            "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "size": "9861",
+            "file_or_folder": "file",
+            "created_at": "2026-10-08T19:47:56.703Z",
+            "updated_at": "2026-10-08T19:47:56.703Z",
+            "viewedByMeTime": null,
+            "display_title": "Tabla_Maestra_45_Asuntos_FINAL.xlsx",
+            "display_url": "https://docs.google.com/spreadsheets/d/1sRHJ-f4GLuFtz9DwEpc3eWq4tMcphCoK/edit?usp=drivesdk&ouid=106404563713024365019&rtpof=true&sd=true",
+            "parent_ids": [
+              "1BlwQCOxE0XcUtNqfR7a28PF64OJhkMHF"
+            ],
+            "shared": false
+          },
+          {
+            "url": "https://docs.google.com/spreadsheets/d/14dZpyR4jP74OqIHAgJ1v9VnqkSXStjyD/edit?usp=drivesdk&ouid=106404563713024365019&rtpof=true&sd=true",
+            "title": "Tabla_Maestra_45_Asuntos_FINAL (1).xlsx",
+            "id": "14dZpyR4jP74OqIHAgJ1v9VnqkSXStjyD",
+            "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "size": "9861",
+            "file_or_folder": "file",
+            "created_at": "2026-10-08T19:47:48.846Z",
+            "updated_at": "2026-10-08T19:47:48.846Z",
+            "viewedByMeTime": null,
+            "display_title": "Tabla_Maestra_45_Asuntos_FINAL (1).xlsx",
+            "display_url": "https://docs.google.com/spreadsheets/d/14dZpyR4jP74OqIHAgJ1v9VnqkSXStjyD/edit?usp=drivesdk&ouid=106404563713024365019&rtpof=true&sd=true",
+            "parent_ids": [
+              "1BlwQCOxE0XcUtNqfR7a28PF64OJhkMHF"
+            ],
+            "shared": false
+          },
+          {
+            "url": "https://drive.google.com/file/d/10oZb8a8F11gU4MdMAJgivtfKTYsBbC3R/view?usp=drivesdk",
+            "title": "13-10-2026-Matutina.pdf",
+            "id": "10oZb8a8F11gU4MdMAJgivtfKTYsBbC3R",
+            "mime_type": "application/pdf",
+            "size": "6459302",
+            "file_or_folder": "file",
+            "created_at": "2026-10-13T17:13:02.535Z",
+            "updated_at": "2026-10-13T17:13:02.535Z",
+            "viewedByMeTime": "2026-10-13T17:13:02.535Z",
+            "display_title": "13-10-2026-Matutina.pdf",
+            "display_url": "https://drive.google.com/file/d/10oZb8a8F11gU4MdMAJgivtfKTYsBbC3R/view?usp=drivesdk",
+            "parent_ids": [
+              "1VfuQtrz0W7tt6DdPOPwiDf0AhKfVTVp4"
+            ],
+            "shared": false
+          },
+          {
+            "url": "https://docs.google.com/spreadsheets/d/1g4jv3Cl-vSDH6EJxfvCvV9mCn8cXNVDj/edit?usp=drivesdk&ouid=106404563713024365019&rtpof=true&sd=true",
+            "title": "Matriz_Operativa_v3_INDEP.xlsx",
+            "id": "1g4jv3Cl-vSDH6EJxfvCvV9mCn8cXNVDj",
+            "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "size": "17243",
+            "file_or_folder": "file",
+            "created_at": "2026-10-08T19:47:39.008Z",
+            "updated_at": "2026-10-08T19:47:39.008Z",
+            "viewedByMeTime": null,
+            "display_title": "Matriz_Operativa_v3_INDEP.xlsx",
+            "display_url": "https://docs.google.com/spreadsheets/d/1g4jv3Cl-vSDH6EJxfvCvV9mCn8cXNVDj/edit?usp=drivesdk&ouid=106404563713024365019&rtpof=true&sd=true",
+            "parent_ids": [
+              "1BlwQCOxE0XcUtNqfR7a28PF64OJhkMHF"
+            ],
+            "shared": false
+          },
+          {
+            "url": "https://drive.google.com/file/d/19zuq-SLQPi2LqnsBpr5zrXVJtlX5MGjh/view?usp=drivesdk",
+            "title": "178-Jueves-15-Octubre-2026-JFCA.pdf",
+            "id": "19zuq-SLQPi2LqnsBpr5zrXVJtlX5MGjh",
+            "mime_type": "application/pdf",
+            "size": "308766",
+            "file_or_folder": "file",
+            "created_at": "2026-10-16T00:47:42.458Z",
+            "updated_at": "2026-10-16T00:47:42.458Z",
+            "viewedByMeTime": null,
+            "display_title": "178-Jueves-15-Octubre-2026-JFCA.pdf",
+            "display_url": "https://drive.google.com/file/d/19zuq-SLQPi2LqnsBpr5zrXVJtlX5MGjh/view?usp=drivesdk",
+            "parent_ids": [
+              "1DN09nrv5rVzVocfVoi52EiTzDnjpModb"
+            ],
+            "shared": false
+          }
+        ]
+      },
+      "isError": false
+    }
+  },
+  "laboral_revisions": {
+    "status": "fulfilled",
+    "value": {
+      "content": [
+        {
+          "type": "text",
+          "text": "Action completed."
+        }
+      ],
+      "structuredContent": {
+        "fileId": "1YtT78mIRVDr_oZvkEVDyqBl0howya5R8",
+        "revisions": [
+          {
+            "id": "0B5gQlemtJ3g6SFI5Qm1FT1NWTTl3dklWU2FkK2plekR4TGpZPQ",
+            "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "modifiedTime": "2026-09-29T20:51:39.989Z",
+            "keepForever": false,
+            "published": false,
+            "size": "12381",
+            "originalFilename": "CONCENTRADO%20DE%20EXPEDIENTES.xlsx",
+            "lastModifyingUser": {
+              "displayName": "gcastorena",
+              "emailAddress": "gcastorena@castorena.com.mx",
+              "me": false,
+              "permissionId": "17645453174934869600",
+              "photoLink": "https://lh3.googleusercontent.com/a-/ALV-UjU9Z7CRNw262EA54sqaC7I7iwtB4UHyFL4E4OKDd6xXvYkh5w=s64"
+            }
+          },
+          {
+            "id": "0B5gQlemtJ3g6VFZQQi8zN1J1QW9GSXRmQThKS2dwTitWbHNNPQ",
+            "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "modifiedTime": "2026-09-30T17:08:49.091Z",
+            "keepForever": false,
+            "published": false,
+            "size": "11861",
+            "originalFilename": "CONCENTRADO%20DE%20EXPEDIENTES.xlsx",
+            "lastModifyingUser": {
+              "displayName": "Emiliano García Milla",
+              "emailAddress": "emilla@castorena.com.mx",
+              "me": true,
+              "permissionId": "11183030201084271341",
+              "photoLink": "https://lh3.googleusercontent.com/a/ACg8ocK2LmcBHupP9nqcMsdEDGqTFju080u6RO5--jTKFZ-OmDz14Q=s64"
+            }
+          },
+          {
+            "id": "0B5gQlemtJ3g6cko3M0lBR3UvY0MrTkpoRzA1bU1qZVhJQjkwPQ",
+            "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "modifiedTime": "2026-11-03T20:10:36.774Z",
+            "keepForever": false,
+            "published": false,
+            "size": "14862",
+            "originalFilename": "CONCENTRADO%20DE%20EXPEDIENTES.xlsx",
+            "lastModifyingUser": {
+              "displayName": "gcastorena",
+              "emailAddress": "gcastorena@castorena.com.mx",
+              "me": false,
+              "permissionId": "17645453174934869600",
+              "photoLink": "https://lh3.googleusercontent.com/a-/ALV-UjU9Z7CRNw262EA54sqaC7I7iwtB4UHyFL4E4OKDd6xXvYkh5w=s64"
+            }
+          }
+        ],
+        "currentRevisionId": "0B5gQlemtJ3g6cko3M0lBR3UvY0MrTkpoRzA1bU1qZVhJQjkwPQ",
+        "previousRevisionId": "0B5gQlemtJ3g6VFZQQi8zN1J1QW9GSXRmQThKS2dwTitWbHNNPQ"
+      },
+      "isError": false
+    }
+  },
+  "native_current": {
+    "status": "fulfilled",
+    "value": {
+      "content": [
+        {
+          "type": "text",
+          "text": "Action completed."
+        }
+      ],
+      "structuredContent": {
+        "content": ",Unnamed: 0,Unnamed: 1,Unnamed: 2,Unnamed: 3,Unnamed: 4,Unnamed: 5,Unnamed: 6,Unnamed: 7,Unnamed: 8,Unnamed: 9,Unnamed: 10,Unnamed: 11,Unnamed: 12,Unnamed: 13,Unnamed: 14,Unnamed: 15,Unnamed: 16,Unnamed: 17,Unnamed: 18,Unnamed: 19,Unnamed: 20\n0,,,,,,,,,,,,,,,,,,,,,\n1,,,,Expedientes,19,,,ACTUALIZADO AL 29 DE SEPTIEMBRE,,,,,,,,,,,,clientes,\n2,,,,,,,,,,,,,,,,,,,,,\n3,,,,# interno,cliente,año ,CUANTIA,numero de expediente juicio de nulidad,UBICACIÓN,etapa procesal,medio de defensa,ubicación,numero de expediente,COMENTARIOS,,,,Próxima revisión,Responsable,gea,2\n4,,,,,,,,,,,,,,,,,,,,,\n5,,,,2,\"GEA PROCESS ENGINEERING, S.A. DE C.V.\",2021,19892974.53,60/21-17-10-6,10MA SALA,sentencia que confirma la validez,AMPARO DIRECTO,19 TCC,D.A. 506/2026,FUIMOS EL 29 DE SEPTIEMBRE. VOLVER EN 15 DÍAS PARA VER TURNO.,,,,,,,\n6,,,,3,GUILLERMO CASTORENA ALVAREZ,2024,296100,,,,AMPARO EN REVISION,24 TCC,D.A. 156/2026,\"NEGÓ AMPARO Y SE PRESENTÓ AR, ANTE LA SCJN  CON NUMERO DE REGISTRO 6989/2026. REVISAR EN SCJN ADMISIÓN\",,,,,,,\n7,,,,4,THE REAL WINGS,2025,23779789.37,12808/2025,,,JUICIO ESPECIAL DE FIANZAS,3 JDDMC,,REVISAR SISE,,,,,,,\n8,,,,5,VISION COMERCIAL DEPORTIVA,2026,112327786.18,11752/26-17-07-9,7MA SALA,\"Se concedió suspensión provisional, en espera de contestación de demanda\",JUICIO DE NULIDAD,7 SRM,,Importante hablar con el secretario para darle velocidad.,,,,,,,\n9,,,,6,\"VISION COMERCIAL DEPORTIVA, S.A. DE C.V.\",2024,20202885.47,4865/24-17-11-5,11VA SALA,SE DECLARÓ NULIDAD ,JUICIO DE NULIDAD,11 SRM,D.A. 525/2025,CONCEDE AMPARO,COBRAR,,,,,,\n10,,,,7,\"PLAYAHOTELOPS, S.A.P.I. DE C.V.\",2025,37761258.86,13691/2025,,,JUICIO ESPECIAL DE FIANZAS,4 JDDMC,,REVISAR SISE,,,,,,,\n11,,,,8,\"PLAYAHOTELOPS, S.A.P.I. DE C.V.\",2025,75522517.72,5855/2025,,,JUICIO ESPECIAL DE FIANZAS,6 JDDMC,,536/2026,REVISAR SISE,,,,,,\n12,,,,9,LUIS FELIPE DE LA VEGA KEEVER,2026,SIN CUANTIA,1189/2026,2 JDD MMA,,QUEJA,,,ASE DIFIERE AUDIENCIA AL 13/11/2026 A LAS 9:59 HRS,,,,,,,\n13,,,,10,JUAN ALAMILLO AYALA,2025,\"1´172,713.13\",TJ/V-108513/2025,V SALA ORDINARIA,,5TA SALA ORDINARIA,RAJ 33808/2026,,SE PRESENTÓ AMPARO,BUSCAR EXPEDIENTE,TCCMA,\"Se envió el 22 de septiembre 2026 y acudir Amparos y Revisiones ubicado en: Oficina de Atención Ciudadana: Av. Coyoacán 1153, Colonia del Valle, C.P. 03100, Alcaldía Benito Juárez.\",,,,\n14,,,,11,\"FARMACIAS MOGA, S.A. DE C.V.\",2025,206283,TJ/II-116305/2025,II SALA ORDINARIA,,NULIDAD,SEGUNDA SALA ORDINARIA DEL TJACCDMX,,,\"PREGUNTAR SECRETARIO, Y CUANDO SE ESTUDIA\",,,,,,\n15,,,,12,ALEJANDRA ROMO CÓRDOBA,2025,1285207,131/2025,17 JDD,AMPARA,REVISION,10MO TCC,AR. 411/2025,411/2025,AMPARO EN REVISION,10 TCCMA,,,,,\n16,,,,13,GRUPO EDITORIAL FAC,2023,533633,4805/23-17-01-1 Y ACUMULADO 2503/24-17-03-6,1RA SALA,,JUICIO DE NULIDAD,,,,REVISAR EXPEDIENTE,VER ACUMULADO,,,,,\n17,,,,14,JULIO CESAR LOPEZ MORALES,2024,1913496,1143/2024-I,12 JDD,,AMPARO EN REVISION,CUMPLIMIENTO,,,,,,,,,\n18,,,,15,VISION COMERCIAL DEPORTIVA,2024,22400,17949/24-17-03-4,3RA SALA,,SE PRESENTO AMPARO DIRECTO,18 TCC,137/2025,QUEJA 300/2025,,,,,,,\n19,,,,16,PREFERENCIA EN DEPORTES,2022,164363631.39,1173/22-12-01-7-OT AMPARO DIRECTO 229/2024 3 TCC 6T0 CIRCUITO,PUEBLA,CONFIRMA VALIDEZ,229/2024,3 TCC 6 C,,REVISAR LISTAS DE SESIÓN,,,,,,,\n20,,,,17,TEXTILES JALMIN,2025,562530.92,,,,RECURSO DE REVOCACION,SECRETARIA FINANZAS TLAXCALA,,,,,,,,,\n21,,,,18,INOVACIONES DEPORTIVAS,2024,19700,325/24-11-01-2,,,INTERPUSIERON REVISION Y AD,,,,,,,,,,\n22,,,,19,METRONET HOSTING VS MEGAPORACTICAL,,,,,,REVISAR CADUCIDAD DE LA INSTANCIA,,,,,,,,,,\n23,,,,20,MEGAPRACTICAL,2014,,,,,,,,,,,,,,,\n\f,Unnamed: 0,Unnamed: 1,Unnamed: 2,Unnamed: 3,Unnamed: 4,Unnamed: 5,Unnamed: 6\n0,,Listas de captura,,,,,\n1,,\"Selecciona una opción en Expedientes o escribe un valor distinto. Para ampliar un desplegable, agrega opciones al final de su lista, sin dejar filas vacías.\",,,,,\n2,,,,,,,\n3,,Clientes,Años,Ubicaciones,Etapas procesales,Medios de defensa,Seguimientos frecuentes\n4,,ALEJANDRA ROMO CÓRDOBA,2014,10 TCCMA,AMPARA,AMPARO DIRECTO,BUSCAR EXPEDIENTE\n5,,FARMACIAS MOGA,2021,10MA SALA,CONFIRMA VALIDEZ,AMPARO EN REVISION,COBRAR\n6,,GEA PROCESS ENGINEERING,2022,10MO TCC,\"Se concedió suspensión provisional, en espera de contestación de demanda\",JUICIO DE NULIDAD,\"PREGUNTAR SECRETARIO, Y CUANDO SE ESTUDIA\"\n7,,GRUPO EDITORIAL FAC,2023,11 SRM,SE DECLARÓ NULIDAD,JUICIO ESPECIAL DE FIANZAS,REVISAR CADUCIDAD DE LA INSTANCIA\n8,,GUILLERMO CASTORENA ALVAREZ,2024,11VA SALA,sentencia que confirma la validez,NULIDAD,REVISAR EXPEDIENTE\n9,,INOVACIONES DEPORTIVAS,2025,12 JDD,,QUEJA,REVISAR LISTAS DE SESIÓN\n10,,JUAN ALAMILLO AYALA,2026,17 JDD,,RECURSO DE REVOCACION,REVISAR SISE\n11,,JULIO CESAR LOPEZ MORALES,,18 TCC,,REVISION,VER ACUMULADO\n12,,LUIS FELIPE DE LA VEGA KEEVER,,19 TCC,,,\n13,,MEGAPRACTICAL,,1RA SALA,,,\n14,,METRONET HOSTING VS MEGAPORACTICAL,,2 JDD MMA,,,\n15,,PLAYA HOTELOPS,,24 TCC,,,\n16,,PLAYAHOTELOPS,,3 JDDMC,,,\n17,,PREFERENCIA EN DEPORTES,,3 TCC 6 C,,,\n18,,TEXTILES JALMIN,,3RA SALA,,,\n19,,THE REAL WINGS,,4 JDDMC,,,\n20,,VISION COMERCIAL DEPORTIVA,,6 JDDMC,,,\n21,,\"GEA PROCESS ENGINEERING, S.A. DE C.V.\",,7 SRM,,,\n22,,\"VISION COMERCIAL DEPORTIVA, S.A. DE C.V.\",,7MA SALA,,,\n23,,\"PLAYAHOTELOPS, S.A.P.I. DE C.V.\",,II SALA ORDINARIA,,,\n24,,\"FARMACIAS MOGA, S.A. DE C.V.\",,PUEBLA,,,\n25,,,,SECRETARIA FINANZAS TLAXCALA,,,\n26,,,,SEGUNDA SALA ORDINARIA DEL TJACCDMX,,,\n27,,,,TCCMA,,,\n28,,,,V SALA ORDINARIA,,,\n",
+        "title": "CONCENTRADO_DE_EXPEDIENTES_REVISION_SHEETS",
+        "url": "https://docs.google.com/spreadsheets/d/1jduV0EJbI1IqCcx29t9B0YWq8cyyr4wqNaUbkoKslh0/edit?usp=drivesdk",
+        "file_name": null,
+        "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "file_ext": null,
+        "id": "1jduV0EJbI1IqCcx29t9B0YWq8cyyr4wqNaUbkoKslh0",
+        "parent_ids": [
+          "0AKBX4xeRk6D7Uk9PVA"
+        ],
+        "drive_id": null,
+        "created_time": "2026-09-30T22:00:23.450Z",
+        "modified_time": "2026-09-30T23:14:12.042Z",
+        "is_empty": false,
+        "file_uri": null,
+        "file_size_bytes": null,
+        "display_url": "https://docs.google.com/spreadsheets/d/1jduV0EJbI1IqCcx29t9B0YWq8cyyr4wqNaUbkoKslh0/edit?usp=drivesdk",
+        "display_title": "CONCENTRADO_DE_EXPEDIENTES_REVISION_SHEETS",
+        "structuredContent": {
+          "title": "CONCENTRADO_DE_EXPEDIENTES_REVISION_SHEETS",
+          "content": ",Unnamed: 0,Unnamed: 1,Unnamed: 2,Unnamed: 3,Unnamed: 4,Unnamed: 5,Unnamed: 6,Unnamed: 7,Unnamed: 8,Unnamed: 9,Unnamed: 10,Unnamed: 11,Unnamed: 12,Unnamed: 13,Unnamed: 14,Unnamed: 15,Unnamed: 16,Unnamed: 17,Unnamed: 18,Unnamed: 19,Unnamed: 20\n0,,,,,,,,,,,,,,,,,,,,,\n1,,,,Expedientes,19,,,ACTUALIZADO AL 29 DE SEPTIEMBRE,,,,,,,,,,,,clientes,\n2,,,,,,,,,,,,,,,,,,,,,\n3,,,,# interno,cliente,año ,CUANTIA,numero de expediente juicio de nulidad,UBICACIÓN,etapa procesal,medio de defensa,ubicación,numero de expediente,COMENTARIOS,,,,Próxima revisión,Responsable,gea,2\n4,,,,,,,,,,,,,,,,,,,,,\n5,,,,2,\"GEA PROCESS ENGINEERING, S.A. DE C.V.\",2021,19892974.53,60/21-17-10-6,10MA SALA,sentencia que confirma la validez,AMPARO DIRECTO,19 TCC,D.A. 506/2026,FUIMOS EL 29 DE SEPTIEMBRE. VOLVER EN 15 DÍAS PARA VER TURNO.,,,,,,,\n6,,,,3,GUILLERMO CASTORENA ALVAREZ,2024,296100,,,,AMPARO EN REVISION,24 TCC,D.A. 156/2026,\"NEGÓ AMPARO Y SE PRESENTÓ AR, ANTE LA SCJN  CON NUMERO DE REGISTRO 6989/2026. REVISAR EN SCJN ADMISIÓN\",,,,,,,\n7,,,,4,THE REAL WINGS,2025,23779789.37,12808/2025,,,JUICIO ESPECIAL DE FIANZAS,3 JDDMC,,REVISAR SISE,,,,,,,\n8,,,,5,VISION COMERCIAL DEPORTIVA,2026,112327786.18,11752/26-17-07-9,7MA SALA,\"Se concedió suspensión provisional, en espera de contestación de demanda\",JUICIO DE NULIDAD,7 SRM,,Importante hablar con el secretario para darle velocidad.,,,,,,,\n9,,,,6,\"VISION COMERCIAL DEPORTIVA, S.A. DE C.V.\",2024,20202885.47,4865/24-17-11-5,11VA SALA,SE DECLARÓ NULIDAD ,JUICIO DE NULIDAD,11 SRM,D.A. 525/2025,CONCEDE AMPARO,COBRAR,,,,,,\n10,,,,7,\"PLAYAHOTELOPS, S.A.P.I. DE C.V.\",2025,37761258.86,13691/2025,,,JUICIO ESPECIAL DE FIANZAS,4 JDDMC,,REVISAR SISE,,,,,,,\n11,,,,8,\"PLAYAHOTELOPS, S.A.P.I. DE C.V.\",2025,75522517.72,5855/2025,,,JUICIO ESPECIAL DE FIANZAS,6 JDDMC,,536/2026,REVISAR SISE,,,,,,\n12,,,,9,LUIS FELIPE DE LA VEGA KEEVER,2026,SIN CUANTIA,1189/2026,2 JDD MMA,,QUEJA,,,ASE DIFIERE AUDIENCIA AL 13/11/2026 A LAS 9:59 HRS,,,,,,,\n13,,,,10,JUAN ALAMILLO AYALA,2025,\"1´172,713.13\",TJ/V-108513/2025,V SALA ORDINARIA,,5TA SALA ORDINARIA,RAJ 33808/2026,,SE PRESENTÓ AMPARO,BUSCAR EXPEDIENTE,TCCMA,\"Se envió el 22 de septiembre 2026 y acudir Amparos y Revisiones ubicado en: Oficina de Atención Ciudadana: Av. Coyoacán 1153, Colonia del Valle, C.P. 03100, Alcaldía Benito Juárez.\",,,,\n14,,,,11,\"FARMACIAS MOGA, S.A. DE C.V.\",2025,206283,TJ/II-116305/2025,II SALA ORDINARIA,,NULIDAD,SEGUNDA SALA ORDINARIA DEL TJACCDMX,,,\"PREGUNTAR SECRETARIO, Y CUANDO SE ESTUDIA\",,,,,,\n15,,,,12,ALEJANDRA ROMO CÓRDOBA,2025,1285207,131/2025,17 JDD,AMPARA,REVISION,10MO TCC,AR. 411/2025,411/2025,AMPARO EN REVISION,10 TCCMA,,,,,\n16,,,,13,GRUPO EDITORIAL FAC,2023,533633,4805/23-17-01-1 Y ACUMULADO 2503/24-17-03-6,1RA SALA,,JUICIO DE NULIDAD,,,,REVISAR EXPEDIENTE,VER ACUMULADO,,,,,\n17,,,,14,JULIO CESAR LOPEZ MORALES,2024,1913496,1143/2024-I,12 JDD,,AMPARO EN REVISION,CUMPLIMIENTO,,,,,,,,,\n18,,,,15,VISION COMERCIAL DEPORTIVA,2024,22400,17949/24-17-03-4,3RA SALA,,SE PRESENTO AMPARO DIRECTO,18 TCC,137/2025,QUEJA 300/2025,,,,,,,\n19,,,,16,PREFERENCIA EN DEPORTES,2022,164363631.39,1173/22-12-01-7-OT AMPARO DIRECTO 229/2024 3 TCC 6T0 CIRCUITO,PUEBLA,CONFIRMA VALIDEZ,229/2024,3 TCC 6 C,,REVISAR LISTAS DE SESIÓN,,,,,,,\n20,,,,17,TEXTILES JALMIN,2025,562530.92,,,,RECURSO DE REVOCACION,SECRETARIA FINANZAS TLAXCALA,,,,,,,,,\n21,,,,18,INOVACIONES DEPORTIVAS,2024,19700,325/24-11-01-2,,,INTERPUSIERON REVISION Y AD,,,,,,,,,,\n22,,,,19,METRONET HOSTING VS MEGAPORACTICAL,,,,,,REVISAR CADUCIDAD DE LA INSTANCIA,,,,,,,,,,\n23,,,,20,MEGAPRACTICAL,2014,,,,,,,,,,,,,,,\n\f,Unnamed: 0,Unnamed: 1,Unnamed: 2,Unnamed: 3,Unnamed: 4,Unnamed: 5,Unnamed: 6\n0,,Listas de captura,,,,,\n1,,\"Selecciona una opción en Expedientes o escribe un valor distinto. Para ampliar un desplegable, agrega opciones al final de su lista, sin dejar filas vacías.\",,,,,\n2,,,,,,,\n3,,Clientes,Años,Ubicaciones,Etapas procesales,Medios de defensa,Seguimientos frecuentes\n4,,ALEJANDRA ROMO CÓRDOBA,2014,10 TCCMA,AMPARA,AMPARO DIRECTO,BUSCAR EXPEDIENTE\n5,,FARMACIAS MOGA,2021,10MA SALA,CONFIRMA VALIDEZ,AMPARO EN REVISION,COBRAR\n6,,GEA PROCESS ENGINEERING,2022,10MO TCC,\"Se concedió suspensión provisional, en espera de contestación de demanda\",JUICIO DE NULIDAD,\"PREGUNTAR SECRETARIO, Y CUANDO SE ESTUDIA\"\n7,,GRUPO EDITORIAL FAC,2023,11 SRM,SE DECLARÓ NULIDAD,JUICIO ESPECIAL DE FIANZAS,REVISAR CADUCIDAD DE LA INSTANCIA\n8,,GUILLERMO CASTORENA ALVAREZ,2024,11VA SALA,sentencia que confirma la validez,NULIDAD,REVISAR EXPEDIENTE\n9,,INOVACIONES DEPORTIVAS,2025,12 JDD,,QUEJA,REVISAR LISTAS DE SESIÓN\n10,,JUAN ALAMILLO AYALA,2026,17 JDD,,RECURSO DE REVOCACION,REVISAR SISE\n11,,JULIO CESAR LOPEZ MORALES,,18 TCC,,REVISION,VER ACUMULADO\n12,,LUIS FELIPE DE LA VEGA KEEVER,,19 TCC,,,\n13,,MEGAPRACTICAL,,1RA SALA,,,\n14,,METRONET HOSTING VS MEGAPORACTICAL,,2 JDD MMA,,,\n15,,PLAYA HOTELOPS,,24 TCC,,,\n16,,PLAYAHOTELOPS,,3 JDDMC,,,\n17,,PREFERENCIA EN DEPORTES,,3 TCC 6 C,,,\n18,,TEXTILES JALMIN,,3RA SALA,,,\n19,,THE REAL WINGS,,4 JDDMC,,,\n20,,VISION COMERCIAL DEPORTIVA,,6 JDDMC,,,\n21,,\"GEA PROCESS ENGINEERING, S.A. DE C.V.\",,7 SRM,,,\n22,,\"VISION COMERCIAL DEPORTIVA, S.A. DE C.V.\",,7MA SALA,,,\n23,,\"PLAYAHOTELOPS, S.A.P.I. DE C.V.\",,II SALA ORDINARIA,,,\n24,,\"FARMACIAS MOGA, S.A. DE C.V.\",,PUEBLA,,,\n25,,,,SECRETARIA FINANZAS TLAXCALA,,,\n26,,,,SEGUNDA SALA ORDINARIA DEL TJACCDMX,,,\n27,,,,TCCMA,,,\n28,,,,V SALA ORDINARIA,,,\n",
+          "id": "1jduV0EJbI1IqCcx29t9B0YWq8cyyr4wqNaUbkoKslh0",
+          "parent_ids": [
+            "0AKBX4xeRk6D7Uk9PVA"
+          ],
+          "drive_id": null,
+          "created_time": "2026-09-30T22:00:23.450Z",
+          "modified_time": "2026-09-30T23:14:12.042Z",
+          "is_empty": false,
+          "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "file_name": null,
+          "file_size_bytes": null,
+          "url": "https://drive.google.com/file/d/1jduV0EJbI1IqCcx29t9B0YWq8cyyr4wqNaUbkoKslh0"
+        }
+      },
+      "isError": false
+    }
+  },
+  "native_revisions": {
+    "status": "fulfilled",
+    "value": {
+      "content": [
+        {
+          "type": "text",
+          "text": "Action completed."
+        }
+      ],
+      "structuredContent": {
+        "fileId": "1jduV0EJbI1IqCcx29t9B0YWq8cyyr4wqNaUbkoKslh0",
+        "revisions": [
+          {
+            "id": "1",
+            "mimeType": "application/vnd.google-apps.spreadsheet",
+            "modifiedTime": "2026-09-30T22:00:25.140Z",
+            "keepForever": null,
+            "published": false,
+            "size": null,
+            "originalFilename": null,
+            "lastModifyingUser": {
+              "displayName": "Yohualli Emiliano García Milla",
+              "emailAddress": "emilianogarciamilla@gmail.com",
+              "me": true,
+              "permissionId": "18105746177774548708",
+              "photoLink": "https://lh3.googleusercontent.com/a/ACg8ocJTvggamX6fjy5Xy_HZEEvxg0MEnJjRJ4QHrLICB7eg4WYabczIBg=s64"
+            }
+          },
+          {
+            "id": "123",
+            "mimeType": "application/vnd.google-apps.spreadsheet",
+            "modifiedTime": "2026-09-30T23:14:11.960Z",
+            "keepForever": null,
+            "published": false,
+            "size": null,
+            "originalFilename": null,
+            "lastModifyingUser": {
+              "displayName": "Yohualli Emiliano García Milla",
+              "emailAddress": "emilianogarciamilla@gmail.com",
+              "me": true,
+              "permissionId": "18105746177774548708",
+              "photoLink": "https://lh3.googleusercontent.com/a/ACg8ocJTvggamX6fjy5Xy_HZEEvxg0MEnJjRJ4QHrLICB7eg4WYabczIBg=s64"
+            }
+          }
+        ],
+        "currentRevisionId": "123",
+        "previousRevisionId": "1"
+      },
+      "isError": false
+    }
+  },
+  "personal_revisions": {
+    "status": "fulfilled",
+    "value": {
+      "content": [
+        {
+          "type": "text",
+          "text": "Action completed."
+        }
+      ],
+      "structuredContent": {
+        "fileId": "1oSbtzE3-J4sr6HsygPzqD8M-JE9lw-jO",
+        "revisions": [
+          {
+            "id": "0B6BX4xeRk6D7emppWEh3UW8yME1pU0pPaDE5b3dlNHBQc2RZPQ",
+            "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "modifiedTime": "2026-09-30T19:01:57.341Z",
+            "keepForever": false,
+            "published": false,
+            "size": "14054",
+            "originalFilename": "CONCENTRADO_DE_EXPEDIENTES.xlsx",
+            "lastModifyingUser": {
+              "displayName": "Yohualli Emiliano García Milla",
+              "emailAddress": "emilianogarciamilla@gmail.com",
+              "me": true,
+              "permissionId": "18105746177774548708",
+              "photoLink": "https://lh3.googleusercontent.com/a/ACg8ocJTvggamX6fjy5Xy_HZEEvxg0MEnJjRJ4QHrLICB7eg4WYabczIBg=s64"
+            }
+          }
+        ],
+        "currentRevisionId": "0B6BX4xeRk6D7emppWEh3UW8yME1pU0pPaDE5b3dlNHBQc2RZPQ",
+        "previousRevisionId": null
+      },
+      "isError": false
+    }
+  },
+  "laboral_revision_initial": {
+    "status": "fulfilled",
+    "value": {
+      "content": [
+        {
+          "type": "text",
+          "text": "HTTPError: 403: \n\nForbidden\n\nRequest URL:\nhttps://www.googleapis.com/drive/v3/files/1YtT78mIRVDr_oZvkEVDyqBl0howya5R8/revisions/0B5gQlemtJ3g6SFI5Qm1FT1NWTTl3dklWU2FkK2plekR4TGpZPQ?alt=media (Response: \n\nForbidden\n\nRequest URL:\nhttps://www.googleapis.com/drive/v3/files/1YtT78mIRVDr_oZvkEVDyqBl0howya5R8/revisions/0B5gQlemtJ3g6SFI5Qm1FT1NWTTl3dklWU2FkK2plekR4TGpZPQ?alt=media)"
+        }
+      ],
+      "structuredContent": {
+        "error": "HTTPError: 403: \n\nForbidden\n\nRequest URL:\nhttps://www.googleapis.com/drive/v3/files/1YtT78mIRVDr_oZvkEVDyqBl0howya5R8/revisions/0B5gQlemtJ3g6SFI5Qm1FT1NWTTl3dklWU2FkK2plekR4TGpZPQ?alt=media (Response: \n\nForbidden\n\nRequest URL:\nhttps://www.googleapis.com/drive/v3/files/1YtT78mIRVDr_oZvkEVDyqBl0howya5R8/revisions/0B5gQlemtJ3g6SFI5Qm1FT1NWTTl3dklWU2FkK2plekR4TGpZPQ?alt=media)",
+        "error_code": "FORBIDDEN"
+      },
+      "isError": true
+    }
+  },
+  "laboral_revision_previous": {
+    "status": "fulfilled",
+    "value": {
+      "content": [
+        {
+          "type": "text",
+          "text": "Action completed."
+        }
+      ],
+      "structuredContent": {
+        "fileId": "1YtT78mIRVDr_oZvkEVDyqBl0howya5R8",
+        "revisionId": "0B5gQlemtJ3g6VFZQQi8zN1J1QW9GSXRmQThKS2dwTitWbHNNPQ",
+        "content": ",Unnamed: 0,Unnamed: 1,Unnamed: 2,Unnamed: 3,Unnamed: 4,Unnamed: 5,Unnamed: 6,Unnamed: 7,Unnamed: 8,Unnamed: 9,Unnamed: 10,Unnamed: 11,Unnamed: 12,Unnamed: 13,Unnamed: 14,Unnamed: 15,Unnamed: 16,Unnamed: 17,Unnamed: 18,Unnamed: 19,Unnamed: 20\n0,,,,,,,,,,,,,,,,,,,,,\n1,,,,,,,,ACTUALIZADO AL 29 DE SEPTIEMBRE,,,,,,,,,,,,clientes,\n2,,,,,,,,,,,,,,,,,,,,,\n3,,,,# interno,cliente,año ,CUANTIA,numero de expediente juicio de nulidad,UBICACIÓN,etapa procesal,medio de defensa,ubicación,numero de expediente,COMENTARIOS,,,,,,gea,2\n4,,,,,,,,,,,,,,,,,,,,,\n5,,,,2,GEA PROCESS ENGINEERING,2021,19892974.53,60/21-17-10-6,10MA SALA,sentencia que confirma la validez,AMPARO DIRECTO,19 TCC,D.A. 506/2026,FUIMOS EL 29 DE SEPTIEMBRE. VOLVER EN 15 DÍAS PARA VER TURNO.,,,,,,,\n6,,,,3,GUILLERMO CASTORENA ALVAREZ,2024,296100,,,,AMPARO EN REVISION,24 TCC,D.A. 156/2026,\"NEGÓ AMPARO Y SE PRESENTÓ AR, ANTE LA SCJN  CON NUMERO DE REGISTRO 6989/2026. REVISAR EN SCJN ADMISIÓN\",,,,,,,\n7,,,,4,THE REAL WINGS,2025,23779789.37,12808/2025,,,JUICIO ESPECIAL DE FIANZAS,3 JDDMC,,REVISAR SISE,,,,,,,\n8,,,,5,VISION COMERCIAL DEPORTIVA,2026,112327786.18,11752/26-17-07-9,7MA SALA,\"Se concedió suspensión provisional, en espera de contestación de demanda\",JUICIO DE NULIDAD,7 SRM,,Importante hablar con el secretario para darle velocidad.,,,,,,,\n9,,,,6,VISION COMERCIAL DEPORTIVA,2024,20202885.47,4865/24-17-11-5,11VA SALA,SE DECLARÓ NULIDAD ,JUICIO DE NULIDAD,11 SRM,D.A. 525/2025,CONCEDE AMPARO,COBRAR,,,,,,\n10,,,,7,PLAYA HOTELOPS,2025,37761258.86,13691/2025,,,JUICIO ESPECIAL DE FIANZAS,4 JDDMC,,REVISAR SISE,,,,,,,\n11,,,,8,PLAYAHOTELOPS,2025,75522517.72,5855/2025,,,JUICIO ESPECIAL DE FIANZAS,6 JDDMC,,536/2026,REVISAR SISE,,,,,,\n12,,,,9,LUIS FELIPE DE LA VEGA KEEVER,2026,SIN CUANTIA,1189/2026,2 JDD MMA,,QUEJA,,,ASE DIFIERE AUDIENCIA AL 13/11/2026 A LAS 9:59 HRS,,,,,,,\n13,,,,10,JUAN ALAMILLO AYALA,2025,\"1´172,713.13\",TJ/V-108513/2025,V SALA ORDINARIA,,5TA SALA ORDINARIA,RAJ 33808/2026,,SE PRESENTÓ AMPARO,BUSCAR EXPEDIENTE,TCCMA,\"Se envió el 22 de septiembre 2026 y acudir Amparos y Revisiones ubicado en: Oficina de Atención Ciudadana: Av. Coyoacán 1153, Colonia del Valle, C.P. 03100, Alcaldía Benito Juárez.\",,,,\n14,,,,11,FARMACIAS MOGA,2025,206283,TJ/II-116305/2025,II SALA ORDINARIA,,NULIDAD,SEGUNDA SALA ORDINARIA DEL TJACCDMX,,,\"PREGUNTAR SECRETARIO, Y CUANDO SE ESTUDIA\",,,,,,\n15,,,,12,ALEJANDRA ROMO CÓRDOBA,2025,1285207,131/2025,17 JDD,AMPARA,REVISION,10MO TCC,AR. 411/2025,411/2025,AMPARO EN REVISION,10 TCCMA,,,,,\n16,,,,13,GRUPO EDITORIAL FAC,2023,533633,4805/23-17-01-1 Y ACUMULADO 2503/24-17-03-6,1RA SALA,,JUICIO DE NULIDAD,,,,REVISAR EXPEDIENTE,VER ACUMULADO,,,,,\n17,,,,14,JULIO CESAR LOPEZ MORALES,2024,1913496,1143/2024-I,12 JDD,,AMPARO EN REVISION,CUMPLIMIENTO,,,,,,,,,\n18,,,,15,VISION COMERCIAL DEPORTIVA,2024,22400,17949/24-17-03-4,3RA SALA,,SE PRESENTO AMPARO DIRECTO,18 TCC,137/2025,QUEJA 300/2025,,,,,,,\n19,,,,16,PREFERENCIA EN DEPORTES,2022,164363631.39,1173/22-12-01-7-OT AMPARO DIRECTO 229/2024 3 TCC 6T0 CIRCUITO,PUEBLA,CONFIRMA VALIDEZ,229/2024,3 TCC 6 C,,REVISAR LISTAS DE SESIÓN,,,,,,,\n20,,,,17,TEXTILES JALMIN,2025,562530.92,,,,RECURSO DE REVOCACION,SECRETARIA FINANZAS TLAXCALA,,,,,,,,,\n21,,,,18,INOVACIONES DEPORTIVAS,2024,19700,325/24-11-01-2,,,INTERPUSIERON REVISION Y AD,,,,,,,,,,\n22,,,,19,METRONET HOSTING VS MEGAPORACTICAL,,,,,,REVISAR CADUCIDAD DE LA INSTANCIA,,,,,,,,,,\n23,,,,20,MEGAPRACTICAL,2014,,,,,,,,,,,,,,,\n",
+        "title": "CONCENTRADO DE EXPEDIENTES.xlsx",
+        "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "url": "https://docs.google.com/spreadsheets/d/1YtT78mIRVDr_oZvkEVDyqBl0howya5R8/edit?usp=drivesdk&ouid=118211243090617143463&rtpof=true&sd=true",
+        "revisionModifiedTime": "2026-09-30T17:08:49.091Z",
+        "lastModifyingUser": {
+          "displayName": "Emiliano García Milla",
+          "emailAddress": "emilla@castorena.com.mx",
+          "me": true,
+          "permissionId": "11183030201084271341",
+          "photoLink": "https://lh3.googleusercontent.com/a/ACg8ocK2LmcBHupP9nqcMsdEDGqTFju080u6RO5--jTKFZ-OmDz14Q=s64"
+        }
+      },
+      "isError": false
+    }
+  },
+  "native_revision_initial": {
+    "content": [
+      {
+        "type": "text",
+        "text": "Action completed."
+      }
+    ],
+    "structuredContent": {
+      "fileId": "1jduV0EJbI1IqCcx29t9B0YWq8cyyr4wqNaUbkoKslh0",
+      "revisionId": "1",
+      "content": ",Unnamed: 0,Unnamed: 1,Unnamed: 2,Unnamed: 3,Unnamed: 4,Unnamed: 5,Unnamed: 6,Unnamed: 7,Unnamed: 8,Unnamed: 9,Unnamed: 10,Unnamed: 11,Unnamed: 12,Unnamed: 13,Unnamed: 14,Unnamed: 15,Unnamed: 16,Unnamed: 17,Unnamed: 18,Unnamed: 19,Unnamed: 20\n0,,,,,,,,,,,,,,,,,,,,,\n1,,,,,,,,ACTUALIZADO AL 29 DE SEPTIEMBRE,,,,,,,,,,,,clientes,\n2,,,,,,,,,,,,,,,,,,,,,\n3,,,,# interno,cliente,año ,CUANTIA,numero de expediente juicio de nulidad,UBICACIÓN,etapa procesal,medio de defensa,ubicación,numero de expediente,COMENTARIOS,,,,,,gea,2\n4,,,,,,,,,,,,,,,,,,,,,\n5,,,,2,GEA PROCESS ENGINEERING,2021,19892974.53,60/21-17-10-6,10MA SALA,sentencia que confirma la validez,AMPARO DIRECTO,19 TCC,D.A. 506/2026,FUIMOS EL 29 DE SEPTIEMBRE. VOLVER EN 15 DÍAS PARA VER TURNO.,,,,,,,\n6,,,,3,GUILLERMO CASTORENA ALVAREZ,2024,296100,,,,AMPARO EN REVISION,24 TCC,D.A. 156/2026,\"NEGÓ AMPARO Y SE PRESENTÓ AR, ANTE LA SCJN  CON NUMERO DE REGISTRO 6989/2026. REVISAR EN SCJN ADMISIÓN\",,,,,,,\n7,,,,4,THE REAL WINGS,2025,23779789.37,12808/2025,,,JUICIO ESPECIAL DE FIANZAS,3 JDDMC,,REVISAR SISE,,,,,,,\n8,,,,5,VISION COMERCIAL DEPORTIVA,2026,112327786.18,11752/26-17-07-9,7MA SALA,\"Se concedió suspensión provisional, en espera de contestación de demanda\",JUICIO DE NULIDAD,7 SRM,,Importante hablar con el secretario para darle velocidad.,,,,,,,\n9,,,,6,VISION COMERCIAL DEPORTIVA,2024,20202885.47,4865/24-17-11-5,11VA SALA,SE DECLARÓ NULIDAD ,JUICIO DE NULIDAD,11 SRM,D.A. 525/2025,CONCEDE AMPARO,COBRAR,,,,,,\n10,,,,7,PLAYA HOTELOPS,2025,37761258.86,13691/2025,,,JUICIO ESPECIAL DE FIANZAS,4 JDDMC,,REVISAR SISE,,,,,,,\n11,,,,8,PLAYAHOTELOPS,2025,75522517.72,5855/2025,,,JUICIO ESPECIAL DE FIANZAS,6 JDDMC,,536/2026,REVISAR SISE,,,,,,\n12,,,,9,LUIS FELIPE DE LA VEGA KEEVER,2026,SIN CUANTIA,1189/2026,2 JDD MMA,,QUEJA,,,ASE DIFIERE AUDIENCIA AL 13/11/2026 A LAS 9:59 HRS,,,,,,,\n13,,,,10,JUAN ALAMILLO AYALA,2025,\"1´172,713.13\",TJ/V-108513/2025,V SALA ORDINARIA,,5TA SALA ORDINARIA,RAJ 33808/2026,,SE PRESENTÓ AMPARO,BUSCAR EXPEDIENTE,TCCMA,\"Se envió el 22 de septiembre 2026 y acudir Amparos y Revisiones ubicado en: Oficina de Atención Ciudadana: Av. Coyoacán 1153, Colonia del Valle, C.P. 03100, Alcaldía Benito Juárez.\",,,,\n14,,,,11,FARMACIAS MOGA,2025,206283,TJ/II-116305/2025,II SALA ORDINARIA,,NULIDAD,SEGUNDA SALA ORDINARIA DEL TJACCDMX,,,\"PREGUNTAR SECRETARIO, Y CUANDO SE ESTUDIA\",,,,,,\n15,,,,12,ALEJANDRA ROMO CÓRDOBA,2025,1285207,131/2025,17 JDD,AMPARA,REVISION,10MO TCC,AR. 411/2025,411/2025,AMPARO EN REVISION,10 TCCMA,,,,,\n16,,,,13,GRUPO EDITORIAL FAC,2023,533633,4805/23-17-01-1 Y ACUMULADO 2503/24-17-03-6,1RA SALA,,JUICIO DE NULIDAD,,,,REVISAR EXPEDIENTE,VER ACUMULADO,,,,,\n17,,,,14,JULIO CESAR LOPEZ MORALES,2024,1913496,1143/2024-I,12 JDD,,AMPARO EN REVISION,CUMPLIMIENTO,,,,,,,,,\n18,,,,15,VISION COMERCIAL DEPORTIVA,2024,22400,17949/24-17-03-4,3RA SALA,,SE PRESENTO AMPARO DIRECTO,18 TCC,137/2025,QUEJA 300/2025,,,,,,,\n19,,,,16,PREFERENCIA EN DEPORTES,2022,164363631.39,1173/22-12-01-7-OT AMPARO DIRECTO 229/2024 3 TCC 6T0 CIRCUITO,PUEBLA,CONFIRMA VALIDEZ,229/2024,3 TCC 6 C,,REVISAR LISTAS DE SESIÓN,,,,,,,\n20,,,,17,TEXTILES JALMIN,2025,562530.92,,,,RECURSO DE REVOCACION,SECRETARIA FINANZAS TLAXCALA,,,,,,,,,\n21,,,,18,INOVACIONES DEPORTIVAS,2024,19700,325/24-11-01-2,,,INTERPUSIERON REVISION Y AD,,,,,,,,,,\n22,,,,19,METRONET HOSTING VS MEGAPORACTICAL,,,,,,REVISAR CADUCIDAD DE LA INSTANCIA,,,,,,,,,,\n23,,,,20,MEGAPRACTICAL,2014,,,,,,,,,,,,,,,\n\f,Unnamed: 0,Unnamed: 1,Unnamed: 2,Unnamed: 3,Unnamed: 4,Unnamed: 5,Unnamed: 6\n0,,Listas de captura,,,,,\n1,,\"Selecciona una opción en Expedientes o escribe un valor distinto. Para ampliar un desplegable, agrega opciones al final de su lista, sin dejar filas vacías.\",,,,,\n2,,,,,,,\n3,,Clientes,Años,Ubicaciones,Etapas procesales,Medios de defensa,Seguimientos frecuentes\n4,,ALEJANDRA ROMO CÓRDOBA,2014,10 TCCMA,AMPARA,AMPARO DIRECTO,BUSCAR EXPEDIENTE\n5,,FARMACIAS MOGA,2021,10MA SALA,CONFIRMA VALIDEZ,AMPARO EN REVISION,COBRAR\n6,,GEA PROCESS ENGINEERING,2022,10MO TCC,\"Se concedió suspensión provisional, en espera de contestación de demanda\",JUICIO DE NULIDAD,\"PREGUNTAR SECRETARIO, Y CUANDO SE ESTUDIA\"\n7,,GRUPO EDITORIAL FAC,2023,11 SRM,SE DECLARÓ NULIDAD,JUICIO ESPECIAL DE FIANZAS,REVISAR CADUCIDAD DE LA INSTANCIA\n8,,GUILLERMO CASTORENA ALVAREZ,2024,11VA SALA,sentencia que confirma la validez,NULIDAD,REVISAR EXPEDIENTE\n9,,INOVACIONES DEPORTIVAS,2025,12 JDD,,QUEJA,REVISAR LISTAS DE SESIÓN\n10,,JUAN ALAMILLO AYALA,2026,17 JDD,,RECURSO DE REVOCACION,REVISAR SISE\n11,,JULIO CESAR LOPEZ MORALES,,18 TCC,,REVISION,VER ACUMULADO\n12,,LUIS FELIPE DE LA VEGA KEEVER,,19 TCC,,,\n13,,MEGAPRACTICAL,,1RA SALA,,,\n14,,METRONET HOSTING VS MEGAPORACTICAL,,2 JDD MMA,,,\n15,,PLAYA HOTELOPS,,24 TCC,,,\n16,,PLAYAHOTELOPS,,3 JDDMC,,,\n17,,PREFERENCIA EN DEPORTES,,3 TCC 6 C,,,\n18,,TEXTILES JALMIN,,3RA SALA,,,\n19,,THE REAL WINGS,,4 JDDMC,,,\n20,,VISION COMERCIAL DEPORTIVA,,6 JDDMC,,,\n21,,,,7 SRM,,,\n22,,,,7MA SALA,,,\n23,,,,II SALA ORDINARIA,,,\n24,,,,PUEBLA,,,\n25,,,,SECRETARIA FINANZAS TLAXCALA,,,\n26,,,,SEGUNDA SALA ORDINARIA DEL TJACCDMX,,,\n27,,,,TCCMA,,,\n28,,,,V SALA ORDINARIA,,,\n",
+      "title": "CONCENTRADO_DE_EXPEDIENTES_REVISION_SHEETS",
+      "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "url": "https://docs.google.com/spreadsheets/d/1jduV0EJbI1IqCcx29t9B0YWq8cyyr4wqNaUbkoKslh0/edit?usp=drivesdk",
+      "revisionModifiedTime": "2026-09-30T22:00:25.140Z",
+      "lastModifyingUser": {
+        "displayName": "Yohualli Emiliano García Milla",
+        "emailAddress": "emilianogarciamilla@gmail.com",
+        "me": true,
+        "permissionId": "18105746177774548708",
+        "photoLink": "https://lh3.googleusercontent.com/a/ACg8ocJTvggamX6fjy5Xy_HZEEvxg0MEnJjRJ4QHrLICB7eg4WYabczIBg=s64"
+      }
+    },
+    "isError": false
+  },
+  "personal_context": {
+    "status": "fulfilled",
+    "value": {
+      "content": [
+        {
+          "type": "text",
+          "text": "Personal context is unavailable for this conversation."
+        }
+      ],
+      "isError": true
+    }
+  },
+  "_preservation": {
+    "format": "audit-preserved-with-path-normalization-v1",
+    "binary_snapshots": "fuentes/<familia>/<sha12>_<nombre>",
+    "runtime_paths": "RUTA_EJECUCION_NO_PERSISTENTE identifica un localizador de la sesión original, no un archivo disponible en este directorio.",
+    "source_content": "Auditoría completa; se normalizaron rutas y se retiraron sólo URLs de transferencia efímeras. No se modifica el contenido de los XLSX/PDF.",
+    "original_audit_sha256": "4f6e158dda8f0afe099af2631dfb412641199c95eae6a470f9025ecf7dae50f0",
+    "source_filename": "concentrado_drive_evidence.json"
+  }
+}
