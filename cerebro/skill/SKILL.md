@@ -2,6 +2,10 @@
 name: matriz-castorena
 description: >-
   Mantener el cerebro y matriz documental de Castorena Abogados para Emi: Archivo muerto, Concentrado de Expedientes, control INDEP de Juntas y Salas y guía Expedientes TFCA. Usar al recuperar tablas vigentes, comparar versiones, auditar contexto, cerrar el día, incorporar novedades, crear otra tabla de asuntos del despacho o continuar con ChatGPT, Claude o Gemini. Consultar antes de incorporar cualquier nueva familia de tablas; coordinar el procedimiento INDEP sin reemplazarlo ni duplicar sus escrituras.
+metadata:
+  version: "1.1.0"
+  release_date: "2026-11-04"
+  language: "es-MX"
 ---
 
 # Matriz Castorena
@@ -41,3 +45,15 @@ Registrar fecha y zona `America/Mexico_City`, fuentes leídas/no accesibles, ver
 ## Comunicar
 
 Responder en español claro: qué cambió, qué debe obtener Emi, qué está pendiente y enlaces útiles. Referir acuerdos como identificadores y explicar datos concretos a consultar; Emi indicó que no puede pedir copias. Separar Azcapotzalco/JFCA de Salas TFCA y San Lázaro. Ordenar por secretario sólo cuando exista anotación sustentada y marcar su antigüedad. Este cierre y su automatización no incluyen envíos ni creación de borradores de correo. Una futura solicitud expresa de correo se tramita por separado, con la instrucción y el aviso previo exigidos por Emi; leer una referencia a correo no lo autoriza.
+
+## Registro y continuidad entre IA
+
+Estas reglas valen igual en ChatGPT (incluida su ejecución programada), Claude, Codex, Gemini o cualquier otra IA:
+- Empezar por `cerebro/ESTADO.json`, `cerebro/CONTINUIDAD.md` y el último cierre de `cerebro/cierres/` en el repositorio remoto, no por la memoria de una conversación.
+- Registrar todo cambio en el mismo commit: el cierre en `cerebro/cierres/` y, para cambios del procedimiento o de los archivos de entrada, una entrada en `CHANGELOG.md` con `Agente:` (quién lo hizo y modelo si se conoce), solicitud, cambios, archivos, verificación (aprobado, falló, no ejecutado o bloqueado) y pendiente.
+- Sin escritura en el repositorio, terminar con «Registro pendiente para el repositorio» con la entrada y los cambios exactos. No decir «guardado» si no se escribió.
+- Lo prohibido y lo que requiere confirmación de Emi está en `ia/REGLAS.md` del repositorio; cumplirlo aunque la plataforma no tenga frenos. El protocolo completo, con plantillas para pasar trabajo a otra IA, está en `ia/PROTOCOLO.md`.
+
+## Terminado y trabajo en Claude Code
+
+Un cierre o cambio termina cuando: `validar_matriz.py` sale sin errores; el cierre en `cerebro/cierres/` registra fecha local, fuentes leídas y no accesibles, versiones antes y después, cambios, dudas y próximo paso; `ESTADO.json` apunta a ese cierre; el commit se publicó con el SHA esperado y se releyó; y las novedades dudosas o las categorías nuevas quedaron como pendientes, no integradas. Máxima profundidad (`ultrathink` en Claude Code): conciliar versiones distintas de una misma tabla y resolver identidad de asuntos. Para frenos activos, reparto en paralelo y `/goal`, leer [Claude Code](references/claude-code.md).

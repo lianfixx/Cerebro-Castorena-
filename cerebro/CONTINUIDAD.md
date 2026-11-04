@@ -6,6 +6,10 @@ Traslado publicado y verificado en `9d9257d3ebdb41c209d5135a085e4bd0213ad984`: 5
 
 En próximas ejecuciones leer este repositorio y sus cuatro familias. **INDEP operativo sigue en lianfixx/INDEP, rama main**, con su procedimiento y entregas validadas; la matriz sólo indexa resultados. La automatización del cierre conserva su identidad y horario; su nuevo destino fue actualizado y releído. Todavía no se ha observado una ejecución programada posterior al traslado. La compatibilidad con Claude/Gemini sigue siendo documental, sin prueba de ejecución en esos productos.
 
+## Protocolo común entre IA — 4 de noviembre de 2026
+
+Agente: Claude Code. Por instrucción de Emi, el repositorio se integró al protocolo común de sus 15 repositorios (`ia/PROTOCOLO.md`): reglas en `ia/REGLAS.md`, frenos en Claude Code y en git, y revisión de cada push en GitHub. La skill pasa a 1.1.0 sin cambio de método; los Excel, `MATRIZ.json`, `HISTORIAL.json` y `ESTADO.json` no se modificaron. Al revisar se observó que el repositorio público contiene Excel con datos reales de expedientes; Emi lo autorizó para el contenido existente, y la decisión de mantenerlo público o volverlo privado sigue siendo suya. La ejecución programada de ChatGPT («Cerrar matriz Castorena») no se modificó.
+
 Lo que sigue es continuidad histórica preservada; sus referencias a la antigua rama describen el estado anterior a la migración.
 
 ---
