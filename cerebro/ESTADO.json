@@ -94,5 +94,19 @@
     "personal_procedure_saved_and_verified": true,
     "old_location_marked_historical_and_verified": true,
     "verification": "Árbol remoto completo con coincidencia de blobs; lectura de README y procedimiento; cuatro tablas descargadas de main e idénticas byte a byte."
+  },
+  "automation_claude": {
+    "status": "creada_y_activa",
+    "id": "trig_01NQu55pefnWfvMFiCWs6Cvc",
+    "title": "Cierre matutino matriz Castorena (Claude)",
+    "schedule": "CRON_TZ=America/Mexico_City 43 7 * * *",
+    "first_run_at": "2026-11-05T07:43:00-06:00",
+    "first_run_observed": false,
+    "mode": "sesión nueva en la nube por cada ejecución",
+    "no_email": true,
+    "connectors": "ninguno (Drive no disponible en esas sesiones)",
+    "complements": "automation (ChatGPT, 18:30)",
+    "created_at": "2026-11-04T17:03:24-06:00",
+    "created_by": "Claude Code a petición de Emi"
   }
 }

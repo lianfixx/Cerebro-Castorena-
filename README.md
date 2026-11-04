@@ -1,6 +1,6 @@
 # Cerebro Castorena
 
-Matriz documental de Emi para Castorena Abogados. Aquí están las cuatro tablas de referencia, las versiones recuperadas, las reglas de trabajo y los pendientes.
+Matriz documental de Emi para Castorena Abogados. Aquí están las cinco tablas de referencia, las versiones recuperadas, las reglas de trabajo y los pendientes.
 
 ## Abrir las tablas
 
@@ -11,6 +11,7 @@ Estas son las referencias del último cierre documental del **3 de noviembre de 
 | [Archivo muerto](cerebro/fuentes/archivo_muerto/8305a4b41f43_Catalogo_Archivo_Muerto.xlsx) | 78 registros físicos; única candidata recuperada, vigencia operativa por confirmar. |
 | [Concentrado de expedientes](cerebro/fuentes/concentrado/7cbaad8795b9_Concentrado_de_Expedientes_2026-10-29.xlsx) | 26 registros / 15 hojas; referencia del 29/10/2026. Anotación de ID 12 pendiente. |
 | [INDEP (Juntas/Salas)](cerebro/fuentes/indep/276657ed210f_Control_de_expedientes_Junta_Especial_2-4_2_.xlsx) | Maestro lógico v20, 45 folios; indexado hasta entrega 39. Consultar el INDEP operativo para novedades. |
+| [No laborales (TFJA)](cerebro/fuentes/indep/a52c4946e09d_Control_de_expedientes_Junta_Especial_2_C_1_.xlsx) | 2 asuntos no laborales de INDEP ante el TFJA (hoja «No laborales (TFJA)»), corte 05/10/2026; vigencia por confirmar. |
 | [Expedientes TFCA](cerebro/fuentes/tfca/d9e1dcc79a77_Expedientes_TFCA_y_San_Lazaro.xlsx) | Guía v2 de 13 folios del maestro; San Lázaro no agrega casos. |
 
 ## Continuar el trabajo

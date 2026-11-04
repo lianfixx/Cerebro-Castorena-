@@ -17,7 +17,7 @@ Modo plan (Shift+Tab) para un cambio de procedimiento o una conciliación difíc
 
 ## Reparto en paralelo
 
-Un subagente de solo lectura por familia (Archivo muerto, Concentrado, INDEP, TFCA) para revisar fuentes nuevas y comparar versiones con hash. Solo el consolidador edita `MATRIZ.json`, `HISTORIAL.json`, `ESTADO.json` y el cierre, y publica. Ningún subagente modifica INDEP: su operación es de `lianfixx/INDEP`.
+Un subagente de solo lectura por familia (Archivo muerto, Concentrado, INDEP, TFCA, No laborales (TFJA)) para revisar fuentes nuevas y comparar versiones con hash. Solo el consolidador edita `MATRIZ.json`, `HISTORIAL.json`, `ESTADO.json` y el cierre, y publica. Ningún subagente modifica INDEP: su operación es de `lianfixx/INDEP`.
 
 ## /goal
 

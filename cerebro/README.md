@@ -1,12 +1,13 @@
 # Cerebro Castorena
 
-Punto de continuidad de las cuatro familias de tablas de Emi. Conserva fuentes, versiones, reglas y pendientes sin fusionar universos ni reescribir los Excel originales.
+Punto de continuidad de las cinco familias de tablas de Emi. Conserva fuentes, versiones, reglas y pendientes sin fusionar universos ni reescribir los Excel originales.
 
 | Familia | Fuente de referencia al cierre inicial | Límite |
 |---|---|---|
 | Archivo muerto | Catálogo del 28/09/2026: 78 registros físicos | Única versión recuperada; vigencia operativa no confirmada |
 | Concentrado | Adjunto 2026-10-29, idéntico a Library v5: 26 registros / 15 hojas | Drive contiene anotación nueva de Alejandra pendiente de conciliar |
 | Asuntos INDEP | Maestro lógico v20; última entrega documental 39 | Drive ACTUAL permanece en 18 por sincronización pendiente |
+| No laborales (TFJA) | Hoja del control del 05/10/2026: 2 asuntos de INDEP ante el TFJA | Familia desde el 04/11/2026; vigencia por confirmar |
 | Expedientes TFCA | Guía v2: 13 folios vinculados al maestro | San Lázaro reúne 3 de esos mismos folios; no suma casos |
 
 ## Abrir los archivos

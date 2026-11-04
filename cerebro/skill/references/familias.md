@@ -1,4 +1,4 @@
-# Contratos de las cuatro familias
+# Contratos de las cinco familias
 
 ## Archivo muerto
 
@@ -24,6 +24,10 @@ La confirmación directa de Emi sobre González se registra como confirmación d
 
 La guía v2 auditada el03/11/2026 es una vista operativa del mismo universo de13foliosTFCA; verificar su versión en cada ejecución. Los tres renglones de San Lázaro corresponden a folios de esos 13; no son tres asuntos adicionales ni los tres de la hoja Poder Judicial. Vincular por folio. Conservar Sala de origen, órgano consultado, sede, secretario, turno y ubicación actual como conceptos distintos. Mantener explícitas discrepancias de Sala o número de amparo hasta fuente concluyente. No trasladar diligencias de Salas a Azcapotzalco.
 
+## No laborales (TFJA)
+
+Quinta familia, incorporada por instrucción de Emi del 04/11/2026 («Sí por favor»). Contiene asuntos no laborales de INDEP ante el TFJA, que se llevan por separado y no suman a los 45 laborales ni los sustituyen. Fuente vigente: la hoja «No laborales (TFJA)» del control del 05/10/2026 (`fuentes/indep/a52c4946e09d_…`), con origen declarado en la Matriz v3 del portal INDEP. Al corte tiene 2 folios (82701 y 82702), que no aparecen en el Concentrado ni en el maestro INDEP vigente. Su vigencia y quién los lleva están por confirmar: no inferir estado procesal, no actualizarlos con boletines laborales JFCA y no moverlos al Concentrado sin evidencia y autorización.
+
 ## Categorías nuevas
 
-Puede preservarse íntegro un original mixto ya recuperado que incluya “No laborales (TFJA)”; ello no activa una quinta familia ni permite importar su hoja a un control vigente. Para una tabla nueva independiente, registrar sólo título, ubicación y motivo hasta obtener respuesta. Preguntar a Emi si quiere incorporarla como categoría separada y con qué alcance, después de identificarla sin importar sus datos.
+Puede preservarse íntegro un original mixto ya recuperado que incluya “No laborales (TFJA)”; esa hoja es la fuente de la quinta familia desde el 04/11/2026; cualquier otra hoja o tabla sigue requiriendo consulta. Para una tabla nueva independiente, registrar sólo título, ubicación y motivo hasta obtener respuesta. Preguntar a Emi si quiere incorporarla como categoría separada y con qué alcance, después de identificarla sin importar sus datos.

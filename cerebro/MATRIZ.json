@@ -140,16 +140,36 @@
         "no_new_cases": true
       },
       "audit_path": "evidencia/indep_tfca.json"
-    }
-  ],
-  "pending_categories": [
+    },
     {
       "id": "no_laborales_tfja",
       "title": "No laborales (TFJA)",
-      "estado": "consulta_pendiente"
+      "role": "Asuntos no laborales de INDEP ante el TFJA; tabla separada que no suma a los 45 laborales ni los sustituye.",
+      "current_version_id": "no_laborales_tfja-a52c4946e09d",
+      "current_library_url": null,
+      "sha256": "a52c4946e09d49ab0857937388d84d384190a83e6ba588592cc7c6f0d7b60ee5",
+      "current_sha256": "a52c4946e09d49ab0857937388d84d384190a83e6ba588592cc7c6f0d7b60ee5",
+      "current_snapshot_path": "fuentes/indep/a52c4946e09d_Control_de_expedientes_Junta_Especial_2_C_1_.xlsx",
+      "universo": {
+        "unit": "folio no laboral",
+        "count": 2,
+        "folios": [
+          82701,
+          82702
+        ],
+        "corte": "2026-10-05",
+        "source": "fuentes/indep/a52c4946e09d_Control_de_expedientes_Junta_Especial_2_C_1_.xlsx#No laborales (TFJA)"
+      },
+      "current_selection_basis": {
+        "authorization": "Emi, 04/11/2026, sesión de Claude Code: «Sí por favor» a incorporar «No laborales (TFJA)» como categoría.",
+        "scope_decision": "Decisión de implementación del agente: familia separada con la hoja del 05/10/2026 como fuente; sin importar datos nuevos ni mezclarla con Concentrado o INDEP.",
+        "overlap_check": "Ninguno de sus expedientes aparece en el Concentrado vigente; los folios no están en el maestro INDEP v21."
+      },
+      "audit_path": "cierres/2026-11-04_1644.json"
     }
   ],
-  "scope": "Cuatro familias autorizadas. Matriz de fuentes y trazabilidad; no sustituye las tablas ni altera estados procesales.",
+  "pending_categories": [],
+  "scope": "Cinco familias autorizadas (la quinta, No laborales (TFJA), desde el 04/11/2026). Matriz de fuentes y trazabilidad; no sustituye las tablas ni altera estados procesales.",
   "updates_pending": [
     {
       "file_id": "1YtT78mIRVDr_oZvkEVDyqBl0howya5R8",
@@ -171,6 +191,13 @@
       "state": "requiere_autorizacion_de_emi",
       "detail": "¿Copiar el maestro v21 (entrega 41) a cerebro/fuentes/ del repositorio público? La autorización vigente cubre solo el contenido ya migrado.",
       "sha256": "6504026c7fa968c2877e8c689aad7d9daafe84e2d96eca90a00fb7d274eef865"
+    },
+    {
+      "id": "no_laborales_tfja_vigencia",
+      "family_id": "no_laborales_tfja",
+      "state": "pendiente",
+      "detail": "Confirmar si los folios 82701 y 82702 siguen vigentes y quién los lleva: la fuente es un corte del 05/10/2026 y el control INDEP operativo ya no los incluye.",
+      "caution": "No inferir estado procesal ni actualizar desde boletines laborales."
     }
   ],
   "identity_rules": {

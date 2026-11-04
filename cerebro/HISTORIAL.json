@@ -1188,7 +1188,7 @@
         "No laborales (TFJA)"
       ],
       "historical_only": true,
-      "scope_note": "Conservado íntegro como antecedente. La cuarta hoja No laborales (TFJA) no integra el índice operativo ni una categoría autorizada.",
+      "scope_note": "Conservado íntegro como antecedente. Su cuarta hoja No laborales (TFJA) es desde el 04/11/2026 la fuente de la familia no_laborales_tfja (versión no_laborales_tfja-a52c4946e09d).",
       "excluded_from_operational_index": [
         "No laborales (TFJA)"
       ],
@@ -1466,6 +1466,29 @@
       ],
       "historical_only": false,
       "scope_note": "Maestro lógico v21 validado por el procedimiento INDEP (entrega 41; adoptado en entrega 42). Bytes y SHA-256 verificados desde lianfixx/INDEP. Sin copia en este repositorio público: la autorización de Emi cubre solo el contenido ya migrado. Respecto de v20 cambian 3 celdas de Junta Especial 2; Salas TFCA y Poder Judicial sin cambios.",
+      "legal_validation_implied": false
+    },
+    {
+      "id": "no_laborales_tfja-a52c4946e09d",
+      "family_id": "no_laborales_tfja",
+      "sha256": "a52c4946e09d49ab0857937388d84d384190a83e6ba588592cc7c6f0d7b60ee5",
+      "size_bytes": 14027,
+      "snapshot_path": "fuentes/indep/a52c4946e09d_Control_de_expedientes_Junta_Especial_2_C_1_.xlsx",
+      "source_locator": {
+        "same_bytes_as_version": "indep-a52c4946e09d",
+        "sheet": "No laborales (TFJA)",
+        "range": "A1:J6",
+        "origin_declared_in_sheet": "Matriz v3 (portal INDEP)",
+        "origin_version_id": "indep-4392452cb21f"
+      },
+      "evidence_state": "recuperado_verificado_bytes",
+      "role": "current_snapshot",
+      "current_for_family": true,
+      "sheets": [
+        "No laborales (TFJA)"
+      ],
+      "historical_only": false,
+      "scope_note": "Hoja «No laborales (TFJA)» del control del 05/10/2026: 2 asuntos de INDEP ante el TFJA, fuera de los 45 laborales. Corte al 05/10/2026; vigencia por confirmar.",
       "legal_validation_implied": false
     }
   ],
@@ -7320,5 +7343,6 @@
     "caution": "Sin bytes verificados no se agregan como versiones binarias ni se equiparan por nombre o tamaño.",
     "library_internal_requests_not_history": "19 solicitudes de versiones previas devolvieron el mismo file_id, tamaño ytexto actual con número solicitado. No se consideran recuperaciones históricas válidas. El historial fiable procede de archivos separados/GitHub. No se restauró ningún archivo."
   },
-  "byte_verification_note": "Hash y tamaño prueban igualdad de los bytes recuperados. No implican validación jurídica, estado procesal vigente ni integridad de cada paquete documental."
+  "byte_verification_note": "Hash y tamaño prueban igualdad de los bytes recuperados. No implican validación jurídica, estado procesal vigente ni integridad de cada paquete documental.",
+  "pending_categories": []
 }

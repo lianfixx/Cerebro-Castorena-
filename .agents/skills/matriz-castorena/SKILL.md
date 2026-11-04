@@ -1,6 +1,6 @@
 ---
 name: matriz-castorena
-description: "Mantener el cerebro y matriz documental de Castorena Abogados para Emi: Archivo muerto, Concentrado de Expedientes, control INDEP de Juntas y Salas y guía Expedientes TFCA. Usar al recuperar tablas vigentes, comparar versiones, auditar contexto, cerrar el día, incorporar novedades, crear otra tabla de asuntos del despacho o continuar con ChatGPT, Claude o Gemini. Consultar antes de incorporar cualquier nueva familia de tablas; coordinar el procedimiento INDEP sin reemplazarlo ni duplicar sus escrituras."
+description: "Mantener el cerebro y matriz documental de Castorena Abogados para Emi: Archivo muerto, Concentrado de Expedientes, control INDEP de Juntas y Salas, guía Expedientes TFCA y No laborales (TFJA). Usar al recuperar tablas vigentes, comparar versiones, auditar contexto, cerrar el día, incorporar novedades, crear otra tabla de asuntos del despacho o continuar con ChatGPT, Claude o Gemini. Consultar antes de incorporar cualquier nueva familia de tablas; coordinar el procedimiento INDEP sin reemplazarlo ni duplicar sus escrituras."
 ---
 
 # Entrada de matriz-castorena

@@ -2,6 +2,15 @@
 
 Lo más reciente arriba. Formato y reglas: `ia/PROTOCOLO.md`, sección 3. Cada entrada lleva la línea `Agente:`.
 
+## 2026-11-04 · quinta familia «No laborales (TFJA)» y ejecución programada en Claude (skill 1.2.0)
+
+- Agente: Claude Code (sesión en la nube)
+- Solicitud: Emi, 4/11/2026: «Sí por favor» a incorporar «No laborales (TFJA)»; programar una ejecución en Claude.
+- Cambios: familia `no_laborales_tfja` en `MATRIZ.json` y `HISTORIAL.json`, con fuente en la hoja ya preservada del 05/10/2026 (2 folios, sin datos nuevos); el validador admite cinco familias; las referencias, `AGENTS.md` y los README hablan de cinco familias; ejecución programada de Claude a las 07:43 (`trig_01NQu55pefnWfvMFiCWs6Cvc`) documentada en `ESTADO.json` y en `operacion.md`.
+- Archivos: `cerebro/MATRIZ.json`, `cerebro/HISTORIAL.json`, `cerebro/ESTADO.json`, `cerebro/CONTINUIDAD.md`, `cerebro/skill/` (SKILL.md, referencias y validador), `AGENTS.md`, `cerebro/AGENTS.md`, `README.md`, `cerebro/README.md` y este registro.
+- Verificación: `validar_matriz.py` → aprobado (5 familias, 0 errores; 1 aviso esperado por la v21 de INDEP sin copia pública).
+- Pendiente: confirmar la vigencia de los folios 82701 y 82702; decidir la copia pública de INDEP v21; observar la primera ejecución de Claude (05/11, 07:43).
+
 ## 2026-11-04 · matriz-castorena 1.1.0 bajo el protocolo común entre IA
 
 - Agente: Claude Code (sesión en la nube)
