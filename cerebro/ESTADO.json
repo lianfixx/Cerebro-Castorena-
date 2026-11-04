@@ -21,7 +21,12 @@
       "completed_at": "2026-11-04T01:02:39.815123Z",
       "delivery_status": "unknown"
     },
-    "destination_update": "pendiente_hasta_verificacion_publicacion"
+    "destination_update": "actualizada_y_releida; horario e identidad conservados",
+    "repository": "lianfixx/Cerebro-Castorena-",
+    "branch": "main",
+    "prompt_verified_at": "2026-11-03T20:45:24-06:00",
+    "prompt_sha256": "a5488d6658a90d6a76dca76f45dc266327026545e69558d952253ba279fa69cf",
+    "destination_first_run": "aun_no_observada_tras_cambio_de_destino"
   },
   "coverage": {
     "conversations": "no_disponible",
@@ -61,14 +66,27 @@
     "main_indep_head": "29b7fdd6237f1553f61291b438c551eb61451479"
   },
   "migration": {
-    "status": "validada_localmente_pendiente_publicacion",
+    "status": "publicada_y_verificada",
     "target_repository": "lianfixx/Cerebro-Castorena-",
     "target_branch": "main",
     "visibility": "public",
     "record": "MIGRACION.json",
     "previous_plan": "MIGRACION_PENDIENTE.json",
-    "current_canonical_unchanged": false
+    "current_canonical_unchanged": false,
+    "content_commit_verified": "9d9257d3ebdb41c209d5135a085e4bd0213ad984",
+    "old_location_marker_commit": "2326322029c73d6221ff2f5085d32f8a5d839f6c",
+    "verified_at": "2026-11-03T20:45:24-06:00"
   },
   "indep_operational_repository": "lianfixx/INDEP",
-  "migration_audit_at": "2026-11-03T20:42:01-06:00"
+  "migration_audit_at": "2026-11-03T20:42:01-06:00",
+  "migration_publication": {
+    "content_commit": "9d9257d3ebdb41c209d5135a085e4bd0213ad984",
+    "files_verified": 59,
+    "source_snapshots_verified": 28,
+    "current_table_binaries_read_back": 4,
+    "source_tables_modified": false,
+    "personal_procedure_saved_and_verified": true,
+    "old_location_marked_historical_and_verified": true,
+    "verification": "Árbol remoto completo con coincidencia de blobs; lectura de README y procedimiento; cuatro tablas descargadas de main e idénticas byte a byte."
+  }
 }

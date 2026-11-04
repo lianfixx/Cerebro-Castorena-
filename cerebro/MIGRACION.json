@@ -1,7 +1,7 @@
 {
   "schema": "castorena-migracion-ejecucion-v1",
   "prepared_at": "2026-11-03T20:42:01-06:00",
-  "status": "validada_localmente_pendiente_publicacion",
+  "status": "publicada_y_verificada",
   "authorization": {
     "source": "instruccion directa visible en esta conversacion",
     "user_quote": "no, hazlo así, por favor",
@@ -339,12 +339,12 @@
       {
         "path": "cerebro/CONTINUIDAD.md",
         "before_git_blob": "67639225ce5dd15591c5a0ec931901e785649910",
-        "after_git_blob": "c6f1a08cecaef714567085583869d0a809834ab1"
+        "after_git_blob": "08d1d4128353089fa1fba5463c559242d97eacb5"
       },
       {
         "path": "cerebro/ESTADO.json",
         "before_git_blob": "c1da27c59c05a3bb4929e857dd762937ccd2bf31",
-        "after_git_blob": "f0d4c2c8aeedbec579ed07c793d94d7933925093"
+        "after_git_blob": "4570bddd27c60be66dc37c9cd7c9e37a8127a33f"
       },
       {
         "path": "cerebro/GEMINI.md",
@@ -386,12 +386,49 @@
     "local_markdown_links": "verified"
   },
   "publication": {
-    "status": "pendiente"
+    "status": "contenido_publicado_y_releido",
+    "content_commit": "9d9257d3ebdb41c209d5135a085e4bd0213ad984",
+    "files_verified": 59,
+    "tree_blobs_match": true,
+    "readme_and_procedure_read_back": true,
+    "current_table_binaries_byte_identical": 4,
+    "branch": "main",
+    "method": "commit atómico, expected_sha, force=false",
+    "verification_receipt": "Este registro se publica después de verificar el commit de contenido; no pretende incluir su propio SHA."
   },
   "limits": [
     "La cobertura histórica sigue incompleta.",
     "No se probó acceso ni ejecución de Claude/Gemini.",
     "El repositorio INDEP operativo sigue independiente.",
     "El traslado no resuelve discrepancias jurídicas ni convierte candidatos en tablas activas."
-  ]
+  ],
+  "verified_at": "2026-11-03T20:45:24-06:00",
+  "automation": {
+    "id": "6aea5a544e288191994d562d5d075090",
+    "status": "prompt_actualizado_y_releido",
+    "title_unchanged": true,
+    "schedule_unchanged": true,
+    "enabled_unchanged": true,
+    "prompt_sha256": "a5488d6658a90d6a76dca76f45dc266327026545e69558d952253ba279fa69cf",
+    "updated_at": "2026-11-04T02:44:09.955304+00:00",
+    "new_destination_scheduled_run_observed": false,
+    "indep_automation_modified": false
+  },
+  "personal_procedure": {
+    "saved_and_remote_verified": true,
+    "validation": "quick_validate.py: Skill is valid!",
+    "procedure_git_blob": "f837fc239a05586f5b8090760136e80a3be48d9e"
+  },
+  "old_location": {
+    "repository": "lianfixx/INDEP",
+    "branch": "matriz-castorena",
+    "marker_commit": "2326322029c73d6221ff2f5085d32f8a5d839f6c",
+    "files": [
+      "cerebro/AGENTS.md",
+      "cerebro/README.md",
+      "cerebro/ESTADO.json"
+    ],
+    "read_back_verified": true,
+    "indep_main_modified": false
+  }
 }
