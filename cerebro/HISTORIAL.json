@@ -1440,7 +1440,7 @@
       "family_id": "indep",
       "sha256": "6504026c7fa968c2877e8c689aad7d9daafe84e2d96eca90a00fb7d274eef865",
       "size_bytes": 18406,
-      "snapshot_path": null,
+      "snapshot_path": "fuentes/indep/6504026c7fa9_Control_de_expedientes_Junta_Especial_2-4.xlsx",
       "source_locator": {
         "aliases": [
           {
@@ -1456,8 +1456,8 @@
           }
         ]
       },
-      "evidence_state": "indexado_bytes_verificados_en_repositorio_privado",
-      "role": "current_reference",
+      "evidence_state": "recuperado_verificado_bytes",
+      "role": "current_snapshot",
       "current_for_family": true,
       "sheets": [
         "Junta Especial 2",
@@ -1465,7 +1465,7 @@
         "Poder Judicial"
       ],
       "historical_only": false,
-      "scope_note": "Maestro lógico v21 validado por el procedimiento INDEP (entrega 41; adoptado en entrega 42). Bytes y SHA-256 verificados desde lianfixx/INDEP. Sin copia en este repositorio público: la autorización de Emi cubre solo el contenido ya migrado. Respecto de v20 cambian 3 celdas de Junta Especial 2; Salas TFCA y Poder Judicial sin cambios.",
+      "scope_note": "Maestro lógico v21 validado por el procedimiento INDEP (entrega 41; adoptado en entrega 42). Copia idéntica por bytes publicada el 04/11/2026 por autorización de Emi. Respecto de v20 cambian 3 celdas de Junta Especial 2.",
       "legal_validation_implied": false
     },
     {
@@ -7221,7 +7221,7 @@
   "counts": {
     "families": 4,
     "binary_snapshots_recovered_before_dedup": 41,
-    "binary_versions_distinct_sha256": 28,
+    "binary_versions_distinct_sha256": 29,
     "xlsx_snapshots": 26,
     "pdf_snapshots": 2,
     "text_snapshots": 3,

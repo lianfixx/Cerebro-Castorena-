@@ -1,0 +1,49 @@
+{
+  "schema_version": "castorena-cierre-v1",
+  "fecha_hora_local": "2026-11-04T17:23:16-06:00",
+  "timezone": "America/Mexico_City",
+  "base_matrix_commit": "21b3f05b8e5b4f8a4c74a104a174b395b403eafb",
+  "agente": "Claude Code a petición de Emi",
+  "coverage": {
+    "github_matrix": {
+      "status": "leido"
+    },
+    "github_indep_main": {
+      "status": "leido",
+      "logical_master": 21,
+      "latest_documented_delivery": 42
+    }
+  },
+  "validation": {
+    "command": "python3 cerebro/skill/scripts/validar_matriz.py cerebro",
+    "families": 5,
+    "versions": 30,
+    "snapshots_checked": 30,
+    "snapshots_unavailable": 0,
+    "unique_sha256": 29,
+    "repeated_sha256_records": 1,
+    "gaps": 11,
+    "pending_categories": 0,
+    "errors": 0,
+    "warnings": 0
+  },
+  "result": {
+    "source_table_changes": [],
+    "catalog_version_changes": [
+      {
+        "family_id": "indep",
+        "version": "indep-6504026c7fa9 (v21)",
+        "change": "copia pública agregada en fuentes/indep/ (bytes idénticos a lianfixx/INDEP versiones/41)"
+      }
+    ],
+    "authorization": "Emi, 04/11/2026: «todas las versiones que hagamos cópialas y todas las tablas y actualizaciones».",
+    "executors": "Claude único ejecutor del cierre diario (18:43); ChatGPT inactivo.",
+    "emails_sent": false,
+    "drafts_created": false,
+    "excel_rewritten": false
+  },
+  "limits": [
+    "Concentrado de trabajo y Library de ChatGPT siguen sin acceso desde Claude."
+  ],
+  "next_step": "Primera ejecución programada de Claude hoy a las 18:43."
+}

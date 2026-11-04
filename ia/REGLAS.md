@@ -8,7 +8,6 @@ en GitHub, el workflow `registro-ia.yml` revisa cada push. Donde no hay freno au
 (chat de claude.ai, ChatGPT o Gemini, conectores), la IA debe cumplirlas por sí misma.
 
 - Prohibido: La matriz Castorena no envía correos ni crea borradores (SKILL.md, «Comunicar»).
-- Requiere confirmación expresa de Emi: El repositorio es público: Emi autorizó publicar solo el contenido existente. Un dato nuevo de expedientes en cerebro/fuentes/ requiere su autorización expresa.
 - Prohibido: Las fuentes originales de cerebro/fuentes/ se conservan sin cambios; una versión nueva se agrega aparte con su hash.
 - Antes de `git commit`: `python3 cerebro/skill/scripts/validar_matriz.py cerebro` debe pasar. La matriz no pasa su validador.
 - Prohibido: No se permite forzar ni borrar en el remoto (`--force`, `+rama`, `--mirror`, `--delete`, `:rama`): puede borrar historial ajeno.

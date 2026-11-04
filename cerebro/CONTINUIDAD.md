@@ -6,6 +6,10 @@ Traslado publicado y verificado en `9d9257d3ebdb41c209d5135a085e4bd0213ad984`: 5
 
 En próximas ejecuciones leer este repositorio y sus cuatro familias. **INDEP operativo sigue en lianfixx/INDEP, rama main**, con su procedimiento y entregas validadas; la matriz sólo indexa resultados. La automatización del cierre conserva su identidad y horario; su nuevo destino fue actualizado y releído. Todavía no se ha observado una ejecución programada posterior al traslado. La compatibilidad con Claude/Gemini sigue siendo documental, sin prueba de ejecución en esos productos.
 
+## Claude único ejecutor y copia de todas las versiones — 4 de noviembre de 2026
+
+Agente: Claude Code. Decisiones directas de Emi: «Por ahora solo Claude trabajará, Chat quedará casi inactivo» y «todas las versiones que hagamos cópialas y todas las tablas y actualizaciones». Implementación: el cierre diario lo hace solo Claude a las 18:43 (`ESTADO.json` → `automation_claude`); la ejecución de ChatGPT queda inactiva (pausarla es acción de Emi en ChatGPT). Las versiones validadas nuevas de las cinco familias se copian a `fuentes/` con su hash, sin borrar las anteriores; se copió el maestro INDEP v21. El seguimiento diario de INDEP pasa a Claude en `lianfixx/INDEP` (relevo pendiente de verificación allí).
+
 ## Quinta familia y ejecución programada en Claude — 4 de noviembre de 2026
 
 Agente: Claude Code. Decisiones directas de Emi en esta sesión: incorporar «No laborales (TFJA)» («Sí por favor», en respuesta a la consulta pendiente) y programar una ejecución en Claude. Decisiones de implementación del agente: la quinta familia usa como fuente la hoja ya preservada del control del 05/10/2026 (2 folios, sin datos nuevos publicados), y la ejecución de Claude corre a las 07:43, complementaria a la de ChatGPT de las 18:30, con CAS y sin envíos. El índice INDEP apunta al maestro v21 por hash; la copia pública de v21 no se hizo y Emi indicó no entender la consulta, que queda explicada y pendiente.

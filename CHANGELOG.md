@@ -2,6 +2,15 @@
 
 Lo más reciente arriba. Formato y reglas: `ia/PROTOCOLO.md`, sección 3. Cada entrada lleva la línea `Agente:`.
 
+## 2026-11-04 · Claude único ejecutor y copia de todas las versiones (skill 1.3.0)
+
+- Agente: Claude Code (sesión en la nube)
+- Solicitud: Emi, 4/11/2026: «Por ahora solo Claude trabajará, Chat quedará casi inactivo… todas las versiones que hagamos cópialas y todas las tablas y actualizaciones».
+- Cambios: maestro INDEP v21 copiado a `cerebro/fuentes/indep/` (bytes idénticos); autorización permanente de copiar las versiones validadas nuevas de las cinco familias, registrada en `MATRIZ.json`, la skill y los README; ya no se pide confirmación para escribir en `cerebro/fuentes/` (siguen inmutables); el cierre diario pasa a Claude a las 18:43 y ChatGPT queda inactivo.
+- Archivos: `cerebro/fuentes/indep/6504026c7fa9_…xlsx`, `cerebro/MATRIZ.json`, `cerebro/HISTORIAL.json`, `cerebro/ESTADO.json`, `cerebro/CONTINUIDAD.md`, `cerebro/cierres/`, `cerebro/skill/`, `ia/`, `AGENTS.md`, `README.md`, `cerebro/*.md` y este registro.
+- Verificación: `validar_matriz.py` → aprobado (30 fuentes verificadas, 0 errores, 0 avisos); `ia/test_guard.py` → aprobado.
+- Pendiente: pausar la ejecución de ChatGPT; observar la primera ejecución de Claude (hoy, 18:43).
+
 ## 2026-11-04 · quinta familia «No laborales (TFJA)» y ejecución programada en Claude (skill 1.2.0)
 
 - Agente: Claude Code (sesión en la nube)

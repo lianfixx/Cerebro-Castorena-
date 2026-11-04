@@ -5,7 +5,7 @@
   "write_scope": "cerebro/ en lianfixx/Cerebro-Castorena-, rama main",
   "indep_operational_branch": "main",
   "automation": {
-    "status": "creada_y_activa",
+    "status": "inactiva_por_decision_de_emi_pendiente_confirmar_pausa",
     "id": "6aea5a544e288191994d562d5d075090",
     "title": "Cerrar matriz Castorena",
     "schedule": "BEGIN:VEVENT\nDTSTART;TZID=America/Mexico_City:20261103T183000\nRRULE:FREQ=DAILY;BYHOUR=18;BYMINUTE=30;BYSECOND=0\nEND:VEVENT",
@@ -26,7 +26,8 @@
     "branch": "main",
     "prompt_verified_at": "2026-11-03T20:45:24-06:00",
     "prompt_sha256": "a5488d6658a90d6a76dca76f45dc266327026545e69558d952253ba279fa69cf",
-    "destination_first_run": "aun_no_observada_tras_cambio_de_destino"
+    "destination_first_run": "aun_no_observada_tras_cambio_de_destino",
+    "note": "Emi, 04/11/2026: «Por ahora solo Claude trabajará, Chat quedará casi inactivo». La pausa se hace en ChatGPT; si vuelve a correr, aplica CAS sin force."
   },
   "coverage": {
     "conversations": "no_disponible",
@@ -37,7 +38,7 @@
     "method": "commit_atomico_y_update_ref_expected_sha",
     "on_conflict": "releer_conciliar_sin_force"
   },
-  "last_source_changes": "Ningún Excel reescrito. Índice INDEP actualizado a maestro v21 (entrega 41; última entrega 42) por hash, sin copia pública.",
+  "last_source_changes": "INDEP v21 copiado al cerebro (6504026c7fa9) por autorización de Emi del 04/11/2026; ningún Excel reescrito.",
   "publication": {
     "initial_commit": "aaa04b75e9645f2691f0e33fdaec1e1e33053020",
     "files_verified_after_read": 52,
@@ -45,31 +46,26 @@
     "source_tables_modified": false,
     "personal_procedure_saved": true
   },
-  "last_audit_at": "2026-11-04T16:44:42-06:00",
-  "last_closure_path": "cierres/2026-11-04_1644.json",
+  "last_audit_at": "2026-11-04T17:23:16-06:00",
+  "last_closure_path": "cierres/2026-11-04_1723.json",
   "latest_run": {
-    "base_commit": "3a8f9a97ab67529b8de2b9aaaaf2a9c9b058587f",
+    "base_commit": "21b3f05b8e5b4f8a4c74a104a174b395b403eafb",
     "agent": "Claude Code",
-    "closure": "cierres/2026-11-04_1644.json",
-    "main_indep_head": "f739ecf63cf9f5c6658c0d0a80225b55eaf8b62f",
-    "source_table_changes": 0,
-    "new_versions": 1,
-    "pending_categories": 1,
+    "closure": "cierres/2026-11-04_1723.json",
     "validation": {
-      "command": "python3 cerebro/skill/scripts/validar_matriz.py cerebro",
-      "families": 4,
-      "versions": 29,
-      "snapshots_checked": 28,
-      "snapshots_unavailable": 1,
+      "families": 5,
+      "versions": 30,
+      "snapshots_checked": 30,
+      "snapshots_unavailable": 0,
       "unique_sha256": 29,
+      "repeated_sha256_records": 1,
       "gaps": 11,
-      "pending_categories": 1,
+      "pending_categories": 0,
       "errors": 0,
-      "warnings": 1,
-      "warnings_detail": [
-        "snapshot_unavailable: maestro INDEP v21 indexado sin copia pública (esperado)"
-      ]
-    }
+      "warnings": 0
+    },
+    "source_table_changes": 0,
+    "new_versions": 1
   },
   "migration": {
     "status": "publicada_y_verificada",
@@ -98,15 +94,18 @@
   "automation_claude": {
     "status": "creada_y_activa",
     "id": "trig_01NQu55pefnWfvMFiCWs6Cvc",
-    "title": "Cierre matutino matriz Castorena (Claude)",
-    "schedule": "CRON_TZ=America/Mexico_City 43 7 * * *",
-    "first_run_at": "2026-11-05T07:43:00-06:00",
+    "title": "Cierre diario matriz Castorena (Claude)",
+    "schedule": "CRON_TZ=America/Mexico_City 43 18 * * *",
+    "first_run_at": "2026-11-04T18:43:00-06:00",
     "first_run_observed": false,
     "mode": "sesión nueva en la nube por cada ejecución",
     "no_email": true,
     "connectors": "ninguno (Drive no disponible en esas sesiones)",
-    "complements": "automation (ChatGPT, 18:30)",
+    "complements": null,
     "created_at": "2026-11-04T17:03:24-06:00",
-    "created_by": "Claude Code a petición de Emi"
+    "created_by": "Claude Code a petición de Emi",
+    "role": "único ejecutor del cierre diario",
+    "updated_at": "2026-11-04T17:23:16-06:00",
+    "copy_new_versions": true
   }
 }

@@ -90,7 +90,7 @@
       "current_library_url": null,
       "sha256": "6504026c7fa968c2877e8c689aad7d9daafe84e2d96eca90a00fb7d274eef865",
       "current_sha256": "6504026c7fa968c2877e8c689aad7d9daafe84e2d96eca90a00fb7d274eef865",
-      "current_snapshot_path": null,
+      "current_snapshot_path": "fuentes/indep/6504026c7fa9_Control_de_expedientes_Junta_Especial_2-4.xlsx",
       "universo": {
         "unit": "folio maestro",
         "count": 45,
@@ -109,7 +109,7 @@
         "last_documented_delivery": 42,
         "source_commit": "f739ecf63cf9f5c6658c0d0a80225b55eaf8b62f",
         "previous_public_snapshot": "fuentes/indep/276657ed210f_Control_de_expedientes_Junta_Especial_2-4_2_.xlsx (v20)",
-        "note": "La copia pública sigue siendo v20; v21 se indexa por hash desde el repositorio privado."
+        "note": "Copia pública de v21 hecha el 04/11/2026 por autorización de Emi."
       },
       "audit_path": "evidencia/indep_tfca.json"
     },
@@ -186,13 +186,6 @@
       "base_unchanged": true
     },
     {
-      "id": "indep_v21_copia_publica",
-      "family_id": "indep",
-      "state": "requiere_autorizacion_de_emi",
-      "detail": "¿Copiar el maestro v21 (entrega 41) a cerebro/fuentes/ del repositorio público? La autorización vigente cubre solo el contenido ya migrado.",
-      "sha256": "6504026c7fa968c2877e8c689aad7d9daafe84e2d96eca90a00fb7d274eef865"
-    },
-    {
       "id": "no_laborales_tfja_vigencia",
       "family_id": "no_laborales_tfja",
       "state": "pendiente",
@@ -220,5 +213,10 @@
   },
   "history_path": "HISTORIAL.json",
   "evidence_context_path": "evidencia/contexto.json",
-  "coverage_complete": false
+  "coverage_complete": false,
+  "publication_authorization": {
+    "current": "Emi, 04/11/2026 (sesión de Claude Code): «todas las versiones que hagamos cópialas y todas las tablas y actualizaciones».",
+    "scope": "Copiar al cerebro todas las versiones validadas nuevas y las actualizaciones de las cinco familias, conservando las anteriores.",
+    "previous": "Emi, 03/11/2026: «no, hazlo así, por favor» (migración del contenido existente)."
+  }
 }

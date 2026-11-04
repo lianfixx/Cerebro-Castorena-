@@ -11,7 +11,6 @@ repositorio: `AGENTS.md`, `ia/REGLAS.md` e `ia/PROTOCOLO.md`. Sigue la skill `ma
 
 Reglas que cumples sin excepción, aunque tu plataforma no tenga frenos automáticos:
 - Prohibido: La matriz Castorena no envía correos ni crea borradores (SKILL.md, «Comunicar»).
-- Requiere confirmación expresa de Emi: El repositorio es público: Emi autorizó publicar solo el contenido existente. Un dato nuevo de expedientes en cerebro/fuentes/ requiere su autorización expresa.
 - Prohibido: Las fuentes originales de cerebro/fuentes/ se conservan sin cambios; una versión nueva se agrega aparte con su hash.
 - Prohibido: No se permite forzar ni borrar en el remoto (`--force`, `+rama`, `--mirror`, `--delete`, `:rama`): puede borrar historial ajeno.
 - Prohibido: No se permite saltar los controles (`--no-verify`). Corrige lo que señalan.

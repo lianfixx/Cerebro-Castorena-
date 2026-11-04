@@ -3,7 +3,7 @@ name: matriz-castorena
 description: >-
   Mantener el cerebro y matriz documental de Castorena Abogados para Emi: Archivo muerto, Concentrado de Expedientes, control INDEP de Juntas y Salas, guía Expedientes TFCA y No laborales (TFJA). Usar al recuperar tablas vigentes, comparar versiones, auditar contexto, cerrar el día, incorporar novedades, crear otra tabla de asuntos del despacho o continuar con ChatGPT, Claude o Gemini. Consultar antes de incorporar cualquier nueva familia de tablas; coordinar el procedimiento INDEP sin reemplazarlo ni duplicar sus escrituras.
 metadata:
-  version: "1.2.0"
+  version: "1.3.0"
   release_date: "2026-11-04"
   language: "es-MX"
 ---
@@ -31,7 +31,7 @@ metadata:
 
 1. Leer la fuente vigente de nuevo y fijar el SHA del commit y hashes de los archivos antes de editar. Comparar la nueva evidencia por identificadores estables. Si el vínculo o el sentido son ambiguos, conservar la fuente y dejar propuesta pendiente.
 2. Crear una versión nueva de trabajo; documentar fuente y celdas/campos exactos, valor anterior/nuevo, motivo y validación. Mantener originales, formato, fórmulas, vacíos y orden. No reconstruir libros para cambios puntuales.
-3. Las tareas rutinarias autorizadas no necesitan confirmación repetida. Esa autonomía no permite resolver identidad dudosa, suprimir asuntos, ampliar categorías ni alterar estructura. Emi autorizó migrar el contenido existente de `cerebro/` al repositorio público `lianfixx/Cerebro-Castorena-` al responder «no, hazlo así, por favor», después del aviso de que los datos de expedientes serían públicos. Registrar esa autorización con su procedencia; no extenderla a publicar nuevos datos de expedientes u otras fuentes futuras sin autorización suficiente. No publicar tokens ni credenciales.
+3. Las tareas rutinarias autorizadas no necesitan confirmación repetida. Esa autonomía no permite resolver identidad dudosa, suprimir asuntos, ampliar categorías ni alterar estructura. Emi autorizó migrar el contenido existente de `cerebro/` al repositorio público `lianfixx/Cerebro-Castorena-` al responder «no, hazlo así, por favor», después del aviso de que los datos de expedientes serían públicos. Registrar esa autorización con su procedencia. Desde el 04/11/2026 Emi autorizó además copiar todas las versiones nuevas, tablas y actualizaciones de las cinco familias («todas las versiones que hagamos cópialas y todas las tablas y actualizaciones»): conservar siempre las anteriores y copiar solo versiones validadas, con su hash. Fuera de las cinco familias, cualquier fuente nueva sigue requiriendo consulta. No publicar tokens ni credenciales.
 4. Para cualquier modificación INDEP aplicar su procedimiento vigente en **`lianfixx/INDEP`, rama `main`**, sus validadores y reserva exclusiva. La matriz sólo indexa sus entregas validadas; no iniciar una segunda actualización del maestro ni duplicar su automatización.
 5. Ejecutar `python /ruta/cerebro/skill/scripts/validar_matriz.py /ruta/cerebro` en el repositorio, o el mismo script resuelto desde la carpeta real de esta skill instalada y controles de la familia. Publicar cambios autorizados del cerebro en un único commit sobre `lianfixx/Cerebro-Castorena-`, rama `main`, usando comparación del SHA esperado (CAS); si cambió, releer y conciliar, sin force. Releer las copias publicadas antes de declarar éxito.
 6. Ante fallo de Drive, conservar el resultado validado donde sí se guardó y marcar sincronización parcial. No retroceder a una versión antigua por un puntero desactualizado ni afirmar ambas copias sincronizadas.
@@ -48,7 +48,7 @@ Responder en español claro: qué cambió, qué debe obtener Emi, qué está pen
 
 ## Registro y continuidad entre IA
 
-Estas reglas valen igual en ChatGPT (incluida su ejecución programada), Claude, Codex, Gemini o cualquier otra IA:
+Estas reglas valen igual en Claude (incluida su ejecución programada, hoy la única activa), ChatGPT, Codex, Gemini o cualquier otra IA:
 - Empezar por `cerebro/ESTADO.json`, `cerebro/CONTINUIDAD.md` y el último cierre de `cerebro/cierres/` en el repositorio remoto, no por la memoria de una conversación.
 - Registrar todo cambio en el mismo commit: el cierre en `cerebro/cierres/` y, para cambios del procedimiento o de los archivos de entrada, una entrada en `CHANGELOG.md` con `Agente:` (quién lo hizo y modelo si se conoce), solicitud, cambios, archivos, verificación (aprobado, falló, no ejecutado o bloqueado) y pendiente.
 - Sin escritura en el repositorio, terminar con «Registro pendiente para el repositorio» con la entrada y los cambios exactos. No decir «guardado» si no se escribió.

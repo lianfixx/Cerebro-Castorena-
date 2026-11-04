@@ -31,15 +31,6 @@
       "reason": "La matriz Castorena no envía correos ni crea borradores (SKILL.md, «Comunicar»)."
     },
     {
-      "type": "path",
-      "tool": "Edit|Write|MultiEdit|NotebookEdit",
-      "globs": [
-        "cerebro/fuentes/*"
-      ],
-      "decision": "ask",
-      "reason": "El repositorio es público: Emi autorizó publicar solo el contenido existente. Un dato nuevo de expedientes en cerebro/fuentes/ requiere su autorización expresa."
-    },
-    {
       "type": "inmutable",
       "git": "commit",
       "paths": "^cerebro/fuentes/",
@@ -302,12 +293,12 @@
       "expect": "deny"
     },
     {
-      "name": "fuente nueva pide autorización",
+      "name": "fuente nueva autorizada",
       "tool": "Write",
       "input": {
         "file_path": "cerebro/fuentes/indep/nuevo.xlsx"
       },
-      "expect": "ask"
+      "expect": "none"
     }
   ]
 }

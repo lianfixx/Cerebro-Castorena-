@@ -5,7 +5,7 @@
 Solo actúan en Claude Code dentro de este repositorio. No sustituyen las reglas de la skill. Las mismas reglas están en `ia/REGLAS.md` para cualquier IA; con terminal, `sh ia/instalar.sh` (o `python3 ia/verificar.py inicio`) las activa como hooks de git, y GitHub revisa cada push con `registro-ia.yml`.
 
 - Se bloquea cualquier correo o borrador de Gmail: esta matriz no envía.
-- Se pide confirmación antes de escribir en `cerebro/fuentes/`: el repositorio es público y la autorización de Emi cubre solo el contenido ya migrado.
+- Escribir versiones nuevas en `cerebro/fuentes/` está autorizado (Emi, 04/11/2026); el repositorio es público.
 - Las fuentes originales de `cerebro/fuentes/` no se modifican ni se borran, tampoco por git o por conector.
 - Antes de cada commit que toque `cerebro/` corre `validar_matriz.py`, y se buscan secretos y datos personales en el diff.
 - Se pide confirmación antes de `git push`; se bloquean el push forzado y `--no-verify`.
