@@ -3,7 +3,7 @@ name: matriz-castorena
 description: >-
   Mantener el cerebro y matriz documental de Castorena Abogados para Emi: Archivo muerto, Concentrado de Expedientes, control INDEP de Juntas y Salas, guía Expedientes TFCA y No laborales (TFJA). Usar al recuperar tablas vigentes, comparar versiones, auditar contexto, cerrar el día, incorporar novedades, crear otra tabla de asuntos del despacho o continuar con ChatGPT, Claude o Gemini. Consultar antes de incorporar cualquier nueva familia de tablas; coordinar el procedimiento INDEP sin reemplazarlo ni duplicar sus escrituras.
 metadata:
-  version: "1.3.0"
+  version: "1.3.1"
   release_date: "2026-11-04"
   language: "es-MX"
 ---

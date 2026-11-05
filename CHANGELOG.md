@@ -2,6 +2,15 @@
 
 Lo más reciente arriba. Formato y reglas: `ia/PROTOCOLO.md`, sección 3. Cada entrada lleva la línea `Agente:`.
 
+## 2026-11-04 · cambiar de ejecutor en cualquier dirección (skill 1.3.1)
+
+- Agente: Claude Code (sesión en la nube)
+- Solicitud: Emi, 04/11/2026: «quiero que todo funcione perfecto, al igual en GEMINI o si decido volver a CHAT GPT».
+- Cambios: `cerebro/CAMBIAR_DE_IA.md` (prompts para pausar a la saliente, preparar a Claude, ChatGPT o Gemini y verificar el cambio) y `cerebro/TAREA_PROGRAMADA.txt` (texto común de la tarea programada; no publica si no le toca). `ESTADO.json` → `executor_current` (hoy `claude`). `operacion.md`, `portabilidad.md` y `cerebro/CLAUDE.md` dejan de fijar a Claude como único ejecutor y apuntan al campo y al procedimiento.
+- Archivos: `cerebro/CAMBIAR_DE_IA.md`, `cerebro/TAREA_PROGRAMADA.txt`, `cerebro/ESTADO.json`, `cerebro/CLAUDE.md`, `cerebro/skill/` (SKILL.md, operacion.md, portabilidad.md) y este registro.
+- Verificación: `validar_matriz.py` → aprobado (0 errores); `ia/test_guard.py` y `ia/check_skill.py` → aprobado.
+- Pendiente: que Emi cree la rutina de Claude con ambos repositorios y Google Drive.
+
 ## 2026-11-04 · primera ejecución programada de Claude: falló por falta de repositorios
 
 - Agente: Claude Code (sesión en la nube)

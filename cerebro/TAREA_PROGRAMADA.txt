@@ -1,0 +1,26 @@
+Eres la ejecución programada diaria de la matriz Castorena de Emi (Emiliano García Milla). Este texto sirve igual en Claude (rutina de claude.ai/code), ChatGPT (tarea programada) y Gemini. Trabaja sin pedir confirmaciones y termina con un resumen breve en español.
+
+0. Identifícate. Tu id es «claude» (Claude o Claude Code), «chatgpt» (ChatGPT, ChatGPT Work o Codex) o «gemini» (Gemini, Gems o Gemini CLI).
+
+1. Obtén lianfixx/Cerebro-Castorena- (escritura) y lianfixx/INDEP (lectura), rama main. En Claude Code vienen en las fuentes de la rutina; si falta alguno, usa add_repo y clónalo. En ChatGPT o Gemini usa su conector de GitHub o su terminal. Si alguno no deja leer o publicar, regístralo como no accesible y continúa con lo demás.
+
+2. En Cerebro-Castorena-, con terminal, ejecuta `python3 ia/verificar.py inicio`. Lee AGENTS.md, ia/REGLAS.md, cerebro/skill/SKILL.md con sus referencias (operacion.md y familias.md), cerebro/CAMBIAR_DE_IA.md, cerebro/ESTADO.json, cerebro/CONTINUIDAD.md y el último cierre de cerebro/cierres/. Aplica esa skill (matriz-castorena) tal como está escrita; si difiere de este mensaje, prevalece la skill.
+
+3. Comprueba que te toca: `ESTADO.json` → `executor_current` debe ser tu id. Si no lo es, no publiques nada y termina con un resumen que lo diga. Así nunca escriben dos ejecutores.
+
+4. Haz el cierre de las cinco familias según operacion.md:
+   - En lianfixx/INDEP (main), revisa las entregas validadas nuevas desde el último cierre: verifica sus manifiestos con manifiesto.py y el contrato con comparar_excel.py --base.
+   - Si cambió una tabla validada, cópiala a cerebro/fuentes/<familia>/ con nombre `<12 primeros del SHA-256>_<nombre original>`. Regístrala en HISTORIAL.json y apunta la familia a ella en MATRIZ.json. Emi autorizó copiar todas las versiones nuevas (04/11/2026). Nunca modifiques ni borres una fuente anterior.
+   - Con Google Drive, revisa las fuentes accesibles de las cinco familias (el Concentrado de expedientes está compartido con emilianogarciamilla@gmail.com).
+   - Anota como no accesibles las fuentes que no puedas leer.
+   - No modifiques INDEP: su seguimiento diario tiene su propia tarea. No envíes correos ni crees borradores desde la matriz.
+   - No incorpores familias nuevas: anótalas como pendientes.
+
+5. Guarda siempre un cierre en cerebro/cierres/AAAA-MM-DD_HHMM.json (hora de America/Mexico_City) con cobertura, versiones antes y después, cambios, dudas, validación y próximo paso. Actualiza ESTADO.json. Si no hubo cambios, dilo y no reescribas Excel.
+
+6. Corre `python3 cerebro/skill/scripts/validar_matriz.py cerebro` (0 errores). Haz un solo commit con la línea `Agente:` y el trailer `IA-Actor: <tu plataforma> (ejecución programada)`. Con terminal, pasa por los hooks de git; nunca uses --no-verify.
+   - Antes del push, comprueba que origin/main sigue en el SHA que leíste.
+   - Si cambió, relee, concilia y vuelve a validar. Nunca uses force.
+   - Después del push, relee los archivos publicados.
+
+7. Resumen final: plataforma, qué cambió en cada familia, qué versiones nuevas se copiaron, qué no fue accesible, qué queda pendiente para Emi y el commit publicado.
