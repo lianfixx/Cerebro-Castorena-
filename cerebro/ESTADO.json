@@ -95,12 +95,12 @@
     "verification": "Árbol remoto completo con coincidencia de blobs; lectura de README y procedimiento; cuatro tablas descargadas de main e idénticas byte a byte."
   },
   "automation_claude": {
-    "status": "creada_y_activa",
+    "status": "activa_pero_sin_fuentes; reemplazo pendiente desde la pantalla de Emi",
     "id": "trig_01NQu55pefnWfvMFiCWs6Cvc",
     "title": "Cierre diario matriz Castorena (Claude)",
     "schedule": "CRON_TZ=America/Mexico_City 43 18 * * *",
     "first_run_at": "2026-11-04T18:43:00-06:00",
-    "first_run_observed": false,
+    "first_run_observed": true,
     "mode": "sesión nueva en la nube por cada ejecución",
     "no_email": true,
     "connectors": "ninguno (Drive no disponible en esas sesiones)",
@@ -108,7 +108,10 @@
     "created_at": "2026-11-04T17:03:24-06:00",
     "created_by": "Claude Code a petición de Emi",
     "role": "único ejecutor del cierre diario",
-    "updated_at": "2026-11-04T17:23:16-06:00",
-    "copy_new_versions": true
+    "updated_at": "2026-11-04T19:25:00-06:00",
+    "copy_new_versions": true,
+    "first_run_result": "2026-11-04 18:43: la sesión terminó sin cierre ni commit. El proxy de git rechazó el push a Cerebro-Castorena- (repositorio fuera de las fuentes de la sesión) e INDEP no se pudo clonar. No se escribió nada.",
+    "cause": "Las rutinas creadas desde una sesión no llevan repositorios ni conectores; solo se agregan desde claude.ai/code → Rutinas.",
+    "remedy": "Emi crea la rutina con lianfixx/Cerebro-Castorena- e lianfixx/INDEP como repositorios y Google Drive como conector; después se borra trig_01NQu55pefnWfvMFiCWs6Cvc."
   }
 }
