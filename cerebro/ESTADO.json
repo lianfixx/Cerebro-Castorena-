@@ -5,7 +5,7 @@
   "write_scope": "cerebro/ en lianfixx/Cerebro-Castorena-, rama main",
   "indep_operational_branch": "main",
   "automation": {
-    "status": "inactiva_por_decision_de_emi_pendiente_confirmar_pausa",
+    "status": "pausada_y_verificada_2026-11-04",
     "id": "6aea5a544e288191994d562d5d075090",
     "title": "Cerrar matriz Castorena",
     "schedule": "BEGIN:VEVENT\nDTSTART;TZID=America/Mexico_City:20261103T183000\nRRULE:FREQ=DAILY;BYHOUR=18;BYMINUTE=30;BYSECOND=0\nEND:VEVENT",
@@ -26,19 +26,19 @@
     "branch": "main",
     "prompt_verified_at": "2026-11-03T20:45:24-06:00",
     "prompt_sha256": "a5488d6658a90d6a76dca76f45dc266327026545e69558d952253ba279fa69cf",
-    "destination_first_run": "aun_no_observada_tras_cambio_de_destino",
-    "note": "Emi, 04/11/2026: «Por ahora solo Claude trabajará, Chat quedará casi inactivo». La pausa se hace en ChatGPT; si vuelve a correr, aplica CAS sin force."
+    "destination_first_run": "ejecucion_2026-11-04_1854_observada_y_cerrada_en_el_destino_nuevo",
+    "note": "Emi, 04/11/2026: «Por ahora solo Claude trabajará, Chat quedará casi inactivo». Esta misma automatización de ChatGPT se pausó y verificó al terminar el cierre de las 18:59; no se modificaron otras automatizaciones."
   },
   "coverage": {
-    "conversations": "no_disponible",
-    "sources": "GitHub (matriz e INDEP) y Drive personal revisados; Drive de trabajo y Library no accesibles desde Claude",
+    "conversations": "acceso_parcial; no_historial_completo",
+    "sources": "GitHub (matriz e INDEP), Library y Drive personal/laboral revisados en ChatGPT; lectura real comprobada, escrituras externas no probadas",
     "complete_history": false
   },
   "write_coordination": {
     "method": "commit_atomico_y_update_ref_expected_sha",
     "on_conflict": "releer_conciliar_sin_force"
   },
-  "last_source_changes": "INDEP v21 copiado al cerebro (6504026c7fa9) por autorización de Emi del 04/11/2026; ningún Excel reescrito.",
+  "last_source_changes": "Sin versiones nuevas desde el cierre de las 17:23. Archivo muerto, Concentrado, INDEP v21/entrega42 y guía TFCA conservan sus hashes; ningún Excel reescrito.",
   "publication": {
     "initial_commit": "aaa04b75e9645f2691f0e33fdaec1e1e33053020",
     "files_verified_after_read": 52,
@@ -46,12 +46,12 @@
     "source_tables_modified": false,
     "personal_procedure_saved": true
   },
-  "last_audit_at": "2026-11-04T17:23:16-06:00",
-  "last_closure_path": "cierres/2026-11-04_1723.json",
+  "last_audit_at": "2026-11-04T18:59:14-06:00",
+  "last_closure_path": "cierres/2026-11-04_1859.json",
   "latest_run": {
-    "base_commit": "21b3f05b8e5b4f8a4c74a104a174b395b403eafb",
-    "agent": "Claude Code",
-    "closure": "cierres/2026-11-04_1723.json",
+    "base_commit": "1ecf1a9bc2f3a5bbad922fee2c62290691a7c0b6",
+    "agent": "ChatGPT Work /root (Codex)",
+    "closure": "cierres/2026-11-04_1859.json",
     "validation": {
       "families": 5,
       "versions": 30,
@@ -65,7 +65,10 @@
       "warnings": 0
     },
     "source_table_changes": 0,
-    "new_versions": 1
+    "new_versions": 0,
+    "requested_family_scope": 4,
+    "existing_repository_families": 5,
+    "chatgpt_automation_paused": true
   },
   "migration": {
     "status": "publicada_y_verificada",
