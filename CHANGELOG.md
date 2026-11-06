@@ -2,6 +2,15 @@
 
 Lo más reciente arriba. Formato y reglas: `ia/PROTOCOLO.md`, sección 3. Cada entrada lleva la línea `Agente:`.
 
+## 2026-11-05 · tarea programada sin bloqueos de permiso
+
+- Agente: Claude Code (sesión en la nube)
+- Solicitud: Emi, 05/11/2026: que el seguimiento automático funcione.
+- Cambios: `TAREA_PROGRAMADA.txt` añade el paso 8: escribir los scripts en archivos y ejecutarlos con `python3`, sin heredocs con llaves y comillas. Las ejecuciones de las 16:02 y 17:04 del 05/11 cotejaron el boletín 192, pero quedaron detenidas por un aviso de permiso antes de registrar y enviar; se interrumpieron sin publicar ni enviar nada.
+- Archivos: `cerebro/TAREA_PROGRAMADA.txt` y este registro.
+- Verificación: hooks del commit → aprobado.
+- Pendiente: ninguno.
+
 ## 2026-11-04 · cambiar de ejecutor en cualquier dirección (skill 1.3.1)
 
 - Agente: Claude Code (sesión en la nube)

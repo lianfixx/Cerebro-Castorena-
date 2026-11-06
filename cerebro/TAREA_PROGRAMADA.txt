@@ -24,3 +24,5 @@ Eres la ejecución programada diaria de la matriz Castorena de Emi (Emiliano Gar
    - Después del push, relee los archivos publicados.
 
 7. Resumen final: plataforma, qué cambió en cada familia, qué versiones nuevas se copiaron, qué no fue accesible, qué queda pendiente para Emi y el commit publicado.
+
+8. Las ejecuciones programadas no pueden contestar avisos de permiso: nadie está mirando. Para no detenerte, escribe cada script de Python en un archivo con la herramienta Write (por ejemplo /tmp/indep/paso.py) y ejecútalo con `python3 /tmp/indep/paso.py`. No metas scripts largos, llaves con comillas ni textos de correo dentro de heredocs o comandos de Bash encadenados. Si aun así una herramienta pide permiso, no esperes: anota el bloqueo en tu resumen y termina sin dejar registros a medias.
