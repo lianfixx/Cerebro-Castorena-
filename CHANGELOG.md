@@ -2,6 +2,15 @@
 
 Lo más reciente arriba. Formato y reglas: `ia/PROTOCOLO.md`, sección 3. Cada entrada lleva la línea `Agente:`.
 
+## 2026-11-06 · integración automática de las tareas programadas
+
+- Agente: Claude Code (sesión en la nube)
+- Solicitud: Emi, 05-06/11/2026: que el seguimiento automático funcione; la opción de subir a cualquier rama no aparece en su pantalla.
+- Cambios: workflow `.github/workflows/integrar-tareas.yml`: integra en main las ramas «claude/…» de las tareas programadas si todos sus commits llevan `IA-Actor: … (ejecución programada)` y pasan las reglas de `ia/` de main; si hay conflicto o falla, queda en rojo sin integrar. `.gitattributes` une las entradas de CHANGELOG al integrar. `cerebro/TAREA_PROGRAMADA.txt` explica el procedimiento.
+- Archivos: `.github/workflows/integrar-tareas.yml`, `.gitattributes`, `cerebro/TAREA_PROGRAMADA.txt` y este registro.
+- Verificación: prueba en copia con la rama del cierre del 05/11 → trailer reconocido, `verificar.py ci` correcto, integración sin conflicto.
+- Pendiente: observar la primera integración real (INDEP, 06/11 9:04).
+
 ## 2026-11-05 · cierre diario programado (sin versiones nuevas)
 
 - Agente: Claude Code (ejecución programada)

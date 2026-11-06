@@ -21,7 +21,7 @@ Eres la ejecución programada diaria de la matriz Castorena de Emi (Emiliano Gar
 6. Corre `python3 cerebro/skill/scripts/validar_matriz.py cerebro` (0 errores). Haz un solo commit con la línea `Agente:` y el trailer `IA-Actor: <tu plataforma> (ejecución programada)`. Con terminal, pasa por los hooks de git; nunca uses --no-verify.
    - Antes del push, comprueba que origin/main sigue en el SHA que leíste.
    - Si cambió, relee, concilia y vuelve a validar. Nunca uses force.
-   - Después del push, relee los archivos publicados.
+   - Después del push, relee los archivos publicados. Si el push a main es rechazado porque la sesión solo puede subir a ramas «claude/…», sube a esa rama: el workflow «Integrar tareas programadas» la pasa a main en uno o dos minutos si todos tus commits llevan `IA-Actor: … (ejecución programada)`. Después comprueba en origin/main que tu commit llegó; si en 5 minutos no llega, dilo en el resumen.
 
 7. Resumen final: plataforma, qué cambió en cada familia, qué versiones nuevas se copiaron, qué no fue accesible, qué queda pendiente para Emi y el commit publicado.
 
