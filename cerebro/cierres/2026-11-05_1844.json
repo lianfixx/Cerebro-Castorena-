@@ -1,0 +1,62 @@
+{
+  "schema_version": "castorena-cierre-v1",
+  "fecha_hora_local": "2026-11-05T18:44:23-06:00",
+  "timezone": "America/Mexico_City",
+  "base_matrix_commit": "084c5a5a601a864497c24f04ab1657b0467576da",
+  "Agente": "Claude Code (ejecución programada)",
+  "scope": {
+    "families_reviewed": 5,
+    "emails_sent": false,
+    "drafts_created": false,
+    "indep_modified": false
+  },
+  "capabilities": {
+    "github_matrix": "lectura; push solo a la rama designada claude/amazing-allen-qwskno (main no fue objetivo de la sesión)",
+    "github_indep": "lectura local de main a09c33c",
+    "drive": "lectura de metadatos y descarga inline; sin cálculo de hash de la descarga",
+    "gmail": "no usado"
+  },
+  "coverage": {
+    "indep_head": "a09c33ce8d904bf928adcf4fbbaaa93e66ae48c3",
+    "conversations": "sin acceso",
+    "complete_history": false
+  },
+  "hash_checks": [
+    {
+      "family_id": "indep",
+      "source": "INDEP versiones/41 y 42",
+      "sha256": "6504026c7fa968c2877e8c689aad7d9daafe84e2d96eca90a00fb7d274eef865",
+      "result": "entrega 42 sin Excel nuevo; MANIFIESTO_SHA256 de la 42 verificado (15 archivos, 0 errores)"
+    },
+    {
+      "family_id": "concentrado",
+      "source": "Drive 1YtT78mIRVDr_oZvkEVDyqBl0howya5R8",
+      "sha256": null,
+      "result": "modifiedTime 2026-11-05T01:54:03Z (posterior al cierre anterior) pero tamaño 14862 B idéntico al snapshot d527520672b8; es el mismo registro de compartición (sharedWithMeTime igual). Hash no calculado: la descarga llegó solo como base64 inline. Sin evidencia de cambio de contenido; verificar con hash en la próxima ejecución con terminal de descarga"
+    }
+  ],
+  "results": {
+    "new_versions": 0,
+    "source_tables_modified": false,
+    "families": {
+      "archivo_muerto": "sin fuente nueva localizada en Drive",
+      "concentrado": "ver hash_checks; sin copia nueva",
+      "indep": "sin versión nueva (v21 / entrega 42)",
+      "tfca": "sin fuente nueva localizada",
+      "no_laborales_tfja": "sin fuente nueva localizada"
+    }
+  },
+  "validation": {
+    "command": "python3 cerebro/skill/scripts/validar_matriz.py cerebro",
+    "errors": null
+  },
+  "pending": [
+    "Drive: carpeta nueva «INDEP ASUNTO ESTUDIO LIC» (1sNrtEQyKPD6kOjXgosQu0Z7dPPbWwje1, creada 2026-11-05 01:28Z, de Emi); no es tabla; no se incorporó, posible categoría a consultar.",
+    "INDEP: ACTUAL.json en main señala la entrega 18 aunque existen versiones hasta la 42; no se modificó INDEP, conviene que su responsable lo revise.",
+    "La rama de la sesión no es main; el push fue a la rama designada."
+  ],
+  "automation": {
+    "executor_current": "claude"
+  },
+  "next_step": "Verificar con hash el Concentrado de Drive y revisar el pendiente de la carpeta nueva; sin cambios jurídicos inferidos."
+}

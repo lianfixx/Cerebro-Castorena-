@@ -2,6 +2,14 @@
 
 Lo más reciente arriba. Formato y reglas: `ia/PROTOCOLO.md`, sección 3. Cada entrada lleva la línea `Agente:`.
 
+## 2026-11-05 · cierre diario programado (sin versiones nuevas)
+
+- Agente: Claude Code (ejecución programada)
+- Solicitud: tarea programada diaria de la matriz.
+- Cambios: `cerebro/cierres/2026-11-05_1844.json` y `ESTADO.json`. Sin versiones nuevas ni Excel reescritos; entrega 42 de INDEP verificada con su manifiesto.
+- Archivos: `cerebro/cierres/2026-11-05_1844.json`, `cerebro/ESTADO.json` y este registro.
+- Verificación: `validar_matriz.py` → 0 errores, 0 avisos.
+- Pendiente: hash del Concentrado de Drive; carpeta nueva «INDEP ASUNTO ESTUDIO LIC» sin incorporar.
 ## 2026-11-05 · tarea programada sin bloqueos de permiso
 
 - Agente: Claude Code (sesión en la nube)
