@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_audit_date": "2026-11-05",
+  "last_audit_date": "2026-11-06",
   "timezone": "America/Mexico_City",
   "write_scope": "cerebro/ en lianfixx/Cerebro-Castorena-, rama main",
   "indep_operational_branch": "main",
@@ -41,7 +41,7 @@
     "method": "commit_atomico_y_update_ref_expected_sha",
     "on_conflict": "releer_conciliar_sin_force"
   },
-  "last_source_changes": "Sin versiones nuevas desde el cierre del 04/11 18:59; ningún Excel reescrito.",
+  "last_source_changes": "Sin versiones nuevas (entrega 43 de INDEP sin Excel nuevo); ningún Excel reescrito.",
   "publication": {
     "initial_commit": "aaa04b75e9645f2691f0e33fdaec1e1e33053020",
     "files_verified_after_read": 52,
@@ -49,8 +49,8 @@
     "source_tables_modified": false,
     "personal_procedure_saved": true
   },
-  "last_audit_at": "2026-11-05T18:44:23-06:00",
-  "last_closure_path": "cierres/2026-11-05_1844.json",
+  "last_audit_at": "2026-11-06T18:44:00-06:00",
+  "last_closure_path": "cierres/2026-11-06_1844.json",
   "latest_run": {
     "base_commit": "1ecf1a9bc2f3a5bbad922fee2c62290691a7c0b6",
     "agent": "ChatGPT Work /root (Codex)",

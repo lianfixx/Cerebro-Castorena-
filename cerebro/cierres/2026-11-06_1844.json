@@ -1,0 +1,62 @@
+{
+  "schema_version": "castorena-cierre-v1",
+  "fecha_hora_local": "2026-11-06T18:44:00-06:00",
+  "timezone": "America/Mexico_City",
+  "base_matrix_commit": "6970d400b5afe8cb79d03f42afad07596cc16139",
+  "Agente": "Claude Code (ejecución programada)",
+  "scope": {
+    "families_reviewed": 5,
+    "emails_sent": false,
+    "drafts_created": false,
+    "indep_modified": false
+  },
+  "capabilities": {
+    "github_matrix": "lectura; push a la rama designada claude/amazing-allen-d5ykru",
+    "github_indep": "lectura local de main cd87743",
+    "drive": "solo metadatos",
+    "gmail": "no usado"
+  },
+  "coverage": {
+    "indep_head": "cd87743814cf08d92d0eda7653d699495d8d808a",
+    "conversations": "sin acceso",
+    "complete_history": false
+  },
+  "hash_checks": [
+    {
+      "family_id": "indep",
+      "source": "INDEP versiones/43_2026-11-06",
+      "sha256": null,
+      "result": "entrega 43 (boletines 192 y 193, sin coincidencias) sin Excel nuevo; MANIFIESTO_SHA256 verificado (13 archivos, 0 errores); VALIDACION_EXCEL: base 6504026c7fa9, 45 folios, 44 turnos, sin cambios"
+    },
+    {
+      "family_id": "concentrado",
+      "source": "Drive 1YtT78mIRVDr_oZvkEVDyqBl0howya5R8",
+      "sha256": null,
+      "result": "metadatos sin cambio frente al 05/11 (modifiedTime 2026-11-05T01:54:03Z, 14862 B, mismo etag); sin hash porque no se descargó"
+    }
+  ],
+  "results": {
+    "new_versions": 0,
+    "source_tables_modified": false,
+    "families": {
+      "archivo_muerto": "sin fuente nueva localizada",
+      "concentrado": "sin cambio en metadatos; sin copia nueva",
+      "indep": "sin Excel nuevo (entrega 43, mismo maestro 6504026c7fa9)",
+      "tfca": "sin fuente nueva localizada",
+      "no_laborales_tfja": "sin fuente nueva localizada"
+    }
+  },
+  "validation": {
+    "command": "python3 cerebro/skill/scripts/validar_matriz.py cerebro",
+    "errors": null
+  },
+  "pending": [
+    "Drive: carpeta «INDEP ASUNTO ESTUDIO LIC» (1sNrtEQyKPD6kOjXgosQu0Z7dPPbWwje1) sigue sin incorporar; no es tabla.",
+    "INDEP: ACTUAL.json en main aún señala la entrega 18 aunque existen versiones hasta la 43; no se modificó INDEP.",
+    "Hash del Concentrado de Drive sigue sin calcularse (sin descarga a archivo)."
+  ],
+  "automation": {
+    "executor_current": "claude"
+  },
+  "next_step": "Calcular hash del Concentrado cuando haya descarga a archivo; sin cambios jurídicos inferidos."
+}
