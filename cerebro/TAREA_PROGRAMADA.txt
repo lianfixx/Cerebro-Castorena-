@@ -8,15 +8,17 @@ Eres la ejecución programada diaria de la matriz Castorena de Emi (Emiliano Gar
 
 3. Comprueba que te toca: `ESTADO.json` → `executor_current` debe ser tu id. Si no lo es, no publiques nada y termina con un resumen que lo diga. Así nunca escriben dos ejecutores.
 
-4. Haz el cierre de las cinco familias según operacion.md:
+4. Haz el cierre de las seis familias según operacion.md:
    - En lianfixx/INDEP (main), revisa las entregas validadas nuevas desde el último cierre: verifica sus manifiestos con manifiesto.py y el contrato con comparar_excel.py --base.
    - Si cambió una tabla validada, cópiala a cerebro/fuentes/<familia>/ con nombre `<12 primeros del SHA-256>_<nombre original>`. Regístrala en HISTORIAL.json y apunta la familia a ella en MATRIZ.json. Emi autorizó copiar todas las versiones nuevas (04/11/2026). Nunca modifiques ni borres una fuente anterior.
-   - Con Google Drive, revisa las fuentes accesibles de las cinco familias (el Concentrado de expedientes está compartido con emilianogarciamilla@gmail.com).
+   - Con Google Drive, revisa las fuentes accesibles de las seis familias (el Concentrado de expedientes está compartido con emilianogarciamilla@gmail.com).
    - Anota como no accesibles las fuentes que no puedas leer.
    - No modifiques INDEP: su seguimiento diario tiene su propia tarea. No envíes correos ni crees borradores desde la matriz.
    - No incorpores familias nuevas: anótalas como pendientes.
 
-5. Guarda siempre un cierre en cerebro/cierres/AAAA-MM-DD_HHMM.json (hora de America/Mexico_City) con cobertura, versiones antes y después, cambios, dudas, validación y próximo paso. Actualiza ESTADO.json. Si no hubo cambios, dilo y no reescribas Excel.
+4b. Sincroniza según cerebro/SINCRONIZACION.json (regla permanente de Emi del 09/11/2026): si una versión vigente cambió o hay destinos pendientes, refleja la versión vigente en Drive (carpeta 1UE-tJN2QV1X3eRGokx1pB0PMOW9YKn_z) y, si la Mac de Emi está enlazada, en el Escritorio («Castorena · Tablas/1 · Vigentes») e iCloud («Castorena · Tablas vigentes»). La versión anterior va a «Anteriores»; nunca borres. Relee cada destino y compara SHA-256. Lo que no puedas alcanzar queda como «pendiente» con su motivo, nunca como sincronizado.
+
+5. Guarda siempre un cierre en cerebro/cierres/AAAA-MM-DD_HHMM.json (hora de America/Mexico_City) con cobertura, versiones antes y después, sincronización por destino (GitHub, Drive, iCloud, Escritorio), cambios, dudas, validación y próximo paso. Actualiza ESTADO.json. Si no hubo cambios, dilo y no reescribas Excel.
 
 6. Corre `python3 cerebro/skill/scripts/validar_matriz.py cerebro` (0 errores). Haz un solo commit con la línea `Agente:` y el trailer `IA-Actor: <tu plataforma> (ejecución programada)`. Con terminal, pasa por los hooks de git; nunca uses --no-verify.
    - Antes del push, comprueba que origin/main sigue en el SHA que leíste.

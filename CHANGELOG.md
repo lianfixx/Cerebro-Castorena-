@@ -2,6 +2,15 @@
 
 Lo más reciente arriba. Formato y reglas: `ia/PROTOCOLO.md`, sección 3. Cada entrada lleva la línea `Agente:`.
 
+## 2026-11-09 · sexta familia (Cotejo Grupo Liverpool) y sincronización GitHub, Drive e iCloud
+
+- Agente: Claude Code (claude-opus-5-5, sesión con Emi y Mac enlazada)
+- Solicitud: Emi, 09/11/2026 14:26 y 14:44: ordenar las tablas del Escritorio con lo vigente a un clic, tenerlo en Drive e iCloud, documentar todo cambio o movimiento en GitHub, Drive e iCloud de forma automática y precisa (también en el cierre y para Muse); «Lo de Cotejo Liverpool es una tabla más».
+- Cambios: familia `cotejo_liverpool` (fuente 55e9e955536e, 660 863 B) en `MATRIZ.json`, `HISTORIAL.json` y el validador; nuevo `cerebro/SINCRONIZACION.json` con regla, procedimiento, destinos y nombres fijos; skill 1.4.0 con la sección «Sincronizar GitHub, Drive e iCloud»; operación (paso 7c), familias, AGENTS, README, CONTINUIDAD y TAREA_PROGRAMADA (paso 4b) actualizados. En la Mac: carpeta «Castorena · Tablas» (1 · Vigentes, 2 · Anteriores, 3 · Otras tablas) y en iCloud «Castorena · Tablas vigentes»; originales del Escritorio al basurero tras cotejo por hash. Drive: carpeta creada, archivos pendientes.
+- Archivos: `cerebro/MATRIZ.json`, `cerebro/HISTORIAL.json`, `cerebro/ESTADO.json`, `cerebro/SINCRONIZACION.json`, `cerebro/fuentes/cotejo_liverpool/55e9e955536e_Cotejo_Grupo_Liver_confirmados_2.numbers`, `cerebro/cierres/2026-11-09_1450.json`, `cerebro/skill/SKILL.md`, `cerebro/skill/references/familias.md`, `cerebro/skill/references/operacion.md`, `cerebro/skill/scripts/validar_matriz.py`, `cerebro/AGENTS.md`, `cerebro/README.md`, `cerebro/CONTINUIDAD.md`, `cerebro/TAREA_PROGRAMADA.txt`, `.claude/skills/matriz-castorena/SKILL.md`, `.agents/skills/matriz-castorena/SKILL.md`, este registro.
+- Verificación: `validar_matriz.py` → aprobado (6 familias, 31 versiones, 0 errores, 0 avisos); `check_skill.py` → aprobado; `test_guard.py` → aprobado; hashes releídos en Escritorio e iCloud → coinciden.
+- Pendiente: subir a Drive cuando haya sesión de Google; diferencia 50/51 del Cotejo Liverpool; decidir si «Cotejo acuses INDEP» es tabla.
+
 ## 2026-11-09 · cierre diario programado (sin versiones nuevas)
 
 - Agente: Claude Code (ejecución programada)

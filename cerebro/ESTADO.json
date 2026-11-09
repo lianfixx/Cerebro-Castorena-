@@ -41,7 +41,7 @@
     "method": "commit_atomico_y_update_ref_expected_sha",
     "on_conflict": "releer_conciliar_sin_force"
   },
-  "last_source_changes": "Sin versiones nuevas (INDEP sin entrega posterior a la 43); ningún Excel reescrito.",
+  "last_source_changes": "Sexta familia cotejo_liverpool incorporada (55e9e955536e); carpetas de vigentes creadas en Escritorio e iCloud; Drive pendiente de subir. Ningún Excel reescrito.",
   "publication": {
     "initial_commit": "aaa04b75e9645f2691f0e33fdaec1e1e33053020",
     "files_verified_after_read": 52,
@@ -49,8 +49,8 @@
     "source_tables_modified": false,
     "personal_procedure_saved": true
   },
-  "last_audit_at": "2026-11-09T18:43:00-06:00",
-  "last_closure_path": "cierres/2026-11-09_1843.json",
+  "last_audit_at": "2026-11-09T14:50:00-06:00",
+  "last_closure_path": "cierres/2026-11-09_1450.json",
   "latest_run": {
     "base_commit": "1ecf1a9bc2f3a5bbad922fee2c62290691a7c0b6",
     "agent": "ChatGPT Work /root (Codex)",
@@ -117,5 +117,6 @@
     "cause": "Las rutinas creadas desde una sesión no llevan repositorios ni conectores; solo se agregan desde claude.ai/code → Rutinas.",
     "remedy": "Emi crea la rutina con lianfixx/Cerebro-Castorena- e lianfixx/INDEP como repositorios y Google Drive como conector; después se borra trig_01NQu55pefnWfvMFiCWs6Cvc.",
     "instructions": "cerebro/TAREA_PROGRAMADA.txt"
-  }
+  },
+  "sync_targets_path": "SINCRONIZACION.json"
 }

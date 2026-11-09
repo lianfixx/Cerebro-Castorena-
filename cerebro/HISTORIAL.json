@@ -1490,6 +1490,36 @@
       "historical_only": false,
       "scope_note": "Hoja «No laborales (TFJA)» del control del 05/10/2026: 2 asuntos de INDEP ante el TFJA, fuera de los 45 laborales. Corte al 05/10/2026; vigencia por confirmar.",
       "legal_validation_implied": false
+    },
+    {
+      "id": "cotejo_liverpool-55e9e955536e",
+      "family_id": "cotejo_liverpool",
+      "sha256": "55e9e955536e923aeb61f3c1fe361d4292df2a9a40625226e84b29602da5ce57",
+      "size_bytes": 660863,
+      "snapshot_path": "fuentes/cotejo_liverpool/55e9e955536e_Cotejo_Grupo_Liver_confirmados_2.numbers",
+      "source_locator": {
+        "aliases": [
+          {
+            "provider": "mac_escritorio",
+            "name": "Cotejo_Grupo_Liver_confirmados 2.numbers",
+            "path": "~/Desktop/Cotejo_Grupo_Liver_confirmados 2.numbers",
+            "modified_local": "2026-10-22T10:36:18-06:00",
+            "moved_to": "~/Desktop/Castorena · Tablas/1 · Vigentes/Cotejo Grupo Liverpool.numbers (09/11/2026)"
+          }
+        ]
+      },
+      "evidence_state": "recuperado_verificado_bytes",
+      "role": "current_snapshot",
+      "current_for_family": true,
+      "sheets": [
+        "Cotejo 2",
+        "VIVOS",
+        "GANADOS",
+        "PERDIDOS"
+      ],
+      "historical_only": false,
+      "scope_note": "Cotejo físico del Grupo Liverpool: 50 filas en «Cotejo 2»; vistas VIVOS 9, GANADOS 33, PERDIDOS 9 (suman 51, diferencia no resuelta).",
+      "legal_validation_implied": false
     }
   ],
   "ALIASES": [

@@ -1,4 +1,4 @@
-# Contratos de las cinco familias
+# Contratos de las seis familias
 
 ## Archivo muerto
 
@@ -27,6 +27,10 @@ La guía v2 auditada el03/11/2026 es una vista operativa del mismo universo de13
 ## No laborales (TFJA)
 
 Quinta familia, incorporada por instrucción de Emi del 04/11/2026 («Sí por favor»). Contiene asuntos no laborales de INDEP ante el TFJA, que se llevan por separado y no suman a los 45 laborales ni los sustituyen. Fuente vigente: la hoja «No laborales (TFJA)» del control del 05/10/2026 (`fuentes/indep/a52c4946e09d_…`), con origen declarado en la Matriz v3 del portal INDEP. Al corte tiene 2 folios (82701 y 82702), que no aparecen en el Concentrado ni en el maestro INDEP vigente. Su vigencia y quién los lleva están por confirmar: no inferir estado procesal, no actualizarlos con boletines laborales JFCA y no moverlos al Concentrado sin evidencia y autorización.
+
+## Cotejo Grupo Liverpool
+
+Sexta familia, incorporada por instrucción de Emi del 09/11/2026 («Lo de Cotejo Liverpool es una tabla más»). Es el cotejo físico de expedientes de empresas del Grupo Liverpool (Distribuidora Liverpool, El Puerto de Liverpool, Suburbia, Moda Joven Sfera, IMPCECO, ADCON y ADCONINS) en TJACDMX, TFJA y otras sedes, clasificados en vivos, ganados y perdidos. Fuente vigente: `fuentes/cotejo_liverpool/55e9e955536e_…numbers` (hojas «Cotejo 2», VIVOS, GANADOS y PERDIDOS). Al 22/10/2026 «Cotejo 2» tiene 50 filas y las vistas suman 51 (9 + 33 + 9): diferencia observada, no resuelta. Familia separada: el Concentrado se lleva sin Liverpool por instrucción previa de Emi; no mover estos asuntos al Concentrado ni a INDEP, no inferir estado procesal y no unificar razones sociales distintas.
 
 ## Categorías nuevas
 

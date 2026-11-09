@@ -1,0 +1,61 @@
+{
+  "schema_version": "castorena-cierre-v1",
+  "fecha_hora_local": "2026-11-09T14:50:00-06:00",
+  "timezone": "America/Mexico_City",
+  "base_matrix_commit": "46986111b7a653441f9a7d7b4ef644726ef8edb1",
+  "Agente": "Claude Code (sesión con Emi, Mac enlazada)",
+  "solicitudes": [
+    "Emi, 09/11/2026 14:26: «Ordena las tablas de mi escritorio (puedes crear una carpeta) para tener siempre lo más actualizado en un clic, asimismo me gustaría tenerlo en una Carpeta de Drive y en icloud si es posible».",
+    "Emi, 09/11/2026 14:44: «siempre que haya cualquier cambio o moviemiento documentes tanto en Github, Drive y Icloud de manera automática de forma muy pero muy precisa por favor, ya sea dentro del cierre de la matriz, al igual luego trabajo con muse y debe tener la misma instrucción. Lo de Cotejo Liverpool es una tabla más.»"
+  ],
+  "scope": {
+    "families_reviewed": 6,
+    "family_added": "cotejo_liverpool",
+    "emails_sent": false,
+    "drafts_created": false,
+    "indep_modified": false,
+    "source_tables_modified": false
+  },
+  "capabilities": {
+    "github_matrix": "escritura en main (lianfixx/Cerebro-Castorena-)",
+    "github_indep": "lectura de main 476806a9dc19 (entrega 44, 09/11/2026)",
+    "mac": "Escritorio e iCloud Drive con lectura y escritura; Finder en segundo plano",
+    "drive": "conector: metadatos, descarga y creación de carpetas; navegador integrado sin sesión de Google",
+    "conversations": "sin acceso"
+  },
+  "inventario_escritorio_antes": [
+    {"archivo": "Concentrado_de_Expedientes_2026-10-29 (2).xlsx", "sha256": "7cbaad8795b98452e5bd604fbec64c6eda1dfd8416cd76d2a50a7c29e030e748", "identidad": "concentrado-7cbaad8795b9 (vigente)", "destino": "basurero; contenido idéntico en 1 · Vigentes"},
+    {"archivo": "CONCENTRADO_DE_EXPEDIENTES_3_ALTAS_2026-10-13.xlsx", "sha256": "4a810a1f82e35fb6002c4abfaee163a3ad331507ff2519ef30535cc029569b9b", "identidad": "concentrado-4a810a1f82e3", "destino": "2 · Anteriores/Concentrado de Expedientes - 3 altas (13-10-2026).xlsx"},
+    {"archivo": "CONCENTRADO_DE_EXPEDIENTES.xlsx", "sha256": "07d0c151b7d81867cca3bd1fd0402a382f1af028d8839551e8b8f7e134706619", "identidad": "concentrado-07d0c151b7d8", "destino": "2 · Anteriores/Concentrado de Expedientes - versión inicial.xlsx"},
+    {"archivo": "Control_de_expedientes_Junta_Especial_2-4-4.xlsx", "sha256": "7f629ab0d8b878869e9cc87c2f4ea851401a6b86cdcebb65174bffe9f2525433", "identidad": "indep-7f629ab0d8b8 (anterior al maestro 21)", "destino": "2 · Anteriores/INDEP - Control de expedientes (versión del 22-10-2026).xlsx"},
+    {"archivo": "Expedientes TFCA Primera y Tercera Sala.numbers", "sha256": "2884b277fde48c84569d7856b2e038ec5609cc1a79995b9a54b8f7814f262585", "identidad": "sin versión en cerebro; texto comparado con tfca-d9e1dcc79a77: la guía vigente incorpora sus anotaciones de visita y añade referencias del encargo", "destino": "2 · Anteriores/Expedientes TFCA Primera y Tercera Sala (versión del 22-10-2026).numbers"},
+    {"archivo": "Cotejo_acuses_INDEP_2026-10-15.xlsx", "sha256": "d1c7da599e51c84329536b098531363fc71163fde236e8428c266150c9e1b4e8", "identidad": "fuera de las familias", "destino": "3 · Otras tablas/Cotejo acuses INDEP 2026-10-15.xlsx"},
+    {"archivo": "Cotejo_Grupo_Liver_confirmados 2.numbers", "sha256": "55e9e955536e923aeb61f3c1fe361d4292df2a9a40625226e84b29602da5ce57", "identidad": "cotejo_liverpool-55e9e955536e (sexta familia)", "destino": "1 · Vigentes/Cotejo Grupo Liverpool.numbers"}
+  ],
+  "metodo_movimiento": "Copias escritas en las carpetas nuevas y comprobadas por SHA-256 releyendo desde la Mac; después, originales enviados al basurero de macOS con Finder (recuperables). La carpeta vacía «carpeta sin título» y un duplicado intermedio de Liverpool en «3 · Otras tablas» también se enviaron al basurero.",
+  "sincronizacion": [
+    {"destino": "github", "ruta": "cerebro/fuentes/cotejo_liverpool/55e9e955536e_Cotejo_Grupo_Liver_confirmados_2.numbers", "resultado": "sincronizado", "verificacion": "validar_matriz.py: 6 familias, 31 versiones, 31 snapshots cotejados, 0 errores"},
+    {"destino": "mac_escritorio", "ruta": "~/Desktop/Castorena · Tablas/1 · Vigentes/", "archivos": 7, "resultado": "sincronizado", "verificacion": "SHA-256 releído: 7cbaad8795b9, 6504026c7fa9, d9e1dcc79a77, 8305a4b41f43, a52c4946e09d, 55e9e955536e y LÉEME 5814dbcb9179"},
+    {"destino": "icloud", "ruta": "iCloud Drive/Castorena · Tablas vigentes/", "archivos": 7, "resultado": "sincronizado", "verificacion": "mismos SHA-256 releídos desde la Mac; la subida a la nube de iCloud la hace macOS y no se comprobó desde otro dispositivo"},
+    {"destino": "drive", "ruta": "Mi unidad/CASTORENA ABOGADOS /Castorena · Tablas vigentes (1UE-tJN2QV1X3eRGokx1pB0PMOW9YKn_z)", "archivos": 0, "resultado": "pendiente", "motivo": "Carpeta creada vacía. El navegador integrado de la app de Claude no tiene sesión de Google; Chrome con la extensión no estaba conectado. Falta que Emi o Muse inicien sesión para subir los 6 archivos y el LÉEME."}
+  ],
+  "observaciones": [
+    "Cotejo Grupo Liverpool: «Cotejo 2» tiene 50 filas; VIVOS 9 + GANADOS 33 + PERDIDOS 9 = 51. Diferencia observada, no resuelta.",
+    "INDEP main en la entrega 44 (09/11/2026, boletín 194 sin coincidencias); maestro 6504026c7fa9 sin cambios. No se modificó INDEP."
+  ],
+  "pending": [
+    "Drive: subir los 6 archivos vigentes y el LÉEME a 1UE-tJN2QV1X3eRGokx1pB0PMOW9YKn_z y comprobar hashes; después crear la subcarpeta «Anteriores».",
+    "Cotejo acuses INDEP 2026-10-15: preguntar a Emi si se integra como tabla.",
+    "Cotejo Grupo Liverpool: resolver la diferencia de 50 contra 51 filas con Emi.",
+    "Concentrado ID 12 (nota de Drive) y vigencia de No laborales (TFJA) siguen pendientes de cierres anteriores.",
+    "Ejecución programada: Escritorio e iCloud solo se alcanzan con la Mac enlazada; en la nube quedarán como pendientes."
+  ],
+  "validation": {
+    "command": "python3 cerebro/skill/scripts/validar_matriz.py cerebro",
+    "families": 6,
+    "versions": 31,
+    "errors": 0,
+    "warnings": 0
+  },
+  "next_step": "Subir a Drive en cuanto haya sesión de Google y registrar sus IDs y hashes en SINCRONIZACION.json."
+}

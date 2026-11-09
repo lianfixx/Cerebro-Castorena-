@@ -1,0 +1,133 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-11-09T14:50:00-06:00",
+  "rule": {
+    "source": "Emi, 09/11/2026, sesión de Claude Code: «siempre que haya cualquier cambio o movimiento documentes tanto en Github, Drive y Icloud de manera automática de forma muy pero muy precisa […] ya sea dentro del cierre de la matriz, al igual luego trabajo con muse y debe tener la misma instrucción».",
+    "applies_to": [
+      "Claude (sesiones y ejecución programada)",
+      "Muse",
+      "ChatGPT, Codex, Gemini o cualquier otra IA"
+    ],
+    "summary": "Toda versión nueva validada, cambio de vigencia, alta de familia o movimiento de archivos se documenta en GitHub (cerebro/) y se refleja en las tres carpetas de vigentes (Escritorio, iCloud y Drive) en la misma operación. Cada destino se comprueba por SHA-256 después de escribir."
+  },
+  "procedure": [
+    "1. Validar la versión nueva y copiarla a cerebro/fuentes/<familia>/ (operacion.md 7b).",
+    "2. En cada destino, mover el archivo vigente anterior a «2 · Anteriores» (Escritorio) o a la subcarpeta «Anteriores» (iCloud y Drive) con nombre descriptivo y fecha; nunca borrarlo.",
+    "3. Escribir la versión nueva con el nombre fijo de la tabla (vigentes[].nombre_fijo) y actualizar el LÉEME.",
+    "4. Releer cada destino y comparar SHA-256 y tamaño contra cerebro/fuentes. Un destino no comprobado queda como «pendiente», no como sincronizado.",
+    "5. Registrar en el cierre (cerebro/cierres/) una línea por destino: ruta, archivo, SHA-256 antes y después, resultado (sincronizado | pendiente | no accesible) y motivo.",
+    "6. Actualizar este archivo (vigentes[].sha256 y destinos[].last_verified) en el mismo commit, con entrada en CHANGELOG.md."
+  ],
+  "capability_notes": [
+    "GitHub: escritura con commit atómico y SHA esperado (SKILL.md).",
+    "Drive: con el conector de Google Drive (carpeta por ID) o con el navegador con sesión de Emi. Sin acceso, anotar pendiente.",
+    "Escritorio e iCloud: solo con la Mac de Emi enlazada a la sesión (herramientas del dispositivo). Una ejecución programada en la nube sin la Mac enlazada no puede escribirlos: anotar «pendiente: Mac no enlazada» y dejarlo para la siguiente sesión con la Mac o para Muse.",
+    "No afirmar sincronización de un destino que no se releyó."
+  ],
+  "destinos": [
+    {
+      "id": "github",
+      "ubicacion": "lianfixx/Cerebro-Castorena-, main, cerebro/fuentes/<familia>/",
+      "estado": "sincronizado",
+      "last_verified": "2026-11-09T14:50:00-06:00"
+    },
+    {
+      "id": "mac_escritorio",
+      "ubicacion": "~/Desktop/Castorena · Tablas/",
+      "subcarpetas": {
+        "vigentes": "1 · Vigentes",
+        "anteriores": "2 · Anteriores",
+        "otras": "3 · Otras tablas"
+      },
+      "estado": "sincronizado",
+      "last_verified": "2026-11-09T14:39:00-06:00",
+      "nota": "«1 · Vigentes» está en la barra lateral de Finder."
+    },
+    {
+      "id": "icloud",
+      "ubicacion": "iCloud Drive/Castorena · Tablas vigentes/",
+      "ruta_mac": "~/Library/Mobile Documents/com~apple~CloudDocs/Castorena · Tablas vigentes/",
+      "estado": "sincronizado",
+      "last_verified": "2026-11-09T14:39:00-06:00"
+    },
+    {
+      "id": "drive",
+      "ubicacion": "Mi unidad/CASTORENA ABOGADOS /Castorena · Tablas vigentes",
+      "folder_id": "1UE-tJN2QV1X3eRGokx1pB0PMOW9YKn_z",
+      "parent_folder_id": "1ukWtDdOzdtMOaR9cGXkkuh2Ks-Ev-nrq",
+      "cuenta": "emilianogarciamilla@gmail.com",
+      "estado": "pendiente",
+      "motivo": "Carpeta creada vacía el 09/11/2026; falta subir los archivos. El navegador integrado de la app de Claude no tiene sesión de Google y el conector no sube binarios grandes con seguridad.",
+      "last_verified": null
+    }
+  ],
+  "vigentes": [
+    {
+      "family_id": "concentrado",
+      "nombre_fijo": "Concentrado de Expedientes.xlsx",
+      "sha256": "7cbaad8795b98452e5bd604fbec64c6eda1dfd8416cd76d2a50a7c29e030e748",
+      "size_bytes": 78834
+    },
+    {
+      "family_id": "indep",
+      "nombre_fijo": "INDEP - Control de expedientes (Juntas y Salas).xlsx",
+      "sha256": "6504026c7fa968c2877e8c689aad7d9daafe84e2d96eca90a00fb7d274eef865",
+      "size_bytes": 18406
+    },
+    {
+      "family_id": "tfca",
+      "nombre_fijo": "Expedientes TFCA y San Lázaro.xlsx",
+      "sha256": "d9e1dcc79a77c450baed07e9c99b49a0010751bed9af7456230e47684227b7af",
+      "size_bytes": 11978
+    },
+    {
+      "family_id": "archivo_muerto",
+      "nombre_fijo": "Archivo muerto - Catálogo.xlsx",
+      "sha256": "8305a4b41f437522594615ff52b98436507b188ae81700b5ec2e71f0e6bb8272",
+      "size_bytes": 19348
+    },
+    {
+      "family_id": "no_laborales_tfja",
+      "nombre_fijo": "No laborales (TFJA) - corte 05-10-2026.xlsx",
+      "sha256": "a52c4946e09d49ab0857937388d84d384190a83e6ba588592cc7c6f0d7b60ee5",
+      "size_bytes": 14027
+    },
+    {
+      "family_id": "cotejo_liverpool",
+      "nombre_fijo": "Cotejo Grupo Liverpool.numbers",
+      "sha256": "55e9e955536e923aeb61f3c1fe361d4292df2a9a40625226e84b29602da5ce57",
+      "size_bytes": 660863
+    }
+  ],
+  "fuera_de_familias": [
+    {
+      "archivo": "Cotejo acuses INDEP 2026-10-15.xlsx",
+      "sha256": "d1c7da599e51c84329536b098531363fc71163fde236e8428c266150c9e1b4e8",
+      "ubicacion": "~/Desktop/Castorena · Tablas/3 · Otras tablas/",
+      "nota": "Evidencia de acuses INDEP; no es familia de la matriz. Pendiente preguntar a Emi si se integra como tabla."
+    }
+  ],
+  "anteriores_mac": [
+    {
+      "archivo": "Concentrado de Expedientes - versión inicial.xlsx",
+      "sha256": "07d0c151b7d81867cca3bd1fd0402a382f1af028d8839551e8b8f7e134706619",
+      "version_id": "concentrado-07d0c151b7d8"
+    },
+    {
+      "archivo": "Concentrado de Expedientes - 3 altas (13-10-2026).xlsx",
+      "sha256": "4a810a1f82e35fb6002c4abfaee163a3ad331507ff2519ef30535cc029569b9b",
+      "version_id": "concentrado-4a810a1f82e3"
+    },
+    {
+      "archivo": "INDEP - Control de expedientes (versión del 22-10-2026).xlsx",
+      "sha256": "7f629ab0d8b878869e9cc87c2f4ea851401a6b86cdcebb65174bffe9f2525433",
+      "version_id": "indep-7f629ab0d8b8"
+    },
+    {
+      "archivo": "Expedientes TFCA Primera y Tercera Sala (versión del 22-10-2026).numbers",
+      "sha256": "2884b277fde48c84569d7856b2e038ec5609cc1a79995b9a54b8f7814f262585",
+      "version_id": null,
+      "nota": "Sin copia en cerebro/fuentes; su contenido está absorbido por la guía TFCA vigente (comparación de textos del 09/11/2026)."
+    }
+  ]
+}

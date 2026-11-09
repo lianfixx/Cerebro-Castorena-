@@ -166,10 +166,41 @@
         "overlap_check": "Ninguno de sus expedientes aparece en el Concentrado vigente; los folios no están en el maestro INDEP v21."
       },
       "audit_path": "cierres/2026-11-04_1644.json"
+    },
+    {
+      "id": "cotejo_liverpool",
+      "title": "Cotejo Grupo Liverpool",
+      "role": "Cotejo físico de expedientes de empresas del Grupo Liverpool (Liverpool, Suburbia, Moda Joven Sfera, IMPCECO, ADCON/ADCONINS) clasificados en vivos, ganados y perdidos. Familia separada: no suma al Concentrado ni a INDEP.",
+      "current_version_id": "cotejo_liverpool-55e9e955536e",
+      "current_library_url": null,
+      "sha256": "55e9e955536e923aeb61f3c1fe361d4292df2a9a40625226e84b29602da5ce57",
+      "current_sha256": "55e9e955536e923aeb61f3c1fe361d4292df2a9a40625226e84b29602da5ce57",
+      "current_snapshot_path": "fuentes/cotejo_liverpool/55e9e955536e_Cotejo_Grupo_Liver_confirmados_2.numbers",
+      "universo": {
+        "unit": "fila de expediente en la hoja de cotejo",
+        "count": 50,
+        "by_sheet_observed": {
+          "Cotejo 2": 50,
+          "VIVOS": 9,
+          "GANADOS": 33,
+          "PERDIDOS": 9
+        },
+        "observation": "VIVOS+GANADOS+PERDIDOS suman 51 frente a 50 filas de «Cotejo 2». Diferencia observada, no resuelta; no corregir por inferencia.",
+        "source": "fuentes/cotejo_liverpool/55e9e955536e_Cotejo_Grupo_Liver_confirmados_2.numbers"
+      },
+      "current_selection_basis": {
+        "authorization": "Emi, 09/11/2026, sesión de Claude Code: «Lo de Cotejo Liverpool es una tabla más».",
+        "basis": "Única versión localizada: archivo «Cotejo_Grupo_Liver_confirmados 2.numbers» del Escritorio de Emi, modificado el 22/10/2026 10:36 (hora de Ciudad de México), copiado byte a byte.",
+        "not_proven": [
+          "No consta si existe una versión posterior en otro lugar.",
+          "No consta quién hizo el cotejo físico ni su fecha."
+        ]
+      },
+      "audit_path": "cierres/2026-11-09_1450.json"
     }
   ],
   "pending_categories": [],
-  "scope": "Cinco familias autorizadas (la quinta, No laborales (TFJA), desde el 04/11/2026). Matriz de fuentes y trazabilidad; no sustituye las tablas ni altera estados procesales.",
+  "scope": "Seis familias autorizadas (la quinta, No laborales (TFJA), desde el 04/11/2026; la sexta, Cotejo Grupo Liverpool, desde el 09/11/2026). Matriz de fuentes y trazabilidad; no sustituye las tablas ni altera estados procesales.",
   "updates_pending": [
     {
       "file_id": "1YtT78mIRVDr_oZvkEVDyqBl0howya5R8",
@@ -216,7 +247,8 @@
   "coverage_complete": false,
   "publication_authorization": {
     "current": "Emi, 04/11/2026 (sesión de Claude Code): «todas las versiones que hagamos cópialas y todas las tablas y actualizaciones».",
-    "scope": "Copiar al cerebro todas las versiones validadas nuevas y las actualizaciones de las cinco familias, conservando las anteriores.",
+    "scope": "Copiar al cerebro todas las versiones validadas nuevas y las actualizaciones de las familias autorizadas (seis desde el 09/11/2026), conservando las anteriores.",
     "previous": "Emi, 03/11/2026: «no, hazlo así, por favor» (migración del contenido existente)."
-  }
+  },
+  "sync_targets_path": "SINCRONIZACION.json"
 }
