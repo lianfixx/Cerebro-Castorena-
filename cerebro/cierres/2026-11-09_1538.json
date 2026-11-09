@@ -1,0 +1,80 @@
+{
+  "schema_version": "castorena-cierre-v1",
+  "fecha_hora_local": "2026-11-09T15:38:00-06:00",
+  "timezone": "America/Mexico_City",
+  "base_matrix_commit": "d69fbeea2b141e0042978bafd16a33de1153ce94",
+  "Agente": "Claude Code (sesión con Emi, Mac enlazada)",
+  "solicitud": "Emi, 09/11/2026 15:37: «listo» (paso de Drive del prompt para Muse).",
+  "scope": {
+    "families_reviewed": 6,
+    "emails_sent": false,
+    "drafts_created": false,
+    "indep_modified": false,
+    "source_tables_modified": false
+  },
+  "sincronizacion": [
+    {
+      "destino": "drive",
+      "ruta": "Mi unidad/CASTORENA ABOGADOS /Castorena · Tablas vigentes (1UE-tJN2QV1X3eRGokx1pB0PMOW9YKn_z)",
+      "resultado": "sincronizado",
+      "verificacion": [
+        {
+          "archivo": "Concentrado de Expedientes.xlsx",
+          "drive_id": "1CEqqyTQOa79F9L74tpKDsrKRfU4ZC0tX",
+          "bytes": 78834,
+          "sha256_12": "7cbaad8795b9"
+        },
+        {
+          "archivo": "INDEP - Control de expedientes (Juntas y Salas).xlsx",
+          "drive_id": "1GAfWKd6Hlg18HCPP3vIHdKGh72mqAm6S",
+          "bytes": 18406,
+          "sha256_12": "6504026c7fa9"
+        },
+        {
+          "archivo": "Expedientes TFCA y San Lázaro.xlsx",
+          "drive_id": "1teGm2ioKCZ7WQxzNpfp5H_Y6CRrF6tio",
+          "bytes": 11978,
+          "sha256_12": "d9e1dcc79a77"
+        },
+        {
+          "archivo": "Archivo muerto - Catálogo.xlsx",
+          "drive_id": "1ZHsaXeVr4o7Wg-K1yXure0MIvcXfRkjv",
+          "bytes": 19348,
+          "sha256_12": "8305a4b41f43"
+        },
+        {
+          "archivo": "No laborales (TFJA) - corte 05-10-2026.xlsx",
+          "drive_id": "1DfP6Y6Uj6pguicn4mgVPWiU2BYbOVm9p",
+          "bytes": 14027,
+          "sha256_12": "a52c4946e09d"
+        },
+        {
+          "archivo": "Cotejo Grupo Liverpool.numbers",
+          "drive_id": "1reRFm5xQEh2rkK66Rp2HjGOziaQRf2sk",
+          "bytes": 660863,
+          "sha256_12": "55e9e955536e"
+        },
+        {
+          "archivo": "LÉEME - versiones vigentes.txt",
+          "drive_id": "1DYAmKR_P-rYdHXuHd9Xh-GC3gY4qQQiy",
+          "bytes": 2685,
+          "sha256_12": "5814dbcb9179"
+        }
+      ],
+      "metodo": "Revisión independiente de la subida de Muse (cierre 2026-11-09_1509): descarga de cada archivo desde Drive y SHA-256 completo comparado con cerebro/fuentes y con las copias de la Mac. El LÉEME, pendiente en el cierre de Muse, lo subió Claude con el conector."
+    }
+  ],
+  "observaciones": [
+    "La carpeta de Drive es visible para cualquier persona con el enlace (permiso heredado de «CASTORENA ABOGADOS »). No se modificó; se informó a Emi."
+  ],
+  "pending": [
+    "Decisión de Emi sobre el acceso público por enlace de «CASTORENA ABOGADOS ».",
+    "Cotejo acuses INDEP: el cierre de Muse registra aprobación de Emi como séptima tabla; pendiente de confirmación directa de Emi en esta sesión antes de integrarla.",
+    "Cotejo Grupo Liverpool: diferencia 50/51."
+  ],
+  "validation": {
+    "command": "python3 cerebro/skill/scripts/validar_matriz.py cerebro",
+    "errors": 0
+  },
+  "next_step": "Mantener los tres destinos en cada cambio según SINCRONIZACION.json."
+}

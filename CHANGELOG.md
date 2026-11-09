@@ -2,6 +2,15 @@
 
 Lo más reciente arriba. Formato y reglas: `ia/PROTOCOLO.md`, sección 3. Cada entrada lleva la línea `Agente:`.
 
+## 2026-11-09 · Drive sincronizado y verificado
+
+- Agente: Claude Code (claude-opus-5-5, sesión con Emi y Mac enlazada)
+- Solicitud: Emi, 09/11/2026 15:37: «listo», tras el paso de Drive del prompt para Muse.
+- Cambios: revisión independiente de la subida de Muse (commit d69fbee): los seis archivos vigentes se descargaron de Drive y coinciden byte a byte con `cerebro/fuentes`; se añadieron el LÉEME (pendiente en el cierre de Muse) y la subcarpeta «Anteriores»; `SINCRONIZACION.json` registra los IDs de Drive y el destino Drive como sincronizado. Se observó que la carpeta hereda acceso «cualquier persona con el enlace puede ver»; no se cambiaron permisos.
+- Archivos: `cerebro/SINCRONIZACION.json`, `cerebro/ESTADO.json`, `cerebro/cierres/2026-11-09_1538.json`, este registro.
+- Verificación: SHA-256 de 7 archivos en Drive → coinciden; `validar_matriz.py` → aprobado.
+- Pendiente: decisión de Emi sobre el acceso por enlace; Cotejo acuses INDEP; diferencia 50/51 de Liverpool.
+
 ## 2026-11-09 · tablas vigentes subidas a Drive y verificadas
 
 - Agente: Muse (Muse Spark)
