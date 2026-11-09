@@ -1,0 +1,87 @@
+{
+  "schema_version": "castorena-cierre-v1",
+  "fecha_hora_local": "2026-11-09T15:09:05-06:00",
+  "timezone": "America/Mexico_City",
+  "base_matrix_commit": "49221182c0dec4cb93833dba922d887f68c6f671",
+  "Agente": "Muse (Muse Spark)",
+  "scope": {
+    "families_reviewed": 6,
+    "emails_sent": false,
+    "drafts_created": false,
+    "indep_modified": false
+  },
+  "capabilities": {
+    "github_matrix": "lectura y push a main",
+    "drive": "conector de Google Drive (subida y descarga de verificación)",
+    "gmail": "no usado"
+  },
+  "coverage": {
+    "drive_folder": "1UE-tJN2QV1X3eRGokx1pB0PMOW9YKn_z",
+    "conversations": "sin acceso",
+    "complete_history": false
+  },
+  "hash_checks": [
+    {
+      "family_id": "concentrado",
+      "source": "Drive 1CEqqyTQOa79F9L74tpKDsrKRfU4ZC0tX",
+      "sha256": "7cbaad8795b98452e5bd604fbec64c6eda1dfd8416cd76d2a50a7c29e030e748",
+      "result": "SHA-256 descargado de Drive idéntico al de SINCRONIZACION.json"
+    },
+    {
+      "family_id": "indep",
+      "source": "Drive 1GAfWKd6Hlg18HCPP3vIHdKGh72mqAm6S",
+      "sha256": "6504026c7fa968c2877e8c689aad7d9daafe84e2d96eca90a00fb7d274eef865",
+      "result": "SHA-256 descargado de Drive idéntico al de SINCRONIZACION.json"
+    },
+    {
+      "family_id": "tfca",
+      "source": "Drive 1teGm2ioKCZ7WQxzNpfp5H_Y6CRrF6tio",
+      "sha256": "d9e1dcc79a77c450baed07e9c99b49a0010751bed9af7456230e47684227b7af",
+      "result": "SHA-256 descargado de Drive idéntico al de SINCRONIZACION.json"
+    },
+    {
+      "family_id": "archivo_muerto",
+      "source": "Drive 1ZHsaXeVr4o7Wg-K1yXure0MIvcXfRkjv",
+      "sha256": "8305a4b41f437522594615ff52b98436507b188ae81700b5ec2e71f0e6bb8272",
+      "result": "SHA-256 descargado de Drive idéntico al de SINCRONIZACION.json"
+    },
+    {
+      "family_id": "no_laborales_tfja",
+      "source": "Drive 1DfP6Y6Uj6pguicn4mgVPWiU2BYbOVm9p",
+      "sha256": "a52c4946e09d49ab0857937388d84d384190a83e6ba588592cc7c6f0d7b60ee5",
+      "result": "SHA-256 descargado de Drive idéntico al de SINCRONIZACION.json"
+    },
+    {
+      "family_id": "cotejo_liverpool",
+      "source": "Drive 1reRFm5xQEh2rkK66Rp2HjGOziaQRf2sk",
+      "sha256": "55e9e955536e923aeb61f3c1fe361d4292df2a9a40625226e84b29602da5ce57",
+      "result": "SHA-256 descargado de Drive idéntico al de SINCRONIZACION.json"
+    }
+  ],
+  "results": {
+    "new_versions": 0,
+    "source_tables_modified": false,
+    "families": {
+      "concentrado": "sin cambio; subido a Drive y verificado",
+      "indep": "sin cambio; subido a Drive y verificado",
+      "tfca": "sin cambio; subido a Drive y verificado",
+      "archivo_muerto": "sin cambio; subido a Drive y verificado",
+      "no_laborales_tfja": "sin cambio; subido a Drive y verificado",
+      "cotejo_liverpool": "sin cambio; subido a Drive y verificado"
+    }
+  },
+  "validation": {
+    "command": "python3 cerebro/skill/scripts/validar_matriz.py cerebro",
+    "errors": null
+  },
+  "pending": [
+    "Drive: falta el LÉEME (no está en GitHub, solo en el Escritorio).",
+    "Cotejo acuses INDEP 2026-10-15: Emi aprobó integrarla como tabla el 09/11/2026; falta el archivo (no está en GitHub, solo en «3 · Otras tablas» del Escritorio).",
+    "Cotejo Grupo Liverpool: diferencia 50/51 sin resolver (hoja «Cotejo 2»).",
+    "Escritorio e iCloud: ya sincronizados en la sesión de Claude Code de las 14:50; no re-verificados en esta operación."
+  ],
+  "automation": {
+    "executor_current": "claude"
+  },
+  "next_step": "Integrar «Cotejo acuses INDEP» cuando Emi comparta el archivo; subir el LÉEME a Drive cuando esté disponible; resolver la diferencia 50/51 del Cotejo Liverpool."
+}

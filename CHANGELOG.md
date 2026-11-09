@@ -2,6 +2,15 @@
 
 Lo más reciente arriba. Formato y reglas: `ia/PROTOCOLO.md`, sección 3. Cada entrada lleva la línea `Agente:`.
 
+## 2026-11-09 · tablas vigentes subidas a Drive y verificadas
+
+- Agente: Muse (Muse Spark)
+- Solicitud: Emi, 09/11/2026 (encargo por la Mac): subir las tablas vigentes a Drive; Google Drive conectado a Muse.
+- Cambios: las 6 tablas vigentes subidas a la carpeta Drive 1UE-tJN2QV1X3eRGokx1pB0PMOW9YKn_z con sus nombres fijos, sin conversión; SINCRONIZACION.json (Drive → sincronizado); cierre cerebro/cierres/2026-11-09_1509.json; ESTADO.json actualizado. El LÉEME no está en GitHub y queda pendiente.
+- Archivos: cerebro/SINCRONIZACION.json, cerebro/cierres/2026-11-09_1509.json, cerebro/ESTADO.json, este registro.
+- Verificación: SHA-256 de las 6 tablas descargadas de vuelta de Drive idéntico al de SINCRONIZACION.json; validar_matriz.py → aprobado (6 familias, 31 versiones, 0 errores, 0 avisos).
+- Pendiente: subir el LÉEME a Drive; integrar «Cotejo acuses INDEP 2026-10-15» como séptima tabla (Emi aprobó el 09/11/2026; falta el archivo, no está en GitHub); diferencia 50/51 del Cotejo Liverpool.
+
 ## 2026-11-09 · sexta familia (Cotejo Grupo Liverpool) y sincronización GitHub, Drive e iCloud
 
 - Agente: Claude Code (claude-opus-5-5, sesión con Emi y Mac enlazada)

@@ -56,9 +56,9 @@
       "folder_id": "1UE-tJN2QV1X3eRGokx1pB0PMOW9YKn_z",
       "parent_folder_id": "1ukWtDdOzdtMOaR9cGXkkuh2Ks-Ev-nrq",
       "cuenta": "emilianogarciamilla@gmail.com",
-      "estado": "pendiente",
-      "motivo": "Carpeta creada vacía el 09/11/2026; falta subir los archivos. El navegador integrado de la app de Claude no tiene sesión de Google y el conector no sube binarios grandes con seguridad.",
-      "last_verified": null
+      "estado": "sincronizado",
+      "motivo": "Subidos los 6 archivos el 09/11/2026 por Muse con el conector de Google Drive; SHA-256 verificado descargando de vuelta de Drive. Falta el LÉEME (no está en GitHub, solo en el Escritorio).",
+      "last_verified": "2026-11-09T15:09:05-06:00"
     }
   ],
   "vigentes": [
