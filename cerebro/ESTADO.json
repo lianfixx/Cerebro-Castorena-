@@ -41,7 +41,7 @@
     "method": "commit_atomico_y_update_ref_expected_sha",
     "on_conflict": "releer_conciliar_sin_force"
   },
-  "last_source_changes": "Cotejo Grupo Liverpool: versión 531091b888bb con anotación del 27969/22-17-02-5 (valores sin cambio). Escritorio, iCloud y GitHub sincronizados; Drive pendiente.",
+  "last_source_changes": "Cotejo Grupo Liverpool reemplazado en Drive por la versión con anotación del 27969 (531091b888bb, 662 565 B); anterior movido a «Anteriores» con nombre descriptivo. Ningún Excel reescrito.",
   "publication": {
     "initial_commit": "aaa04b75e9645f2691f0e33fdaec1e1e33053020",
     "files_verified_after_read": 52,
@@ -49,8 +49,8 @@
     "source_tables_modified": false,
     "personal_procedure_saved": true
   },
-  "last_audit_at": "2026-11-09T16:30:00-06:00",
-  "last_closure_path": "cierres/2026-11-09_1630.json",
+  "last_audit_at": "2026-11-09T16:32:51-06:00",
+  "last_closure_path": "cierres/2026-11-09_1632.json",
   "latest_run": {
     "base_commit": "1ecf1a9bc2f3a5bbad922fee2c62290691a7c0b6",
     "agent": "ChatGPT Work /root (Codex)",

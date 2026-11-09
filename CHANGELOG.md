@@ -2,6 +2,15 @@
 
 Lo más reciente arriba. Formato y reglas: `ia/PROTOCOLO.md`, sección 3. Cada entrada lleva la línea `Agente:`.
 
+## 2026-11-09 · Cotejo Grupo Liverpool reemplazado en Drive (anotación del 27969)
+
+- Agente: Muse (Muse Spark)
+- Solicitud: Emi, 09/11/2026: reemplazar «Cotejo Grupo Liverpool.numbers» en Drive por la versión con la anotación del 27969; mover la anterior a «Anteriores» con nombre descriptivo; verificar 662 565 B y SHA-256 531091b8…; registrar en GitHub (base: commit 6c932f2 de Claude).
+- Cambios: anterior (1reRFm5xQEh2rkK66Rp2HjGOziaQRf2sk) movido a la subcarpeta «Anteriores» y renombrado «Cotejo Grupo Liverpool (antes de la nota del 27969, 09-11-2026).numbers»; nueva versión subida a la carpeta Drive con su nombre fijo, sin conversión; SINCRONIZACION.json (drive_file_id de cotejo_liverpool; Drive → sincronizado, sin motivo); cierre cerebro/cierres/2026-11-09_1632.json; ESTADO.json actualizado.
+- Archivos: cerebro/SINCRONIZACION.json, cerebro/cierres/2026-11-09_1632.json, cerebro/ESTADO.json, este registro.
+- Verificación: SHA-256 y tamaño descargados de vuelta de Drive idénticos a SINCRONIZACION.json (662 565 B, 531091b8…); validar_matriz.py → aprobado (7 familias, 33 versiones, 0 errores, 0 avisos).
+- Pendiente: diferencia 50/51 del Cotejo Liverpool; nota del ID 12 del Concentrado; vigencia de los folios TFJA.
+
 ## 2026-11-09 · Cotejo Grupo Liverpool: anotación del 27969/22-17-02-5
 
 - Agente: Claude Code (claude-opus-5-5, sesión con Emi y Mac enlazada)

@@ -1,0 +1,57 @@
+{
+  "schema_version": "castorena-cierre-v1",
+  "fecha_hora_local": "2026-11-09T16:32:51-06:00",
+  "timezone": "America/Mexico_City",
+  "base_matrix_commit": "6c932f278253283a7225910fd1b72f606172088b",
+  "Agente": "Muse (Muse Spark)",
+  "scope": {
+    "families_reviewed": 7,
+    "emails_sent": false,
+    "drafts_created": false,
+    "indep_modified": false
+  },
+  "capabilities": {
+    "github_matrix": "lectura y push a main",
+    "drive": "conector de Google Drive (mover, subir y descarga de verificación)",
+    "gmail": "no usado"
+  },
+  "coverage": {
+    "drive_folder": "1UE-tJN2QV1X3eRGokx1pB0PMOW9YKn_z",
+    "conversations": "sin acceso",
+    "complete_history": false
+  },
+  "hash_checks": [
+    {
+      "family_id": "cotejo_liverpool",
+      "source": "Drive 1H2iBvrk6KP_8rBJe2ean8dFH2JQy4I69",
+      "sha256": "531091b888bb89bda7ec7ec8952c7dd4560c134c95494d0faf639e90e652b884",
+      "result": "SHA-256 y tamaño descargados de Drive idénticos a SINCRONIZACION.json (662 565 B); anterior 1reRFm5xQEh2rkK66Rp2HjGOziaQRf2sk movido a «Anteriores» y renombrado"
+    }
+  ],
+  "results": {
+    "new_versions": 0,
+    "source_tables_modified": false,
+    "families": {
+      "cotejo_liverpool": "reemplazado en Drive por la versión 531091b888bb (anotación del 27969); anterior en Anteriores",
+      "concentrado": "sin cambio; ya sincronizado",
+      "indep": "sin cambio; ya sincronizado",
+      "tfca": "sin cambio; ya sincronizado",
+      "archivo_muerto": "sin cambio; ya sincronizado",
+      "no_laborales_tfja": "sin cambio; ya sincronizado",
+      "cotejo_acuses_indep": "sin cambio; ya sincronizado"
+    }
+  },
+  "validation": {
+    "command": "python3 cerebro/skill/scripts/validar_matriz.py cerebro",
+    "errors": null
+  },
+  "pending": [
+    "Cotejo Grupo Liverpool: diferencia 50/51 sin resolver (hoja «Cotejo 2»).",
+    "Concentrado: pendiente integrar la nota del ID 12 del Drive del despacho (según LÉEME).",
+    "No laborales (TFJA): confirmar si los dos folios siguen vigentes y quién los lleva (según LÉEME)."
+  ],
+  "automation": {
+    "executor_current": "claude"
+  },
+  "next_step": "Resolver la diferencia 50/51 del Cotejo Liverpool; integrar la nota del ID 12 del Concentrado."
+}
