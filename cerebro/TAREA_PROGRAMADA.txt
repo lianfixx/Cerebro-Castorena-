@@ -8,10 +8,10 @@ Eres la ejecución programada diaria de la matriz Castorena de Emi (Emiliano Gar
 
 3. Comprueba que te toca: `ESTADO.json` → `executor_current` debe ser tu id. Si no lo es, no publiques nada y termina con un resumen que lo diga. Así nunca escriben dos ejecutores.
 
-4. Haz el cierre de las seis familias según operacion.md:
+4. Haz el cierre de las siete familias según operacion.md:
    - En lianfixx/INDEP (main), revisa las entregas validadas nuevas desde el último cierre: verifica sus manifiestos con manifiesto.py y el contrato con comparar_excel.py --base.
    - Si cambió una tabla validada, cópiala a cerebro/fuentes/<familia>/ con nombre `<12 primeros del SHA-256>_<nombre original>`. Regístrala en HISTORIAL.json y apunta la familia a ella en MATRIZ.json. Emi autorizó copiar todas las versiones nuevas (04/11/2026). Nunca modifiques ni borres una fuente anterior.
-   - Con Google Drive, revisa las fuentes accesibles de las seis familias (el Concentrado de expedientes está compartido con emilianogarciamilla@gmail.com).
+   - Con Google Drive, revisa las fuentes accesibles de las siete familias (el Concentrado de expedientes está compartido con emilianogarciamilla@gmail.com).
    - Anota como no accesibles las fuentes que no puedas leer.
    - No modifiques INDEP: su seguimiento diario tiene su propia tarea. No envíes correos ni crees borradores desde la matriz.
    - No incorpores familias nuevas: anótalas como pendientes.

@@ -41,7 +41,7 @@
     "method": "commit_atomico_y_update_ref_expected_sha",
     "on_conflict": "releer_conciliar_sin_force"
   },
-  "last_source_changes": "Drive sincronizado: seis tablas vigentes y LÉEME verificados por SHA-256 en 1UE-tJN2QV1X3eRGokx1pB0PMOW9YKn_z. Ningún Excel reescrito.",
+  "last_source_changes": "Séptima familia cotejo_acuses_indep (d1c7da599e51) en GitHub, Escritorio e iCloud; Drive pendiente de ese archivo. Ningún Excel reescrito.",
   "publication": {
     "initial_commit": "aaa04b75e9645f2691f0e33fdaec1e1e33053020",
     "files_verified_after_read": 52,
@@ -49,8 +49,8 @@
     "source_tables_modified": false,
     "personal_procedure_saved": true
   },
-  "last_audit_at": "2026-11-09T15:38:00-06:00",
-  "last_closure_path": "cierres/2026-11-09_1538.json",
+  "last_audit_at": "2026-11-09T16:10:00-06:00",
+  "last_closure_path": "cierres/2026-11-09_1610.json",
   "latest_run": {
     "base_commit": "1ecf1a9bc2f3a5bbad922fee2c62290691a7c0b6",
     "agent": "ChatGPT Work /root (Codex)",

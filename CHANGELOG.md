@@ -2,6 +2,15 @@
 
 Lo más reciente arriba. Formato y reglas: `ia/PROTOCOLO.md`, sección 3. Cada entrada lleva la línea `Agente:`.
 
+## 2026-11-09 · séptima familia (Cotejo acuses INDEP) y decisión de permisos de Drive
+
+- Agente: Claude Code (claude-opus-5-5, sesión con Emi y Mac enlazada)
+- Solicitud: Emi, 09/11/2026 16:04: «1.- No» (conservar el acceso por enlace de Drive), «2.- Sí» (Cotejo acuses INDEP como tabla), «3.- No te entiendo en eso» (diferencia 50/51 de Liverpool).
+- Cambios: familia `cotejo_acuses_indep` (d1c7da599e51, 19 925 B) en `MATRIZ.json`, `HISTORIAL.json`, validador, skill 1.5.0, familias, AGENTS, README, CLAUDE, CONTINUIDAD y TAREA_PROGRAMADA; `SINCRONIZACION.json` con la séptima tabla, la decisión de permisos y el nuevo LÉEME; la diferencia de Liverpool queda identificada (27969/22-17-02-5 marcado vivo y perdido). Escritorio e iCloud con la tabla y el LÉEME nuevos; Drive con el LÉEME nuevo (el anterior en «Anteriores»).
+- Archivos: `cerebro/MATRIZ.json`, `cerebro/HISTORIAL.json`, `cerebro/ESTADO.json`, `cerebro/SINCRONIZACION.json`, `cerebro/fuentes/cotejo_acuses_indep/d1c7da599e51_Cotejo_acuses_INDEP_2026-10-15.xlsx`, `cerebro/cierres/2026-11-09_1610.json`, `cerebro/skill/SKILL.md`, `cerebro/skill/references/familias.md`, `cerebro/skill/references/operacion.md`, `cerebro/skill/scripts/validar_matriz.py`, `cerebro/AGENTS.md`, `cerebro/README.md`, `cerebro/CLAUDE.md`, `cerebro/CONTINUIDAD.md`, `cerebro/TAREA_PROGRAMADA.txt`, `.claude/skills/matriz-castorena/SKILL.md`, `.agents/skills/matriz-castorena/SKILL.md`, este registro.
+- Verificación: `validar_matriz.py` → aprobado (7 familias, 32 versiones, 0 errores); `check_skill.py` → aprobado; SHA-256 en Escritorio, iCloud y LÉEME de Drive → coinciden.
+- Pendiente: subir «Cotejo acuses INDEP.xlsx» a Drive (Muse); respuesta de Emi sobre el 27969/22-17-02-5.
+
 ## 2026-11-09 · Drive sincronizado y verificado
 
 - Agente: Claude Code (claude-opus-5-5, sesión con Emi y Mac enlazada)

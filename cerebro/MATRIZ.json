@@ -185,7 +185,7 @@
           "GANADOS": 33,
           "PERDIDOS": 9
         },
-        "observation": "VIVOS+GANADOS+PERDIDOS suman 51 frente a 50 filas de «Cotejo 2». Diferencia observada, no resuelta; no corregir por inferencia.",
+        "observation": "El expediente 27969/22-17-02-5 (Suburbia, S. de R.L. de C.V.) está marcado a la vez como VIVO y PERDIDO en «Cotejo 2» y aparece en ambas vistas; por eso las vistas suman 51 frente a 50 filas. Pendiente que Emi indique cuál aplica; no corregir por inferencia.",
         "source": "fuentes/cotejo_liverpool/55e9e955536e_Cotejo_Grupo_Liver_confirmados_2.numbers"
       },
       "current_selection_basis": {
@@ -197,10 +197,37 @@
         ]
       },
       "audit_path": "cierres/2026-11-09_1450.json"
+    },
+    {
+      "id": "cotejo_acuses_indep",
+      "title": "Cotejo acuses INDEP",
+      "role": "Cotejo de acuses de la Oficialía de Partes Común de las Juntas Especiales (JFCA) contra el control INDEP, hoja Junta Especial 2. Evidencia auxiliar vinculada por asunto al maestro INDEP: no suma asuntos ni sustituye al maestro.",
+      "current_version_id": "cotejo_acuses_indep-d1c7da599e51",
+      "current_library_url": null,
+      "sha256": "d1c7da599e51c84329536b098531363fc71163fde236e8428c266150c9e1b4e8",
+      "current_sha256": "d1c7da599e51c84329536b098531363fc71163fde236e8428c266150c9e1b4e8",
+      "current_snapshot_path": "fuentes/cotejo_acuses_indep/d1c7da599e51_Cotejo_acuses_INDEP_2026-10-15.xlsx",
+      "universo": {
+        "unit": "acuse fotografiado",
+        "by_sheet_literal": {
+          "Partes distintas": "12 acuses de 11 asuntos. Mismo número de expediente, con actor y demandados distintos en el sello.",
+          "Observaciones": "18 acuses de 18 asuntos. Los campos EXP, Actor y Demandado están vacíos; las observaciones se transcriben por separado."
+        },
+        "base_literal": "Fuente: fotografías reenviadas el 15/10/2026. Orden: Control_de_expedientes_Junta_Especial_2-4(1).xlsx, hoja Junta Especial 2. Los 29 asuntos se localizaron en el control.",
+        "source": "fuentes/cotejo_acuses_indep/d1c7da599e51_Cotejo_acuses_INDEP_2026-10-15.xlsx"
+      },
+      "current_selection_basis": {
+        "authorization": "Emi, 09/11/2026 16:04, sesión de Claude Code: «2.- Sí» a integrar «Cotejo acuses INDEP» como séptima tabla (antes transmitido por Muse en cierres/2026-11-09_1509.json).",
+        "basis": "Única versión localizada: «Cotejo_acuses_INDEP_2026-10-15.xlsx» del Escritorio de Emi (modificado 22/10/2026 10:35); idéntica a la copia de iCloud Drive del mismo nombre.",
+        "not_proven": [
+          "No se cotejó otra vez contra el maestro INDEP vigente (21); el cotejo original se hizo contra el control de octubre."
+        ]
+      },
+      "audit_path": "cierres/2026-11-09_1610.json"
     }
   ],
   "pending_categories": [],
-  "scope": "Seis familias autorizadas (la quinta, No laborales (TFJA), desde el 04/11/2026; la sexta, Cotejo Grupo Liverpool, desde el 09/11/2026). Matriz de fuentes y trazabilidad; no sustituye las tablas ni altera estados procesales.",
+  "scope": "Siete familias autorizadas (la quinta, No laborales (TFJA), desde el 04/11/2026; la sexta, Cotejo Grupo Liverpool, y la séptima, Cotejo acuses INDEP, desde el 09/11/2026). Matriz de fuentes y trazabilidad; no sustituye las tablas ni altera estados procesales.",
   "updates_pending": [
     {
       "file_id": "1YtT78mIRVDr_oZvkEVDyqBl0howya5R8",
@@ -247,7 +274,7 @@
   "coverage_complete": false,
   "publication_authorization": {
     "current": "Emi, 04/11/2026 (sesión de Claude Code): «todas las versiones que hagamos cópialas y todas las tablas y actualizaciones».",
-    "scope": "Copiar al cerebro todas las versiones validadas nuevas y las actualizaciones de las familias autorizadas (seis desde el 09/11/2026), conservando las anteriores.",
+    "scope": "Copiar al cerebro todas las versiones validadas nuevas y las actualizaciones de las familias autorizadas (siete desde el 09/11/2026), conservando las anteriores.",
     "previous": "Emi, 03/11/2026: «no, hazlo así, por favor» (migración del contenido existente)."
   },
   "sync_targets_path": "SINCRONIZACION.json"

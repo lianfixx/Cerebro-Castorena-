@@ -6,6 +6,10 @@ Traslado publicado y verificado en `9d9257d3ebdb41c209d5135a085e4bd0213ad984`: 5
 
 En próximas ejecuciones leer este repositorio y sus cuatro familias. **INDEP operativo sigue en lianfixx/INDEP, rama main**, con su procedimiento y entregas validadas; la matriz sólo indexa resultados. La automatización del cierre conserva su identidad y horario; su nuevo destino fue actualizado y releído. Todavía no se ha observado una ejecución programada posterior al traslado. La compatibilidad con Claude/Gemini sigue siendo documental, sin prueba de ejecución en esos productos.
 
+## Séptima familia y permisos de Drive — 9 de noviembre de 2026, 16:04
+
+Agente: Claude Code. Respuestas directas de Emi: «1.- No» (no dejar privada la carpeta de Drive; se conserva el acceso por enlace), «2.- Sí» (Cotejo acuses INDEP como séptima tabla), «3.- No te entiendo en eso» (se le explicó que el 27969/22-17-02-5 de Suburbia está marcado como vivo y perdido). Muse subió a Drive las seis tablas a las 15:06 (commit d69fbee); Claude lo verificó por SHA-256 y subió el LÉEME (5b46fe9).
+
 ## Sexta familia y sincronización en GitHub, Drive e iCloud — 9 de noviembre de 2026
 
 Agente: Claude Code. Decisiones directas de Emi: «Ordena las tablas de mi escritorio […] para tener siempre lo más actualizado en un clic, asimismo me gustaría tenerlo en una Carpeta de Drive y en icloud»; «siempre que haya cualquier cambio o moviemiento documentes tanto en Github, Drive y Icloud de manera automática de forma muy pero muy precisa […] luego trabajo con muse y debe tener la misma instrucción»; «Lo de Cotejo Liverpool es una tabla más». Implementación del agente: carpetas «Castorena · Tablas» (Escritorio, con 1 · Vigentes en la barra lateral de Finder) y «Castorena · Tablas vigentes» (iCloud y Drive); nombres fijos por tabla; originales del Escritorio enviados al basurero tras comprobar byte a byte sus copias; sexta familia `cotejo_liverpool`; procedimiento y destinos en `SINCRONIZACION.json`. Drive quedó con la carpeta creada y vacía, pendiente de que Emi o Muse inicien sesión de Google en el navegador de la app de Claude.

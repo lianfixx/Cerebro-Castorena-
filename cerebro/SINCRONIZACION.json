@@ -40,7 +40,7 @@
         "otras": "3 · Otras tablas"
       },
       "estado": "sincronizado",
-      "last_verified": "2026-11-09T14:39:00-06:00",
+      "last_verified": "2026-11-09T16:10:00-06:00",
       "nota": "«1 · Vigentes» está en la barra lateral de Finder."
     },
     {
@@ -48,7 +48,7 @@
       "ubicacion": "iCloud Drive/Castorena · Tablas vigentes/",
       "ruta_mac": "~/Library/Mobile Documents/com~apple~CloudDocs/Castorena · Tablas vigentes/",
       "estado": "sincronizado",
-      "last_verified": "2026-11-09T14:39:00-06:00",
+      "last_verified": "2026-11-09T16:10:00-06:00",
       "anteriores": "Subcarpeta «Anteriores» se crea con el primer cambio de versión."
     },
     {
@@ -57,16 +57,19 @@
       "folder_id": "1UE-tJN2QV1X3eRGokx1pB0PMOW9YKn_z",
       "parent_folder_id": "1ukWtDdOzdtMOaR9cGXkkuh2Ks-Ev-nrq",
       "cuenta": "emilianogarciamilla@gmail.com",
-      "estado": "sincronizado",
+      "estado": "pendiente",
       "last_verified": "2026-11-09T15:38:00-06:00",
       "subida": "Subidos los 6 archivos el 09/11/2026 por Muse con el conector de Google Drive; SHA-256 verificado descargando de vuelta de Drive. Falta el LÉEME (no está en GitHub, solo en el Escritorio).",
       "anteriores_folder_id": "10xwjo_qHeZDufF37M_shNjZzbtClEMNs",
-      "leeme_file_id": "1DYAmKR_P-rYdHXuHd9Xh-GC3gY4qQQiy",
-      "nota": "Segunda verificación independiente de Claude Code (15:38): descargó cada archivo de Drive y comprobó SHA-256 y tamaño. El LÉEME y la subcarpeta Anteriores los creó Claude con el conector. La carpeta hereda acceso «cualquier persona con el enlace puede ver» de «CASTORENA ABOGADOS »; no se cambiaron permisos (requiere decisión de Emi).",
+      "leeme_file_id": "1Kkrv_Atyd8FjJ1PflK4zXDcQYBlYSgFR",
+      "nota": "Segunda verificación independiente de Claude Code (15:38): descargó cada archivo de Drive y comprobó SHA-256 y tamaño. El LÉEME y la subcarpeta Anteriores los creó Claude con el conector. La carpeta hereda acceso «cualquier persona con el enlace puede ver» de «CASTORENA ABOGADOS »; Emi decidió conservarlo (09/11/2026 16:04).",
       "permisos_observados": {
         "anyoneWithLink": "reader",
         "owner": "emilianogarciamilla@gmail.com"
-      }
+      },
+      "motivo": "Falta subir «Cotejo acuses INDEP.xlsx» (séptima tabla, 09/11/2026). Las otras seis tablas y el LÉEME siguen sincronizados.",
+      "decision_permisos": "Emi, 09/11/2026 16:04: «1.- No» a dejar privada la carpeta; se conserva el acceso «cualquier persona con el enlace puede ver».",
+      "leeme_anterior_file_id": "1DYAmKR_P-rYdHXuHd9Xh-GC3gY4qQQiy"
     }
   ],
   "vigentes": [
@@ -111,16 +114,16 @@
       "sha256": "55e9e955536e923aeb61f3c1fe361d4292df2a9a40625226e84b29602da5ce57",
       "size_bytes": 660863,
       "drive_file_id": "1reRFm5xQEh2rkK66Rp2HjGOziaQRf2sk"
-    }
-  ],
-  "fuera_de_familias": [
+    },
     {
-      "archivo": "Cotejo acuses INDEP 2026-10-15.xlsx",
+      "family_id": "cotejo_acuses_indep",
+      "nombre_fijo": "Cotejo acuses INDEP.xlsx",
       "sha256": "d1c7da599e51c84329536b098531363fc71163fde236e8428c266150c9e1b4e8",
-      "ubicacion": "~/Desktop/Castorena · Tablas/3 · Otras tablas/",
-      "nota": "Evidencia de acuses INDEP; no es familia de la matriz. Pendiente preguntar a Emi si se integra como tabla."
+      "size_bytes": 19925,
+      "drive_file_id": null
     }
   ],
+  "fuera_de_familias": [],
   "anteriores_mac": [
     {
       "archivo": "Concentrado de Expedientes - versión inicial.xlsx",

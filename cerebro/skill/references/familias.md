@@ -1,4 +1,4 @@
-# Contratos de las seis familias
+# Contratos de las siete familias
 
 ## Archivo muerto
 
@@ -30,7 +30,11 @@ Quinta familia, incorporada por instrucción de Emi del 04/11/2026 («Sí por fa
 
 ## Cotejo Grupo Liverpool
 
-Sexta familia, incorporada por instrucción de Emi del 09/11/2026 («Lo de Cotejo Liverpool es una tabla más»). Es el cotejo físico de expedientes de empresas del Grupo Liverpool (Distribuidora Liverpool, El Puerto de Liverpool, Suburbia, Moda Joven Sfera, IMPCECO, ADCON y ADCONINS) en TJACDMX, TFJA y otras sedes, clasificados en vivos, ganados y perdidos. Fuente vigente: `fuentes/cotejo_liverpool/55e9e955536e_…numbers` (hojas «Cotejo 2», VIVOS, GANADOS y PERDIDOS). Al 22/10/2026 «Cotejo 2» tiene 50 filas y las vistas suman 51 (9 + 33 + 9): diferencia observada, no resuelta. Familia separada: el Concentrado se lleva sin Liverpool por instrucción previa de Emi; no mover estos asuntos al Concentrado ni a INDEP, no inferir estado procesal y no unificar razones sociales distintas.
+Sexta familia, incorporada por instrucción de Emi del 09/11/2026 («Lo de Cotejo Liverpool es una tabla más»). Es el cotejo físico de expedientes de empresas del Grupo Liverpool (Distribuidora Liverpool, El Puerto de Liverpool, Suburbia, Moda Joven Sfera, IMPCECO, ADCON y ADCONINS) en TJACDMX, TFJA y otras sedes, clasificados en vivos, ganados y perdidos. Fuente vigente: `fuentes/cotejo_liverpool/55e9e955536e_…numbers` (hojas «Cotejo 2», VIVOS, GANADOS y PERDIDOS). Al 22/10/2026 «Cotejo 2» tiene 50 filas y las vistas suman 51 (9 + 33 + 9) porque el 27969/22-17-02-5 (Suburbia) está marcado como VIVO y PERDIDO a la vez; pendiente que Emi indique cuál aplica. Familia separada: el Concentrado se lleva sin Liverpool por instrucción previa de Emi; no mover estos asuntos al Concentrado ni a INDEP, no inferir estado procesal y no unificar razones sociales distintas.
+
+## Cotejo acuses INDEP
+
+Séptima familia, incorporada por Emi el 09/11/2026 («2.- Sí»). Cotejo de los acuses de la Oficialía de Partes Común de las Juntas Especiales (JFCA), fotografiados y reenviados el 15/10/2026, contra la hoja Junta Especial 2 del control INDEP de octubre: hoja «Partes distintas» (12 acuses de 11 asuntos con actor y demandados distintos en el sello) y hoja «Observaciones» (18 acuses de 18 asuntos con observaciones transcritas). Fuente: `fuentes/cotejo_acuses_indep/d1c7da599e51_…xlsx`. Es evidencia auxiliar vinculada por asunto al maestro INDEP: no suma asuntos, no corrige el maestro ni resuelve identidades por sí sola; cualquier cambio al maestro sigue el procedimiento de `lianfixx/INDEP`.
 
 ## Categorías nuevas
 

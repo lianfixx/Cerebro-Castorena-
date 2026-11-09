@@ -1,6 +1,6 @@
 # Cerebro Castorena
 
-Punto de continuidad de las seis familias de tablas de Emi. Las versiones vigentes se reflejan en el Escritorio, iCloud y Drive (ver `SINCRONIZACION.json`). Conserva fuentes, versiones, reglas y pendientes sin fusionar universos ni reescribir los Excel originales.
+Punto de continuidad de las siete familias de tablas de Emi. Las versiones vigentes se reflejan en el Escritorio, iCloud y Drive (ver `SINCRONIZACION.json`). Conserva fuentes, versiones, reglas y pendientes sin fusionar universos ni reescribir los Excel originales.
 
 | Familia | Fuente de referencia al cierre inicial | Límite |
 |---|---|---|
@@ -9,7 +9,8 @@ Punto de continuidad de las seis familias de tablas de Emi. Las versiones vigent
 | Asuntos INDEP | Maestro lógico v20; última entrega documental 39 | Drive ACTUAL permanece en 18 por sincronización pendiente |
 | No laborales (TFJA) | Hoja del control del 05/10/2026: 2 asuntos de INDEP ante el TFJA | Familia desde el 04/11/2026; vigencia por confirmar |
 | Expedientes TFCA | Guía v2: 13 folios vinculados al maestro | San Lázaro reúne 3 de esos mismos folios; no suma casos |
-| Cotejo Grupo Liverpool | Cotejo físico del 22/10/2026: 50 filas; vivos 9, ganados 33, perdidos 9 | Familia desde el 09/11/2026; las vistas suman 51, diferencia no resuelta |
+| Cotejo Grupo Liverpool | Cotejo físico del 22/10/2026: 50 filas; vivos 9, ganados 33, perdidos 9 | Familia desde el 09/11/2026; el 27969/22-17-02-5 figura como vivo y perdido |
+| Cotejo acuses INDEP | Acuses JFCA del 15/10/2026: 12 con partes distintas y 18 con observaciones | Familia desde el 09/11/2026; auxiliar del maestro INDEP, no suma asuntos |
 
 ## Abrir los archivos
 

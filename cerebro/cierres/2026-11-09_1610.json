@@ -1,0 +1,62 @@
+{
+  "schema_version": "castorena-cierre-v1",
+  "fecha_hora_local": "2026-11-09T16:10:00-06:00",
+  "timezone": "America/Mexico_City",
+  "base_matrix_commit": "5b46fe97445a71e6588a47e4bd1329329e3dc368",
+  "Agente": "Claude Code (sesión con Emi, Mac enlazada)",
+  "solicitud": "Emi, 09/11/2026 16:04: «1.- No 2.- Sí 3.- No te entiendo en eso».",
+  "decisiones_de_emi": [
+    "1.- No: la carpeta de Drive conserva el acceso «cualquier persona con el enlace puede ver».",
+    "2.- Sí: «Cotejo acuses INDEP» es la séptima tabla de la matriz."
+  ],
+  "scope": {
+    "families_reviewed": 7,
+    "family_added": "cotejo_acuses_indep",
+    "emails_sent": false,
+    "drafts_created": false,
+    "indep_modified": false,
+    "source_tables_modified": false
+  },
+  "aclaracion_liverpool": "La diferencia 50/51 se explica por el 27969/22-17-02-5 (Suburbia, S. de R.L. de C.V.), marcado VIVO y PERDIDO en «Cotejo 2» y presente en ambas vistas. Sin otros duplicados ni faltantes entre hojas. Pendiente que Emi indique cuál aplica.",
+  "sincronizacion": [
+    {
+      "destino": "github",
+      "ruta": "cerebro/fuentes/cotejo_acuses_indep/d1c7da599e51_Cotejo_acuses_INDEP_2026-10-15.xlsx",
+      "resultado": "sincronizado",
+      "verificacion": "validar_matriz.py: 7 familias, 32 versiones, 0 errores"
+    },
+    {
+      "destino": "mac_escritorio",
+      "ruta": "~/Desktop/Castorena · Tablas/1 · Vigentes/Cotejo acuses INDEP.xlsx y LÉEME",
+      "resultado": "sincronizado",
+      "verificacion": "SHA-256 releído: d1c7da599e51 y LÉEME 3eed353acd6c; el duplicado de «3 · Otras tablas» fue al basurero"
+    },
+    {
+      "destino": "icloud",
+      "ruta": "iCloud Drive/Castorena · Tablas vigentes/Cotejo acuses INDEP.xlsx y LÉEME",
+      "resultado": "sincronizado",
+      "verificacion": "SHA-256 releído: d1c7da599e51 y 3eed353acd6c"
+    },
+    {
+      "destino": "drive",
+      "ruta": "1UE-tJN2QV1X3eRGokx1pB0PMOW9YKn_z",
+      "resultado": "parcial",
+      "detalle": "LÉEME nuevo 1Kkrv_Atyd8FjJ1PflK4zXDcQYBlYSgFR verificado (3122 B, 3eed353acd6c); el anterior pasó a «Anteriores». «Cotejo acuses INDEP.xlsx» pendiente: el conector de Claude no sube binarios con seguridad y el navegador de la app no tiene sesión de Google; se pidió a Muse."
+    }
+  ],
+  "observaciones": [
+    "La foto PHOTO-2026-05-23-15-25-37.jpg ya no está en el Escritorio; Claude no la movió ni la borró."
+  ],
+  "pending": [
+    "Drive: subir «Cotejo acuses INDEP.xlsx» (19 925 B, d1c7da599e51) y registrar su ID.",
+    "Cotejo Grupo Liverpool: ¿27969/22-17-02-5 es vivo o perdido?"
+  ],
+  "validation": {
+    "command": "python3 cerebro/skill/scripts/validar_matriz.py cerebro",
+    "families": 7,
+    "versions": 32,
+    "errors": 0,
+    "warnings": 0
+  },
+  "next_step": "Registrar el ID de Drive de la séptima tabla en cuanto se suba y verificar su SHA-256."
+}

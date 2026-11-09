@@ -13,7 +13,7 @@ import sys
 from pathlib import Path, PureWindowsPath
 
 
-FAMILY_IDS = {"archivo_muerto", "concentrado", "indep", "tfca", "no_laborales_tfja", "cotejo_liverpool"}  # quinta: Emi, 04/11/2026; sexta: Emi, 09/11/2026
+FAMILY_IDS = {"archivo_muerto", "concentrado", "indep", "tfca", "no_laborales_tfja", "cotejo_liverpool", "cotejo_acuses_indep"}  # quinta: Emi, 04/11/2026; sexta y séptima: Emi, 09/11/2026
 SHA256_RE = re.compile(r"[0-9a-f]{64}\Z")
 
 

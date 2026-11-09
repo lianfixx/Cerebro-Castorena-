@@ -1520,6 +1520,39 @@
       "historical_only": false,
       "scope_note": "Cotejo físico del Grupo Liverpool: 50 filas en «Cotejo 2»; vistas VIVOS 9, GANADOS 33, PERDIDOS 9 (suman 51, diferencia no resuelta).",
       "legal_validation_implied": false
+    },
+    {
+      "id": "cotejo_acuses_indep-d1c7da599e51",
+      "family_id": "cotejo_acuses_indep",
+      "sha256": "d1c7da599e51c84329536b098531363fc71163fde236e8428c266150c9e1b4e8",
+      "size_bytes": 19925,
+      "snapshot_path": "fuentes/cotejo_acuses_indep/d1c7da599e51_Cotejo_acuses_INDEP_2026-10-15.xlsx",
+      "source_locator": {
+        "aliases": [
+          {
+            "provider": "mac_escritorio",
+            "name": "Cotejo_acuses_INDEP_2026-10-15.xlsx",
+            "modified_local": "2026-10-22T10:35:08-06:00",
+            "moved_to": "~/Desktop/Castorena · Tablas/1 · Vigentes/Cotejo acuses INDEP.xlsx (09/11/2026)"
+          },
+          {
+            "provider": "icloud",
+            "name": "Cotejo_acuses_INDEP_2026-10-15.xlsx",
+            "path": "iCloud Drive/ (raíz)",
+            "same_bytes": true
+          }
+        ]
+      },
+      "evidence_state": "recuperado_verificado_bytes",
+      "role": "current_snapshot",
+      "current_for_family": true,
+      "sheets": [
+        "Partes distintas",
+        "Observaciones"
+      ],
+      "historical_only": false,
+      "scope_note": "Cotejo de acuses JFCA (fotografías del 15/10/2026) contra la hoja Junta Especial 2 del control de octubre: 12 acuses con partes distintas y 18 con observaciones.",
+      "legal_validation_implied": false
     }
   ],
   "ALIASES": [
