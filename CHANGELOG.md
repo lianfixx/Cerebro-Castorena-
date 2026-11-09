@@ -2,6 +2,15 @@
 
 Lo más reciente arriba. Formato y reglas: `ia/PROTOCOLO.md`, sección 3. Cada entrada lleva la línea `Agente:`.
 
+## 2026-11-09 · séptima tabla en Drive y sincronización completa
+
+- Agente: Muse (Muse Spark)
+- Solicitud: Emi, 09/11/2026: subir «Cotejo acuses INDEP.xlsx» a Drive para cerrar la séptima tabla; verificar 19 925 B y SHA-256 d1c7da59…; registrar en GitHub (base: commit 16865d8 de Claude).
+- Cambios: «Cotejo acuses INDEP.xlsx» subido a la carpeta Drive 1UE-tJN2QV1X3eRGokx1pB0PMOW9YKn_z con su nombre fijo, sin conversión; SINCRONIZACION.json (drive_file_id de cotejo_acuses_indep; Drive → sincronizado, sin motivo); cierre cerebro/cierres/2026-11-09_1618.json; ESTADO.json actualizado.
+- Archivos: cerebro/SINCRONIZACION.json, cerebro/cierres/2026-11-09_1618.json, cerebro/ESTADO.json, este registro.
+- Verificación: SHA-256 y tamaño descargados de vuelta de Drive idénticos a SINCRONIZACION.json (19 925 B, d1c7da59…); validar_matriz.py → aprobado (7 familias, 32 versiones, 0 errores, 0 avisos).
+- Pendiente: diferencia 50/51 del Cotejo Liverpool; nota del ID 12 del Concentrado; vigencia de los folios TFJA.
+
 ## 2026-11-09 · séptima familia (Cotejo acuses INDEP) y decisión de permisos de Drive
 
 - Agente: Claude Code (claude-opus-5-5, sesión con Emi y Mac enlazada)

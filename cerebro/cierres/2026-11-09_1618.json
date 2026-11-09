@@ -1,0 +1,57 @@
+{
+  "schema_version": "castorena-cierre-v1",
+  "fecha_hora_local": "2026-11-09T16:18:56-06:00",
+  "timezone": "America/Mexico_City",
+  "base_matrix_commit": "16865d871459e3540e429392553e7841471101b5",
+  "Agente": "Muse (Muse Spark)",
+  "scope": {
+    "families_reviewed": 7,
+    "emails_sent": false,
+    "drafts_created": false,
+    "indep_modified": false
+  },
+  "capabilities": {
+    "github_matrix": "lectura y push a main",
+    "drive": "conector de Google Drive (subida y descarga de verificación)",
+    "gmail": "no usado"
+  },
+  "coverage": {
+    "drive_folder": "1UE-tJN2QV1X3eRGokx1pB0PMOW9YKn_z",
+    "conversations": "sin acceso",
+    "complete_history": false
+  },
+  "hash_checks": [
+    {
+      "family_id": "cotejo_acuses_indep",
+      "source": "Drive 13gaD7AQb9CgYcbA3EZVUs8WVA5yHidx1",
+      "sha256": "d1c7da599e51c84329536b098531363fc71163fde236e8428c266150c9e1b4e8",
+      "result": "SHA-256 y tamaño descargados de Drive idénticos a SINCRONIZACION.json (19 925 B)"
+    }
+  ],
+  "results": {
+    "new_versions": 0,
+    "source_tables_modified": false,
+    "families": {
+      "cotejo_acuses_indep": "sin cambio; subido a Drive y verificado",
+      "concentrado": "sin cambio; ya sincronizado",
+      "indep": "sin cambio; ya sincronizado",
+      "tfca": "sin cambio; ya sincronizado",
+      "archivo_muerto": "sin cambio; ya sincronizado",
+      "no_laborales_tfja": "sin cambio; ya sincronizado",
+      "cotejo_liverpool": "sin cambio; ya sincronizado"
+    }
+  },
+  "validation": {
+    "command": "python3 cerebro/skill/scripts/validar_matriz.py cerebro",
+    "errors": null
+  },
+  "pending": [
+    "Cotejo Grupo Liverpool: diferencia 50/51 sin resolver (hoja «Cotejo 2»).",
+    "Concentrado: pendiente integrar la nota del ID 12 del Drive del despacho (según LÉEME).",
+    "No laborales (TFJA): confirmar si los dos folios siguen vigentes y quién los lleva (según LÉEME)."
+  ],
+  "automation": {
+    "executor_current": "claude"
+  },
+  "next_step": "Resolver la diferencia 50/51 del Cotejo Liverpool; integrar la nota del ID 12 del Concentrado."
+}

@@ -57,8 +57,8 @@
       "folder_id": "1UE-tJN2QV1X3eRGokx1pB0PMOW9YKn_z",
       "parent_folder_id": "1ukWtDdOzdtMOaR9cGXkkuh2Ks-Ev-nrq",
       "cuenta": "emilianogarciamilla@gmail.com",
-      "estado": "pendiente",
-      "last_verified": "2026-11-09T15:38:00-06:00",
+      "estado": "sincronizado",
+      "last_verified": "2026-11-09T16:18:56-06:00",
       "subida": "Subidos los 6 archivos el 09/11/2026 por Muse con el conector de Google Drive; SHA-256 verificado descargando de vuelta de Drive. Falta el LÉEME (no está en GitHub, solo en el Escritorio).",
       "anteriores_folder_id": "10xwjo_qHeZDufF37M_shNjZzbtClEMNs",
       "leeme_file_id": "1Kkrv_Atyd8FjJ1PflK4zXDcQYBlYSgFR",
@@ -67,7 +67,6 @@
         "anyoneWithLink": "reader",
         "owner": "emilianogarciamilla@gmail.com"
       },
-      "motivo": "Falta subir «Cotejo acuses INDEP.xlsx» (séptima tabla, 09/11/2026). Las otras seis tablas y el LÉEME siguen sincronizados.",
       "decision_permisos": "Emi, 09/11/2026 16:04: «1.- No» a dejar privada la carpeta; se conserva el acceso «cualquier persona con el enlace puede ver».",
       "leeme_anterior_file_id": "1DYAmKR_P-rYdHXuHd9Xh-GC3gY4qQQiy"
     }
@@ -120,7 +119,7 @@
       "nombre_fijo": "Cotejo acuses INDEP.xlsx",
       "sha256": "d1c7da599e51c84329536b098531363fc71163fde236e8428c266150c9e1b4e8",
       "size_bytes": 19925,
-      "drive_file_id": null
+      "drive_file_id": "13gaD7AQb9CgYcbA3EZVUs8WVA5yHidx1"
     }
   ],
   "fuera_de_familias": [],
