@@ -1509,17 +1509,18 @@
         ]
       },
       "evidence_state": "recuperado_verificado_bytes",
-      "role": "current_snapshot",
-      "current_for_family": true,
+      "role": "previous_snapshot",
+      "current_for_family": false,
       "sheets": [
         "Cotejo 2",
         "VIVOS",
         "GANADOS",
         "PERDIDOS"
       ],
-      "historical_only": false,
+      "historical_only": true,
       "scope_note": "Cotejo físico del Grupo Liverpool: 50 filas en «Cotejo 2»; vistas VIVOS 9, GANADOS 33, PERDIDOS 9 (suman 51, diferencia no resuelta).",
-      "legal_validation_implied": false
+      "legal_validation_implied": false,
+      "superseded_by": "cotejo_liverpool-531091b888bb"
     },
     {
       "id": "cotejo_acuses_indep-d1c7da599e51",
@@ -1552,6 +1553,47 @@
       ],
       "historical_only": false,
       "scope_note": "Cotejo de acuses JFCA (fotografías del 15/10/2026) contra la hoja Junta Especial 2 del control de octubre: 12 acuses con partes distintas y 18 con observaciones.",
+      "legal_validation_implied": false
+    },
+    {
+      "id": "cotejo_liverpool-531091b888bb",
+      "family_id": "cotejo_liverpool",
+      "sha256": "531091b888bb89bda7ec7ec8952c7dd4560c134c95494d0faf639e90e652b884",
+      "size_bytes": 662565,
+      "snapshot_path": "fuentes/cotejo_liverpool/531091b888bb_Cotejo_Grupo_Liverpool.numbers",
+      "derived_from": "cotejo_liverpool-55e9e955536e",
+      "source_locator": {
+        "aliases": [
+          {
+            "provider": "mac_escritorio",
+            "path": "~/Desktop/Castorena · Tablas/1 · Vigentes/Cotejo Grupo Liverpool.numbers",
+            "saved_local": "2026-11-09T16:25:32-06:00"
+          }
+        ]
+      },
+      "change": {
+        "author": "Claude Code en Numbers, por instrucción de Emi (09/11/2026 16:21: «pues déjalo en ambas con anotación por favor»)",
+        "cells": [
+          "Cotejo 2!A45",
+          "VIVOS!A10",
+          "PERDIDOS!A8"
+        ],
+        "type": "comentario de celda (Numbers), autor visible «Yohualli García Milla»",
+        "text": "Marcado como vivo y como perdido en el cotejo físico. Por instrucción de Emi (09/11/2026) se conserva en VIVOS y en PERDIDOS hasta confirmar su estado.",
+        "values_changed": false,
+        "verification": "Valores de las cuatro hojas idénticos a la versión 55e9e955536e (numbers-parser); comentarios comprobados visualmente en Numbers."
+      },
+      "evidence_state": "recuperado_verificado_bytes",
+      "role": "current_snapshot",
+      "current_for_family": true,
+      "sheets": [
+        "Cotejo 2",
+        "VIVOS",
+        "GANADOS",
+        "PERDIDOS"
+      ],
+      "historical_only": false,
+      "scope_note": "Misma tabla con anotación del 27969/22-17-02-5 (Suburbia), que se conserva en VIVOS y en PERDIDOS.",
       "legal_validation_implied": false
     }
   ],

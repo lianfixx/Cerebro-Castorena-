@@ -40,7 +40,7 @@
         "otras": "3 · Otras tablas"
       },
       "estado": "sincronizado",
-      "last_verified": "2026-11-09T16:10:00-06:00",
+      "last_verified": "2026-11-09T16:30:00-06:00",
       "nota": "«1 · Vigentes» está en la barra lateral de Finder."
     },
     {
@@ -48,8 +48,8 @@
       "ubicacion": "iCloud Drive/Castorena · Tablas vigentes/",
       "ruta_mac": "~/Library/Mobile Documents/com~apple~CloudDocs/Castorena · Tablas vigentes/",
       "estado": "sincronizado",
-      "last_verified": "2026-11-09T16:10:00-06:00",
-      "anteriores": "Subcarpeta «Anteriores» se crea con el primer cambio de versión."
+      "last_verified": "2026-11-09T16:30:00-06:00",
+      "anteriores": "iCloud Drive/Castorena · Tablas vigentes/Anteriores/ (creada el 09/11/2026 con la versión 55e9e955536e de Liverpool)."
     },
     {
       "id": "drive",
@@ -57,18 +57,22 @@
       "folder_id": "1UE-tJN2QV1X3eRGokx1pB0PMOW9YKn_z",
       "parent_folder_id": "1ukWtDdOzdtMOaR9cGXkkuh2Ks-Ev-nrq",
       "cuenta": "emilianogarciamilla@gmail.com",
-      "estado": "sincronizado",
+      "estado": "pendiente",
       "last_verified": "2026-11-09T16:18:56-06:00",
       "subida": "Subidos los 6 archivos el 09/11/2026 por Muse con el conector de Google Drive; SHA-256 verificado descargando de vuelta de Drive. Falta el LÉEME (no está en GitHub, solo en el Escritorio).",
       "anteriores_folder_id": "10xwjo_qHeZDufF37M_shNjZzbtClEMNs",
-      "leeme_file_id": "1Kkrv_Atyd8FjJ1PflK4zXDcQYBlYSgFR",
+      "leeme_file_id": "1Fu7oo5c591kEt8yZCv8LGu_IjxvD6gVs",
       "nota": "Segunda verificación independiente de Claude Code (15:38): descargó cada archivo de Drive y comprobó SHA-256 y tamaño. El LÉEME y la subcarpeta Anteriores los creó Claude con el conector. La carpeta hereda acceso «cualquier persona con el enlace puede ver» de «CASTORENA ABOGADOS »; Emi decidió conservarlo (09/11/2026 16:04).",
       "permisos_observados": {
         "anyoneWithLink": "reader",
         "owner": "emilianogarciamilla@gmail.com"
       },
       "decision_permisos": "Emi, 09/11/2026 16:04: «1.- No» a dejar privada la carpeta; se conserva el acceso «cualquier persona con el enlace puede ver».",
-      "leeme_anterior_file_id": "1DYAmKR_P-rYdHXuHd9Xh-GC3gY4qQQiy"
+      "motivo": "Falta reemplazar «Cotejo Grupo Liverpool.numbers» por la versión 531091b888bb (con anotación del 27969) y mover la anterior (1reRFm5xQEh2rkK66Rp2HjGOziaQRf2sk) a «Anteriores»; se pidió a Muse. Las demás tablas siguen sincronizadas.",
+      "leemes_anteriores": [
+        "1DYAmKR_P-rYdHXuHd9Xh-GC3gY4qQQiy",
+        "1Kkrv_Atyd8FjJ1PflK4zXDcQYBlYSgFR"
+      ]
     }
   ],
   "vigentes": [
@@ -110,9 +114,10 @@
     {
       "family_id": "cotejo_liverpool",
       "nombre_fijo": "Cotejo Grupo Liverpool.numbers",
-      "sha256": "55e9e955536e923aeb61f3c1fe361d4292df2a9a40625226e84b29602da5ce57",
-      "size_bytes": 660863,
-      "drive_file_id": "1reRFm5xQEh2rkK66Rp2HjGOziaQRf2sk"
+      "sha256": "531091b888bb89bda7ec7ec8952c7dd4560c134c95494d0faf639e90e652b884",
+      "size_bytes": 662565,
+      "drive_file_id": null,
+      "drive_file_id_anterior": "1reRFm5xQEh2rkK66Rp2HjGOziaQRf2sk"
     },
     {
       "family_id": "cotejo_acuses_indep",
@@ -144,6 +149,11 @@
       "sha256": "2884b277fde48c84569d7856b2e038ec5609cc1a79995b9a54b8f7814f262585",
       "version_id": null,
       "nota": "Sin copia en cerebro/fuentes; su contenido está absorbido por la guía TFCA vigente (comparación de textos del 09/11/2026)."
+    },
+    {
+      "archivo": "Cotejo Grupo Liverpool (antes de la nota del 27969, 09-11-2026).numbers",
+      "sha256": "55e9e955536e923aeb61f3c1fe361d4292df2a9a40625226e84b29602da5ce57",
+      "version_id": "cotejo_liverpool-55e9e955536e"
     }
   ]
 }

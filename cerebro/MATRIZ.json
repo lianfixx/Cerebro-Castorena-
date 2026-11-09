@@ -171,11 +171,11 @@
       "id": "cotejo_liverpool",
       "title": "Cotejo Grupo Liverpool",
       "role": "Cotejo físico de expedientes de empresas del Grupo Liverpool (Liverpool, Suburbia, Moda Joven Sfera, IMPCECO, ADCON/ADCONINS) clasificados en vivos, ganados y perdidos. Familia separada: no suma al Concentrado ni a INDEP.",
-      "current_version_id": "cotejo_liverpool-55e9e955536e",
+      "current_version_id": "cotejo_liverpool-531091b888bb",
       "current_library_url": null,
-      "sha256": "55e9e955536e923aeb61f3c1fe361d4292df2a9a40625226e84b29602da5ce57",
-      "current_sha256": "55e9e955536e923aeb61f3c1fe361d4292df2a9a40625226e84b29602da5ce57",
-      "current_snapshot_path": "fuentes/cotejo_liverpool/55e9e955536e_Cotejo_Grupo_Liver_confirmados_2.numbers",
+      "sha256": "531091b888bb89bda7ec7ec8952c7dd4560c134c95494d0faf639e90e652b884",
+      "current_sha256": "531091b888bb89bda7ec7ec8952c7dd4560c134c95494d0faf639e90e652b884",
+      "current_snapshot_path": "fuentes/cotejo_liverpool/531091b888bb_Cotejo_Grupo_Liverpool.numbers",
       "universo": {
         "unit": "fila de expediente en la hoja de cotejo",
         "count": 50,
@@ -185,7 +185,7 @@
           "GANADOS": 33,
           "PERDIDOS": 9
         },
-        "observation": "El expediente 27969/22-17-02-5 (Suburbia, S. de R.L. de C.V.) está marcado a la vez como VIVO y PERDIDO en «Cotejo 2» y aparece en ambas vistas; por eso las vistas suman 51 frente a 50 filas. Pendiente que Emi indique cuál aplica; no corregir por inferencia.",
+        "observation": "El 27969/22-17-02-5 (Suburbia, S. de R.L. de C.V.) está marcado como VIVO y PERDIDO; por instrucción de Emi (09/11/2026) se conserva en ambas vistas con comentario en las tres celdas. Por eso las vistas suman 51 frente a 50 filas.",
         "source": "fuentes/cotejo_liverpool/55e9e955536e_Cotejo_Grupo_Liver_confirmados_2.numbers"
       },
       "current_selection_basis": {
@@ -196,7 +196,7 @@
           "No consta quién hizo el cotejo físico ni su fecha."
         ]
       },
-      "audit_path": "cierres/2026-11-09_1450.json"
+      "audit_path": "cierres/2026-11-09_1630.json"
     },
     {
       "id": "cotejo_acuses_indep",

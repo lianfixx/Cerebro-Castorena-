@@ -1,0 +1,66 @@
+{
+  "schema_version": "castorena-cierre-v1",
+  "fecha_hora_local": "2026-11-09T16:30:00-06:00",
+  "timezone": "America/Mexico_City",
+  "base_matrix_commit": "2c79b7ac",
+  "Agente": "Claude Code (sesión con Emi, Mac enlazada)",
+  "solicitud": "Emi, 09/11/2026 16:21: «pues déjalo en ambas con anotación por favor» (expediente 27969/22-17-02-5 del Cotejo Grupo Liverpool).",
+  "scope": {
+    "families_reviewed": 1,
+    "emails_sent": false,
+    "drafts_created": false,
+    "indep_modified": false,
+    "source_tables_modified": true
+  },
+  "cambio": {
+    "family_id": "cotejo_liverpool",
+    "version_antes": "cotejo_liverpool-55e9e955536e",
+    "version_despues": "cotejo_liverpool-531091b888bb",
+    "celdas": [
+      "Cotejo 2!A45",
+      "VIVOS!A10",
+      "PERDIDOS!A8"
+    ],
+    "tipo": "comentario de celda en Numbers",
+    "texto": "Marcado como vivo y como perdido en el cotejo físico. Por instrucción de Emi (09/11/2026) se conserva en VIVOS y en PERDIDOS hasta confirmar su estado.",
+    "valores_modificados": false,
+    "metodo": "Numbers en la Mac de Emi; guardado y cerrado; valores comparados con numbers-parser."
+  },
+  "sincronizacion": [
+    {
+      "destino": "github",
+      "resultado": "sincronizado",
+      "ruta": "fuentes/cotejo_liverpool/531091b888bb_Cotejo_Grupo_Liverpool.numbers"
+    },
+    {
+      "destino": "mac_escritorio",
+      "resultado": "sincronizado",
+      "detalle": "1 · Vigentes con 531091b888bb; anterior 55e9e955536e en 2 · Anteriores"
+    },
+    {
+      "destino": "icloud",
+      "resultado": "sincronizado",
+      "detalle": "vigente 531091b888bb; anterior 55e9e955536e en Anteriores/ (nueva)"
+    },
+    {
+      "destino": "drive",
+      "resultado": "pendiente",
+      "detalle": "Reemplazo pedido a Muse; la versión anterior sigue como vigente en Drive hasta entonces."
+    }
+  ],
+  "pending": [
+    "Drive: subir 531091b888bb (662 565 B) como «Cotejo Grupo Liverpool.numbers» y mover 1reRFm5xQEh2rkK66Rp2HjGOziaQRf2sk a Anteriores."
+  ],
+  "validation": {
+    "command": "python3 cerebro/skill/scripts/validar_matriz.py cerebro",
+    "errors": 0
+  },
+  "next_step": "Registrar el nuevo ID de Drive cuando Muse termine.",
+  "leeme": {
+    "sha256_12": "754423798bed",
+    "bytes": 3180,
+    "mac": "sincronizado",
+    "icloud": "sincronizado",
+    "drive": "sincronizado (1Fu7oo5c591kEt8yZCv8LGu_IjxvD6gVs; anterior 1Kkrv_Atyd8FjJ1PflK4zXDcQYBlYSgFR en Anteriores)"
+  }
+}

@@ -2,6 +2,15 @@
 
 Lo más reciente arriba. Formato y reglas: `ia/PROTOCOLO.md`, sección 3. Cada entrada lleva la línea `Agente:`.
 
+## 2026-11-09 · Cotejo Grupo Liverpool: anotación del 27969/22-17-02-5
+
+- Agente: Claude Code (claude-opus-5-5, sesión con Emi y Mac enlazada)
+- Solicitud: Emi, 09/11/2026 16:21: «pues déjalo en ambas con anotación por favor».
+- Cambios: comentario en Numbers en Cotejo 2!A45, VIVOS!A10 y PERDIDOS!A8: «Marcado como vivo y como perdido en el cotejo físico. Por instrucción de Emi (09/11/2026) se conserva en VIVOS y en PERDIDOS hasta confirmar su estado.». Valores sin cambio. Nueva versión `cotejo_liverpool-531091b888bb` (662 565 B); la anterior `cotejo_liverpool-55e9e955536e` queda como histórica. Escritorio (anterior en «2 · Anteriores») e iCloud (anterior en «Anteriores/») actualizados. LÉEME actualizado y verificado en Escritorio, iCloud y Drive (754423798bed).
+- Archivos: `fuentes/cotejo_liverpool/531091b888bb_Cotejo_Grupo_Liverpool.numbers`, `cerebro/HISTORIAL.json`, `cerebro/MATRIZ.json`, `cerebro/SINCRONIZACION.json`, `cerebro/ESTADO.json`, `cerebro/cierres/2026-11-09_1630.json`, este registro.
+- Verificación: valores de las 4 hojas idénticos (numbers-parser); SHA-256 en Escritorio e iCloud → coinciden; `validar_matriz.py` → aprobado.
+- Pendiente: reemplazo en Drive (Muse).
+
 ## 2026-11-09 · séptima tabla en Drive y sincronización completa
 
 - Agente: Muse (Muse Spark)
