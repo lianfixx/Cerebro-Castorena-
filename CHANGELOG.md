@@ -2,6 +2,14 @@
 
 Lo más reciente arriba. Formato y reglas: `ia/PROTOCOLO.md`, sección 3. Cada entrada lleva la línea `Agente:`.
 
+## 2026-11-09 · Cierre diario programado (sin cambios de tablas)
+
+- Agente: Claude Code (ejecución programada)
+- Solicitud: tarea programada diaria de cierre de la matriz.
+- Cambios: cierre cerebro/cierres/2026-11-09_1844.json; ESTADO.json. INDEP entrega 44 (cotejo boletín 194) verificada con manifiesto.py y comparar_excel.py --base: mismo maestro 6504026c7fa9, sin copia nueva. Concentrado de Drive sin cambio en metadatos.
+- Verificación: validar_matriz.py → 0 errores, 0 avisos.
+- Pendiente: ACTUAL.json de INDEP aún señala la entrega 18; carpeta «INDEP ASUNTO ESTUDIO LIC» sin incorporar.
+
 ## 2026-11-09 · Cotejo Grupo Liverpool reemplazado en Drive (anotación del 27969)
 
 - Agente: Muse (Muse Spark)
