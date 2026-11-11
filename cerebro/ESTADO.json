@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_audit_date": "2026-11-09",
+  "last_audit_date": "2026-11-10",
   "timezone": "America/Mexico_City",
   "write_scope": "cerebro/ en lianfixx/Cerebro-Castorena-, rama main",
   "indep_operational_branch": "main",
@@ -41,7 +41,7 @@
     "method": "commit_atomico_y_update_ref_expected_sha",
     "on_conflict": "releer_conciliar_sin_force"
   },
-  "last_source_changes": "Cotejo Grupo Liverpool reemplazado en Drive por la versión con anotación del 27969 (531091b888bb, 662 565 B); anterior movido a «Anteriores» con nombre descriptivo. Ningún Excel reescrito.",
+  "last_source_changes": "INDEP: maestro v22 (211251b0cfcc, 18 512 B, entrega 45 del 10/11/2026) copiado a fuentes/indep/ y vigente en la matriz; v21 conservada. Ningún Excel reescrito. Drive, Escritorio e iCloud siguen con v21 (pendiente).",
   "publication": {
     "initial_commit": "aaa04b75e9645f2691f0e33fdaec1e1e33053020",
     "files_verified_after_read": 52,
@@ -49,8 +49,8 @@
     "source_tables_modified": false,
     "personal_procedure_saved": true
   },
-  "last_audit_at": "2026-11-09T18:44:00-06:00",
-  "last_closure_path": "cierres/2026-11-09_1844.json",
+  "last_audit_at": "2026-11-10T18:58:00-06:00",
+  "last_closure_path": "cierres/2026-11-10_1858.json",
   "latest_run": {
     "base_commit": "1ecf1a9bc2f3a5bbad922fee2c62290691a7c0b6",
     "agent": "ChatGPT Work /root (Codex)",

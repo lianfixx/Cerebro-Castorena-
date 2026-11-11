@@ -1,0 +1,179 @@
+{
+  "schema_version": "castorena-cierre-v1",
+  "fecha_hora_local": "2026-11-10T18:58:00-06:00",
+  "timezone": "America/Mexico_City",
+  "base_matrix_commit": "d6a19476deaba198d30645faad7a3aa6dee72aad",
+  "Agente": "Claude Code (ejecución programada)",
+  "scope": {
+    "families_reviewed": 7,
+    "emails_sent": false,
+    "drafts_created": false,
+    "indep_modified": false
+  },
+  "capabilities": {
+    "github_matrix": "lectura; push a la rama claude/amazing-allen-28ki1k (integración automática a main)",
+    "github_indep": "lectura local de origin/main 4550735",
+    "drive": "lectura de metadatos y listado de la carpeta de vigentes; escritura denegada por la plataforma (create_file requiere aprobación en vivo)",
+    "gmail": "no usado",
+    "mac": "no enlazada (Escritorio e iCloud no alcanzables)"
+  },
+  "coverage": {
+    "indep_head": "4550735d8bec2c7805252bad95989fa65b711ee3",
+    "conversations": "sin acceso",
+    "library_chatgpt": "sin acceso",
+    "complete_history": false
+  },
+  "versions_before": {
+    "indep": "indep-6504026c7fa9 (v21)"
+  },
+  "versions_after": {
+    "indep": "indep-211251b0cfcc (v22)"
+  },
+  "hash_checks": [
+    {
+      "family_id": "indep",
+      "source": "INDEP versiones/45_2026-11-10",
+      "sha256": "211251b0cfccb8f42ecf49d4ac09af7839acfb87bed9fe58de026ef9875226a5",
+      "result": "MANIFIESTO_VERIFICADO (11 archivos, 0 errores); comparar_excel --base: ESTRUCTURA_BASE_VALIDADA, 45 folios (29/13/3), 44 turnos; comparar_excel v21→v22 con AUTORIZACIONES.json: PRESERVACION_VALIDADA, 6 celdas permitidas."
+    },
+    {
+      "family_id": "indep",
+      "source": "cerebro/fuentes/indep/211251b0cfcc_Control_de_expedientes_Junta_Especial_2-4.xlsx",
+      "sha256": "211251b0cfccb8f42ecf49d4ac09af7839acfb87bed9fe58de026ef9875226a5",
+      "result": "copia idéntica por bytes (18 512 B)"
+    },
+    {
+      "family_id": "indep",
+      "source": "INDEP versiones/43_2026-11-06 y 44_2026-11-09",
+      "sha256": null,
+      "result": "MANIFIESTO_VERIFICADO (13 y 9 archivos); sin Excel nuevo; indexadas en HISTORIAL.entregas"
+    },
+    {
+      "family_id": "concentrado",
+      "source": "Drive 1YtT78mIRVDr_oZvkEVDyqBl0howya5R8",
+      "sha256": null,
+      "result": "metadatos sin cambio (modifiedTime 2026-11-05T01:54:03.019Z, 14862 B, mismo etag)"
+    },
+    {
+      "family_id": "indep",
+      "source": "Drive 1GAfWKd6Hlg18HCPP3vIHdKGh72mqAm6S",
+      "sha256": null,
+      "result": "metadatos: 18406 B, sin cambio desde 2026-11-09T21:06:23Z; sigue siendo v21"
+    }
+  ],
+  "changes": [
+    {
+      "family_id": "indep",
+      "type": "nueva_version_copiada",
+      "version_id": "indep-211251b0cfcc",
+      "snapshot_path": "fuentes/indep/211251b0cfcc_Control_de_expedientes_Junta_Especial_2-4.xlsx",
+      "previous_version_id": "indep-6504026c7fa9",
+      "cells": {
+        "sheet": "Junta Especial 2",
+        "folio_80140_exp_642_2019": [
+          "E10",
+          "F10",
+          "G10"
+        ],
+        "folio_80921_exp_1240_2019": [
+          "E19",
+          "F19",
+          "G19"
+        ],
+        "columns": [
+          "Detalles",
+          "Fuente",
+          "Fecha"
+        ]
+      },
+      "source": "Boletín JFCA 195 del 10/11/2026, p. 2 (asientos 12 y 14), según ACTA_COTEJO_195.json de la entrega 45",
+      "evidence_level": "documento leído por el procedimiento INDEP; la matriz solo indexa y no revalida el cotejo jurídico",
+      "authorization": "Emi, 04/11/2026: copiar todas las versiones validadas nuevas"
+    },
+    {
+      "type": "catalogo",
+      "detail": "HISTORIAL.entregas: agregadas 43, 44 y 45; MATRIZ.indep apunta a v22; la v21 queda como previous_snapshot, sin tocar sus bytes."
+    }
+  ],
+  "sync": [
+    {
+      "destino": "github",
+      "archivo": "cerebro/fuentes/indep/211251b0cfcc_Control_de_expedientes_Junta_Especial_2-4.xlsx",
+      "sha256_antes": "6504026c7fa968c2877e8c689aad7d9daafe84e2d96eca90a00fb7d274eef865",
+      "sha256_despues": "211251b0cfccb8f42ecf49d4ac09af7839acfb87bed9fe58de026ef9875226a5",
+      "resultado": "sincronizado (releído tras el push; ver commit)"
+    },
+    {
+      "destino": "drive",
+      "archivo": "INDEP - Control de expedientes (Juntas y Salas).xlsx (1GAfWKd6Hlg18HCPP3vIHdKGh72mqAm6S)",
+      "sha256_antes": "6504026c7fa968c2877e8c689aad7d9daafe84e2d96eca90a00fb7d274eef865",
+      "sha256_despues": "6504026c7fa968c2877e8c689aad7d9daafe84e2d96eca90a00fb7d274eef865",
+      "resultado": "pendiente",
+      "motivo": "La subida con el conector fue denegada: una ejecución programada no puede aprobar la escritura. No se movió ni renombró nada."
+    },
+    {
+      "destino": "mac_escritorio",
+      "sha256_antes": "6504026c7fa968c2877e8c689aad7d9daafe84e2d96eca90a00fb7d274eef865",
+      "sha256_despues": null,
+      "resultado": "no accesible",
+      "motivo": "Mac no enlazada"
+    },
+    {
+      "destino": "icloud",
+      "sha256_antes": "6504026c7fa968c2877e8c689aad7d9daafe84e2d96eca90a00fb7d274eef865",
+      "sha256_despues": null,
+      "resultado": "no accesible",
+      "motivo": "Mac no enlazada"
+    }
+  ],
+  "results": {
+    "new_versions": 1,
+    "source_tables_modified": false,
+    "excel_rewritten": false,
+    "families": {
+      "archivo_muerto": "sin fuente nueva localizada",
+      "concentrado": "sin cambio en metadatos de Drive; sin copia nueva",
+      "indep": "entrega 45 (10/11) validada; maestro v22 211251b0cfcc copiado y vigente en la matriz",
+      "tfca": "sin fuente nueva localizada",
+      "no_laborales_tfja": "sin fuente nueva localizada",
+      "cotejo_liverpool": "sin cambio (Drive sin archivos nuevos)",
+      "cotejo_acuses_indep": "sin cambio (Drive sin archivos nuevos)"
+    }
+  },
+  "not_accessible": [
+    "Library de ChatGPT",
+    "conversaciones",
+    "Escritorio e iCloud de la Mac",
+    "escritura en Drive desde la ejecución programada",
+    "contenido del Concentrado de Drive (solo metadatos; hash sin calcular)"
+  ],
+  "doubts": [
+    "INDEP: ACTUAL.json en main sigue señalando la entrega 18 por la cuota de Drive; la matriz sigue las entregas posteriores acreditadas en GitHub.",
+    "El boletín 195 no precisa fecha y hora de la nueva audiencia del 642/2019 ni si se celebró la del 09/11 en el 1240/2019; son pendientes del maestro INDEP, no de la matriz."
+  ],
+  "validation": {
+    "command": "python3 cerebro/skill/scripts/validar_matriz.py cerebro",
+    "families": 7,
+    "versions": 34,
+    "snapshots_checked": 34,
+    "snapshots_unavailable": 0,
+    "unique_sha256": 33,
+    "repeated_sha256_records": 1,
+    "gaps": 11,
+    "pending_categories": 0,
+    "errors": 0,
+    "warnings": 0
+  },
+  "pending": [
+    "Sincronizar INDEP v22 en Drive, Escritorio e iCloud (mover la v21 a Anteriores y actualizar el LÉEME): requiere una sesión con Emi o Muse.",
+    "INDEP: ACTUAL.json aún señala la entrega 18 (cuota de Drive); no se modificó INDEP.",
+    "Concentrado: nota del ID 12 del Drive del despacho sin conciliar.",
+    "No laborales (TFJA): confirmar vigencia de los folios 82701 y 82702.",
+    "Cotejo Grupo Liverpool: 27969/22-17-02-5 marcado como vivo y perdido.",
+    "Drive: carpeta «INDEP ASUNTO ESTUDIO LIC» sigue sin incorporar; no es tabla."
+  ],
+  "automation": {
+    "executor_current": "claude"
+  },
+  "next_step": "Subir INDEP v22 a los tres destinos de vigentes en la próxima sesión con acceso; vigilar nuevas entregas de INDEP y cambios del Concentrado."
+}

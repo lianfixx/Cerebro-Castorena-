@@ -86,11 +86,11 @@
       "id": "indep",
       "title": "INDEP (Juntas/Salas)",
       "role": "Maestro operativo único; consultas por folio, sin duplicar seguimiento",
-      "current_version_id": "indep-6504026c7fa9",
+      "current_version_id": "indep-211251b0cfcc",
       "current_library_url": null,
-      "sha256": "6504026c7fa968c2877e8c689aad7d9daafe84e2d96eca90a00fb7d274eef865",
-      "current_sha256": "6504026c7fa968c2877e8c689aad7d9daafe84e2d96eca90a00fb7d274eef865",
-      "current_snapshot_path": "fuentes/indep/6504026c7fa9_Control_de_expedientes_Junta_Especial_2-4.xlsx",
+      "sha256": "211251b0cfccb8f42ecf49d4ac09af7839acfb87bed9fe58de026ef9875226a5",
+      "current_sha256": "211251b0cfccb8f42ecf49d4ac09af7839acfb87bed9fe58de026ef9875226a5",
+      "current_snapshot_path": "fuentes/indep/211251b0cfcc_Control_de_expedientes_Junta_Especial_2-4.xlsx",
       "universo": {
         "unit": "folio maestro",
         "count": 45,
@@ -104,12 +104,12 @@
         "source": "evidencia/indep_tfca.json#contrato_maestro"
       },
       "current_selection_basis": {
-        "logical_master": 21,
-        "delivery_with_master": 41,
-        "last_documented_delivery": 42,
-        "source_commit": "f739ecf63cf9f5c6658c0d0a80225b55eaf8b62f",
-        "previous_public_snapshot": "fuentes/indep/276657ed210f_Control_de_expedientes_Junta_Especial_2-4_2_.xlsx (v20)",
-        "note": "Copia pública de v21 hecha el 04/11/2026 por autorización de Emi."
+        "logical_master": 22,
+        "delivery_with_master": 45,
+        "last_documented_delivery": 45,
+        "source_commit": "b533730a38dc4728d1eeabb5ac6be0fdaff4e6b5",
+        "previous_public_snapshot": "fuentes/indep/6504026c7fa9_Control_de_expedientes_Junta_Especial_2-4.xlsx (v21)",
+        "note": "Copia pública de v22 hecha el 10/11/2026 por el cierre diario programado, conforme a la autorización de Emi del 04/11/2026. Manifiesto de la entrega 45 verificado y contrato validado con comparar_excel.py --base."
       },
       "audit_path": "evidencia/indep_tfca.json"
     },

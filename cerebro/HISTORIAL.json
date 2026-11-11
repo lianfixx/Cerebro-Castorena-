@@ -1457,8 +1457,8 @@
         ]
       },
       "evidence_state": "recuperado_verificado_bytes",
-      "role": "current_snapshot",
-      "current_for_family": true,
+      "role": "previous_snapshot",
+      "current_for_family": false,
       "sheets": [
         "Junta Especial 2",
         "Salas TFCA",
@@ -1594,6 +1594,39 @@
       ],
       "historical_only": false,
       "scope_note": "Misma tabla con anotación del 27969/22-17-02-5 (Suburbia), que se conserva en VIVOS y en PERDIDOS.",
+      "legal_validation_implied": false
+    },
+    {
+      "id": "indep-211251b0cfcc",
+      "family_id": "indep",
+      "sha256": "211251b0cfccb8f42ecf49d4ac09af7839acfb87bed9fe58de026ef9875226a5",
+      "size_bytes": 18512,
+      "snapshot_path": "fuentes/indep/211251b0cfcc_Control_de_expedientes_Junta_Especial_2-4.xlsx",
+      "source_locator": {
+        "aliases": [
+          {
+            "path": "versiones/45_2026-11-10/Control_de_expedientes_Junta_Especial_2-4.xlsx",
+            "sha256": "211251b0cfccb8f42ecf49d4ac09af7839acfb87bed9fe58de026ef9875226a5",
+            "bytes": 18512,
+            "version_logica": 22,
+            "provider": "github",
+            "repository": "lianfixx/INDEP",
+            "visibility": "privado",
+            "commit": "b533730a38dc4728d1eeabb5ac6be0fdaff4e6b5",
+            "url": "https://github.com/lianfixx/INDEP/blob/main/versiones/45_2026-11-10/Control_de_expedientes_Junta_Especial_2-4.xlsx"
+          }
+        ]
+      },
+      "evidence_state": "recuperado_verificado_bytes",
+      "role": "current_snapshot",
+      "current_for_family": true,
+      "sheets": [
+        "Junta Especial 2",
+        "Salas TFCA",
+        "Poder Judicial"
+      ],
+      "historical_only": false,
+      "scope_note": "Maestro lógico v22 validado por el procedimiento INDEP (entrega 45, cotejo del boletín 195 del 10/11/2026). Copia idéntica por bytes publicada el 10/11/2026 por la autorización de Emi del 04/11/2026. Respecto de v21 cambian 6 celdas de Junta Especial 2 (E10, F10, G10, E19, F19, G19: Detalles, Fuente y Fecha de los folios 80140 y 80921), todas permitidas según comparar_excel.py con AUTORIZACIONES.json de la entrega.",
       "legal_validation_implied": false
     }
   ],
@@ -4961,6 +4994,148 @@
       "commit": "f739ecf63cf9f5c6658c0d0a80225b55eaf8b62f",
       "family_id": "indep",
       "validation_status": "estado_declarado_en_registros_y_manifiesto_verificado; sin revalidación jurídica"
+    },
+    {
+      "entrega": 43,
+      "carpeta": "43_2026-11-06",
+      "url": "https://github.com/lianfixx/INDEP/tree/4550735d8bec2c7805252bad95989fa65b711ee3/versiones/43_2026-11-06",
+      "archivos_en_arbol": 14,
+      "registros_leidos": [
+        {
+          "nombre": "CONTINUIDAD.json",
+          "bytes": 47159,
+          "sha256": "f84c341ad79bd608884996f9d66a9845b7383db8dc798939769e18ed2d9839c6"
+        },
+        {
+          "nombre": "DOCUMENTOS.json",
+          "bytes": 3786,
+          "sha256": "b591fb6da5e4b79f375970b84964da564d6d6c57204cc41ad3de4d1487ff1338"
+        },
+        {
+          "nombre": "MANIFIESTO_SHA256.json",
+          "bytes": 2115,
+          "sha256": "da11260232f173e0d4d942c2ca2963317d739312bf2be142c514cce972afd37c"
+        }
+      ],
+      "motivo": "Cotejo íntegro de los boletines 192 y 193 (sin coincidencias); maestro v21 sin reescribir.",
+      "estado_declarado": {
+        "github_ruta": "versiones/43_2026-11-06",
+        "commit": "313bc3bc9f91300c80131441d07d7a7e11c1eb75",
+        "drive": "pendiente (cuota de Drive; ACTUAL.json sigue en la entrega 18)"
+      },
+      "ultimo_boletin_declarado": {
+        "numero": 193,
+        "fecha": "2026-11-06",
+        "paginas": 16,
+        "asuntos": 29,
+        "sha256": "fac156be995f782a1dead2bda9bfe471663027c8ebae328791f0414d6242610a",
+        "archivo": "193-Viernes-06-Noviembre-2026-JFCA.pdf",
+        "acta": "versiones/43_2026-11-06/ACTA_COTEJO_193.json",
+        "estado": "COTEJADO_INTEGRAMENTE_SIN_COINCIDENCIAS",
+        "url_oficial": "https://www.gob.mx/cms/uploads/attachment/file/1114992/193-Viernes-06-Noviembre-2026-JFCA.pdf",
+        "origen": "descarga_portal"
+      },
+      "manifiesto_verificado": "MANIFIESTO_VERIFICADO (manifiesto.py verificar, 13 archivos, 10/11/2026)",
+      "repository": "lianfixx/INDEP",
+      "commit": "4550735d8bec2c7805252bad95989fa65b711ee3",
+      "family_id": "indep",
+      "validation_status": "estado_declarado_en_registros_y_manifiesto_verificado; sin revalidación jurídica"
+    },
+    {
+      "entrega": 44,
+      "carpeta": "44_2026-11-09",
+      "url": "https://github.com/lianfixx/INDEP/tree/4550735d8bec2c7805252bad95989fa65b711ee3/versiones/44_2026-11-09",
+      "archivos_en_arbol": 10,
+      "registros_leidos": [
+        {
+          "nombre": "CONTINUIDAD.json",
+          "bytes": 47133,
+          "sha256": "ab0528c05651ddc07f50e8604e0b825228cfc8850b797361fa0ecbd773e24565"
+        },
+        {
+          "nombre": "DOCUMENTOS.json",
+          "bytes": 1643,
+          "sha256": "392568e76adbb3159fef3d0aa1251e9b5dc012618c1a5ead3e0177bbc0bdc472"
+        },
+        {
+          "nombre": "MANIFIESTO_SHA256.json",
+          "bytes": 1473,
+          "sha256": "2e380f22eda7f254f0d4deafeed970138e4a1f54f4abeaa5eebb78b0b4d4b20d"
+        }
+      ],
+      "motivo": "Cotejo íntegro del boletín 194 (sin coincidencias); maestro v21 sin reescribir.",
+      "estado_declarado": {
+        "github_ruta": "versiones/44_2026-11-09",
+        "commit": "3a88d70ec0b8ac81fbc4f926eebca28361b863a1",
+        "drive": "pendiente (cuota de Drive; ACTUAL.json sigue en la entrega 18)"
+      },
+      "ultimo_boletin_declarado": {
+        "numero": 194,
+        "fecha": "2026-11-09",
+        "paginas": 19,
+        "asuntos": 29,
+        "sha256": "5a5c8102c95a0580a1b7ae2d06795a6938febb3c292d1440a8940d1330a1501b",
+        "archivo": "194-Lunes-09-Noviembre-2026-JFCA.pdf",
+        "acta": "versiones/44_2026-11-09/ACTA_COTEJO_194.json",
+        "estado": "COTEJADO_INTEGRAMENTE_SIN_COINCIDENCIAS",
+        "url_oficial": "https://www.gob.mx/cms/uploads/attachment/file/1115193/194-Lunes-09-Noviembre-2026-JFCA.pdf",
+        "origen": "descarga_portal"
+      },
+      "manifiesto_verificado": "MANIFIESTO_VERIFICADO (manifiesto.py verificar, 9 archivos, 10/11/2026)",
+      "repository": "lianfixx/INDEP",
+      "commit": "4550735d8bec2c7805252bad95989fa65b711ee3",
+      "family_id": "indep",
+      "validation_status": "estado_declarado_en_registros_y_manifiesto_verificado; sin revalidación jurídica"
+    },
+    {
+      "entrega": 45,
+      "carpeta": "45_2026-11-10",
+      "url": "https://github.com/lianfixx/INDEP/tree/4550735d8bec2c7805252bad95989fa65b711ee3/versiones/45_2026-11-10",
+      "archivos_en_arbol": 12,
+      "registros_leidos": [
+        {
+          "nombre": "CONTINUIDAD.json",
+          "bytes": 47589,
+          "sha256": "e0509c69b7b3d14702ac7c13c4920efc7276a993705b1093fe122414ffed38fc"
+        },
+        {
+          "nombre": "DOCUMENTOS.json",
+          "bytes": 1940,
+          "sha256": "3465b8dc71c04e209e0e29805d3131de632816556203971035ecf483a5b262e6"
+        },
+        {
+          "nombre": "MANIFIESTO_SHA256.json",
+          "bytes": 1810,
+          "sha256": "6c28ac9ff2dfcaeb473b5c05f1b4b73dc7a6f78378891ec0c71289615ffc8c81"
+        }
+      ],
+      "motivo": "Cotejo íntegro del boletín 195 (dos coincidencias: 642/2019 y 1240/2019) y maestro lógico v22.",
+      "estado_declarado": {
+        "github_ruta": "versiones/45_2026-11-10",
+        "commit": "b533730a38dc4728d1eeabb5ac6be0fdaff4e6b5",
+        "drive": "pendiente (cuota de Drive; ACTUAL.json sigue en la entrega 18)"
+      },
+      "ultimo_boletin_declarado": {
+        "numero": 195,
+        "fecha": "2026-11-10",
+        "paginas": 19,
+        "asuntos": 29,
+        "sha256": "b46d3b7d57efde237ce3ba6fa8915a9696ca00040cd996bea95e6fd1a104f9ac",
+        "archivo": "195-Martes-10-Noviembre-2026-JFCA.pdf",
+        "acta": "versiones/45_2026-11-10/ACTA_COTEJO_195.json"
+      },
+      "manifiesto_verificado": "MANIFIESTO_VERIFICADO (manifiesto.py verificar, 11 archivos, 10/11/2026)",
+      "repository": "lianfixx/INDEP",
+      "commit": "4550735d8bec2c7805252bad95989fa65b711ee3",
+      "family_id": "indep",
+      "validation_status": "estado_declarado_en_registros_y_manifiesto_verificado; sin revalidación jurídica",
+      "maestro": {
+        "sha256": "211251b0cfccb8f42ecf49d4ac09af7839acfb87bed9fe58de026ef9875226a5",
+        "bytes": 18512,
+        "version_logica": 22,
+        "comparar_excel_base": "ESTRUCTURA_BASE_VALIDADA (45 folios, 44 turnos, 0 errores)",
+        "comparar_excel_v21_v22": "PRESERVACION_VALIDADA (6 celdas, todas permitidas)"
+      }
     }
   ],
   "github_records_index": [
@@ -7330,7 +7505,7 @@
     "xlsx_snapshots": 26,
     "pdf_snapshots": 2,
     "text_snapshots": 3,
-    "deliveries": 42,
+    "deliveries": 45,
     "github_records_indexed_not_copied": 130
   },
   "preservation": {
