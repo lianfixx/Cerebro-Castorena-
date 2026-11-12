@@ -5136,6 +5136,51 @@
         "comparar_excel_base": "ESTRUCTURA_BASE_VALIDADA (45 folios, 44 turnos, 0 errores)",
         "comparar_excel_v21_v22": "PRESERVACION_VALIDADA (6 celdas, todas permitidas)"
       }
+    },
+    {
+      "entrega": 46,
+      "carpeta": "46_2026-11-11",
+      "url": "https://github.com/lianfixx/INDEP/tree/06a8ff9ab3e54b53c1203997bf245cea960e8081/versiones/46_2026-11-11",
+      "archivos_en_arbol": 10,
+      "registros_leidos": [
+        {
+          "nombre": "CONTINUIDAD.json",
+          "bytes": 48933,
+          "sha256": "7bbac2846a08e76810a01874819d80a4af3210bce51a4cc36899738314ba4e52"
+        },
+        {
+          "nombre": "DOCUMENTOS.json",
+          "bytes": 1651,
+          "sha256": "7869e8c90c1853bff8d333a664d26e21bc992e14b5eb2a1982daf0370521b6fe"
+        },
+        {
+          "nombre": "MANIFIESTO_SHA256.json",
+          "bytes": 1477,
+          "sha256": "dd6a5c6952484f3664ffe1b75bbe8d311f6e01a72c03ec32a058cf5c2bcc0d82"
+        }
+      ],
+      "motivo": "Cotejo íntegro del boletín 196 (sin coincidencias); maestro v22 sin reescribir.",
+      "estado_declarado": {
+        "github_ruta": "versiones/46_2026-11-11",
+        "commit": "d8362c6c93ff4d21ef1c1d01b73890a54b44b053",
+        "drive": "pendiente (cuota de Drive; ACTUAL.json sigue en la entrega 18)"
+      },
+      "ultimo_boletin_declarado": {
+        "numero": 196,
+        "fecha": "2026-11-11",
+        "paginas": 16,
+        "sha256": "640697d1a476da3c6d2d6e0584cf4939a701260097e5e49601eb82927541d5c1",
+        "archivo": "196-Mi_rcoles-11-Noviembre-2026-JFCA.pdf",
+        "acta": "versiones/46_2026-11-11/ACTA_COTEJO_196.json",
+        "estado": "COTEJADO_INTEGRAMENTE_SIN_COINCIDENCIAS",
+        "url_oficial": "https://www.gob.mx/cms/uploads/attachment/file/1115718/196-Mi_rcoles-11-Noviembre-2026-JFCA.pdf",
+        "origen": "descarga_portal"
+      },
+      "manifiesto_verificado": "MANIFIESTO_VERIFICADO (manifiesto.py verificar, 9 archivos, 11/11/2026)",
+      "repository": "lianfixx/INDEP",
+      "commit": "06a8ff9ab3e54b53c1203997bf245cea960e8081",
+      "family_id": "indep",
+      "validation_status": "estado_declarado_en_registros_y_manifiesto_verificado; sin revalidación jurídica"
     }
   ],
   "github_records_index": [
