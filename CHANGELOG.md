@@ -2,6 +2,15 @@
 
 Lo más reciente arriba. Formato y reglas: `ia/PROTOCOLO.md`, sección 3. Cada entrada lleva la línea `Agente:`.
 
+## 2026-11-12 · Cierre diario programado (sin cambios de tablas)
+
+- Agente: Claude Code (ejecución programada)
+- Solicitud: tarea programada diaria de cierre de la matriz.
+- Cambios: entrega 47 de INDEP (boletín 197, sin coincidencias) verificada con manifiesto.py (9 archivos) y comparar_excel.py --base sobre el maestro v22 (45 folios, 44 turnos); sin Excel nuevo. `HISTORIAL.json` (entrega 47), `ESTADO.json` y cierre `cerebro/cierres/2026-11-12_1845.json`. Concentrado y carpeta de vigentes de Drive sin cambio en metadatos; se anota, sin incorporarlo, el documento «Matriz General» creado el 12/11.
+- Archivos: `cerebro/HISTORIAL.json`, `cerebro/ESTADO.json`, `cerebro/cierres/2026-11-12_1845.json`, este registro.
+- Verificación: validar_matriz.py → aprobado (34 versiones, 0 errores, 0 avisos).
+- Pendiente: subir v22 a Drive, Escritorio e iCloud; ACTUAL.json de INDEP sigue en la entrega 18.
+
 ## 2026-11-11 · Cierre diario programado (sin cambios de tablas)
 
 - Agente: Claude Code (ejecución programada)

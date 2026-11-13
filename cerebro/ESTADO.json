@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_audit_date": "2026-11-11",
+  "last_audit_date": "2026-11-12",
   "timezone": "America/Mexico_City",
   "write_scope": "cerebro/ en lianfixx/Cerebro-Castorena-, rama main",
   "indep_operational_branch": "main",
@@ -41,7 +41,7 @@
     "method": "commit_atomico_y_update_ref_expected_sha",
     "on_conflict": "releer_conciliar_sin_force"
   },
-  "last_source_changes": "Sin cambios de tablas el 11/11: entrega INDEP 46 (boletín 196, sin coincidencias) verificada; maestro v22 (211251b0cfcc) sigue vigente. Drive, Escritorio e iCloud siguen con v21 (pendiente).",
+  "last_source_changes": "Sin cambios de tablas el 12/11: entrega INDEP 47 (boletín 197, sin coincidencias) verificada; maestro v22 (211251b0cfcc) sigue vigente. Drive, Escritorio e iCloud siguen con v21 (pendiente).",
   "publication": {
     "initial_commit": "aaa04b75e9645f2691f0e33fdaec1e1e33053020",
     "files_verified_after_read": 52,
@@ -49,8 +49,8 @@
     "source_tables_modified": false,
     "personal_procedure_saved": true
   },
-  "last_audit_at": "2026-11-11T18:45:00-06:00",
-  "last_closure_path": "cierres/2026-11-11_1845.json",
+  "last_audit_at": "2026-11-12T18:45:00-06:00",
+  "last_closure_path": "cierres/2026-11-12_1845.json",
   "latest_run": {
     "base_commit": "1ecf1a9bc2f3a5bbad922fee2c62290691a7c0b6",
     "agent": "ChatGPT Work /root (Codex)",

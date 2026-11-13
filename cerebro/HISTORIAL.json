@@ -5181,6 +5181,49 @@
       "commit": "06a8ff9ab3e54b53c1203997bf245cea960e8081",
       "family_id": "indep",
       "validation_status": "estado_declarado_en_registros_y_manifiesto_verificado; sin revalidación jurídica"
+    },
+    {
+      "entrega": 47,
+      "carpeta": "47_2026-11-12",
+      "url": "https://github.com/lianfixx/INDEP/tree/1109b972f8d00de8c0f838fa8bff74065cd5d730/versiones/47_2026-11-12",
+      "archivos_en_arbol": 10,
+      "registros_leidos": [
+        {
+          "nombre": "CONTINUIDAD.json",
+          "bytes": 49833,
+          "sha256": "a1edd82b45ede897729bc18bb446e9c82ff55bbeb4eba42f29b40390b7f2cc36"
+        },
+        {
+          "nombre": "DOCUMENTOS.json",
+          "bytes": 1646,
+          "sha256": "0dadac3df4f7fab619bb680fea5a0cecca24f886e691e4fec3be1370e97fedda"
+        },
+        {
+          "nombre": "MANIFIESTO_SHA256.json",
+          "bytes": 1474,
+          "sha256": "7b20080c5051c0bf693771a989caf8aad22434189ca120d0be92e2bd4cba6730"
+        }
+      ],
+      "motivo": "Cotejo íntegro del boletín 197 (sin coincidencias); maestro v22 sin reescribir.",
+      "estado_declarado": {
+        "github_ruta": "versiones/47_2026-11-12",
+        "commit": "db4b697e5a6140358cdf35470c529d8ddb6ab347",
+        "drive": "pendiente (cuota de Drive; ACTUAL.json sigue en la entrega 18)"
+      },
+      "ultimo_boletin_declarado": {
+        "numero": 197,
+        "fecha": "2026-11-12",
+        "paginas": 20,
+        "sha256": "8ac51c89d1fa85914f24a0fce31e270692cd71011f42db290aea029150e2b53b",
+        "archivo": "197-Jueves-12-Noviembre-2026-JFCA.pdf",
+        "acta": "versiones/47_2026-11-12/ACTA_COTEJO_197.json",
+        "estado": "COTEJADO_INTEGRAMENTE_SIN_COINCIDENCIAS"
+      },
+      "manifiesto_verificado": "MANIFIESTO_VERIFICADO (manifiesto.py verificar, 9 archivos, 12/11/2026)",
+      "repository": "lianfixx/INDEP",
+      "commit": "1109b972f8d00de8c0f838fa8bff74065cd5d730",
+      "family_id": "indep",
+      "validation_status": "estado_declarado_en_registros_y_manifiesto_verificado; sin revalidación jurídica"
     }
   ],
   "github_records_index": [
