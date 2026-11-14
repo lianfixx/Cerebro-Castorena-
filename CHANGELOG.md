@@ -2,6 +2,15 @@
 
 Lo más reciente arriba. Formato y reglas: `ia/PROTOCOLO.md`, sección 3. Cada entrada lleva la línea `Agente:`.
 
+## 2026-11-13 · Cierre diario programado: maestro INDEP v23 copiado
+
+- Agente: Claude Code (ejecución programada)
+- Solicitud: tarea programada diaria de cierre de la matriz.
+- Cambios: entrega 48 de INDEP (boletín 198) verificada con manifiesto.py (11 archivos) y comparar_excel.py --base (45 folios, 44 turnos); respecto de v22 cambian 6 celdas permitidas de Junta Especial 2 (folios 81858 y 82255). Maestro v23 copiado byte a byte a `fuentes/indep/e13ec8158b02_…xlsx`; `HISTORIAL.json` (versión nueva y entrega 48), `MATRIZ.json` (INDEP apunta a v23), `SINCRONIZACION.json`, `ESTADO.json` y cierre `cerebro/cierres/2026-11-13_1845.json`. La v22 se conserva. Concentrado de Drive sin cambio en metadatos.
+- Archivos: `cerebro/fuentes/indep/e13ec8158b02_Control_de_expedientes_Junta_Especial_2-4.xlsx`, `cerebro/HISTORIAL.json`, `cerebro/MATRIZ.json`, `cerebro/SINCRONIZACION.json`, `cerebro/ESTADO.json`, `cerebro/cierres/2026-11-13_1845.json`, este registro.
+- Verificación: validar_matriz.py → aprobado (35 versiones, 0 errores, 0 avisos).
+- Pendiente: subir v23 a Drive, Escritorio e iCloud (siguen con v21); ACTUAL.json de INDEP sigue en la entrega 18.
+
 ## 2026-11-12 · Cierre diario programado (sin cambios de tablas)
 
 - Agente: Claude Code (ejecución programada)

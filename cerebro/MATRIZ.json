@@ -86,11 +86,11 @@
       "id": "indep",
       "title": "INDEP (Juntas/Salas)",
       "role": "Maestro operativo único; consultas por folio, sin duplicar seguimiento",
-      "current_version_id": "indep-211251b0cfcc",
+      "current_version_id": "indep-e13ec8158b02",
       "current_library_url": null,
-      "sha256": "211251b0cfccb8f42ecf49d4ac09af7839acfb87bed9fe58de026ef9875226a5",
-      "current_sha256": "211251b0cfccb8f42ecf49d4ac09af7839acfb87bed9fe58de026ef9875226a5",
-      "current_snapshot_path": "fuentes/indep/211251b0cfcc_Control_de_expedientes_Junta_Especial_2-4.xlsx",
+      "sha256": "e13ec8158b02c5398dab35f9693a5a59818f36ef8233045d716cd8ebbfcfb3a8",
+      "current_sha256": "e13ec8158b02c5398dab35f9693a5a59818f36ef8233045d716cd8ebbfcfb3a8",
+      "current_snapshot_path": "fuentes/indep/e13ec8158b02_Control_de_expedientes_Junta_Especial_2-4.xlsx",
       "universo": {
         "unit": "folio maestro",
         "count": 45,
@@ -104,12 +104,12 @@
         "source": "evidencia/indep_tfca.json#contrato_maestro"
       },
       "current_selection_basis": {
-        "logical_master": 22,
-        "delivery_with_master": 45,
-        "last_documented_delivery": 45,
-        "source_commit": "b533730a38dc4728d1eeabb5ac6be0fdaff4e6b5",
-        "previous_public_snapshot": "fuentes/indep/6504026c7fa9_Control_de_expedientes_Junta_Especial_2-4.xlsx (v21)",
-        "note": "Copia pública de v22 hecha el 10/11/2026 por el cierre diario programado, conforme a la autorización de Emi del 04/11/2026. Manifiesto de la entrega 45 verificado y contrato validado con comparar_excel.py --base."
+        "logical_master": 23,
+        "delivery_with_master": 48,
+        "last_documented_delivery": 48,
+        "source_commit": "07ef459d471c804e988a608f1f003f305ce0321b",
+        "previous_public_snapshot": "fuentes/indep/211251b0cfcc_Control_de_expedientes_Junta_Especial_2-4.xlsx (v22)",
+        "note": "Copia pública de v23 hecha el 13/11/2026 por el cierre diario programado, conforme a la autorización de Emi del 04/11/2026. Manifiesto de la entrega 48 verificado; comparar_excel.py --base (ESTRUCTURA_BASE_VALIDADA) y contra v22 con AUTORIZACIONES.json (PRESERVACION_VALIDADA)."
       },
       "audit_path": "evidencia/indep_tfca.json"
     },

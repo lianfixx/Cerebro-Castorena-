@@ -1,0 +1,145 @@
+{
+  "schema_version": "castorena-cierre-v1",
+  "fecha_hora_local": "2026-11-13T18:45:00-06:00",
+  "timezone": "America/Mexico_City",
+  "base_matrix_commit": "2f5250253269e72c97185edc0153f74bfec15e6b",
+  "Agente": "Claude Code (ejecución programada)",
+  "scope": {
+    "families_reviewed": 7,
+    "emails_sent": false,
+    "drafts_created": false,
+    "indep_modified": false
+  },
+  "capabilities": {
+    "github_matrix": "lectura y escritura por git (rama claude/amazing-allen-2ns188; integración automática a main)",
+    "github_indep": "lectura local de origin/main 023e15c",
+    "drive": "lectura de metadatos y listado de la carpeta de vigentes; no se intentó escritura",
+    "gmail": "no usado",
+    "mac": "no enlazada (Escritorio e iCloud no alcanzables)"
+  },
+  "coverage": {
+    "indep_head": "023e15ced33d5623d562ede281b1dc82bbf05763",
+    "conversations": "sin acceso",
+    "library_chatgpt": "sin acceso",
+    "complete_history": false
+  },
+  "versions_before": {
+    "indep": "indep-211251b0cfcc (v22)"
+  },
+  "versions_after": {
+    "indep": "indep-e13ec8158b02 (v23)"
+  },
+  "hash_checks": [
+    {
+      "family_id": "indep",
+      "source": "INDEP versiones/48_2026-11-13",
+      "sha256": "e13ec8158b02c5398dab35f9693a5a59818f36ef8233045d716cd8ebbfcfb3a8",
+      "result": "MANIFIESTO_VERIFICADO (11 archivos, 0 errores); comparar_excel --base: ESTRUCTURA_BASE_VALIDADA, 45 folios, 44 turnos, 0 errores; contra v22 (fuentes/indep/211251b0cfcc_…) con AUTORIZACIONES.json: PRESERVACION_VALIDADA, 6 celdas permitidas (E22:G22 folio 81858 · 505/2020; E23:G23 folio 82255 · 538/2016). Acta 198: 14 páginas, 29 asuntos, dos coincidencias."
+    },
+    {
+      "family_id": "concentrado",
+      "source": "Drive 1YtT78mIRVDr_oZvkEVDyqBl0howya5R8",
+      "sha256": null,
+      "result": "metadatos sin cambio (modifiedTime 2026-11-05T01:54:03.019Z, 14862 B, mismo etag)"
+    },
+    {
+      "family_id": "indep",
+      "source": "Drive 1GAfWKd6Hlg18HCPP3vIHdKGh72mqAm6S",
+      "sha256": null,
+      "result": "metadatos: 18406 B, sin cambio desde 2026-11-09T21:06:23Z; sigue siendo v21"
+    },
+    {
+      "family_id": "todas",
+      "source": "Drive carpeta de vigentes 1UE-tJN2QV1X3eRGokx1pB0PMOW9YKn_z",
+      "sha256": null,
+      "result": "primera página del listado con los mismos etags del 09/11 (Anteriores, Cotejo acuses, INDEP, Archivo muerto, Concentrado)"
+    },
+    {
+      "family_id": "ninguna",
+      "source": "Drive: archivos modificados desde 2026-11-13",
+      "sha256": null,
+      "result": "sin tablas de las siete familias (carpeta «Videos LinkedIn», un video y una hoja ajena al despacho); nada que incorporar"
+    }
+  ],
+  "changes": [
+    {
+      "type": "version_nueva",
+      "family_id": "indep",
+      "detail": "Maestro v23 (entrega 48, boletín 198) copiado byte a byte a fuentes/indep/e13ec8158b02_Control_de_expedientes_Junta_Especial_2-4.xlsx (18755 B). HISTORIAL: versión nueva y entrega 48; v22 pasa a previous_snapshot y se conserva. MATRIZ apunta a v23. SINCRONIZACION: pendiente v23 en Drive, Escritorio e iCloud."
+    }
+  ],
+  "sync": [
+    {
+      "destino": "github",
+      "resultado": "sincronizado en este commit"
+    },
+    {
+      "destino": "drive",
+      "archivo": "INDEP - Control de expedientes (Juntas y Salas).xlsx (1GAfWKd6Hlg18HCPP3vIHdKGh72mqAm6S)",
+      "sha256_antes": "6504026c7fa968c2877e8c689aad7d9daafe84e2d96eca90a00fb7d274eef865",
+      "sha256_despues": "6504026c7fa968c2877e8c689aad7d9daafe84e2d96eca90a00fb7d274eef865",
+      "resultado": "pendiente",
+      "motivo": "Sigue con v21; la ejecución programada no puede aprobar escrituras en Drive."
+    },
+    {
+      "destino": "mac_escritorio",
+      "resultado": "no accesible",
+      "motivo": "Mac no enlazada"
+    },
+    {
+      "destino": "icloud",
+      "resultado": "no accesible",
+      "motivo": "Mac no enlazada"
+    }
+  ],
+  "results": {
+    "new_versions": 1,
+    "source_tables_modified": false,
+    "excel_rewritten": false,
+    "families": {
+      "archivo_muerto": "sin fuente nueva localizada",
+      "concentrado": "sin cambio en metadatos de Drive; sin copia nueva",
+      "indep": "entrega 48 (13/11, boletín 198 con dos coincidencias) verificada; maestro v23 copiado",
+      "tfca": "sin fuente nueva localizada (la tabla TFCA de INDEP sigue en integracion_2026-11-03)",
+      "no_laborales_tfja": "sin fuente nueva localizada",
+      "cotejo_liverpool": "sin cambio (Drive sin archivos nuevos)",
+      "cotejo_acuses_indep": "sin cambio (Drive sin archivos nuevos)"
+    }
+  },
+  "not_accessible": [
+    "Library de ChatGPT",
+    "conversaciones",
+    "Escritorio e iCloud de la Mac",
+    "escritura en Drive desde la ejecución programada",
+    "contenido del Concentrado de Drive (solo metadatos; hash sin calcular)"
+  ],
+  "doubts": [
+    "INDEP: ACTUAL.json en main sigue señalando la entrega 18 por la cuota de Drive; la matriz sigue las entregas posteriores acreditadas en GitHub.",
+    "INDEP v23: el validador acredita preservación, no el cotejo jurídico; la lectura del boletín 198 es del procedimiento INDEP."
+  ],
+  "validation": {
+    "command": "python3 cerebro/skill/scripts/validar_matriz.py cerebro",
+    "families": 7,
+    "versions": 35,
+    "snapshots_checked": 35,
+    "snapshots_unavailable": 0,
+    "unique_sha256": 34,
+    "repeated_sha256_records": 1,
+    "gaps": 11,
+    "pending_categories": 0,
+    "errors": 0,
+    "warnings": 0
+  },
+  "pending": [
+    "Sincronizar INDEP v23 en Drive, Escritorio e iCloud (Drive y Mac siguen con v21; mover la anterior a Anteriores y actualizar el LÉEME): requiere una sesión con Emi o Muse.",
+    "INDEP: ACTUAL.json aún señala la entrega 18 (cuota de Drive); no se modificó INDEP.",
+    "Concentrado: nota del ID 12 del Drive del despacho sin conciliar.",
+    "No laborales (TFJA): confirmar vigencia de los folios 82701 y 82702.",
+    "Cotejo Grupo Liverpool: 27969/22-17-02-5 marcado como vivo y perdido.",
+    "Drive: carpeta «INDEP ASUNTO ESTUDIO LIC» sigue sin incorporar; no es tabla."
+  ],
+  "automation": {
+    "executor_current": "claude"
+  },
+  "next_step": "Subir INDEP v23 a los tres destinos de vigentes en la próxima sesión con acceso; vigilar nuevas entregas de INDEP y cambios del Concentrado."
+}

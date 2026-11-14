@@ -29,7 +29,7 @@
       "id": "github",
       "ubicacion": "lianfixx/Cerebro-Castorena-, main, cerebro/fuentes/<familia>/",
       "estado": "sincronizado",
-      "last_verified": "2026-11-10T18:58:00-06:00"
+      "last_verified": "2026-11-13T18:45:00-06:00"
     },
     {
       "id": "mac_escritorio",
@@ -39,19 +39,19 @@
         "anteriores": "2 · Anteriores",
         "otras": "3 · Otras tablas"
       },
-      "estado": "pendiente (INDEP v22); las demás tablas, sincronizadas",
+      "estado": "pendiente (INDEP v23); las demás tablas, sincronizadas",
       "last_verified": "2026-11-09T16:30:00-06:00",
       "nota": "«1 · Vigentes» está en la barra lateral de Finder.",
-      "pendiente": "Reemplazar «INDEP - Control de expedientes (Juntas y Salas).xlsx» por 211251b0cfcc (18 512 B) y mover la v21 a Anteriores; actualizar el LÉEME."
+      "pendiente": "Reemplazar «INDEP - Control de expedientes (Juntas y Salas).xlsx» por e13ec8158b02 (18755 B, v23) y mover la v21 a Anteriores; actualizar el LÉEME."
     },
     {
       "id": "icloud",
       "ubicacion": "iCloud Drive/Castorena · Tablas vigentes/",
       "ruta_mac": "~/Library/Mobile Documents/com~apple~CloudDocs/Castorena · Tablas vigentes/",
-      "estado": "pendiente (INDEP v22); las demás tablas, sincronizadas",
+      "estado": "pendiente (INDEP v23); las demás tablas, sincronizadas",
       "last_verified": "2026-11-09T16:30:00-06:00",
       "anteriores": "iCloud Drive/Castorena · Tablas vigentes/Anteriores/ (creada el 09/11/2026 con la versión 55e9e955536e de Liverpool).",
-      "pendiente": "Reemplazar «INDEP - Control de expedientes (Juntas y Salas).xlsx» por 211251b0cfcc (18 512 B) y mover la v21 a Anteriores; actualizar el LÉEME."
+      "pendiente": "Reemplazar «INDEP - Control de expedientes (Juntas y Salas).xlsx» por e13ec8158b02 (18755 B, v23) y mover la v21 a Anteriores; actualizar el LÉEME."
     },
     {
       "id": "drive",
@@ -59,7 +59,7 @@
       "folder_id": "1UE-tJN2QV1X3eRGokx1pB0PMOW9YKn_z",
       "parent_folder_id": "1ukWtDdOzdtMOaR9cGXkkuh2Ks-Ev-nrq",
       "cuenta": "emilianogarciamilla@gmail.com",
-      "estado": "pendiente (INDEP v22); las demás tablas, sincronizadas",
+      "estado": "pendiente (INDEP v23); las demás tablas, sincronizadas",
       "last_verified": "2026-11-09T16:32:51-06:00",
       "subida": "Subidos los 6 archivos el 09/11/2026 por Muse con el conector de Google Drive; SHA-256 verificado descargando de vuelta de Drive. Falta el LÉEME (no está en GitHub, solo en el Escritorio).",
       "anteriores_folder_id": "10xwjo_qHeZDufF37M_shNjZzbtClEMNs",
@@ -74,7 +74,7 @@
         "1DYAmKR_P-rYdHXuHd9Xh-GC3gY4qQQiy",
         "1Kkrv_Atyd8FjJ1PflK4zXDcQYBlYSgFR"
       ],
-      "pendiente": "Reemplazar «INDEP - Control de expedientes (Juntas y Salas).xlsx» por 211251b0cfcc (18 512 B) y mover la v21 a Anteriores; actualizar el LÉEME."
+      "pendiente": "Reemplazar «INDEP - Control de expedientes (Juntas y Salas).xlsx» por e13ec8158b02 (18755 B, v23) y mover la v21 a Anteriores; actualizar el LÉEME."
     }
   ],
   "vigentes": [
@@ -88,13 +88,13 @@
     {
       "family_id": "indep",
       "nombre_fijo": "INDEP - Control de expedientes (Juntas y Salas).xlsx",
-      "sha256": "211251b0cfccb8f42ecf49d4ac09af7839acfb87bed9fe58de026ef9875226a5",
-      "size_bytes": 18512,
+      "sha256": "e13ec8158b02c5398dab35f9693a5a59818f36ef8233045d716cd8ebbfcfb3a8",
+      "size_bytes": 18755,
       "drive_file_id": "1GAfWKd6Hlg18HCPP3vIHdKGh72mqAm6S",
       "pendiente_destinos": {
         "desde": "2026-11-10T18:58:00-06:00",
         "sha256_que_aun_tienen": "6504026c7fa968c2877e8c689aad7d9daafe84e2d96eca90a00fb7d274eef865",
-        "drive": "pendiente: el archivo 1GAfWKd6Hlg18HCPP3vIHdKGh72mqAm6S sigue siendo v21 (18 406 B, metadatos leídos). La ejecución programada no pudo subir v22: la plataforma denegó create_file por falta de aprobación en vivo.",
+        "drive": "pendiente: el archivo 1GAfWKd6Hlg18HCPP3vIHdKGh72mqAm6S sigue siendo v21 (18 406 B, metadatos leídos el 13/11/2026). La ejecución programada no intenta escrituras en Drive (no puede aprobarlas).",
         "mac_escritorio": "pendiente: Mac no enlazada",
         "icloud": "pendiente: Mac no enlazada"
       }
