@@ -2,6 +2,15 @@
 
 Lo más reciente arriba. Formato y reglas: `ia/PROTOCOLO.md`, sección 3. Cada entrada lleva la línea `Agente:`.
 
+## 2026-11-17 · Concentrado: indicaciones de Emi para los ID 2 a 20
+
+- Agente: Claude (claude.ai, Opus 5.5), sesión con Emi
+- Solicitud: agregar al Concentrado más actualizado las indicaciones numeradas 2 a 20 y actualizar las tablas vigentes.
+- Cambios: versión nueva `concentrado-eca13064f3b1` derivada de `7cbaad8795b9`. Principal: columna N «INDICACIONES 17/11/2026» (ID 2 a 20; 24 a 34 vacíos) y nota en A4. Las 13 vistas por sede suman la columna I por ID. «Fuentes y cotejo», fila 100 con la procedencia. Ningún otro valor cambió. `HISTORIAL.json`, `MATRIZ.json`, `SINCRONIZACION.json`, `ESTADO.json` y cierre `cerebro/cierres/2026-11-17_1740.json`.
+- Archivos: `cerebro/fuentes/concentrado/eca13064f3b1_Concentrado_de_Expedientes_2026-11-17.xlsx`, los JSON citados y este registro.
+- Verificación: validar_matriz.py → aprobado (36 versiones, 0 errores); recalc 252 fórmulas sin error; Drive 1GdOYU1hsWzcFw7HQ-jd7GIBIkWRRX2ra descargado y cotejado por SHA-256.
+- Pendiente: Escritorio e iCloud (Mac no enlazada); INDEP v23 en Drive, Escritorio e iCloud; reconciliación de la nota ID 12.
+
 ## 2026-11-16 · Cierre diario programado (sin cambios de tablas)
 
 - Agente: Claude Code (ejecución programada)

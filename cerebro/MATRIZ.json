@@ -34,11 +34,11 @@
       "id": "concentrado",
       "title": "Concentrado de expedientes",
       "role": "Tabla de control de 26 registros y vistas por sede; conservar ID y saltos.",
-      "current_version_id": "concentrado-7cbaad8795b9",
-      "current_library_url": "https://chatgpt.com/library?file_id=libfile_b7bb3aa0d8048191afda86b15f4be1b7&account_id=personal",
-      "sha256": "7cbaad8795b98452e5bd604fbec64c6eda1dfd8416cd76d2a50a7c29e030e748",
-      "current_sha256": "7cbaad8795b98452e5bd604fbec64c6eda1dfd8416cd76d2a50a7c29e030e748",
-      "current_snapshot_path": "fuentes/concentrado/7cbaad8795b9_Concentrado_de_Expedientes_2026-10-29.xlsx",
+      "current_version_id": "concentrado-eca13064f3b1",
+      "current_library_url": null,
+      "sha256": "eca13064f3b12e90e2cbe4aac9a2fc2da3876fa89999b6bfc3a890bc5afee3ec",
+      "current_sha256": "eca13064f3b12e90e2cbe4aac9a2fc2da3876fa89999b6bfc3a890bc5afee3ec",
+      "current_snapshot_path": "fuentes/concentrado/eca13064f3b1_Concentrado_de_Expedientes_2026-11-17.xlsx",
       "universo": {
         "unit": "registro de control",
         "count": 26,
@@ -78,7 +78,9 @@
         "latest_library_version": "5",
         "latest_library_modified": "2026-11-03T17:16:13.264676Z",
         "newer_source": "Drive laboral 1YtT78mIRVDr_oZvkEVDyqBl0howya5R8, modificado 2026-11-03T20:10:28.721Z; revisión actual modificada 20:10:36.774Z por gcastorena.",
-        "caution": "Mayor fecha del archivo Drive no vuelve superiores todos sus campos: conserva 19 registros y asociaciones históricas que el adjunto corrigió. Hay al menos una nota nueva relevante en ID12; requiere reconciliación posterior autorizada."
+        "caution": "Mayor fecha del archivo Drive no vuelve superiores todos sus campos: conserva 19 registros y asociaciones históricas que el adjunto corrigió. Hay al menos una nota nueva relevante en ID12; requiere reconciliación posterior autorizada.",
+        "update_2026_11_17": "Emi, 17/11/2026, sesión de Claude: pidió agregar al Concentrado más actualizado sus indicaciones numeradas 2 a 20, que coinciden uno a uno con los ID 2 a 20. Base verificada: 7cbaad8795b9 (vigente en GitHub y Drive). Columna N «INDICACIONES 17/11/2026» en Principal con las indicaciones de Emi para los ID 2 a 20 (texto literal; solo acentos y ortografía). Los ID 24 a 34 quedan vacíos. Columna I «Indicaciones 17/11/2026» en las 13 vistas por sede (INDEX/MATCH por ID a Principal!N). Fila 100 en «Fuentes y cotejo» con la procedencia. Nota de versión en Principal!A4. Ningún otro valor cambió (cotejo celda por celda contra 7cbaad8795b9). La hoja del despacho en Drive (1YtT78…) sigue idéntica a d527520672b8; su reconciliación (ID 12) continúa pendiente.",
+        "previous_current": "concentrado-7cbaad8795b9"
       },
       "audit_path": "evidencia/concentrado.json"
     },

@@ -120,8 +120,8 @@
         ]
       },
       "evidence_state": "recuperado_verificado_bytes",
-      "role": "current_snapshot",
-      "current_for_family": true,
+      "role": "previous_snapshot",
+      "current_for_family": false,
       "sheets": [
         "Principal",
         "TFJA Insurgentes 881",
@@ -140,7 +140,7 @@
         "Fuentes y cotejo"
       ],
       "historical_only": false,
-      "scope_note": "Fuente vigente seleccionada para el índice; la actualización de asuntos continúa en su tabla maestra.",
+      "scope_note": "Fuente vigente seleccionada para el índice; la actualización de asuntos continúa en su tabla maestra. Sustituida como vigente el 17/11/2026 por concentrado-eca13064f3b1 (se agregaron indicaciones; datos conservados).",
       "legal_validation_implied": false
     },
     {
@@ -1660,6 +1660,73 @@
       ],
       "historical_only": false,
       "scope_note": "Maestro lógico v23 validado por el procedimiento INDEP (entrega 48, cotejo del boletín 198 del 13/11/2026). Copia idéntica por bytes publicada el 13/11/2026 por la autorización de Emi del 04/11/2026. Respecto de v22 cambian 6 celdas de Junta Especial 2 (E22, F22, G22, E23, F23, G23: Detalles, Fuente y Fecha de los folios 81858 y 82255), todas permitidas según comparar_excel.py con AUTORIZACIONES.json de la entrega.",
+      "legal_validation_implied": false
+    },
+    {
+      "id": "concentrado-eca13064f3b1",
+      "family_id": "concentrado",
+      "sha256": "eca13064f3b12e90e2cbe4aac9a2fc2da3876fa89999b6bfc3a890bc5afee3ec",
+      "size_bytes": 80209,
+      "snapshot_path": "fuentes/concentrado/eca13064f3b1_Concentrado_de_Expedientes_2026-11-17.xlsx",
+      "source_locator": {
+        "aliases": [
+          {
+            "provider": "claude_session",
+            "name": "Concentrado de Expedientes.xlsx",
+            "execution_path": "fuentes/concentrado/eca13064f3b1_Concentrado_de_Expedientes_2026-11-17.xlsx",
+            "size_bytes": 80209,
+            "created_at": "2026-11-17T17:40:00-06:00",
+            "derived_from": "concentrado-7cbaad8795b9",
+            "sheets": [
+              "Principal",
+              "TFJA Insurgentes 881",
+              "TJACDMX Insurgentes 825",
+              "Colegiados 2321",
+              "Juzgados 1950",
+              "Insurgentes 2065",
+              "San Lazaro Civil",
+              "Apelacion Revolucion 366",
+              "SCJN",
+              "TFJA Naucalpan 120",
+              "Puebla TFJA 84",
+              "Puebla Colegiados 82",
+              "TFJA Cancun",
+              "Antes de visita",
+              "Fuentes y cotejo"
+            ]
+          },
+          {
+            "provider": "google_drive",
+            "id": "1GdOYU1hsWzcFw7HQ-jd7GIBIkWRRX2ra",
+            "title": "Concentrado de Expedientes.xlsx",
+            "parent_folder_id": "1UE-tJN2QV1X3eRGokx1pB0PMOW9YKn_z",
+            "created_at": "2026-11-17T23:36:39.270Z",
+            "sha256_verified_after_download": true
+          }
+        ]
+      },
+      "evidence_state": "recuperado_verificado_bytes",
+      "role": "current_snapshot",
+      "current_for_family": true,
+      "sheets": [
+        "Principal",
+        "TFJA Insurgentes 881",
+        "TJACDMX Insurgentes 825",
+        "Colegiados 2321",
+        "Juzgados 1950",
+        "Insurgentes 2065",
+        "San Lazaro Civil",
+        "Apelacion Revolucion 366",
+        "SCJN",
+        "TFJA Naucalpan 120",
+        "Puebla TFJA 84",
+        "Puebla Colegiados 82",
+        "TFJA Cancun",
+        "Antes de visita",
+        "Fuentes y cotejo"
+      ],
+      "historical_only": false,
+      "scope_note": "Versión derivada de 7cbaad8795b9 por instrucción directa de Emi (17/11/2026). Columna N «INDICACIONES 17/11/2026» en Principal con las indicaciones de Emi para los ID 2 a 20 (texto literal; solo acentos y ortografía). Los ID 24 a 34 quedan vacíos. Columna I «Indicaciones 17/11/2026» en las 13 vistas por sede (INDEX/MATCH por ID a Principal!N). Fila 100 en «Fuentes y cotejo» con la procedencia. Nota de versión en Principal!A4. Ningún otro valor cambió (cotejo celda por celda contra 7cbaad8795b9).",
       "legal_validation_implied": false
     }
   ],
