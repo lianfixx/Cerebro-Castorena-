@@ -34,11 +34,11 @@
       "id": "concentrado",
       "title": "Concentrado de expedientes",
       "role": "Tabla de control de 26 registros y vistas por sede; conservar ID y saltos.",
-      "current_version_id": "concentrado-eca13064f3b1",
+      "current_version_id": "concentrado-fe4026421a68",
       "current_library_url": null,
-      "sha256": "eca13064f3b12e90e2cbe4aac9a2fc2da3876fa89999b6bfc3a890bc5afee3ec",
-      "current_sha256": "eca13064f3b12e90e2cbe4aac9a2fc2da3876fa89999b6bfc3a890bc5afee3ec",
-      "current_snapshot_path": "fuentes/concentrado/eca13064f3b1_Concentrado_de_Expedientes_2026-11-17.xlsx",
+      "sha256": "fe4026421a6874f65747d6b2464e334d228c3f7b572b5b2666f85f19d4aabf4c",
+      "current_sha256": "fe4026421a6874f65747d6b2464e334d228c3f7b572b5b2666f85f19d4aabf4c",
+      "current_snapshot_path": "fuentes/concentrado/fe4026421a68_Concentrado_de_Expedientes_2026-11-17.xlsx",
       "universo": {
         "unit": "registro de control",
         "count": 26,
@@ -80,7 +80,8 @@
         "newer_source": "Drive laboral 1YtT78mIRVDr_oZvkEVDyqBl0howya5R8, modificado 2026-11-03T20:10:28.721Z; revisión actual modificada 20:10:36.774Z por gcastorena.",
         "caution": "Mayor fecha del archivo Drive no vuelve superiores todos sus campos: conserva 19 registros y asociaciones históricas que el adjunto corrigió. Hay al menos una nota nueva relevante en ID12; requiere reconciliación posterior autorizada.",
         "update_2026_11_17": "Emi, 17/11/2026, sesión de Claude: pidió agregar al Concentrado más actualizado sus indicaciones numeradas 2 a 20, que coinciden uno a uno con los ID 2 a 20. Base verificada: 7cbaad8795b9 (vigente en GitHub y Drive). Columna N «INDICACIONES 17/11/2026» en Principal con las indicaciones de Emi para los ID 2 a 20 (texto literal; solo acentos y ortografía). Los ID 24 a 34 quedan vacíos. Columna I «Indicaciones 17/11/2026» en las 13 vistas por sede (INDEX/MATCH por ID a Principal!N). Fila 100 en «Fuentes y cotejo» con la procedencia. Nota de versión en Principal!A4. Ningún otro valor cambió (cotejo celda por celda contra 7cbaad8795b9). La hoja del despacho en Drive (1YtT78…) sigue idéntica a d527520672b8; su reconciliación (ID 12) continúa pendiente.",
-        "previous_current": "concentrado-7cbaad8795b9"
+        "previous_current": "concentrado-eca13064f3b1",
+        "update_2026_11_17_auditoria": "Auditoría por sede pedida por Emi (17/11/2026). Celdas de Principal: N6 (encabezado «INDICACIONES 11/11/2026»: la lista la escribió Emi el 11/11, correo a sí mismo), A4, G14 y K14 (ID 9: la audiencia del 13/11 ya pasó), G16, K16 y L16 (ID 11: instrucción cerrada por acuerdo de 06/03/2026, leído en fotografía), G17, K17 y L17 (ID 12: sesión del 13/11/2026, modifica y ampara; engrose pendiente), K31 (ID 33: nota de control, sin cambio de etapa). Vistas: I6 en las 13; TJACDMX D9 y E9; Colegiados 2321 E8; Juzgados 1950 E7. Fuentes y cotejo: fila 100 corregida y filas 101 a 104 nuevas. Niveles de evidencia: ID 11, documento leído; ID 12, video de la sesión y captura de Emi (no engrose); ID 33, pendiente de confirmar."
       },
       "audit_path": "evidencia/concentrado.json"
     },
@@ -243,7 +244,8 @@
       "caution": "Fecha completa no está escrita. 06/11/2026 sería inferencia temporal, no dato literal. No afirmar listado, presentación, término ni equivalencia memorando/promoción de impulso.",
       "state": "pending_reconciliation",
       "source_version_id": "concentrado-d527520672b8",
-      "base_unchanged": true
+      "base_unchanged": true,
+      "note_2026_11_17": "La nota de la hoja del despacho («Ir el viernes 6 para ver cuando se lista. Pendiente memorando») quedó superada por la sesión del 13/11/2026 registrada en fe4026421a68; la hoja del despacho no se modificó."
     },
     {
       "id": "no_laborales_tfja_vigencia",

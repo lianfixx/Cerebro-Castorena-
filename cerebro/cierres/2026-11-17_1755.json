@@ -1,0 +1,83 @@
+{
+  "schema_version": "castorena-cierre-v1",
+  "fecha_hora_local": "2026-11-17T17:55:00-06:00",
+  "timezone": "America/Mexico_City",
+  "base_matrix_commit": "96a5d6699dfe4e63277c793e88bea273603909a7",
+  "Agente": "Claude (claude.ai, Fable 5.2), sesión con Emi",
+  "solicitud": "Emi, 17/11/2026 17:46: «revisa y audita que cada sede y división esté actualizado con lo que debo hacer (sesiones anteriores, correos, etc.)».",
+  "scope": {
+    "families_reviewed": 1,
+    "emails_sent": false,
+    "drafts_created": false,
+    "indep_modified": false
+  },
+  "fuentes_leidas": [
+    "Concentrado eca13064f3b1: 13 vistas por sede y Principal",
+    "Hoja del despacho en Drive 1YtT78… (idéntica a d527520672b8)",
+    "Gmail emilianogarciamilla@gmail.com desde el 28/10/2026",
+    "Sesiones de Claude del 03/11 al 17/11/2026 (búsqueda y lectura parcial)",
+    "Drive personal: archivos modificados desde el 03/11/2026",
+    "Fotografía del acuerdo de 06/03/2026 de Farmacias Moga",
+    "Título y fecha del video de la sesión del 13/11/2026"
+  ],
+  "fuentes_no_accesibles": [
+    "Correo del despacho emilla@castorena.com.mx (el conector de Gmail es la cuenta personal)",
+    "WhatsApp",
+    "Mac, Escritorio e iCloud (no enlazada)",
+    "SISE y portales de tribunales (no consultados en esta auditoría)",
+    "Library y conversaciones de ChatGPT"
+  ],
+  "versions_before": {
+    "concentrado": "concentrado-eca13064f3b1"
+  },
+  "versions_after": {
+    "concentrado": "concentrado-fe4026421a68"
+  },
+  "changes": [
+    {
+      "type": "version_nueva",
+      "family_id": "concentrado",
+      "detail": "Auditoría por sede pedida por Emi (17/11/2026). Celdas de Principal: N6 (encabezado «INDICACIONES 11/11/2026»: la lista la escribió Emi el 11/11, correo a sí mismo), A4, G14 y K14 (ID 9: la audiencia del 13/11 ya pasó), G16, K16 y L16 (ID 11: instrucción cerrada por acuerdo de 06/03/2026, leído en fotografía), G17, K17 y L17 (ID 12: sesión del 13/11/2026, modifica y ampara; engrose pendiente), K31 (ID 33: nota de control, sin cambio de etapa). Vistas: I6 en las 13; TJACDMX D9 y E9; Colegiados 2321 E8; Juzgados 1950 E7. Fuentes y cotejo: fila 100 corregida y filas 101 a 104 nuevas.",
+      "validacion": "recalc LibreOffice: 255 fórmulas, 0 errores; vistas cotejadas por ID contra Principal (0 diferencias); cotejo celda por celda contra eca13064f3b1: solo las celdas listadas."
+    }
+  ],
+  "sync": [
+    {
+      "destino": "github",
+      "archivo": "fuentes/concentrado/fe4026421a68_Concentrado_de_Expedientes_2026-11-17.xlsx",
+      "resultado": "sincronizado en este commit"
+    },
+    {
+      "destino": "drive",
+      "archivo": "Concentrado de Expedientes.xlsx (1FqdCCTb8M96OmQiUD1mTaEXOCndHYBSt)",
+      "sha256_antes": "eca13064f3b12e90e2cbe4aac9a2fc2da3876fa89999b6bfc3a890bc5afee3ec",
+      "sha256_despues": "fe4026421a6874f65747d6b2464e334d228c3f7b572b5b2666f85f19d4aabf4c",
+      "resultado": "sincronizado",
+      "motivo": "anterior movido a Anteriores con su etag"
+    },
+    {
+      "destino": "mac_escritorio",
+      "sha256_antes": "7cbaad8795b98452e5bd604fbec64c6eda1dfd8416cd76d2a50a7c29e030e748",
+      "sha256_despues": null,
+      "resultado": "pendiente",
+      "motivo": "Mac no enlazada"
+    },
+    {
+      "destino": "icloud",
+      "sha256_antes": "7cbaad8795b98452e5bd604fbec64c6eda1dfd8416cd76d2a50a7c29e030e748",
+      "sha256_despues": null,
+      "resultado": "pendiente",
+      "motivo": "Mac no enlazada"
+    }
+  ],
+  "dudas": [
+    "ID 33: confirmar si la demanda del 06/11 ante el TJACDMX es este asunto y si hay acuse.",
+    "ID 8: la confesional del 18 de noviembre a las 10:30 no tiene año en la base; si es 2026, es el 18/11/2026.",
+    "ID 12: efectos por confirmar con el engrose; no consta entrega del memorándum.",
+    "ID 11: no consta entrega del memorándum ni si hubo alegatos.",
+    "ID 18: «Son los de Altavista» sin identificar.",
+    "ID 15: la indicación pide revisar TCC y el Colegiado sigue sin identificar.",
+    "ID 34: sin novedad localizada; la fila pide localizar el acuse de inmediato."
+  ],
+  "proximo_paso": "Con la Mac enlazada, sincronizar Escritorio e iCloud con fe4026421a68. Registrar las respuestas de Emi a las dudas."
+}

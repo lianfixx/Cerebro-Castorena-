@@ -2,6 +2,15 @@
 
 Lo más reciente arriba. Formato y reglas: `ia/PROTOCOLO.md`, sección 3. Cada entrada lleva la línea `Agente:`.
 
+## 2026-11-17 · Concentrado: auditoría por sede (ID 9, 11, 12 y 33)
+
+- Agente: Claude Code (sesión de claude.ai con Emi, Fable 5.2)
+- Solicitud: Emi, 17/11/2026 17:46: revisar y auditar que cada sede esté actualizada con lo que debe hacer (sesiones anteriores, correos).
+- Cambios: versión `concentrado-fe4026421a68` derivada de `eca13064f3b1`. La columna de indicaciones pasa a fecharse el 11/11/2026 (día en que Emi escribió la lista). ID 12: sesión del 13/11/2026, modifica y ampara, engrose pendiente. ID 11: instrucción cerrada por acuerdo de 06/03/2026, Ponencia Cinco. ID 9: la audiencia del 13/11 ya pasó. ID 33: nota de control sin cambio de etapa. Guiones de las vistas TJACDMX, Colegiados 2321 y Juzgados 1950; filas 100 a 104 de «Fuentes y cotejo». `HISTORIAL.json`, `MATRIZ.json`, `SINCRONIZACION.json`, `ESTADO.json` y cierre `cerebro/cierres/2026-11-17_1755.json`.
+- Archivos: `cerebro/fuentes/concentrado/fe4026421a68_Concentrado_de_Expedientes_2026-11-17.xlsx`, los JSON citados y este registro.
+- Verificación: validar_matriz.py → aprobado (37 versiones, 0 errores); recalc 255 fórmulas sin error; Drive 1FqdCCTb8M96OmQiUD1mTaEXOCndHYBSt descargado y cotejado por SHA-256.
+- Pendiente: Escritorio e iCloud (Mac no enlazada); dudas de Emi en el cierre (ID 8, 11, 12, 15, 18, 33 y 34); INDEP v23 en Drive, Escritorio e iCloud.
+
 ## 2026-11-17 · Concentrado: indicaciones de Emi para los ID 2 a 20
 
 - Agente: Claude (claude.ai, Opus 5.5), sesión con Emi

@@ -39,7 +39,7 @@
         "anteriores": "2 · Anteriores",
         "otras": "3 · Otras tablas"
       },
-      "estado": "pendiente (INDEP v23 y Concentrado eca13064f3b1); las demás tablas, sincronizadas",
+      "estado": "pendiente (INDEP v23 y Concentrado fe4026421a68); las demás tablas, sincronizadas",
       "last_verified": "2026-11-09T16:30:00-06:00",
       "nota": "«1 · Vigentes» está en la barra lateral de Finder.",
       "pendiente": "Reemplazar «INDEP - Control de expedientes (Juntas y Salas).xlsx» por e13ec8158b02 (18755 B, v23) y mover la v21 a Anteriores; actualizar el LÉEME."
@@ -48,7 +48,7 @@
       "id": "icloud",
       "ubicacion": "iCloud Drive/Castorena · Tablas vigentes/",
       "ruta_mac": "~/Library/Mobile Documents/com~apple~CloudDocs/Castorena · Tablas vigentes/",
-      "estado": "pendiente (INDEP v23 y Concentrado eca13064f3b1); las demás tablas, sincronizadas",
+      "estado": "pendiente (INDEP v23 y Concentrado fe4026421a68); las demás tablas, sincronizadas",
       "last_verified": "2026-11-09T16:30:00-06:00",
       "anteriores": "iCloud Drive/Castorena · Tablas vigentes/Anteriores/ (creada el 09/11/2026 con la versión 55e9e955536e de Liverpool).",
       "pendiente": "Reemplazar «INDEP - Control de expedientes (Juntas y Salas).xlsx» por e13ec8158b02 (18755 B, v23) y mover la v21 a Anteriores; actualizar el LÉEME."
@@ -59,8 +59,8 @@
       "folder_id": "1UE-tJN2QV1X3eRGokx1pB0PMOW9YKn_z",
       "parent_folder_id": "1ukWtDdOzdtMOaR9cGXkkuh2Ks-Ev-nrq",
       "cuenta": "emilianogarciamilla@gmail.com",
-      "estado": "Concentrado eca13064f3b1 sincronizado (17/11/2026); pendiente INDEP v23",
-      "last_verified": "2026-11-17T17:37:00-06:00",
+      "estado": "Concentrado fe4026421a68 sincronizado (17/11/2026); pendiente INDEP v23",
+      "last_verified": "2026-11-17T17:55:00-06:00",
       "subida": "Subidos los 6 archivos el 09/11/2026 por Muse con el conector de Google Drive; SHA-256 verificado descargando de vuelta de Drive. Falta el LÉEME (no está en GitHub, solo en el Escritorio).",
       "anteriores_folder_id": "10xwjo_qHeZDufF37M_shNjZzbtClEMNs",
       "leeme_file_id": "1Fu7oo5c591kEt8yZCv8LGu_IjxvD6gVs",
@@ -75,21 +75,21 @@
         "1Kkrv_Atyd8FjJ1PflK4zXDcQYBlYSgFR"
       ],
       "pendiente": "Reemplazar «INDEP - Control de expedientes (Juntas y Salas).xlsx» por e13ec8158b02 (18755 B, v23) y mover la v21 a Anteriores; actualizar el LÉEME.",
-      "concentrado_2026_11_17": "Subido como archivo nuevo 1GdOYU1hsWzcFw7HQ-jd7GIBIkWRRX2ra y comprobado por SHA-256 al descargarlo; el anterior 1CEqqyTQOa79F9L74tpKDsrKRfU4ZC0tX se movió a Anteriores como «Concentrado de Expedientes (versión del 03-11-2026).xlsx» con su etag. El LÉEME de Drive no se modificó."
+      "concentrado_2026_11_17": "Vigente 1FqdCCTb8M96OmQiUD1mTaEXOCndHYBSt (fe4026421a68), comprobado por SHA-256 al descargarlo. En Anteriores: 1CEqqyTQOa79F9L74tpKDsrKRfU4ZC0tX «versión del 03-11-2026» (7cbaad8795b9) y 1GdOYU1hsWzcFw7HQ-jd7GIBIkWRRX2ra «versión del 17-11-2026 17.40» (eca13064f3b1). El LÉEME de Drive no se modificó."
     }
   ],
   "vigentes": [
     {
       "family_id": "concentrado",
       "nombre_fijo": "Concentrado de Expedientes.xlsx",
-      "sha256": "eca13064f3b12e90e2cbe4aac9a2fc2da3876fa89999b6bfc3a890bc5afee3ec",
-      "size_bytes": 80209,
-      "drive_file_id": "1GdOYU1hsWzcFw7HQ-jd7GIBIkWRRX2ra",
-      "drive_file_id_anterior": "1CEqqyTQOa79F9L74tpKDsrKRfU4ZC0tX",
+      "sha256": "fe4026421a6874f65747d6b2464e334d228c3f7b572b5b2666f85f19d4aabf4c",
+      "size_bytes": 82271,
+      "drive_file_id": "1FqdCCTb8M96OmQiUD1mTaEXOCndHYBSt",
+      "drive_file_id_anterior": "1GdOYU1hsWzcFw7HQ-jd7GIBIkWRRX2ra",
       "pendiente_destinos": {
         "desde": "2026-11-17T17:40:00-06:00",
         "sha256_que_aun_tienen": "7cbaad8795b98452e5bd604fbec64c6eda1dfd8416cd76d2a50a7c29e030e748",
-        "mac_escritorio": "pendiente: Mac no enlazada (17/11/2026). Mover el vigente a «2 · Anteriores» como «Concentrado de Expedientes (versión del 03-11-2026).xlsx» y copiar eca13064f3b1; comprobar antes que el archivo del Escritorio siga siendo 7cbaad8795b9.",
+        "mac_escritorio": "pendiente: Mac no enlazada (17/11/2026). Comprobar que el archivo del Escritorio siga siendo 7cbaad8795b9, moverlo a «2 · Anteriores» como «Concentrado de Expedientes (versión del 03-11-2026).xlsx» y copiar fe4026421a68.",
         "icloud": "pendiente: Mac no enlazada (17/11/2026). Mismo movimiento en «Castorena · Tablas vigentes» y su subcarpeta «Anteriores»."
       }
     },

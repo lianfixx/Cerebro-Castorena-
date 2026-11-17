@@ -1706,6 +1706,73 @@
         ]
       },
       "evidence_state": "recuperado_verificado_bytes",
+      "role": "previous_snapshot",
+      "current_for_family": false,
+      "sheets": [
+        "Principal",
+        "TFJA Insurgentes 881",
+        "TJACDMX Insurgentes 825",
+        "Colegiados 2321",
+        "Juzgados 1950",
+        "Insurgentes 2065",
+        "San Lazaro Civil",
+        "Apelacion Revolucion 366",
+        "SCJN",
+        "TFJA Naucalpan 120",
+        "Puebla TFJA 84",
+        "Puebla Colegiados 82",
+        "TFJA Cancun",
+        "Antes de visita",
+        "Fuentes y cotejo"
+      ],
+      "historical_only": false,
+      "scope_note": "Versión derivada de 7cbaad8795b9 por instrucción directa de Emi (17/11/2026). Columna N «INDICACIONES 17/11/2026» en Principal con las indicaciones de Emi para los ID 2 a 20 (texto literal; solo acentos y ortografía). Los ID 24 a 34 quedan vacíos. Columna I «Indicaciones 17/11/2026» en las 13 vistas por sede (INDEX/MATCH por ID a Principal!N). Fila 100 en «Fuentes y cotejo» con la procedencia. Nota de versión en Principal!A4. Ningún otro valor cambió (cotejo celda por celda contra 7cbaad8795b9). Sustituida el 17/11/2026 17:55 por concentrado-fe4026421a68 (auditoría por sede).",
+      "legal_validation_implied": false
+    },
+    {
+      "id": "concentrado-fe4026421a68",
+      "family_id": "concentrado",
+      "sha256": "fe4026421a6874f65747d6b2464e334d228c3f7b572b5b2666f85f19d4aabf4c",
+      "size_bytes": 82271,
+      "snapshot_path": "fuentes/concentrado/fe4026421a68_Concentrado_de_Expedientes_2026-11-17.xlsx",
+      "source_locator": {
+        "aliases": [
+          {
+            "provider": "claude_session",
+            "name": "Concentrado de Expedientes.xlsx",
+            "execution_path": "fuentes/concentrado/fe4026421a68_Concentrado_de_Expedientes_2026-11-17.xlsx",
+            "size_bytes": 82271,
+            "created_at": "2026-11-17T17:55:00-06:00",
+            "derived_from": "concentrado-eca13064f3b1",
+            "sheets": [
+              "Principal",
+              "TFJA Insurgentes 881",
+              "TJACDMX Insurgentes 825",
+              "Colegiados 2321",
+              "Juzgados 1950",
+              "Insurgentes 2065",
+              "San Lazaro Civil",
+              "Apelacion Revolucion 366",
+              "SCJN",
+              "TFJA Naucalpan 120",
+              "Puebla TFJA 84",
+              "Puebla Colegiados 82",
+              "TFJA Cancun",
+              "Antes de visita",
+              "Fuentes y cotejo"
+            ]
+          },
+          {
+            "provider": "google_drive",
+            "id": "1FqdCCTb8M96OmQiUD1mTaEXOCndHYBSt",
+            "title": "Concentrado de Expedientes.xlsx",
+            "parent_folder_id": "1UE-tJN2QV1X3eRGokx1pB0PMOW9YKn_z",
+            "created_at": "2026-11-17T23:52:18.071Z",
+            "sha256_verified_after_download": true
+          }
+        ]
+      },
+      "evidence_state": "recuperado_verificado_bytes",
       "role": "current_snapshot",
       "current_for_family": true,
       "sheets": [
@@ -1726,7 +1793,7 @@
         "Fuentes y cotejo"
       ],
       "historical_only": false,
-      "scope_note": "Versión derivada de 7cbaad8795b9 por instrucción directa de Emi (17/11/2026). Columna N «INDICACIONES 17/11/2026» en Principal con las indicaciones de Emi para los ID 2 a 20 (texto literal; solo acentos y ortografía). Los ID 24 a 34 quedan vacíos. Columna I «Indicaciones 17/11/2026» en las 13 vistas por sede (INDEX/MATCH por ID a Principal!N). Fila 100 en «Fuentes y cotejo» con la procedencia. Nota de versión en Principal!A4. Ningún otro valor cambió (cotejo celda por celda contra 7cbaad8795b9).",
+      "scope_note": "Versión derivada de eca13064f3b1. Auditoría por sede pedida por Emi (17/11/2026). Celdas de Principal: N6 (encabezado «INDICACIONES 11/11/2026»: la lista la escribió Emi el 11/11, correo a sí mismo), A4, G14 y K14 (ID 9: la audiencia del 13/11 ya pasó), G16, K16 y L16 (ID 11: instrucción cerrada por acuerdo de 06/03/2026, leído en fotografía), G17, K17 y L17 (ID 12: sesión del 13/11/2026, modifica y ampara; engrose pendiente), K31 (ID 33: nota de control, sin cambio de etapa). Vistas: I6 en las 13; TJACDMX D9 y E9; Colegiados 2321 E8; Juzgados 1950 E7. Fuentes y cotejo: fila 100 corregida y filas 101 a 104 nuevas.",
       "legal_validation_implied": false
     }
   ],
