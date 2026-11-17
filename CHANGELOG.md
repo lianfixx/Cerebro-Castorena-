@@ -2,6 +2,15 @@
 
 Lo más reciente arriba. Formato y reglas: `ia/PROTOCOLO.md`, sección 3. Cada entrada lleva la línea `Agente:`.
 
+## 2026-11-16 · Cierre diario programado (sin cambios de tablas)
+
+- Agente: Claude Code (ejecución programada)
+- Solicitud: tarea programada diaria de cierre de la matriz.
+- Cambios: INDEP sin entregas nuevas desde la 48 (main en 2951510, que solo registra el 16/11 como día no laborable JFCA); maestro v23 vigente. Concentrado y maestro INDEP de Drive sin cambio en metadatos; ningún archivo de Drive modificado desde el cierre anterior. `ESTADO.json` y cierre `cerebro/cierres/2026-11-16_1844.json`.
+- Archivos: `cerebro/ESTADO.json`, `cerebro/cierres/2026-11-16_1844.json`, este registro.
+- Verificación: validar_matriz.py → aprobado (0 errores).
+- Pendiente: subir v23 a Drive, Escritorio e iCloud; ACTUAL.json de INDEP sigue en la entrega 18.
+
 ## 2026-11-15 · Cierre diario programado (sin cambios de tablas)
 
 - Agente: Claude Code (ejecución programada)
