@@ -26,7 +26,7 @@ La guía v2 auditada el03/11/2026 es una vista operativa del mismo universo de13
 
 ## No laborales (TFJA)
 
-Quinta familia, incorporada por instrucción de Emi del 04/11/2026 («Sí por favor»). Contiene asuntos no laborales de INDEP ante el TFJA, que se llevan por separado y no suman a los 45 laborales ni los sustituyen. Fuente vigente: la hoja «No laborales (TFJA)» del control del 05/10/2026 (`fuentes/indep/a52c4946e09d_…`), con origen declarado en la Matriz v3 del portal INDEP. Al corte tiene 2 folios (82701 y 82702), que no aparecen en el Concentrado ni en el maestro INDEP vigente. Su vigencia y quién los lleva están por confirmar: no inferir estado procesal, no actualizarlos con boletines laborales JFCA y no moverlos al Concentrado sin evidencia y autorización.
+Quinta familia, incorporada por instrucción de Emi del 04/11/2026 («Sí por favor»). Contiene asuntos no laborales de INDEP ante el TFJA, que se llevan por separado y no suman a los 45 laborales ni los sustituyen. Fuente vigente: la hoja «No laborales (TFJA)» del control del 05/10/2026, en su copia propia `fuentes/no_laborales_tfja/a52c4946e09d_…` (idéntica en bytes al original `fuentes/indep/a52c4946e09d_…`, que se conserva para INDEP), con origen declarado en la Matriz v3 del portal INDEP. Al corte tiene 2 folios (82701 y 82702), que no aparecen en el Concentrado ni en el maestro INDEP vigente. Su vigencia y quién los lleva están por confirmar: no inferir estado procesal, no actualizarlos con boletines laborales JFCA y no moverlos al Concentrado sin evidencia y autorización.
 
 ## Cotejo Grupo Liverpool
 

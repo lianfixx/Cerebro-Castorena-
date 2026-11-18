@@ -1188,7 +1188,7 @@
         "No laborales (TFJA)"
       ],
       "historical_only": true,
-      "scope_note": "Conservado íntegro como antecedente. Su cuarta hoja No laborales (TFJA) es desde el 04/11/2026 la fuente de la familia no_laborales_tfja (versión no_laborales_tfja-a52c4946e09d).",
+      "scope_note": "Conservado íntegro como antecedente. Su cuarta hoja No laborales (TFJA) es desde el 04/11/2026 la fuente de la familia no_laborales_tfja (versión no_laborales_tfja-a52c4946e09d). El 17/11/2026 se agregó una copia idéntica para la familia No laborales (TFJA) en fuentes/no_laborales_tfja/a52c4946e09d_No_laborales_TFJA_hoja4_de_Control_de_expedientes_Junta_Especial_2_C_1_.xlsx; este archivo, su ruta y su versión no cambian.",
       "excluded_from_operational_index": [
         "No laborales (TFJA)"
       ],
@@ -1473,13 +1473,15 @@
       "family_id": "no_laborales_tfja",
       "sha256": "a52c4946e09d49ab0857937388d84d384190a83e6ba588592cc7c6f0d7b60ee5",
       "size_bytes": 14027,
-      "snapshot_path": "fuentes/indep/a52c4946e09d_Control_de_expedientes_Junta_Especial_2_C_1_.xlsx",
+      "snapshot_path": "fuentes/no_laborales_tfja/a52c4946e09d_No_laborales_TFJA_hoja4_de_Control_de_expedientes_Junta_Especial_2_C_1_.xlsx",
       "source_locator": {
         "same_bytes_as_version": "indep-a52c4946e09d",
         "sheet": "No laborales (TFJA)",
         "range": "A1:J6",
         "origin_declared_in_sheet": "Matriz v3 (portal INDEP)",
-        "origin_version_id": "indep-4392452cb21f"
+        "origin_version_id": "indep-4392452cb21f",
+        "original_snapshot_path": "fuentes/indep/a52c4946e09d_Control_de_expedientes_Junta_Especial_2_C_1_.xlsx",
+        "copia_identica": "17/11/2026: copia byte a byte del original en fuentes/no_laborales_tfja/ para que la fuente de la familia sea inequívoca. El original sigue en fuentes/indep/ sin mover, renombrar ni modificar, y la versión indep-a52c4946e09d sigue apuntando a él. Mismo SHA-256 y tamaño."
       },
       "evidence_state": "recuperado_verificado_bytes",
       "role": "current_snapshot",
@@ -1488,7 +1490,7 @@
         "No laborales (TFJA)"
       ],
       "historical_only": false,
-      "scope_note": "Hoja «No laborales (TFJA)» del control del 05/10/2026: 2 asuntos de INDEP ante el TFJA, fuera de los 45 laborales. Corte al 05/10/2026; vigencia por confirmar.",
+      "scope_note": "Hoja «No laborales (TFJA)» del control del 05/10/2026: 2 asuntos de INDEP ante el TFJA, fuera de los 45 laborales. Corte al 05/10/2026; vigencia por confirmar. Desde el 17/11/2026 su snapshot es la copia idéntica de fuentes/no_laborales_tfja/ (ver LEEME.md de esa carpeta).",
       "legal_validation_implied": false
     },
     {
@@ -1773,6 +1775,65 @@
         ]
       },
       "evidence_state": "recuperado_verificado_bytes",
+      "role": "previous_snapshot",
+      "current_for_family": false,
+      "sheets": [
+        "Principal",
+        "TFJA Insurgentes 881",
+        "TJACDMX Insurgentes 825",
+        "Colegiados 2321",
+        "Juzgados 1950",
+        "Insurgentes 2065",
+        "San Lazaro Civil",
+        "Apelacion Revolucion 366",
+        "SCJN",
+        "TFJA Naucalpan 120",
+        "Puebla TFJA 84",
+        "Puebla Colegiados 82",
+        "TFJA Cancun",
+        "Antes de visita",
+        "Fuentes y cotejo"
+      ],
+      "historical_only": false,
+      "scope_note": "Versión derivada de eca13064f3b1. Auditoría por sede pedida por Emi (17/11/2026). Celdas de Principal: N6 (encabezado «INDICACIONES 11/11/2026»: la lista la escribió Emi el 11/11, correo a sí mismo), A4, G14 y K14 (ID 9: la audiencia del 13/11 ya pasó), G16, K16 y L16 (ID 11: instrucción cerrada por acuerdo de 06/03/2026, leído en fotografía), G17, K17 y L17 (ID 12: sesión del 13/11/2026, modifica y ampara; engrose pendiente), K31 (ID 33: nota de control, sin cambio de etapa). Vistas: I6 en las 13; TJACDMX D9 y E9; Colegiados 2321 E8; Juzgados 1950 E7. Fuentes y cotejo: fila 100 corregida y filas 101 a 104 nuevas.",
+      "legal_validation_implied": false
+    },
+    {
+      "id": "concentrado-19013131d8dd",
+      "family_id": "concentrado",
+      "sha256": "19013131d8ddfb28e335502d5f35f08511f1aa9a7140bb5111be226430fefcbb",
+      "size_bytes": 83339,
+      "snapshot_path": "fuentes/concentrado/19013131d8dd_Concentrado_de_Expedientes_2026-11-17_ID12.xlsx",
+      "source_locator": {
+        "aliases": [
+          {
+            "provider": "claude_session",
+            "name": "Concentrado de Expedientes.xlsx",
+            "execution_path": "fuentes/concentrado/19013131d8dd_Concentrado_de_Expedientes_2026-11-17_ID12.xlsx",
+            "size_bytes": 83339,
+            "created_at": "2026-11-17T19:05:00-06:00",
+            "derived_from": "concentrado-fe4026421a68",
+            "sheets": [
+              "Principal",
+              "TFJA Insurgentes 881",
+              "TJACDMX Insurgentes 825",
+              "Colegiados 2321",
+              "Juzgados 1950",
+              "Insurgentes 2065",
+              "San Lazaro Civil",
+              "Apelacion Revolucion 366",
+              "SCJN",
+              "TFJA Naucalpan 120",
+              "Puebla TFJA 84",
+              "Puebla Colegiados 82",
+              "TFJA Cancun",
+              "Antes de visita",
+              "Fuentes y cotejo"
+            ]
+          }
+        ]
+      },
+      "evidence_state": "recuperado_verificado_bytes",
       "role": "current_snapshot",
       "current_for_family": true,
       "sheets": [
@@ -1793,7 +1854,7 @@
         "Fuentes y cotejo"
       ],
       "historical_only": false,
-      "scope_note": "Versión derivada de eca13064f3b1. Auditoría por sede pedida por Emi (17/11/2026). Celdas de Principal: N6 (encabezado «INDICACIONES 11/11/2026»: la lista la escribió Emi el 11/11, correo a sí mismo), A4, G14 y K14 (ID 9: la audiencia del 13/11 ya pasó), G16, K16 y L16 (ID 11: instrucción cerrada por acuerdo de 06/03/2026, leído en fotografía), G17, K17 y L17 (ID 12: sesión del 13/11/2026, modifica y ampara; engrose pendiente), K31 (ID 33: nota de control, sin cambio de etapa). Vistas: I6 en las 13; TJACDMX D9 y E9; Colegiados 2321 E8; Juzgados 1950 E7. Fuentes y cotejo: fila 100 corregida y filas 101 a 104 nuevas.",
+      "scope_note": "Versión derivada de fe4026421a68. ID 12 conciliado (Emi, 17/11/2026 18:48): sesión del 13/11/2026 del Décimo Tribunal Colegiado en Materia Administrativa del Primer Circuito, Magistrado Alfredo Enrique Báez López; por unanimidad modifica la sentencia y mantiene el amparo; en espera del engrose para conocer los efectos y el monto a devolver. La nota de Drive (Hoja1!Q17, «viernes 6» y «Penmdiente memorando») y la de la base (regreso 29 o 30/10) quedan como antecedente superado, citadas literalmente. Se retiró de K17 la frase «el memorándum fechado el 06/11 se preparó antes de la sesión» y se sustituyó por lo que consta: el memorándum se preparó el 05/11/2026 y lleva fecha 6 de noviembre de 2026; no consta su entrega. No se afirma qué fecha era el «viernes 6» de la nota. Celdas: Principal: A4 (nota de versión), G17 (etapa) y K17 (comentarios) del ID 12; vista Colegiados 2321: E8 (qué confirmar); Fuentes y cotejo: filas 105 (conciliación de notas) y 106 (memorándum) nuevas, tabla EvidenciaCLSR extendida a A6:G106. Ningún otro valor ni estilo cambió (cotejo celda por celda contra fe4026421a68); valores en caché de las vistas recalculados.",
       "legal_validation_implied": false
     },
     {

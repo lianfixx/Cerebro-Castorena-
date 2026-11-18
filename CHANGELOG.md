@@ -2,6 +2,15 @@
 
 Lo más reciente arriba. Formato y reglas: `ia/PROTOCOLO.md`, sección 3. Cada entrada lleva la línea `Agente:`.
 
+## 2026-11-17 · Concentrado ID 12 conciliado y fuente TFJA inequívoca
+
+- Agente: Claude Code (sesión de claude.ai con Emi, Opus 5.5)
+- Solicitud: Emi, 17/11/2026 18:48: conciliar el ID 12 (A.R. 411/2025) con la nota de Drive Hoja1!Q17, la base y la sesión del 13/11/2026, sin inventar; hacer inequívoca la fuente de No laborales (TFJA) sin tocar el original; solo GitHub.
+- Cambios: versión `concentrado-19013131d8dd` derivada de `fe4026421a68`. Principal A4, G17 y K17; Colegiados 2321 E8; «Fuentes y cotejo» filas 105 y 106. ID 12: sesión del 13/11/2026 del Décimo Colegiado Administrativo, Magistrado Alfredo Enrique Báez López, unanimidad, modifica la sentencia y mantiene el amparo, en espera del engrose (efectos y monto a devolver). Notas de Drive y de la base citadas como antecedente superado. Se retiró la afirmación «memorándum fechado el 06/11» y se dejó lo que consta (preparado el 05/11/2026, fechado 6 de noviembre de 2026, sin constancia de entrega); no se afirma qué fecha era el «viernes 6». No laborales (TFJA): copia byte a byte en `fuentes/no_laborales_tfja/` (mismo SHA-256 a52c4946e09d…), con LEEME; el original de `fuentes/indep/` y la versión `indep-a52c4946e09d` no cambian. La hoja del despacho en Drive no se modificó.
+- Archivos: `cerebro/fuentes/concentrado/19013131d8dd_Concentrado_de_Expedientes_2026-11-17_ID12.xlsx`, `cerebro/fuentes/no_laborales_tfja/a52c4946e09d_No_laborales_TFJA_hoja4_de_Control_de_expedientes_Junta_Especial_2_C_1_.xlsx`, `cerebro/fuentes/no_laborales_tfja/LEEME.md`, `cerebro/fuentes/indep/LEEME_a52c4946e09d.md`, `cerebro/HISTORIAL.json`, `cerebro/MATRIZ.json`, `cerebro/SINCRONIZACION.json`, `cerebro/ESTADO.json`, `cerebro/skill/references/familias.md`, `cerebro/cierres/2026-11-17_1905.json`, este registro.
+- Verificación: cotejo celda por celda contra fe4026421a68 → solo las celdas citadas; recalc LibreOffice 256 fórmulas, 0 errores; vistas por ID, 0 diferencias; cmp de la copia TFJA → idéntica; validar_matriz.py (ver resultado en el commit). Drive 1YtT78… descargado de nuevo → idéntico a d527520672b8.
+- Pendiente: subir 19013131d8dd a Drive (sigue fe4026421a68), Escritorio e iCloud (siguen 7cbaad8795b9, Mac no enlazada); INDEP v24 en Drive, Escritorio e iCloud; engrose del A.R. 411/2025.
+
 ## 2026-11-17 · Cierre diario programado: maestro INDEP v24 copiado
 
 - Agente: Claude Code (ejecución programada)

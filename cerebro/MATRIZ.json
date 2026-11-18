@@ -34,11 +34,11 @@
       "id": "concentrado",
       "title": "Concentrado de expedientes",
       "role": "Tabla de control de 26 registros y vistas por sede; conservar ID y saltos.",
-      "current_version_id": "concentrado-fe4026421a68",
+      "current_version_id": "concentrado-19013131d8dd",
       "current_library_url": null,
-      "sha256": "fe4026421a6874f65747d6b2464e334d228c3f7b572b5b2666f85f19d4aabf4c",
-      "current_sha256": "fe4026421a6874f65747d6b2464e334d228c3f7b572b5b2666f85f19d4aabf4c",
-      "current_snapshot_path": "fuentes/concentrado/fe4026421a68_Concentrado_de_Expedientes_2026-11-17.xlsx",
+      "sha256": "19013131d8ddfb28e335502d5f35f08511f1aa9a7140bb5111be226430fefcbb",
+      "current_sha256": "19013131d8ddfb28e335502d5f35f08511f1aa9a7140bb5111be226430fefcbb",
+      "current_snapshot_path": "fuentes/concentrado/19013131d8dd_Concentrado_de_Expedientes_2026-11-17_ID12.xlsx",
       "universo": {
         "unit": "registro de control",
         "count": 26,
@@ -80,8 +80,9 @@
         "newer_source": "Drive laboral 1YtT78mIRVDr_oZvkEVDyqBl0howya5R8, modificado 2026-11-03T20:10:28.721Z; revisión actual modificada 20:10:36.774Z por gcastorena.",
         "caution": "Mayor fecha del archivo Drive no vuelve superiores todos sus campos: conserva 19 registros y asociaciones históricas que el adjunto corrigió. Hay al menos una nota nueva relevante en ID12; requiere reconciliación posterior autorizada.",
         "update_2026_11_17": "Emi, 17/11/2026, sesión de Claude: pidió agregar al Concentrado más actualizado sus indicaciones numeradas 2 a 20, que coinciden uno a uno con los ID 2 a 20. Base verificada: 7cbaad8795b9 (vigente en GitHub y Drive). Columna N «INDICACIONES 17/11/2026» en Principal con las indicaciones de Emi para los ID 2 a 20 (texto literal; solo acentos y ortografía). Los ID 24 a 34 quedan vacíos. Columna I «Indicaciones 17/11/2026» en las 13 vistas por sede (INDEX/MATCH por ID a Principal!N). Fila 100 en «Fuentes y cotejo» con la procedencia. Nota de versión en Principal!A4. Ningún otro valor cambió (cotejo celda por celda contra 7cbaad8795b9). La hoja del despacho en Drive (1YtT78…) sigue idéntica a d527520672b8; su reconciliación (ID 12) continúa pendiente.",
-        "previous_current": "concentrado-eca13064f3b1",
-        "update_2026_11_17_auditoria": "Auditoría por sede pedida por Emi (17/11/2026). Celdas de Principal: N6 (encabezado «INDICACIONES 11/11/2026»: la lista la escribió Emi el 11/11, correo a sí mismo), A4, G14 y K14 (ID 9: la audiencia del 13/11 ya pasó), G16, K16 y L16 (ID 11: instrucción cerrada por acuerdo de 06/03/2026, leído en fotografía), G17, K17 y L17 (ID 12: sesión del 13/11/2026, modifica y ampara; engrose pendiente), K31 (ID 33: nota de control, sin cambio de etapa). Vistas: I6 en las 13; TJACDMX D9 y E9; Colegiados 2321 E8; Juzgados 1950 E7. Fuentes y cotejo: fila 100 corregida y filas 101 a 104 nuevas. Niveles de evidencia: ID 11, documento leído; ID 12, video de la sesión y captura de Emi (no engrose); ID 33, pendiente de confirmar."
+        "previous_current": "concentrado-fe4026421a68",
+        "update_2026_11_17_auditoria": "Auditoría por sede pedida por Emi (17/11/2026). Celdas de Principal: N6 (encabezado «INDICACIONES 11/11/2026»: la lista la escribió Emi el 11/11, correo a sí mismo), A4, G14 y K14 (ID 9: la audiencia del 13/11 ya pasó), G16, K16 y L16 (ID 11: instrucción cerrada por acuerdo de 06/03/2026, leído en fotografía), G17, K17 y L17 (ID 12: sesión del 13/11/2026, modifica y ampara; engrose pendiente), K31 (ID 33: nota de control, sin cambio de etapa). Vistas: I6 en las 13; TJACDMX D9 y E9; Colegiados 2321 E8; Juzgados 1950 E7. Fuentes y cotejo: fila 100 corregida y filas 101 a 104 nuevas. Niveles de evidencia: ID 11, documento leído; ID 12, video de la sesión y captura de Emi (no engrose); ID 33, pendiente de confirmar.",
+        "update_2026_11_17_id12": "ID 12 conciliado (Emi, 17/11/2026 18:48): sesión del 13/11/2026 del Décimo Tribunal Colegiado en Materia Administrativa del Primer Circuito, Magistrado Alfredo Enrique Báez López; por unanimidad modifica la sentencia y mantiene el amparo; en espera del engrose para conocer los efectos y el monto a devolver. La nota de Drive (Hoja1!Q17, «viernes 6» y «Penmdiente memorando») y la de la base (regreso 29 o 30/10) quedan como antecedente superado, citadas literalmente. Se retiró de K17 la frase «el memorándum fechado el 06/11 se preparó antes de la sesión» y se sustituyó por lo que consta: el memorándum se preparó el 05/11/2026 y lleva fecha 6 de noviembre de 2026; no consta su entrega. No se afirma qué fecha era el «viernes 6» de la nota. Celdas: Principal: A4 (nota de versión), G17 (etapa) y K17 (comentarios) del ID 12; vista Colegiados 2321: E8 (qué confirmar); Fuentes y cotejo: filas 105 (conciliación de notas) y 106 (memorándum) nuevas, tabla EvidenciaCLSR extendida a A6:G106. Ningún otro valor ni estilo cambió (cotejo celda por celda contra fe4026421a68); valores en caché de las vistas recalculados."
       },
       "audit_path": "evidencia/concentrado.json"
     },
@@ -152,7 +153,7 @@
       "current_library_url": null,
       "sha256": "a52c4946e09d49ab0857937388d84d384190a83e6ba588592cc7c6f0d7b60ee5",
       "current_sha256": "a52c4946e09d49ab0857937388d84d384190a83e6ba588592cc7c6f0d7b60ee5",
-      "current_snapshot_path": "fuentes/indep/a52c4946e09d_Control_de_expedientes_Junta_Especial_2_C_1_.xlsx",
+      "current_snapshot_path": "fuentes/no_laborales_tfja/a52c4946e09d_No_laborales_TFJA_hoja4_de_Control_de_expedientes_Junta_Especial_2_C_1_.xlsx",
       "universo": {
         "unit": "folio no laboral",
         "count": 2,
@@ -161,12 +162,13 @@
           82702
         ],
         "corte": "2026-10-05",
-        "source": "fuentes/indep/a52c4946e09d_Control_de_expedientes_Junta_Especial_2_C_1_.xlsx#No laborales (TFJA)"
+        "source": "fuentes/no_laborales_tfja/a52c4946e09d_No_laborales_TFJA_hoja4_de_Control_de_expedientes_Junta_Especial_2_C_1_.xlsx#No laborales (TFJA)"
       },
       "current_selection_basis": {
         "authorization": "Emi, 04/11/2026, sesión de Claude Code: «Sí por favor» a incorporar «No laborales (TFJA)» como categoría.",
         "scope_decision": "Decisión de implementación del agente: familia separada con la hoja del 05/10/2026 como fuente; sin importar datos nuevos ni mezclarla con Concentrado o INDEP.",
-        "overlap_check": "Ninguno de sus expedientes aparece en el Concentrado vigente; los folios no están en el maestro INDEP v21."
+        "overlap_check": "Ninguno de sus expedientes aparece en el Concentrado vigente; los folios no están en el maestro INDEP v21.",
+        "fuente_inequivoca_2026_11_17": "La fuente se copió byte a byte a fuentes/no_laborales_tfja/a52c4946e09d_No_laborales_TFJA_hoja4_de_Control_de_expedientes_Junta_Especial_2_C_1_.xlsx (mismo SHA-256 a52c4946e09d…, 14027 B). Solo cuenta la hoja «No laborales (TFJA)», A1:J6. El original fuentes/indep/a52c4946e09d_Control_de_expedientes_Junta_Especial_2_C_1_.xlsx sigue en su lugar, sin cambios, como antecedente INDEP (Junta Especial 2, Salas TFCA y Poder Judicial)."
       },
       "audit_path": "cierres/2026-11-04_1644.json"
     },
@@ -242,10 +244,13 @@
       "attachment_cell": "Principal!K17",
       "difference": "Adjunto conserva regreso sugerido29o30/10 y no incluye viernes6 ni memorando.",
       "caution": "Fecha completa no está escrita. 06/11/2026 sería inferencia temporal, no dato literal. No afirmar listado, presentación, término ni equivalencia memorando/promoción de impulso.",
-      "state": "pending_reconciliation",
+      "state": "reconciled",
       "source_version_id": "concentrado-d527520672b8",
       "base_unchanged": true,
-      "note_2026_11_17": "La nota de la hoja del despacho («Ir el viernes 6 para ver cuando se lista. Pendiente memorando») quedó superada por la sesión del 13/11/2026 registrada en fe4026421a68; la hoja del despacho no se modificó."
+      "note_2026_11_17": "La nota de la hoja del despacho («Ir el viernes 6 para ver cuando se lista. Pendiente memorando») quedó superada por la sesión del 13/11/2026 registrada en fe4026421a68; la hoja del despacho no se modificó.",
+      "reconciled_at": "2026-11-17T19:05:00-06:00",
+      "reconciled_in_version": "concentrado-19013131d8dd",
+      "resolution": "ID 12 conciliado (Emi, 17/11/2026 18:48): sesión del 13/11/2026 del Décimo Tribunal Colegiado en Materia Administrativa del Primer Circuito, Magistrado Alfredo Enrique Báez López; por unanimidad modifica la sentencia y mantiene el amparo; en espera del engrose para conocer los efectos y el monto a devolver. La nota de Drive (Hoja1!Q17, «viernes 6» y «Penmdiente memorando») y la de la base (regreso 29 o 30/10) quedan como antecedente superado, citadas literalmente. Se retiró de K17 la frase «el memorándum fechado el 06/11 se preparó antes de la sesión» y se sustituyó por lo que consta: el memorándum se preparó el 05/11/2026 y lleva fecha 6 de noviembre de 2026; no consta su entrega. No se afirma qué fecha era el «viernes 6» de la nota. La hoja del despacho en Drive no se modificó; se descargó de nuevo el 17/11/2026 y sigue idéntica a d527520672b8."
     },
     {
       "id": "no_laborales_tfja_vigencia",

@@ -1,0 +1,127 @@
+{
+  "schema_version": "castorena-cierre-v1",
+  "fecha_hora_local": "2026-11-17T19:05:00-06:00",
+  "timezone": "America/Mexico_City",
+  "base_matrix_commit": "800b42b",
+  "Agente": "Claude Code (sesión de claude.ai con Emi, Opus 5.5)",
+  "solicitud": "Emi, 17/11/2026 18:48: 1) conciliar el ID 12 del Concentrado (A.R. 411/2025, Alejandra Romo Córdoba) con la nota de Drive Hoja1!Q17, la base y el hecho nuevo de la sesión del 13/11/2026, sin inventar; 2) hacer inequívoca la fuente de No laborales (TFJA) sin borrar, mover ni sobrescribir el original y sin romper las familias que usan el mismo archivo; 3) reportar. Solo la parte de GitHub.",
+  "scope": {
+    "families_reviewed": 2,
+    "emails_sent": false,
+    "drafts_created": false,
+    "indep_modified": false
+  },
+  "fuentes_leidas": [
+    "Concentrado fe4026421a68 (vigente) y 7cbaad8795b9 (base), Principal!K17 y vistas",
+    "Hoja del despacho en Drive 1YtT78mIRVDr_oZvkEVDyqBl0howya5R8 descargada con el conector el 17/11/2026: SHA-256 idéntico a d527520672b8; Hoja1!Q17 literal sin cambio",
+    "Metadatos de Drive del Concentrado vigente 1FqdCCTb8M96OmQiUD1mTaEXOCndHYBSt (82271 B, fe4026421a68)",
+    "Sesiones de Claude «Memorándum para secretario de acuerdos» (05/11/2026; borrador con fecha 6 de noviembre de 2026) y «Sesiones del Exp 411/2025» (17/11/2026; transcripción del asunto 7 con la sentencia de 31/03/2025)",
+    "Mensaje de Emi del 17/11/2026 18:48 con el resultado de la sesión del 13/11/2026"
+  ],
+  "fuentes_no_accesibles": [
+    "Mac, Escritorio e iCloud (no enlazada)",
+    "Engrose del A.R. 411/2025 (no existe aún en lo revisado)",
+    "Constancia de entrega del memorándum"
+  ],
+  "versions_before": {
+    "concentrado": "concentrado-fe4026421a68",
+    "no_laborales_tfja": "no_laborales_tfja-a52c4946e09d (fuentes/indep/…)"
+  },
+  "versions_after": {
+    "concentrado": "concentrado-19013131d8dd",
+    "no_laborales_tfja": "no_laborales_tfja-a52c4946e09d (mismos bytes; snapshot en fuentes/no_laborales_tfja/…)"
+  },
+  "changes": [
+    {
+      "type": "version_nueva",
+      "family_id": "concentrado",
+      "key": "ID 12",
+      "fuente": "Drive 1YtT78… Hoja1!Q17 (d527520672b8); Concentrado 7cbaad8795b9 Principal!K17; mensaje de Emi del 17/11/2026 18:48; sesiones de Claude citadas",
+      "nivel_de_evidencia": "confirmación de Emi (sesión, unanimidad, Magistrado, espera del engrose); documento leído (nota de Drive, base, borrador del memorándum); video de la sesión con subtítulos automáticos (asunto 7, sentencia de 31/03/2025). No es el engrose.",
+      "celdas": [
+        {
+          "celda": "Principal!G17",
+          "antes": "Resuelto en sesión del 13/11/2026: modifica y ampara; engrose pendiente",
+          "despues": "Resuelto el 13/11/2026 por unanimidad: modifica la sentencia y mantiene el amparo; en espera del engrose"
+        },
+        {
+          "celda": "Principal!K17",
+          "antes": "…El memorándum fechado el 06/11 se preparó antes de la sesión; no consta si se entregó. Secretario: Carlos Bahena Meza.",
+          "despues": "Agrega devolución del ISABI según Emi, Décimo Tribunal Colegiado en Materia Administrativa del Primer Circuito, unanimidad, mantiene el amparo, espera del engrose para efectos y monto a devolver; cita literal de la nota de Drive y de la base como antecedente superado; memorándum preparado el 05/11/2026 con fecha 6 de noviembre de 2026, sin constancia de entrega; sin afirmar la fecha del «viernes 6»."
+        },
+        {
+          "celda": "Principal!A4",
+          "antes": "…Auditoría del 17/11/2026: actualizados los ID 9, 11, 12 y 33. …",
+          "despues": "…; ID 12 conciliado el mismo día con la nota de Drive y la sesión del 13/11/2026. …"
+        },
+        {
+          "celda": "Colegiados 2321!E8",
+          "antes": "…(asunto 7; modifica y ampara). ¿Ya está firmado el engrose? Pido conocer los efectos, la fecha de notificación y cómo obtener copia.",
+          "despues": "…(asunto 7; modifica y mantiene el amparo). ¿Ya está firmado el engrose? Pido conocer los efectos, el monto a devolver, la fecha de notificación y cómo obtener copia."
+        },
+        {
+          "celda": "Fuentes y cotejo!A105:G105",
+          "antes": null,
+          "despues": "Conciliación de notas del ID 12 (fuentes y límites)"
+        },
+        {
+          "celda": "Fuentes y cotejo!A106:F106",
+          "antes": null,
+          "despues": "Memorándum del ID 12 (preparado 05/11/2026, fecha 6 de noviembre de 2026, sin constancia de entrega)"
+        }
+      ],
+      "sin_cambio": "L17 (13/11/2026), N17 («Memorándum.», indicación de Emi del 11/11) y todas las demás celdas. La hoja del despacho en Drive no se modificó.",
+      "validacion": "Cotejo celda por celda contra fe4026421a68 (valores, fórmulas y estilos): solo las celdas listadas; recalc LibreOffice 256 fórmulas, 0 errores; vistas cotejadas por ID contra Principal (0 diferencias); tabla EvidenciaCLSR A6:G106."
+    },
+    {
+      "type": "copia_identica_de_fuente",
+      "family_id": "no_laborales_tfja",
+      "detalle": "Copia byte a byte de fuentes/indep/a52c4946e09d_Control_de_expedientes_Junta_Especial_2_C_1_.xlsx a fuentes/no_laborales_tfja/a52c4946e09d_No_laborales_TFJA_hoja4_de_Control_de_expedientes_Junta_Especial_2_C_1_.xlsx, con LEEME.md en la carpeta nueva y LEEME_a52c4946e09d.md junto al original. La versión no_laborales_tfja-a52c4946e09d apunta a la copia y registra original_snapshot_path; indep-a52c4946e09d sigue apuntando al original. MATRIZ (current_snapshot_path y universo.source), SINCRONIZACION (github_path) y skill/references/familias.md actualizados.",
+      "por_que_no_fuentes_tfca": "TFJA no es TFCA; fuentes/tfca/ contiene la guía laboral TFCA y mezclarla confundiría familias. La carpeta sigue la regla fuentes/<familia>/ (operacion.md 7b).",
+      "validacion": "cmp y SHA-256: copia y original a52c4946e09d49ab0857937388d84d384190a83e6ba588592cc7c6f0d7b60ee5, 14027 B; validar_matriz.py comprueba ambas rutas."
+    }
+  ],
+  "sync": [
+    {
+      "destino": "github",
+      "archivo": "fuentes/concentrado/19013131d8dd_Concentrado_de_Expedientes_2026-11-17_ID12.xlsx",
+      "sha256_antes": "fe4026421a6874f65747d6b2464e334d228c3f7b572b5b2666f85f19d4aabf4c",
+      "sha256_despues": "19013131d8ddfb28e335502d5f35f08511f1aa9a7140bb5111be226430fefcbb",
+      "resultado": "sincronizado en este commit (comprobación posterior en el reporte de la sesión)"
+    },
+    {
+      "destino": "drive",
+      "archivo": "Concentrado de Expedientes.xlsx (1FqdCCTb8M96OmQiUD1mTaEXOCndHYBSt)",
+      "sha256_antes": "fe4026421a6874f65747d6b2464e334d228c3f7b572b5b2666f85f19d4aabf4c",
+      "sha256_despues": null,
+      "resultado": "pendiente",
+      "motivo": "Emi pidió solo la parte de GitHub; el conector de Drive respondió en lectura (82271 B), pero no se escribió."
+    },
+    {
+      "destino": "mac_escritorio",
+      "sha256_antes": "7cbaad8795b98452e5bd604fbec64c6eda1dfd8416cd76d2a50a7c29e030e748",
+      "sha256_despues": null,
+      "resultado": "pendiente",
+      "motivo": "Mac no enlazada"
+    },
+    {
+      "destino": "icloud",
+      "sha256_antes": "7cbaad8795b98452e5bd604fbec64c6eda1dfd8416cd76d2a50a7c29e030e748",
+      "sha256_despues": null,
+      "resultado": "pendiente",
+      "motivo": "Mac no enlazada"
+    },
+    {
+      "destino": "no_laborales_tfja (Drive, Escritorio, iCloud)",
+      "resultado": "sin cambio necesario",
+      "motivo": "Mismos bytes; el nombre fijo de esos destinos ya es «No laborales (TFJA) - corte 05-10-2026.xlsx»."
+    }
+  ],
+  "dudas": [
+    "ID 12: efectos y monto a devolver, pendientes del engrose y su notificación.",
+    "ID 12: no consta si el memorándum se entregó.",
+    "ID 12: Emi escribe ISABI; el memorándum habla de impuesto sobre adquisición de inmuebles (art. 113 del Código Fiscal de la CDMX). Se conservaron ambas formas sin unificarlas.",
+    "No laborales (TFJA): vigencia de los folios 82701 y 82702 y quién los lleva, sin cambio."
+  ],
+  "proximo_paso": "Si Emi lo autoriza, subir 19013131d8dd a Drive (fe4026421a68 a Anteriores) y verificar por SHA-256; con la Mac enlazada, Escritorio e iCloud. Registrar el engrose del A.R. 411/2025 cuando exista."
+}

@@ -29,7 +29,7 @@
       "id": "github",
       "ubicacion": "lianfixx/Cerebro-Castorena-, main, cerebro/fuentes/<familia>/",
       "estado": "sincronizado",
-      "last_verified": "2026-11-17T18:45:00-06:00"
+      "last_verified": "2026-11-17T19:05:00-06:00"
     },
     {
       "id": "mac_escritorio",
@@ -39,7 +39,7 @@
         "anteriores": "2 · Anteriores",
         "otras": "3 · Otras tablas"
       },
-      "estado": "pendiente (INDEP v23 y Concentrado fe4026421a68); las demás tablas, sincronizadas",
+      "estado": "pendiente (INDEP v24 y Concentrado 19013131d8dd; tienen 7cbaad8795b9); las demás tablas, sincronizadas",
       "last_verified": "2026-11-09T16:30:00-06:00",
       "nota": "«1 · Vigentes» está en la barra lateral de Finder.",
       "pendiente": "Reemplazar «INDEP - Control de expedientes (Juntas y Salas).xlsx» por 787f69bc474f (19085 B, v24) y mover la v21 a Anteriores; actualizar el LÉEME."
@@ -48,7 +48,7 @@
       "id": "icloud",
       "ubicacion": "iCloud Drive/Castorena · Tablas vigentes/",
       "ruta_mac": "~/Library/Mobile Documents/com~apple~CloudDocs/Castorena · Tablas vigentes/",
-      "estado": "pendiente (INDEP v23 y Concentrado fe4026421a68); las demás tablas, sincronizadas",
+      "estado": "pendiente (INDEP v24 y Concentrado 19013131d8dd; tienen 7cbaad8795b9); las demás tablas, sincronizadas",
       "last_verified": "2026-11-09T16:30:00-06:00",
       "anteriores": "iCloud Drive/Castorena · Tablas vigentes/Anteriores/ (creada el 09/11/2026 con la versión 55e9e955536e de Liverpool).",
       "pendiente": "Reemplazar «INDEP - Control de expedientes (Juntas y Salas).xlsx» por 787f69bc474f (19085 B, v24) y mover la v21 a Anteriores; actualizar el LÉEME."
@@ -59,7 +59,7 @@
       "folder_id": "1UE-tJN2QV1X3eRGokx1pB0PMOW9YKn_z",
       "parent_folder_id": "1ukWtDdOzdtMOaR9cGXkkuh2Ks-Ev-nrq",
       "cuenta": "emilianogarciamilla@gmail.com",
-      "estado": "Concentrado fe4026421a68 sincronizado (17/11/2026); pendiente INDEP v23",
+      "estado": "pendiente Concentrado 19013131d8dd (Drive tiene fe4026421a68) e INDEP v24",
       "last_verified": "2026-11-17T17:55:00-06:00",
       "subida": "Subidos los 6 archivos el 09/11/2026 por Muse con el conector de Google Drive; SHA-256 verificado descargando de vuelta de Drive. Falta el LÉEME (no está en GitHub, solo en el Escritorio).",
       "anteriores_folder_id": "10xwjo_qHeZDufF37M_shNjZzbtClEMNs",
@@ -75,21 +75,27 @@
         "1Kkrv_Atyd8FjJ1PflK4zXDcQYBlYSgFR"
       ],
       "pendiente": "Reemplazar «INDEP - Control de expedientes (Juntas y Salas).xlsx» por 787f69bc474f (19085 B, v24) y mover la v21 a Anteriores; actualizar el LÉEME.",
-      "concentrado_2026_11_17": "Vigente 1FqdCCTb8M96OmQiUD1mTaEXOCndHYBSt (fe4026421a68), comprobado por SHA-256 al descargarlo. En Anteriores: 1CEqqyTQOa79F9L74tpKDsrKRfU4ZC0tX «versión del 03-11-2026» (7cbaad8795b9) y 1GdOYU1hsWzcFw7HQ-jd7GIBIkWRRX2ra «versión del 17-11-2026 17.40» (eca13064f3b1). El LÉEME de Drive no se modificó."
+      "concentrado_2026_11_17": "Vigente 1FqdCCTb8M96OmQiUD1mTaEXOCndHYBSt (fe4026421a68), comprobado por SHA-256 al descargarlo. En Anteriores: 1CEqqyTQOa79F9L74tpKDsrKRfU4ZC0tX «versión del 03-11-2026» (7cbaad8795b9) y 1GdOYU1hsWzcFw7HQ-jd7GIBIkWRRX2ra «versión del 17-11-2026 17.40» (eca13064f3b1). El LÉEME de Drive no se modificó.",
+      "concentrado_2026_11_17_id12": "No escrito en Drive por instrucción de Emi de hacer solo la parte de GitHub. Metadatos leídos con el conector el 17/11/2026 18:50: 1FqdCCTb8M96OmQiUD1mTaEXOCndHYBSt sigue con 82271 B (fe4026421a68). Pendiente: mover ese archivo a Anteriores como «Concentrado de Expedientes (versión del 17-11-2026 17.55).xlsx» y subir 19013131d8dd con el nombre fijo."
     }
   ],
   "vigentes": [
     {
       "family_id": "concentrado",
       "nombre_fijo": "Concentrado de Expedientes.xlsx",
-      "sha256": "fe4026421a6874f65747d6b2464e334d228c3f7b572b5b2666f85f19d4aabf4c",
-      "size_bytes": 82271,
+      "sha256": "19013131d8ddfb28e335502d5f35f08511f1aa9a7140bb5111be226430fefcbb",
+      "size_bytes": 83339,
       "drive_file_id": "1FqdCCTb8M96OmQiUD1mTaEXOCndHYBSt",
       "drive_file_id_anterior": "1GdOYU1hsWzcFw7HQ-jd7GIBIkWRRX2ra",
       "pendiente_destinos": {
-        "desde": "2026-11-17T17:40:00-06:00",
-        "sha256_que_aun_tienen": "7cbaad8795b98452e5bd604fbec64c6eda1dfd8416cd76d2a50a7c29e030e748",
-        "mac_escritorio": "pendiente: Mac no enlazada (17/11/2026). Comprobar que el archivo del Escritorio siga siendo 7cbaad8795b9, moverlo a «2 · Anteriores» como «Concentrado de Expedientes (versión del 03-11-2026).xlsx» y copiar fe4026421a68.",
+        "desde": "2026-11-17T19:05:00-06:00",
+        "sha256_que_aun_tienen": {
+          "drive": "fe4026421a6874f65747d6b2464e334d228c3f7b572b5b2666f85f19d4aabf4c",
+          "mac_escritorio": "7cbaad8795b98452e5bd604fbec64c6eda1dfd8416cd76d2a50a7c29e030e748",
+          "icloud": "7cbaad8795b98452e5bd604fbec64c6eda1dfd8416cd76d2a50a7c29e030e748"
+        },
+        "drive": "pendiente: no se escribió por instrucción de Emi (solo GitHub en esta sesión); el conector sí respondió en lectura. Mover fe4026421a68 a Anteriores y subir 19013131d8dd.",
+        "mac_escritorio": "pendiente: Mac no enlazada (17/11/2026). Comprobar que el archivo siga siendo 7cbaad8795b9, moverlo a «2 · Anteriores» como «Concentrado de Expedientes (versión del 03-11-2026).xlsx» y copiar 19013131d8dd.",
         "icloud": "pendiente: Mac no enlazada (17/11/2026). Mismo movimiento en «Castorena · Tablas vigentes» y su subcarpeta «Anteriores»."
       }
     },
@@ -126,7 +132,9 @@
       "nombre_fijo": "No laborales (TFJA) - corte 05-10-2026.xlsx",
       "sha256": "a52c4946e09d49ab0857937388d84d384190a83e6ba588592cc7c6f0d7b60ee5",
       "size_bytes": 14027,
-      "drive_file_id": "1DfP6Y6Uj6pguicn4mgVPWiU2BYbOVm9p"
+      "drive_file_id": "1DfP6Y6Uj6pguicn4mgVPWiU2BYbOVm9p",
+      "github_path": "cerebro/fuentes/no_laborales_tfja/a52c4946e09d_No_laborales_TFJA_hoja4_de_Control_de_expedientes_Junta_Especial_2_C_1_.xlsx",
+      "nota_2026_11_17": "Mismo archivo y SHA-256 que antes; solo se agregó en GitHub una copia en su propia carpeta. Drive, Escritorio e iCloud no necesitan cambio por esto (el nombre fijo ya es el de TFJA)."
     },
     {
       "family_id": "cotejo_liverpool",
