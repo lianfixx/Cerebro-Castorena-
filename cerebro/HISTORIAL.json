@@ -1651,8 +1651,8 @@
         ]
       },
       "evidence_state": "recuperado_verificado_bytes",
-      "role": "current_snapshot",
-      "current_for_family": true,
+      "role": "previous_snapshot",
+      "current_for_family": false,
       "sheets": [
         "Junta Especial 2",
         "Salas TFCA",
@@ -1794,6 +1794,39 @@
       ],
       "historical_only": false,
       "scope_note": "Versión derivada de eca13064f3b1. Auditoría por sede pedida por Emi (17/11/2026). Celdas de Principal: N6 (encabezado «INDICACIONES 11/11/2026»: la lista la escribió Emi el 11/11, correo a sí mismo), A4, G14 y K14 (ID 9: la audiencia del 13/11 ya pasó), G16, K16 y L16 (ID 11: instrucción cerrada por acuerdo de 06/03/2026, leído en fotografía), G17, K17 y L17 (ID 12: sesión del 13/11/2026, modifica y ampara; engrose pendiente), K31 (ID 33: nota de control, sin cambio de etapa). Vistas: I6 en las 13; TJACDMX D9 y E9; Colegiados 2321 E8; Juzgados 1950 E7. Fuentes y cotejo: fila 100 corregida y filas 101 a 104 nuevas.",
+      "legal_validation_implied": false
+    },
+    {
+      "id": "indep-787f69bc474f",
+      "family_id": "indep",
+      "sha256": "787f69bc474f8b0c1a8390abf81f750ce25823748ccd3e624493316cda3e2fff",
+      "size_bytes": 19085,
+      "snapshot_path": "fuentes/indep/787f69bc474f_Control_de_expedientes_Junta_Especial_2-4.xlsx",
+      "source_locator": {
+        "aliases": [
+          {
+            "path": "versiones/49_2026-11-17/Control_de_expedientes_Junta_Especial_2-4.xlsx",
+            "sha256": "787f69bc474f8b0c1a8390abf81f750ce25823748ccd3e624493316cda3e2fff",
+            "bytes": 19085,
+            "version_logica": 24,
+            "provider": "github",
+            "repository": "lianfixx/INDEP",
+            "visibility": "privado",
+            "commit": "94ab2fbb74ac148cc4ad9bc9bc8aced8e46004fb",
+            "url": "https://github.com/lianfixx/INDEP/blob/main/versiones/49_2026-11-17/Control_de_expedientes_Junta_Especial_2-4.xlsx"
+          }
+        ]
+      },
+      "evidence_state": "recuperado_verificado_bytes",
+      "role": "current_snapshot",
+      "current_for_family": true,
+      "sheets": [
+        "Junta Especial 2",
+        "Salas TFCA",
+        "Poder Judicial"
+      ],
+      "historical_only": false,
+      "scope_note": "Maestro lógico v24 validado por el procedimiento INDEP (entrega 49, cotejo del boletín 199 del 17/11/2026). Copia idéntica por bytes publicada el 17/11/2026 por la autorización de Emi del 04/11/2026. Respecto de v23 cambian 6 celdas de Junta Especial 2 (E13, F13, G13, E29, F29, G29: Detalles, Fuente y Fecha de los folios 80257 y 80590), todas permitidas según comparar_excel.py con AUTORIZACIONES.json de la entrega.",
       "legal_validation_implied": false
     }
   ],
@@ -5435,6 +5468,51 @@
       "manifiesto_verificado": "MANIFIESTO_VERIFICADO (manifiesto.py verificar, 11 archivos, 13/11/2026)",
       "repository": "lianfixx/INDEP",
       "commit": "023e15ced33d5623d562ede281b1dc82bbf05763",
+      "family_id": "indep",
+      "validation_status": "estado_declarado_en_registros_y_manifiesto_verificado; sin revalidación jurídica"
+    },
+    {
+      "entrega": 49,
+      "carpeta": "49_2026-11-17",
+      "url": "https://github.com/lianfixx/INDEP/tree/94ab2fbb74ac148cc4ad9bc9bc8aced8e46004fb/versiones/49_2026-11-17",
+      "archivos_en_arbol": 12,
+      "registros_leidos": [
+        {
+          "nombre": "CONTINUIDAD.json",
+          "bytes": 60004,
+          "sha256": "3a2d23643e807fd2cceb6be31ecccc20093909662ae65e4c5bbd2b325888c40c"
+        },
+        {
+          "nombre": "DOCUMENTOS.json",
+          "bytes": 2993,
+          "sha256": "e78b09e6c49e66640bd592bfb6d981c9ce3852c5716ea4d1d50dc2d67d6fe7e8"
+        },
+        {
+          "nombre": "MANIFIESTO_SHA256.json",
+          "bytes": 1810,
+          "sha256": "d1c9944b41e112cfcb8b96dfea9daae5cbfe5bbc5d9f31a098e8351545dab4a0"
+        }
+      ],
+      "motivo": "Cotejo íntegro del boletín 199 (dos coincidencias: 1213/2019 y 898/2021) y maestro lógico v24.",
+      "estado_declarado": {
+        "github_ruta": "versiones/49_2026-11-17",
+        "commit": "94ab2fbb74ac148cc4ad9bc9bc8aced8e46004fb",
+        "drive": "pendiente (cuota de Drive; ACTUAL.json sigue en la entrega 18)"
+      },
+      "ultimo_boletin_declarado": {
+        "numero": 199,
+        "fecha": "2026-11-17",
+        "paginas": 22,
+        "asuntos": 29,
+        "sha256": "498b6e901f9402f457688d9e8e346e7abe1e87ee276a1986f5d4b07a06a9b966",
+        "archivo": "199-Martes-17-Noviembre-2026-JFCA.pdf",
+        "acta": "versiones/49_2026-11-17/ACTA_COTEJO_199.json",
+        "estado": "COTEJADO_INTEGRAMENTE_CON_CAMBIOS",
+        "origen": "descarga_portal"
+      },
+      "manifiesto_verificado": "MANIFIESTO_VERIFICADO (manifiesto.py verificar, 11 archivos, 17/11/2026)",
+      "repository": "lianfixx/INDEP",
+      "commit": "94ab2fbb74ac148cc4ad9bc9bc8aced8e46004fb",
       "family_id": "indep",
       "validation_status": "estado_declarado_en_registros_y_manifiesto_verificado; sin revalidación jurídica"
     }

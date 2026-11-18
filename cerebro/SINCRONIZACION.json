@@ -29,7 +29,7 @@
       "id": "github",
       "ubicacion": "lianfixx/Cerebro-Castorena-, main, cerebro/fuentes/<familia>/",
       "estado": "sincronizado",
-      "last_verified": "2026-11-13T18:45:00-06:00"
+      "last_verified": "2026-11-17T18:45:00-06:00"
     },
     {
       "id": "mac_escritorio",
@@ -42,7 +42,7 @@
       "estado": "pendiente (INDEP v23 y Concentrado fe4026421a68); las demás tablas, sincronizadas",
       "last_verified": "2026-11-09T16:30:00-06:00",
       "nota": "«1 · Vigentes» está en la barra lateral de Finder.",
-      "pendiente": "Reemplazar «INDEP - Control de expedientes (Juntas y Salas).xlsx» por e13ec8158b02 (18755 B, v23) y mover la v21 a Anteriores; actualizar el LÉEME."
+      "pendiente": "Reemplazar «INDEP - Control de expedientes (Juntas y Salas).xlsx» por 787f69bc474f (19085 B, v24) y mover la v21 a Anteriores; actualizar el LÉEME."
     },
     {
       "id": "icloud",
@@ -51,7 +51,7 @@
       "estado": "pendiente (INDEP v23 y Concentrado fe4026421a68); las demás tablas, sincronizadas",
       "last_verified": "2026-11-09T16:30:00-06:00",
       "anteriores": "iCloud Drive/Castorena · Tablas vigentes/Anteriores/ (creada el 09/11/2026 con la versión 55e9e955536e de Liverpool).",
-      "pendiente": "Reemplazar «INDEP - Control de expedientes (Juntas y Salas).xlsx» por e13ec8158b02 (18755 B, v23) y mover la v21 a Anteriores; actualizar el LÉEME."
+      "pendiente": "Reemplazar «INDEP - Control de expedientes (Juntas y Salas).xlsx» por 787f69bc474f (19085 B, v24) y mover la v21 a Anteriores; actualizar el LÉEME."
     },
     {
       "id": "drive",
@@ -74,7 +74,7 @@
         "1DYAmKR_P-rYdHXuHd9Xh-GC3gY4qQQiy",
         "1Kkrv_Atyd8FjJ1PflK4zXDcQYBlYSgFR"
       ],
-      "pendiente": "Reemplazar «INDEP - Control de expedientes (Juntas y Salas).xlsx» por e13ec8158b02 (18755 B, v23) y mover la v21 a Anteriores; actualizar el LÉEME.",
+      "pendiente": "Reemplazar «INDEP - Control de expedientes (Juntas y Salas).xlsx» por 787f69bc474f (19085 B, v24) y mover la v21 a Anteriores; actualizar el LÉEME.",
       "concentrado_2026_11_17": "Vigente 1FqdCCTb8M96OmQiUD1mTaEXOCndHYBSt (fe4026421a68), comprobado por SHA-256 al descargarlo. En Anteriores: 1CEqqyTQOa79F9L74tpKDsrKRfU4ZC0tX «versión del 03-11-2026» (7cbaad8795b9) y 1GdOYU1hsWzcFw7HQ-jd7GIBIkWRRX2ra «versión del 17-11-2026 17.40» (eca13064f3b1). El LÉEME de Drive no se modificó."
     }
   ],
@@ -96,8 +96,8 @@
     {
       "family_id": "indep",
       "nombre_fijo": "INDEP - Control de expedientes (Juntas y Salas).xlsx",
-      "sha256": "e13ec8158b02c5398dab35f9693a5a59818f36ef8233045d716cd8ebbfcfb3a8",
-      "size_bytes": 18755,
+      "sha256": "787f69bc474f8b0c1a8390abf81f750ce25823748ccd3e624493316cda3e2fff",
+      "size_bytes": 19085,
       "drive_file_id": "1GAfWKd6Hlg18HCPP3vIHdKGh72mqAm6S",
       "pendiente_destinos": {
         "desde": "2026-11-10T18:58:00-06:00",

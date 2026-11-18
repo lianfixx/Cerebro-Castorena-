@@ -2,6 +2,15 @@
 
 Lo más reciente arriba. Formato y reglas: `ia/PROTOCOLO.md`, sección 3. Cada entrada lleva la línea `Agente:`.
 
+## 2026-11-17 · Cierre diario programado: maestro INDEP v24 copiado
+
+- Agente: Claude Code (ejecución programada)
+- Solicitud: tarea programada diaria de cierre de la matriz.
+- Cambios: entrega 49 de INDEP (boletín 199) verificada con manifiesto.py (11 archivos) y comparar_excel.py --base; respecto de v23 cambian 6 celdas permitidas de Junta Especial 2 (folios 80257 y 80590). Maestro v24 copiado byte a byte a `fuentes/indep/787f69bc474f_Control_de_expedientes_Junta_Especial_2-4.xlsx`; `HISTORIAL.json`, `MATRIZ.json`, `SINCRONIZACION.json`, `ESTADO.json` y cierre `cerebro/cierres/2026-11-17_1845.json`. La v23 se conserva. Concentrado fe4026421a68 sin cambio (Drive coincide).
+- Archivos: `cerebro/fuentes/indep/787f69bc474f_Control_de_expedientes_Junta_Especial_2-4.xlsx`, `cerebro/HISTORIAL.json`, `cerebro/MATRIZ.json`, `cerebro/SINCRONIZACION.json`, `cerebro/ESTADO.json`, `cerebro/cierres/2026-11-17_1845.json`, este registro.
+- Verificación: validar_matriz.py (ver resultado en el commit).
+- Pendiente: subir INDEP v24 a Drive, Escritorio e iCloud (siguen con v21).
+
 ## 2026-11-17 · Concentrado: auditoría por sede (ID 9, 11, 12 y 33)
 
 - Agente: Claude Code (sesión de claude.ai con Emi, Fable 5.2)
