@@ -1,0 +1,42 @@
+{
+  "schema_version": "castorena-cierre-v1",
+  "fecha_hora_local": "2026-11-18T18:44:00-06:00",
+  "timezone": "America/Mexico_City",
+  "base_matrix_commit": "3c9b007",
+  "Agente": "Claude Code (ejecución programada)",
+  "scope": {
+    "families_reviewed": 5,
+    "emails_sent": false,
+    "drafts_created": false,
+    "indep_modified": false
+  },
+  "coverage": {
+    "github_matriz": "leído y escritura prevista en rama claude/amazing-allen-e8tlas",
+    "github_indep": "leído (origin/main 113140f)",
+    "drive": "metadatos del Concentrado leídos con el conector",
+    "no_accesibles": [
+      "Escritorio e iCloud (no enlazados)",
+      "Library de ChatGPT"
+    ]
+  },
+  "versions_before": {
+    "indep": "indep-787f69bc474f (v24)",
+    "concentrado": "concentrado-19013131d8dd"
+  },
+  "versions_after": {
+    "indep": "indep-787f69bc474f (v24)",
+    "concentrado": "concentrado-19013131d8dd"
+  },
+  "hash_checks": {
+    "indep_v24_entrega_49": "787f69bc474f (coincide con la versión vigente de la matriz)",
+    "drive_concentrado": "1FqdCCTb… 82271 B, modificado 2026-11-17T23:52Z, sin cambio posterior (Drive sigue con fe4026421a68)"
+  },
+  "changes": [],
+  "results": "Sin cambios. INDEP publicó la entrega 50 (boletín 200, 18/11) con el maestro v24 sin cambios (VALIDACION_EXCEL: base 787f69bc474f, cambios []). No hay tabla validada nueva que copiar; no se reescribió ningún Excel.",
+  "dudas": [
+    "ACTUAL.json de INDEP sigue en la entrega 18 (registro desactualizado, ya señalado).",
+    "Drive, Escritorio e iCloud siguen con versiones anteriores (Concentrado 19013131d8dd solo en GitHub; INDEP v24 pendiente de subir)."
+  ],
+  "validacion": "validar_matriz.py: 0 errores",
+  "proximo_paso": "Emi: subir INDEP v24 y Concentrado 19013131d8dd a Drive, Escritorio e iCloud. Siguiente cierre: revisar entregas INDEP nuevas desde la 50."
+}
