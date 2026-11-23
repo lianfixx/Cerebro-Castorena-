@@ -3,7 +3,7 @@ name: matriz-castorena
 description: >-
   Mantener el cerebro y matriz documental de Castorena Abogados para Emi: Archivo muerto, Concentrado de Expedientes, control INDEP de Juntas y Salas, guía Expedientes TFCA, No laborales (TFJA), Cotejo Grupo Liverpool y Cotejo acuses INDEP, sincronizados en GitHub, Drive e iCloud. Usar al recuperar tablas vigentes, comparar versiones, auditar contexto, cerrar el día, incorporar novedades, crear otra tabla de asuntos del despacho o continuar con ChatGPT, Claude o Gemini. Consultar antes de incorporar cualquier nueva familia de tablas; coordinar el procedimiento INDEP sin reemplazarlo ni duplicar sus escrituras.
 metadata:
-  version: "1.6.0"
+  version: "1.6.1"
   release_date: "2026-11-09"
   language: "es-MX"
 ---
@@ -69,4 +69,4 @@ Un cierre o cambio termina cuando: `validar_matriz.py` sale sin errores; `python
 
 ## Auditoría automática de hashes
 
-Desde la 1.6.0 (23/11/2026) el workflow `.github/workflows/auditoria-hashes.yml` ejecuta `auditar_hashes.py` sin IA cada vez que cambia `cerebro/` en `main`, cada día a las 19:20 y a mano. No escribe en el repositorio. Si hay un error deja la corrida en rojo y abre un aviso en Issues: quien continúe (Claude, Muse u otra IA) lo atiende antes de cualquier otro cambio y lo cierra al corregirlo. Un aviso `E_destinos` significa que Drive, Escritorio o iCloud aún no tienen la versión vigente; no es un error de la matriz.
+Desde la 1.6.0 (23/11/2026) el workflow `.github/workflows/auditoria-hashes.yml` ejecuta `auditar_hashes.py` sin IA cada vez que cambia `cerebro/` en `main`, al terminar «Integrar tareas programadas» (por ahí entra el cierre diario), cada día a las 19:20 y a mano. Antes de auditar prueba su propia alarma con `pruebas_auditoria.py` (nueve casos sobre copias alteradas); quien cambie `auditar_hashes.py` corre esas pruebas antes del commit. El aviso de Issues se cierra solo cuando la auditoría vuelve a pasar; la opción «simulacro» comprueba que el aviso llega. No escribe en el repositorio. Si hay un error deja la corrida en rojo y abre un aviso en Issues: quien continúe (Claude, Muse u otra IA) lo atiende antes de cualquier otro cambio y lo cierra al corregirlo. Un aviso `E_destinos` significa que Drive, Escritorio o iCloud aún no tienen la versión vigente; no es un error de la matriz.

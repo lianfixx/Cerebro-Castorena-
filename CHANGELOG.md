@@ -2,6 +2,15 @@
 
 Lo más reciente arriba. Formato y reglas: `ia/PROTOCOLO.md`, sección 3. Cada entrada lleva la línea `Agente:`.
 
+## 2026-11-23 · Auditoría de la auditoría: disparo tras el cierre diario, pruebas y simulacro
+
+- Agente: claude.ai (sesión en la nube, claude-fable-5-2)
+- Solicitud: Emi, 23/11/2026, 13:00, en chat: auditar de fondo cada paso y corregir lo que falte.
+- Cambios: hueco corregido: el cierre diario entra a `main` por «Integrar tareas programadas» con el token de Actions y GitHub no dispara «push» con esa subida, así que la auditoría solo habría corrido a las 19:20; ahora también corre al terminar esa integración. Nuevas pruebas `pruebas_auditoria.py` (9 casos: archivo alterado, borrado, hash cambiado en MATRIZ, SINCRONIZACION distinta, ESTADO atrasado, cierre contradictorio, JSON roto, huérfano y caso limpio) que el workflow corre antes de auditar. El aviso de Issues se cierra solo al volver a pasar. Opción «simulacro» para comprobar que el aviso llega. Skill 1.6.1.
+- Archivos: `.github/workflows/auditoria-hashes.yml`, `cerebro/skill/scripts/pruebas_auditoria.py`, `cerebro/skill/SKILL.md`, este registro.
+- Verificación: aprobado. 9 de 9 pruebas; auditoría real 0 errores; validar_matriz.py 0 errores.
+- Pendiente: sin cambios respecto de la entrada anterior.
+
 ## 2026-11-23 · Auditoría de fondo de hashes y workflow automático
 
 - Agente: claude.ai (sesión en la nube, claude-fable-5-2)
