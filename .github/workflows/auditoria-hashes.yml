@@ -2,17 +2,31 @@ name: Auditoría de hashes del cerebro
 
 # Sin IA y sin costo. Recalcula el SHA-256 de cada archivo de cerebro/fuentes/ y comprueba que
 # MATRIZ.json, HISTORIAL.json, SINCRONIZACION.json, ESTADO.json y el último cierre digan lo mismo
-# (cerebro/skill/scripts/auditar_hashes.py). Corre cuando cambia cerebro/ en main, cada día a las
-# 19:20 (hora del centro de México, después del cierre diario de las 18:44) y a mano.
-# Si encuentra un error, la corrida queda en rojo y abre (o actualiza) un aviso en Issues.
-# No escribe en el repositorio ni envía correos. Solo lee.
+# (cerebro/skill/scripts/auditar_hashes.py). Antes prueba la propia alarma sobre copias alteradas
+# (pruebas_auditoria.py). Corre:
+#   - cuando cambia cerebro/ en main por una subida directa;
+#   - al terminar «Integrar tareas programadas» (el cierre diario entra a main por ahí y GitHub
+#     no dispara «push» con esa subida);
+#   - cada día a las 19:20, hora del centro de México, por si un aviso se pierde;
+#   - a mano. Con «simulacro» activado no audita: abre y cierra un aviso de prueba para comprobar
+#     que la alarma llega.
+# Si hay error, la corrida queda en rojo y abre (o actualiza) un aviso en Issues; cuando la
+# auditoría vuelve a pasar, lo cierra sola. No escribe en el repositorio ni envía correos.
 on:
   push:
     branches: [main]
-    paths: ["cerebro/**"]
+    paths: ["cerebro/**", ".github/workflows/auditoria-hashes.yml"]
+  workflow_run:
+    workflows: ["Integrar tareas programadas"]
+    types: [completed]
   schedule:
     - cron: "20 1 * * *" # 19:20 CDMX (GitHub puede retrasarlo unos minutos)
   workflow_dispatch:
+    inputs:
+      simulacro:
+        description: "Solo probar que el aviso llega (abre y cierra un aviso de prueba)"
+        type: boolean
+        default: false
 
 permissions:
   contents: read
@@ -22,8 +36,12 @@ concurrency:
   group: auditoria-hashes
   cancel-in-progress: false
 
+env:
+  TITULO: "Auditoría de hashes: hay errores en el cerebro"
+
 jobs:
   auditar:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
@@ -35,18 +53,33 @@ jobs:
       - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5.6.0
         with:
           python-version: "3.12"
+      - name: Simulacro del aviso
+        if: inputs.simulacro
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          url=$(gh issue create --repo "$GITHUB_REPOSITORY" --title "Simulacro: prueba del aviso de la auditoría de hashes" \
+            --body "Prueba pedida a mano. No hay ningún error. Este aviso se cierra solo.")
+          gh issue close "$url" --comment "Simulacro correcto: el aviso se creó y se cerró."
+          echo "Simulacro correcto: $url" >> "$GITHUB_STEP_SUMMARY"
+      - name: Pruebas de la alarma (copias alteradas)
+        if: ${{ !inputs.simulacro }}
+        run: python3 cerebro/skill/scripts/pruebas_auditoria.py cerebro
       - name: Validador de la matriz
+        if: ${{ !inputs.simulacro }}
         run: python3 cerebro/skill/scripts/validar_matriz.py cerebro > "$RUNNER_TEMP/validar.json"
       - name: Auditoría de hashes y coherencia
+        if: ${{ !inputs.simulacro }}
         run: python3 cerebro/skill/scripts/auditar_hashes.py cerebro --json "$RUNNER_TEMP/auditoria.json" > /dev/null
       - name: Resumen
-        if: always()
+        if: ${{ always() && !inputs.simulacro }}
         run: |
           python3 - <<'PY' >> "$GITHUB_STEP_SUMMARY"
           import json, os, pathlib
           p = pathlib.Path(os.environ["RUNNER_TEMP"]) / "auditoria.json"
           if not p.exists():
-              print("La auditoría no produjo informe: revisar el validador de la matriz.")
+              print("La auditoría no produjo informe: falló una prueba de la alarma o el validador de la matriz.")
           else:
               r = json.loads(p.read_text())
               print("## Auditoría de hashes:", r["resultado"])
@@ -57,15 +90,23 @@ jobs:
                       print("-", x["control"], "·", x["donde"], "·", x["detalle"])
           PY
       - name: Avisar si hay errores
-        if: failure()
+        if: ${{ failure() && !inputs.simulacro }}
         env:
           GH_TOKEN: ${{ github.token }}
           RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
         run: |
-          titulo="Auditoría de hashes: hay errores en el cerebro"
           cuerpo="La auditoría automática encontró errores. Detalle en el resumen de la corrida: $RUN_URL
 
-          Qué hacer: abrir la corrida, leer la lista de errores y corregir el registro o restaurar el archivo. Las fuentes de cerebro/fuentes/ no se modifican."
-          n=$(gh issue list --repo "$GITHUB_REPOSITORY" --state open --search "$titulo in:title" --json number --jq '.[0].number // empty')
+          Qué hacer: abrir la corrida, leer la lista de errores y corregir el registro o restaurar el archivo. Las fuentes de cerebro/fuentes/ no se modifican. Este aviso se cierra solo cuando la auditoría vuelva a pasar."
+          n=$(gh issue list --repo "$GITHUB_REPOSITORY" --state open --search "$TITULO in:title" --json number --jq '.[0].number // empty')
           if [ -n "$n" ]; then gh issue comment "$n" --repo "$GITHUB_REPOSITORY" --body "$cuerpo"
-          else gh issue create --repo "$GITHUB_REPOSITORY" --title "$titulo" --body "$cuerpo"; fi
+          else gh issue create --repo "$GITHUB_REPOSITORY" --title "$TITULO" --body "$cuerpo"; fi
+      - name: Cerrar el aviso si ya pasó
+        if: ${{ success() && !inputs.simulacro }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          for n in $(gh issue list --repo "$GITHUB_REPOSITORY" --state open --search "$TITULO in:title" --json number --jq '.[].number'); do
+            gh issue close "$n" --repo "$GITHUB_REPOSITORY" --comment "La auditoría volvió a pasar: $RUN_URL"
+          done
