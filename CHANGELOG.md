@@ -2,6 +2,15 @@
 
 Lo más reciente arriba. Formato y reglas: `ia/PROTOCOLO.md`, sección 3. Cada entrada lleva la línea `Agente:`.
 
+## 2026-11-23 · Auditoría de fondo de hashes y workflow automático
+
+- Agente: claude.ai (sesión en la nube, claude-fable-5-2)
+- Solicitud: Emi, 23/11/2026, en chat: «la auditoría completa y de fondo de hashes en Cerebro Castorena»; autorizó crear workflows y fusionar.
+- Cambios: nuevo `auditar_hashes.py` (sin IA): recalcula el SHA-256 de los 41 archivos de `fuentes/` y cruza MATRIZ, HISTORIAL, SINCRONIZACION, ESTADO y cierres. Nuevo workflow `auditoria-hashes.yml` (al cambiar `cerebro/`, diario 19:20 y a mano; solo lectura; abre aviso en Issues si hay error). Skill 1.6.0: la auditoría entra en «Terminado».
+- Archivos: `cerebro/skill/scripts/auditar_hashes.py`, `.github/workflows/auditoria-hashes.yml`, `cerebro/skill/SKILL.md`, este registro.
+- Verificación: aprobado. Auditoría del 23/11: 0 errores; 41 archivos, 39 versiones con archivo y hash correcto, 7 familias, 32 cierres. Avisos: Concentrado e INDEP pendientes en Drive, Escritorio e iCloud; sin cierre el 08/11. validar_matriz.py 0 errores.
+- Pendiente: Emi o Muse, guardar la skill 1.6.0 en Claude; subir INDEP v24 y Concentrado 19013131d8dd a Drive, Escritorio e iCloud.
+
 ## 2026-11-22 · Cierre diario programado: sin cambios
 
 - Agente: Claude Code (ejecución programada)
