@@ -7,7 +7,8 @@ name: Auditoría de hashes del cerebro
 #   - cuando cambia cerebro/ en main por una subida directa;
 #   - al terminar «Integrar tareas programadas» (el cierre diario entra a main por ahí y GitHub
 #     no dispara «push» con esa subida);
-#   - cada día a las 19:20, hora del centro de México, por si un aviso se pierde;
+#   - con el reloj de GitHub (19:20, hora del centro de México) como último respaldo: medido el
+#     23/11/2026, ese reloj dispara con horas de retraso o no dispara, así que nada depende de él;
 #   - a mano. Con «simulacro» activado no audita: abre y cierra un aviso de prueba para comprobar
 #     que la alarma llega.
 # Si hay error, la corrida queda en rojo y abre (o actualiza) un aviso en Issues; cuando la
@@ -20,7 +21,7 @@ on:
     workflows: ["Integrar tareas programadas"]
     types: [completed]
   schedule:
-    - cron: "20 1 * * *" # 19:20 CDMX (GitHub puede retrasarlo unos minutos)
+    - cron: "20 1 * * *" # último respaldo: 19:20 CDMX (GitHub puede tardar horas o no dispararla)
   workflow_dispatch:
     inputs:
       simulacro:

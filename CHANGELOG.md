@@ -2,6 +2,15 @@
 
 Lo más reciente arriba. Formato y reglas: `ia/PROTOCOLO.md`, sección 3. Cada entrada lleva la línea `Agente:`.
 
+## 2026-11-23 · El reloj de GitHub es solo un respaldo (skill 1.6.2)
+
+- Agente: claude.ai (sesión en la nube, claude-fable-5-2)
+- Solicitud: Emi, 23/11/2026, 21:11, en chat: «Busca y deja todo de manera perfecta sí o sí, soluciona, tienes expreso mi sí de todo».
+- Cambios: hallazgo de la auditoría de hoy: GitHub dispara las corridas programadas con horas de retraso o no las dispara (en `lianfixx/MATRIZ`, 39 corridas en 12 días de una programación de cada 15 minutos; aquí, la de las 19:20 no disparó). La auditoría de hashes no lo resiente, porque corre con cada cambio de `cerebro/` y al terminar «Integrar tareas programadas» (comprobado hoy con el cierre diario). El workflow y la skill ya no prometen una auditoría diaria a las 19:20: dicen que ese reloj es el último respaldo. Sin cambios en el código de la auditoría.
+- Archivos: `.github/workflows/auditoria-hashes.yml` (solo comentarios), `cerebro/skill/SKILL.md`, este registro.
+- Verificación: el workflow carga como YAML con los mismos eventos y trabajos; la auditoría corre con esta subida.
+- Pendiente: guardar la skill 1.6.2 en Claude (tarjeta en el chat).
+
 ## 2026-11-24 · Cierre diario programado: sin cambios
 
 - Agente: Claude Code (ejecución programada)
