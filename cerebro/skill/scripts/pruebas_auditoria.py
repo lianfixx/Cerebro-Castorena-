@@ -89,9 +89,28 @@ def caso_huerfano(c):
     return any(a["control"] == "C_huerfano" for a in inf["avisos"]) and "A_prefijo" in controles(inf)
 
 
+def caso_cierre_con_fecha_futura(c):
+    ultimo = sorted((c / "cierres").glob("*.json"))[-1]
+    shutil.copy(ultimo, c / "cierres" / "2999-01-01_1844.json")
+
+    def cambio(d):
+        d["last_audit_date"] = "2999-01-01"
+    editar_json(c / "ESTADO.json", cambio)
+    return "G_cierres" in controles(auditar(c))
+
+
+def caso_cierre_con_dos_fechas(c):
+    ultimo = sorted((c / "cierres").glob("*.json"))[-1]
+
+    def cambio(d):
+        d["fecha_hora_local"] = "2000-01-01T18:44:00-06:00"
+    editar_json(ultimo, cambio)
+    return "G_cierres" in controles(auditar(c))
+
+
 CASOS = [caso_limpio, caso_archivo_alterado, caso_archivo_borrado, caso_matriz_hash_cambiado,
          caso_sincronizacion_distinta, caso_estado_atrasado, caso_cierre_contradice, caso_json_roto,
-         caso_huerfano]
+         caso_huerfano, caso_cierre_con_fecha_futura, caso_cierre_con_dos_fechas]
 
 
 def main(argv):
