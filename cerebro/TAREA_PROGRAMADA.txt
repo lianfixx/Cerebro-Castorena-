@@ -18,7 +18,7 @@ Eres la ejecución programada diaria de la matriz Castorena de Emi (Emiliano Gar
 
 4b. Sincroniza según cerebro/SINCRONIZACION.json (regla permanente de Emi del 09/11/2026): si una versión vigente cambió o hay destinos pendientes, refleja la versión vigente en Drive (carpeta 1UE-tJN2QV1X3eRGokx1pB0PMOW9YKn_z) y, si la Mac de Emi está enlazada, en el Escritorio («Castorena · Tablas/1 · Vigentes») e iCloud («Castorena · Tablas vigentes»). La versión anterior va a «Anteriores»; nunca borres. Relee cada destino y compara SHA-256. Lo que no puedas alcanzar queda como «pendiente» con su motivo, nunca como sincronizado.
 
-5. Guarda siempre un cierre en cerebro/cierres/AAAA-MM-DD_HHMM.json (hora de America/Mexico_City) con cobertura, versiones antes y después, sincronización por destino (GitHub, Drive, iCloud, Escritorio), cambios, dudas, validación y próximo paso. Actualiza ESTADO.json. Si no hubo cambios, dilo y no reescribas Excel.
+5. Guarda siempre un cierre en cerebro/cierres/AAAA-MM-DD_HHMM.json (hora de America/Mexico_City: obtén el nombre con `TZ=America/Mexico_City date +%F_%H%M` y la fecha interna con `TZ=America/Mexico_City date -Iseconds`; el servidor está en UTC y a esta hora ya marca el día siguiente) con cobertura, versiones antes y después, sincronización por destino (GitHub, Drive, iCloud, Escritorio), cambios, dudas, validación y próximo paso. Actualiza ESTADO.json. Si no hubo cambios, dilo y no reescribas Excel.
 
 6. Corre `python3 cerebro/skill/scripts/validar_matriz.py cerebro` (0 errores). Haz un solo commit con la línea `Agente:` y el trailer `IA-Actor: <tu plataforma> (ejecución programada)`. Con terminal, pasa por los hooks de git; nunca uses --no-verify.
    - Antes del push, comprueba que origin/main sigue en el SHA que leíste.
