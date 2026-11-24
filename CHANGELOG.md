@@ -2,6 +2,15 @@
 
 Lo más reciente arriba. Formato y reglas: `ia/PROTOCOLO.md`, sección 3. Cada entrada lleva la línea `Agente:`.
 
+## 2026-11-23 · La tarea diaria saca la fecha del cierre con la hora de México
+
+- Agente: claude.ai (sesión en la nube, claude-opus-5-5)
+- Solicitud: Emi, 23/11/2026, 22:20, en chat: auditar todo y que no haya ni una falla.
+- Cambios: el cierre diario corre a las 18:43 de México, que en el servidor (UTC) ya es el día siguiente; así se guardó hoy un cierre con fecha del 24. `TAREA_PROGRAMADA.txt`, paso 5, da ahora los dos comandos exactos para el nombre y la fecha interna. La auditoría ya rechaza un cierre con fecha futura (entrada de abajo), así que el error no puede volver a pasar inadvertido.
+- Archivos: `cerebro/TAREA_PROGRAMADA.txt`, este registro.
+- Verificación: `TZ=America/Mexico_City date +%F_%H%M` probado en el servidor (UTC) a las 22:20 de México: da 2026-11-23.
+- Pendiente: ninguno.
+
 ## 2026-11-23 · Fecha real del cierre de hoy, auditoría contra fechas futuras y reloj de GitHub (skill 1.6.2)
 
 - Agente: claude.ai (sesión en la nube, claude-fable-5-2)
