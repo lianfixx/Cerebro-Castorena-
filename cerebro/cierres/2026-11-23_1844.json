@@ -1,6 +1,6 @@
 {
   "schema_version": "castorena-cierre-v1",
-  "fecha_hora_local": "2026-11-24T18:44:00-06:00",
+  "fecha_hora_local": "2026-11-23T18:44:00-06:00",
   "timezone": "America/Mexico_City",
   "base_matrix_commit": "c081632",
   "Agente": "Claude Code (ejecución programada)",

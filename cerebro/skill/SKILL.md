@@ -3,7 +3,7 @@ name: matriz-castorena
 description: >-
   Mantener el cerebro y matriz documental de Castorena Abogados para Emi: Archivo muerto, Concentrado de Expedientes, control INDEP de Juntas y Salas, guía Expedientes TFCA, No laborales (TFJA), Cotejo Grupo Liverpool y Cotejo acuses INDEP, sincronizados en GitHub, Drive e iCloud. Usar al recuperar tablas vigentes, comparar versiones, auditar contexto, cerrar el día, incorporar novedades, crear otra tabla de asuntos del despacho o continuar con ChatGPT, Claude o Gemini. Consultar antes de incorporar cualquier nueva familia de tablas; coordinar el procedimiento INDEP sin reemplazarlo ni duplicar sus escrituras.
 metadata:
-  version: "1.6.1"
+  version: "1.6.2"
   release_date: "2026-11-09"
   language: "es-MX"
 ---
@@ -59,6 +59,7 @@ Responder en español claro: qué cambió, qué debe obtener Emi, qué está pen
 
 Estas reglas valen igual en Claude (incluida su ejecución programada, hoy la única activa), ChatGPT, Codex, Gemini o cualquier otra IA:
 - Empezar por `cerebro/ESTADO.json`, `cerebro/CONTINUIDAD.md` y el último cierre de `cerebro/cierres/` en el repositorio remoto, no por la memoria de una conversación.
+- La fecha y la hora del cierre son las de México: `TZ=America/Mexico_City date +%F_%H%M`. El servidor de la sesión está en UTC y por la tarde ya marca el día siguiente; la auditoría rechaza un cierre con fecha futura.
 - Registrar todo cambio en el mismo commit: el cierre en `cerebro/cierres/` y, para cambios del procedimiento o de los archivos de entrada, una entrada en `CHANGELOG.md` con `Agente:` (quién lo hizo y modelo si se conoce), solicitud, cambios, archivos, verificación (aprobado, falló, no ejecutado o bloqueado) y pendiente.
 - Sin escritura en el repositorio, terminar con «Registro pendiente para el repositorio» con la entrada y los cambios exactos. No decir «guardado» si no se escribió.
 - Lo prohibido y lo que requiere confirmación de Emi está en `ia/REGLAS.md` del repositorio; cumplirlo aunque la plataforma no tenga frenos. El protocolo completo, con plantillas para pasar trabajo a otra IA, está en `ia/PROTOCOLO.md`.
@@ -69,4 +70,4 @@ Un cierre o cambio termina cuando: `validar_matriz.py` sale sin errores; `python
 
 ## Auditoría automática de hashes
 
-Desde la 1.6.0 (23/11/2026) el workflow `.github/workflows/auditoria-hashes.yml` ejecuta `auditar_hashes.py` sin IA cada vez que cambia `cerebro/` en `main`, al terminar «Integrar tareas programadas» (por ahí entra el cierre diario), cada día a las 19:20 y a mano. Antes de auditar prueba su propia alarma con `pruebas_auditoria.py` (nueve casos sobre copias alteradas); quien cambie `auditar_hashes.py` corre esas pruebas antes del commit. El aviso de Issues se cierra solo cuando la auditoría vuelve a pasar; la opción «simulacro» comprueba que el aviso llega. No escribe en el repositorio. Si hay un error deja la corrida en rojo y abre un aviso en Issues: quien continúe (Claude, Muse u otra IA) lo atiende antes de cualquier otro cambio y lo cierra al corregirlo. Un aviso `E_destinos` significa que Drive, Escritorio o iCloud aún no tienen la versión vigente; no es un error de la matriz.
+Desde la 1.6.0 (23/11/2026) el workflow `.github/workflows/auditoria-hashes.yml` ejecuta `auditar_hashes.py` sin IA cada vez que cambia `cerebro/` en `main`, al terminar «Integrar tareas programadas» (por ahí entra el cierre diario), y a mano; el reloj de GitHub (19:20) queda como último respaldo, porque dispara con horas de retraso o no dispara (medido el 23/11/2026). Antes de auditar prueba su propia alarma con `pruebas_auditoria.py` (once casos sobre copias alteradas); quien cambie `auditar_hashes.py` corre esas pruebas antes del commit. El aviso de Issues se cierra solo cuando la auditoría vuelve a pasar; la opción «simulacro» comprueba que el aviso llega. No escribe en el repositorio. Si hay un error deja la corrida en rojo y abre un aviso en Issues: quien continúe (Claude, Muse u otra IA) lo atiende antes de cualquier otro cambio y lo cierra al corregirlo. Un aviso `E_destinos` significa que Drive, Escritorio o iCloud aún no tienen la versión vigente; no es un error de la matriz.

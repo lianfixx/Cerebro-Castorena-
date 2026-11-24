@@ -2,12 +2,22 @@
 
 Lo más reciente arriba. Formato y reglas: `ia/PROTOCOLO.md`, sección 3. Cada entrada lleva la línea `Agente:`.
 
-## 2026-11-24 · Cierre diario programado: sin cambios
+## 2026-11-23 · Fecha real del cierre de hoy, auditoría contra fechas futuras y reloj de GitHub (skill 1.6.2)
+
+- Agente: claude.ai (sesión en la nube, claude-fable-5-2)
+- Solicitud: Emi, 23/11/2026, 21:11, en chat: «Busca y deja todo de manera perfecta sí o sí, soluciona, tienes expreso mi sí de todo».
+- Cambios: hallazgo de la auditoría de hoy: GitHub dispara las corridas programadas con horas de retraso o no las dispara (en `lianfixx/MATRIZ`, 39 corridas en 12 días de una programación de cada 15 minutos; aquí, la de las 19:20 no disparó). La auditoría de hashes no lo resiente, porque corre con cada cambio de `cerebro/` y al terminar «Integrar tareas programadas» (comprobado hoy con el cierre diario). El workflow y la skill ya no prometen una auditoría diaria a las 19:20: dicen que ese reloj es el último respaldo. Además, error encontrado al revisar: el cierre diario de hoy (lunes 23, 18:44) se guardó como `2026-11-24_1844.json`, con `fecha_hora_local` y `ESTADO.json` del 24, porque la sesión tomó el día del servidor (UTC). Mañana habría chocado con el cierre del martes. Corregido: el archivo es `cierres/2026-11-23_1844.json`, con su fecha real en el cierre, en `ESTADO.json` y en este registro (el mensaje del commit d399023 conserva «24/11»; no se reescribe el historial). Para que no se repita, `auditar_hashes.py` da error si un cierre lleva fecha futura (hora de México) o si la fecha del nombre no coincide con `fecha_hora_local`, y la skill dice cómo sacar la fecha.
+- Archivos: `.github/workflows/auditoria-hashes.yml` (solo comentarios), `cerebro/skill/SKILL.md`, `cerebro/skill/scripts/auditar_hashes.py`, `cerebro/skill/scripts/pruebas_auditoria.py`, `cerebro/cierres/2026-11-23_1844.json` (antes `2026-11-24_1844.json`), `cerebro/ESTADO.json`, este registro.
+- Verificación: aprobado. 11 de 11 pruebas (2 nuevas); auditoría real `CORRECTO` con último cierre `2026-11-23_1844.json`; validar_matriz.py 0 errores; el workflow carga como YAML con los mismos eventos y trabajos.
+- Pendiente: guardar la skill 1.6.2 en Claude (tarjeta en el chat).
+
+## 2026-11-23 · Cierre diario programado: sin cambios
 
 - Agente: Claude Code (ejecución programada)
 - Solicitud: tarea programada diaria (TAREA_PROGRAMADA.txt).
 - Cambios: INDEP publicó la entrega 53 (boletín 203); manifiesto verificado, maestro v24 sin cambios. Concentrado 19013131d8dd vigente; Drive sin cambio. Ningún Excel reescrito.
-- Archivos: `cerebro/cierres/2026-11-24_1844.json`, `cerebro/ESTADO.json`, este registro.
+- Archivos: `cerebro/cierres/2026-11-23_1844.json`, `cerebro/ESTADO.json`, este registro.
+- Corrección (23/11/2026, claude.ai): esta entrada y su cierre se guardaron con fecha 24/11 por tomar el día del servidor (UTC); el cierre es del lunes 23 a las 18:44. Detalle en la entrada de arriba.
 - Verificación: validar_matriz.py 0 errores.
 - Pendiente: Emi sube INDEP v24 y Concentrado 19013131d8dd a Drive, Escritorio e iCloud.
 

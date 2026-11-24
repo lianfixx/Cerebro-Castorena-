@@ -13,7 +13,8 @@ Comprueba, sin modificar nada:
      coinciden entre sí y el archivo vigente está en fuentes/ con ese hash.
   E. SINCRONIZACION.json: el hash y el tamaño de cada «vigente» son los de la familia.
   F. ESTADO.json contra el último cierre de cierres/: fecha de auditoría y versiones.
-  G. Continuidad de cierres/: JSON válido y días sin cierre.
+  G. Continuidad de cierres/: JSON válido, días sin cierre, ningún cierre con fecha futura (hora de
+     México) y la fecha del nombre igual a la de `fecha_hora_local`.
 
 Sale con 1 si hay algún error; los avisos no cambian el código de salida.
 Solo usa la biblioteca estándar de Python. No imprime contenido de las tablas.
@@ -37,6 +38,11 @@ def sha256(ruta):
         for bloque in iter(lambda: f.read(1 << 20), b""):
             h.update(bloque)
     return h.hexdigest()
+
+
+def hoy_mexico():
+    """Fecha de hoy en la Ciudad de México (UTC-6 todo el año desde 2022), sin depender del servidor."""
+    return (datetime.datetime.now(datetime.timezone.utc) - datetime.timedelta(hours=6)).date().isoformat()
 
 
 def leer(ruta, informe):
@@ -163,6 +169,13 @@ def auditar(raiz):
         doc = leer(p, informe)
         if doc is not None:
             cierres.append((m.group(1), p.name, doc))
+            # El servidor de las sesiones está en UTC: por la tarde ya marca el día siguiente. Un cierre
+            # con la fecha de mañana (pasó el 23/11/2026) choca con el del día siguiente.
+            if m.group(1) > hoy_mexico():
+                err("G_cierres", p.name, "el cierre lleva una fecha que todavía no llega (hoy es %s en México)" % hoy_mexico())
+            interna = str(doc.get("fecha_hora_local") or "")[:10] if isinstance(doc, dict) else ""
+            if interna and interna != m.group(1):
+                err("G_cierres", p.name, "el nombre dice %s y fecha_hora_local dice %s" % (m.group(1), interna))
     informe["conteos"]["cierres"] = len(cierres)
     if cierres:
         dias = sorted({c[0] for c in cierres})
