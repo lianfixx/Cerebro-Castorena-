@@ -2,6 +2,15 @@
 
 Lo más reciente arriba. Formato y reglas: `ia/PROTOCOLO.md`, sección 3. Cada entrada lleva la línea `Agente:`.
 
+## 2026-11-25 · .gitignore excluye archivos .env
+
+- Agente: claude.ai (sesión en la nube desde Claude in Chrome, claude-opus-5-5)
+- Solicitud: Emi, 25/11/2026, en chat: «revisa todo lo demás» de la auditoría del Guardián de la Matriz (`lianfixx/MATRIZ`, `docs/GUARDIAN.md`).
+- Cambios: `.gitignore` excluye `.env` y `.env.*` (salvo `.env.example`), para que ninguna llave local se suba por accidente. Hallazgo menor del Guardián; no había ningún `.env` subido.
+- Archivos: `.gitignore`, este registro.
+- Verificación: `git status` limpio; ningún archivo rastreado queda ignorado.
+- Pendiente: ninguno.
+
 ## 2026-11-24 · Cierre diario programado: sin cambios
 
 - Agente: Claude Code (ejecución programada)

@@ -1,0 +1,6 @@
+
+
+# Credenciales locales: nunca en git.
+.env
+.env.*
+!.env.example
