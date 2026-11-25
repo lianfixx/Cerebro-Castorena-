@@ -2,6 +2,15 @@
 
 Lo más reciente arriba. Formato y reglas: `ia/PROTOCOLO.md`, sección 3. Cada entrada lleva la línea `Agente:`.
 
+## 2026-11-24 · Cierre diario programado: sin cambios
+
+- Agente: Claude Code (ejecución programada)
+- Solicitud: tarea programada diaria (TAREA_PROGRAMADA.txt).
+- Cambios: INDEP publicó la entrega 54 (boletín 204); manifiesto verificado, maestro v24 sin cambios. Concentrado 19013131d8dd vigente; Drive sin cambio (82271 B, 17/11). Ningún Excel reescrito.
+- Archivos: `cerebro/cierres/2026-11-24_1843.json`, `cerebro/ESTADO.json`, este registro.
+- Verificación: validar_matriz.py 0 errores.
+- Pendiente: Emi sube INDEP v24 y Concentrado 19013131d8dd a Drive, Escritorio e iCloud.
+
 ## 2026-11-23 · La tarea diaria saca la fecha del cierre con la hora de México
 
 - Agente: claude.ai (sesión en la nube, claude-opus-5-5)
