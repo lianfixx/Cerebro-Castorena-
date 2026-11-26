@@ -90,11 +90,11 @@
       "id": "indep",
       "title": "INDEP (Juntas/Salas)",
       "role": "Maestro operativo único; consultas por folio, sin duplicar seguimiento",
-      "current_version_id": "indep-787f69bc474f",
+      "current_version_id": "indep-2c7702bbc957",
       "current_library_url": null,
-      "sha256": "787f69bc474f8b0c1a8390abf81f750ce25823748ccd3e624493316cda3e2fff",
-      "current_sha256": "787f69bc474f8b0c1a8390abf81f750ce25823748ccd3e624493316cda3e2fff",
-      "current_snapshot_path": "fuentes/indep/787f69bc474f_Control_de_expedientes_Junta_Especial_2-4.xlsx",
+      "sha256": "2c7702bbc95762d1eca1972265ab37106253089ce4ce51246b814c02b668187a",
+      "current_sha256": "2c7702bbc95762d1eca1972265ab37106253089ce4ce51246b814c02b668187a",
+      "current_snapshot_path": "fuentes/indep/2c7702bbc957_Control_de_expedientes_Junta_Especial_2-4.xlsx",
       "universo": {
         "unit": "folio maestro",
         "count": 45,
@@ -108,12 +108,12 @@
         "source": "evidencia/indep_tfca.json#contrato_maestro"
       },
       "current_selection_basis": {
-        "logical_master": 24,
-        "delivery_with_master": 49,
-        "last_documented_delivery": 49,
-        "source_commit": "94ab2fbb74ac148cc4ad9bc9bc8aced8e46004fb",
-        "previous_public_snapshot": "fuentes/indep/e13ec8158b02_Control_de_expedientes_Junta_Especial_2-4.xlsx (v23)",
-        "note": "Copia pública de v24 hecha el 17/11/2026 por el cierre diario programado, conforme a la autorización de Emi del 04/11/2026. Manifiesto de la entrega 49 verificado; comparar_excel.py --base (ESTRUCTURA_BASE_VALIDADA) y contra v23 con AUTORIZACIONES.json (PRESERVACION_VALIDADA)."
+        "logical_master": 25,
+        "delivery_with_master": 55,
+        "last_documented_delivery": 55,
+        "source_commit": "a58e7e43f3f124833c5c600fbabb6e56673a6464",
+        "previous_public_snapshot": "fuentes/indep/787f69bc474f_Control_de_expedientes_Junta_Especial_2-4.xlsx (v24)",
+        "note": "Copia pública de v25 hecha el 25/11/2026 por el cierre diario programado, conforme a la autorización de Emi del 04/11/2026. Manifiesto de la entrega 55 verificado; comparar_excel.py --base (ESTRUCTURA_BASE_VALIDADA) y contra v24 con AUTORIZACIONES.json (PRESERVACION_VALIDADA)."
       },
       "audit_path": "evidencia/indep_tfca.json"
     },

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_audit_date": "2026-11-24",
+  "last_audit_date": "2026-11-25",
   "timezone": "America/Mexico_City",
   "write_scope": "cerebro/ en lianfixx/Cerebro-Castorena-, rama main",
   "indep_operational_branch": "main",
@@ -41,7 +41,7 @@
     "method": "commit_atomico_y_update_ref_expected_sha",
     "on_conflict": "releer_conciliar_sin_force"
   },
-  "last_source_changes": "17/11/2026 19:05: Concentrado 19013131d8dd vigente (ID 12 conciliado con la sesión del 13/11/2026); solo en GitHub. Drive sigue con fe4026421a68; Escritorio e iCloud con 7cbaad8795b9. No laborales (TFJA): copia idéntica en fuentes/no_laborales_tfja/ (mismo hash). INDEP v24 (787f69bc474f) sigue vigente; Drive, Escritorio e iCloud con v21.",
+  "last_source_changes": "17/11/2026 19:05: Concentrado 19013131d8dd vigente (ID 12 conciliado con la sesión del 13/11/2026); solo en GitHub. Drive sigue con fe4026421a68; Escritorio e iCloud con 7cbaad8795b9. No laborales (TFJA): copia idéntica en fuentes/no_laborales_tfja/ (mismo hash). INDEP v25 (2c7702bbc957, entrega 55) es el vigente desde el 25/11/2026; Drive, Escritorio e iCloud con v21.",
   "publication": {
     "initial_commit": "aaa04b75e9645f2691f0e33fdaec1e1e33053020",
     "files_verified_after_read": 52,
@@ -49,8 +49,8 @@
     "source_tables_modified": false,
     "personal_procedure_saved": true
   },
-  "last_audit_at": "2026-11-24T18:43:00-06:00",
-  "last_closure_path": "cierres/2026-11-24_1843.json",
+  "last_audit_at": "2026-11-25T18:44:00-06:00",
+  "last_closure_path": "cierres/2026-11-25_1844.json",
   "latest_run": {
     "base_commit": "1ecf1a9bc2f3a5bbad922fee2c62290691a7c0b6",
     "agent": "ChatGPT Work /root (Codex)",

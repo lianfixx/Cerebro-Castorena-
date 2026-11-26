@@ -1,0 +1,52 @@
+{
+  "schema_version": "castorena-cierre-v1",
+  "fecha_hora_local": "2026-11-25T18:44:00-06:00",
+  "timezone": "America/Mexico_City",
+  "base_matrix_commit": "1c796a0",
+  "Agente": "Claude Code (ejecución programada)",
+  "scope": {
+    "families_reviewed": 5,
+    "emails_sent": false,
+    "drafts_created": false,
+    "indep_modified": false
+  },
+  "coverage": {
+    "github_matriz": "leído (origin/main 1c796a0); escritura en rama claude/amazing-allen-2g5jf3",
+    "github_indep": "leído (origin/main 441788c)",
+    "drive": "metadatos del Concentrado de Expedientes.xlsx: 82271 B, modificado 2026-11-17T23:52Z, sin cambio",
+    "no_accesibles": [
+      "Escritorio e iCloud (no enlazados)",
+      "Library de ChatGPT"
+    ]
+  },
+  "versions_before": {
+    "indep": "indep-787f69bc474f (v24)",
+    "concentrado": "concentrado-19013131d8dd"
+  },
+  "versions_after": {
+    "indep": "indep-2c7702bbc957 (v25)",
+    "concentrado": "concentrado-19013131d8dd"
+  },
+  "hash_checks": {
+    "indep": "entrega 55 (25/11): manifiesto verificado (11 archivos, 0 errores); maestro 2c7702bbc957 (v25) 19243 B",
+    "comparar_excel": "--base y contra v24 con AUTORIZACIONES.json: PRESERVACION_VALIDADA, 45 folios, 44 turnos, 3 cambios permitidos (E19, F19, G19 de Junta Especial 2)",
+    "drive_concentrado": "sin cambio"
+  },
+  "changes": [
+    {
+      "familia": "indep",
+      "tipo": "versión nueva copiada",
+      "de": "787f69bc474f (v24)",
+      "a": "2c7702bbc957 (v25)",
+      "fuente": "lianfixx/INDEP versiones/55_2026-11-25 (commit a58e7e4)",
+      "detalle": "Boletín 205: Detalles, Fuente y Fecha del expediente 1240/2019 (Junta Especial 2, fila 19). La v24 se conserva."
+    }
+  ],
+  "results": "INDEP publicó la entrega 55 (boletín 205, una coincidencia) con maestro v25; copiado byte a byte a fuentes/indep/. Concentrado 19013131d8dd vigente sin cambio. Las entregas 50 a 54 no cambiaron el maestro.",
+  "dudas": [
+    "Drive, Escritorio e iCloud siguen con versiones anteriores (Concentrado 19013131d8dd solo en GitHub; INDEP v25 pendiente de subir; escrituras en Drive no se intentan desde la ejecución programada).",
+    "Boletín 205 trae fecha de audiencia con errata impresa («99 DE NOVIEMBRE DE 2016»); INDEP la conservó como pendiente, no se interpreta aquí."
+  ],
+  "validacion": "validar_matriz.py: 0 errores; auditar_hashes.py: CORRECTO",
+  "proximo_paso": "Emi: subir INDEP v25 y Concentrado 19013131d8dd a Drive, Escritorio e iCloud. Siguiente cierre: revisar entregas INDEP posteriores a la 55."
+}

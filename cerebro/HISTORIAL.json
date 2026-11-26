@@ -1879,6 +1879,39 @@
         ]
       },
       "evidence_state": "recuperado_verificado_bytes",
+      "role": "previous_snapshot",
+      "current_for_family": false,
+      "sheets": [
+        "Junta Especial 2",
+        "Salas TFCA",
+        "Poder Judicial"
+      ],
+      "historical_only": false,
+      "scope_note": "Maestro lógico v24 validado por el procedimiento INDEP (entrega 49, cotejo del boletín 199 del 17/11/2026). Copia idéntica por bytes publicada el 17/11/2026 por la autorización de Emi del 04/11/2026. Respecto de v23 cambian 6 celdas de Junta Especial 2 (E13, F13, G13, E29, F29, G29: Detalles, Fuente y Fecha de los folios 80257 y 80590), todas permitidas según comparar_excel.py con AUTORIZACIONES.json de la entrega.",
+      "legal_validation_implied": false
+    },
+    {
+      "id": "indep-2c7702bbc957",
+      "family_id": "indep",
+      "sha256": "2c7702bbc95762d1eca1972265ab37106253089ce4ce51246b814c02b668187a",
+      "size_bytes": 19243,
+      "snapshot_path": "fuentes/indep/2c7702bbc957_Control_de_expedientes_Junta_Especial_2-4.xlsx",
+      "source_locator": {
+        "aliases": [
+          {
+            "path": "versiones/55_2026-11-25/Control_de_expedientes_Junta_Especial_2-4.xlsx",
+            "sha256": "2c7702bbc95762d1eca1972265ab37106253089ce4ce51246b814c02b668187a",
+            "bytes": 19243,
+            "version_logica": 25,
+            "provider": "github",
+            "repository": "lianfixx/INDEP",
+            "visibility": "privado",
+            "commit": "a58e7e43f3f124833c5c600fbabb6e56673a6464",
+            "url": "https://github.com/lianfixx/INDEP/blob/main/versiones/55_2026-11-25/Control_de_expedientes_Junta_Especial_2-4.xlsx"
+          }
+        ]
+      },
+      "evidence_state": "recuperado_verificado_bytes",
       "role": "current_snapshot",
       "current_for_family": true,
       "sheets": [
@@ -1887,7 +1920,7 @@
         "Poder Judicial"
       ],
       "historical_only": false,
-      "scope_note": "Maestro lógico v24 validado por el procedimiento INDEP (entrega 49, cotejo del boletín 199 del 17/11/2026). Copia idéntica por bytes publicada el 17/11/2026 por la autorización de Emi del 04/11/2026. Respecto de v23 cambian 6 celdas de Junta Especial 2 (E13, F13, G13, E29, F29, G29: Detalles, Fuente y Fecha de los folios 80257 y 80590), todas permitidas según comparar_excel.py con AUTORIZACIONES.json de la entrega.",
+      "scope_note": "Maestro lógico v25 validado por el procedimiento INDEP (entrega 55, cotejo del boletín 205 del 25/11/2026). Copia idéntica por bytes publicada el 25/11/2026 por la autorización de Emi del 04/11/2026. Respecto de v24 cambian 3 celdas de Junta Especial 2 (E19, F19, G19: Detalles, Fuente y Fecha del expediente 1240/2019), todas permitidas según comparar_excel.py con AUTORIZACIONES.json de la entrega.",
       "legal_validation_implied": false
     }
   ],
@@ -5574,6 +5607,50 @@
       "manifiesto_verificado": "MANIFIESTO_VERIFICADO (manifiesto.py verificar, 11 archivos, 17/11/2026)",
       "repository": "lianfixx/INDEP",
       "commit": "94ab2fbb74ac148cc4ad9bc9bc8aced8e46004fb",
+      "family_id": "indep",
+      "validation_status": "estado_declarado_en_registros_y_manifiesto_verificado; sin revalidación jurídica"
+    },
+    {
+      "entrega": 55,
+      "carpeta": "55_2026-11-25",
+      "url": "https://github.com/lianfixx/INDEP/tree/a58e7e43f3f124833c5c600fbabb6e56673a6464/versiones/55_2026-11-25",
+      "archivos_en_arbol": 12,
+      "registros_leidos": [
+        {
+          "nombre": "CONTINUIDAD.json",
+          "bytes": 73234,
+          "sha256": "e7c61452ffd46114df8f48516b22d1d3c03593f7b3b45cd01929cae11e7b9506"
+        },
+        {
+          "nombre": "DOCUMENTOS.json",
+          "bytes": 3023,
+          "sha256": "f3a89c9865244d0b3c1b48fab043ecbbc06f646f97e053aef66ea0209eccfcca"
+        },
+        {
+          "nombre": "MANIFIESTO_SHA256.json",
+          "bytes": 1809,
+          "sha256": "e1999259dfe34ff1cff2f714b19fa1ab97a3c26d014d4408a6b7ee9964cd1557"
+        }
+      ],
+      "motivo": "Cotejo íntegro del boletín 205 (una coincidencia: 1240/2019) y maestro lógico v25.",
+      "estado_declarado": {
+        "github_ruta": "versiones/55_2026-11-25",
+        "commit": "a58e7e43f3f124833c5c600fbabb6e56673a6464",
+        "drive": "pendiente (ACTUAL.json sigue en la entrega 18)"
+      },
+      "ultimo_boletin_declarado": {
+        "numero": 205,
+        "fecha": "2026-11-25",
+        "paginas": 16,
+        "sha256": "49516671add611efaf908744fae66ae75d55dd22da5eaae9d703d58610a7ff2e",
+        "archivo": "205-Miercoles-Noviembre-2026-JFCA.pdf",
+        "acta": "versiones/55_2026-11-25/ACTA_COTEJO_205.json",
+        "estado": "COTEJADO_INTEGRAMENTE_CON_CAMBIOS",
+        "origen": "descarga_portal"
+      },
+      "manifiesto_verificado": "MANIFIESTO_VERIFICADO (manifiesto.py verificar, 11 archivos, 26/11/2026)",
+      "repository": "lianfixx/INDEP",
+      "commit": "a58e7e43f3f124833c5c600fbabb6e56673a6464",
       "family_id": "indep",
       "validation_status": "estado_declarado_en_registros_y_manifiesto_verificado; sin revalidación jurídica"
     }

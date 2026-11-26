@@ -2,6 +2,15 @@
 
 Lo más reciente arriba. Formato y reglas: `ia/PROTOCOLO.md`, sección 3. Cada entrada lleva la línea `Agente:`.
 
+## 2026-11-25 · Cierre diario programado: maestro INDEP v25 copiado
+
+- Agente: Claude Code (ejecución programada)
+- Solicitud: tarea programada diaria de cierre de la matriz.
+- Cambios: entrega 55 de INDEP (boletín 205) verificada con manifiesto.py (11 archivos) y comparar_excel.py --base y contra v24; cambian 3 celdas permitidas de Junta Especial 2 (E19, F19, G19, expediente 1240/2019). Maestro v25 copiado byte a byte a `fuentes/indep/2c7702bbc957_Control_de_expedientes_Junta_Especial_2-4.xlsx`; la v24 se conserva. Concentrado 19013131d8dd sin cambio.
+- Archivos: `cerebro/fuentes/indep/2c7702bbc957_…xlsx`, `cerebro/HISTORIAL.json`, `cerebro/MATRIZ.json`, `cerebro/SINCRONIZACION.json`, `cerebro/ESTADO.json`, `cerebro/cierres/2026-11-25_1844.json`, este registro.
+- Verificación: validar_matriz.py y auditar_hashes.py (ver commit).
+- Pendiente: subir INDEP v25 a Drive, Escritorio e iCloud.
+
 ## 2026-11-25 · .gitignore excluye archivos .env
 
 - Agente: claude.ai (sesión en la nube desde Claude in Chrome, claude-opus-5-5)
