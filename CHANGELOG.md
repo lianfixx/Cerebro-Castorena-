@@ -2,6 +2,15 @@
 
 Lo más reciente arriba. Formato y reglas: `ia/PROTOCOLO.md`, sección 3. Cada entrada lleva la línea `Agente:`.
 
+## 2026-11-26 · Cierre diario programado: sin cambios
+
+- Agente: Claude Code (ejecución programada)
+- Solicitud: tarea programada diaria (TAREA_PROGRAMADA.txt).
+- Cambios: INDEP publicó la entrega 56 (boletín 206, sin coincidencias); manifiesto verificado, maestro v25 sin cambios. Concentrado 19013131d8dd vigente; Drive sin cambio (82271 B, 17/11). Ningún Excel reescrito.
+- Archivos: `cerebro/cierres/2026-11-26_1844.json`, `cerebro/ESTADO.json`, este registro.
+- Verificación: validar_matriz.py 0 errores.
+- Pendiente: Emi sube INDEP v25 y Concentrado 19013131d8dd a Drive, Escritorio e iCloud.
+
 ## 2026-11-25 · Cierre diario programado: maestro INDEP v25 copiado
 
 - Agente: Claude Code (ejecución programada)

@@ -1,0 +1,43 @@
+{
+  "schema_version": "castorena-cierre-v1",
+  "fecha_hora_local": "2026-11-26T18:44:00-06:00",
+  "timezone": "America/Mexico_City",
+  "base_matrix_commit": "d8c9ea2",
+  "Agente": "Claude Code (ejecución programada)",
+  "scope": {
+    "families_reviewed": 5,
+    "emails_sent": false,
+    "drafts_created": false,
+    "indep_modified": false
+  },
+  "coverage": {
+    "github_matriz": "leído (origin/main d8c9ea2); escritura en rama claude/amazing-allen-qv8yrp",
+    "github_indep": "leído (origin/main 35de1da)",
+    "drive": "búsqueda de Concentrado con el conector; \"Concentrado de Expedientes.xlsx\" 82271 B, modificado 2026-11-17T23:52Z, sin cambio",
+    "no_accesibles": [
+      "Escritorio e iCloud (no enlazados)",
+      "Library de ChatGPT"
+    ]
+  },
+  "versions_before": {
+    "indep": "indep-2c7702bbc957 (v25)",
+    "concentrado": "concentrado-19013131d8dd"
+  },
+  "versions_after": {
+    "indep": "indep-2c7702bbc957 (v25)",
+    "concentrado": "concentrado-19013131d8dd"
+  },
+  "hash_checks": {
+    "indep": "entrega 56 (26/11): manifiesto verificado (9 archivos, 0 errores); maestro sigue siendo 2c7702bbc957 (v25), sin reescribir",
+    "comparar_excel": "--base sobre versiones/55: 45 folios, 44 turnos, estructura validada",
+    "drive_concentrado": "sin cambio"
+  },
+  "changes": [],
+  "results": "INDEP publicó la entrega 56 (boletín 206, sin coincidencias): el maestro v25 no cambió, por lo que no se copia ninguna tabla nueva a fuentes/. Concentrado 19013131d8dd vigente sin cambio. Ningún Excel reescrito.",
+  "dudas": [
+    "Drive, Escritorio e iCloud siguen con versiones anteriores (Concentrado 19013131d8dd solo en GitHub; INDEP v25 pendiente de subir; INDEP reporta cuota de Drive excedida desde la entrega 42).",
+    "El seguimiento por API de INDEP no trabajó por falta del secreto ANTHROPIC_API_KEY (informado por INDEP en la entrega 56)."
+  ],
+  "validacion": "validar_matriz.py: 0 errores",
+  "proximo_paso": "Emi: subir INDEP v25 y Concentrado 19013131d8dd a Drive, Escritorio e iCloud. Siguiente cierre: revisar entregas INDEP posteriores a la 56."
+}
